@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" href="$classSources_1_1CameraV4L_1_1V4L2.html#a7f3836ea7eafbd9d32e407004063606e" title="Method gets one frame." alt="" coords="325,5,571,35"/>
+<area shape="rect" href="$classSources_1_1CameraV4L_1_1V4L2.html#aa0037a85f43570cd9866c26a1a0f2cd8" title="Sources::CameraV4L::V4L2::imageBits" alt="" coords="324,59,572,88"/>
+<area shape="rect" href="$PixelFormats_8cc.html#ad4ef3fac4f6699e889f2c1ad5bacd23b" title="uyvy_to_rgb24" alt="" coords="395,112,501,141"/>
+<area shape="rect" href="$PixelFormats_8cc.html#aa3eefdf492e70be0d010877af37254cd" title="yuv411p_to_rgb24" alt="" coords="384,165,512,195"/>
+<area shape="rect" href="$PixelFormats_8cc.html#a71ce057e2d624a4b04dedd3862648696" title="yuv420_to_rgb24" alt="" coords="388,219,508,248"/>
+<area shape="rect" href="$PixelFormats_8cc.html#ae47abd13e085c3e287f3eecb3072d523" title="yuv420p_to_rgb24" alt="" coords="384,272,512,301"/>
+<area shape="rect" href="$PixelFormats_8cc.html#af4f5151277c0b2c13d92f0acfc264de1" title="yuyv_to_rgb24" alt="" coords="395,325,501,355"/>
+</map>

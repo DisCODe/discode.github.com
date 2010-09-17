@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" href="$Kernel__Aux_8hpp.html" title="File containing definitions of kernel&#45;related functors and macros." alt="" coords="140,83,287,112"/>
+<area shape="rect" href="$Configurator_8cpp.html" title="File containing definitions of Configurator class methods." alt="" coords="5,160,152,189"/>
+<area shape="rect" href="$Executor_8hpp.html" title="Core/Executor.hpp" alt="" coords="432,160,560,189"/>
+<area shape="rect" href="$KernelFactory_8hpp.html" title="File containing the KernelFactory template class." alt="" coords="251,160,408,189"/>
+<area shape="rect" href="$KernelManager_8hpp.html" title="File containing the KernelManager class." alt="" coords="132,237,295,267"/>
+<area shape="rect" href="$main_8cpp.html" title="Main body responsible for menu showing and image processing." alt="" coords="305,315,409,344"/>
+<area shape="rect" href="$ExecutorManager_8hpp.html" title="File containing the ExecutorManager class." alt="" coords="420,237,599,267"/>
+</map>

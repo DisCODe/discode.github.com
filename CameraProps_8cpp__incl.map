@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" href="$CameraProps_8hpp.html" title="CameraProps.hpp" alt="" coords="39,315,164,344"/>
+<area shape="rect" href="$VL_8hpp.html" title="VL.hpp" alt="" coords="857,237,919,267"/>
+<area shape="rect" href="$Logger_8hpp.html" title="Simple logging object." alt="" coords="1491,83,1576,112"/>
+<area shape="rect" href="$Props_8hpp.html" title="Props.hpp" alt="" coords="61,392,141,421"/>
+<area shape="rect" href="$VL__Common_8hpp.html" title="VL_Common.hpp" alt="" coords="591,392,711,421"/>
+<area shape="rect" href="$V4L__define_8hpp.html" title="V4L_define.hpp" alt="" coords="768,315,880,344"/>
+<area shape="rect" href="$LoggerAux_8hpp.html" title="LoggerAux.hpp" alt="" coords="1545,392,1652,421"/>
+<area shape="rect" href="$LoggerImpl_8hpp.html" title="Simple logging object." alt="" coords="1635,237,1744,267"/>
+<area shape="rect" href="$ScopeLogger_8hpp.html" title="ScopeLogger.hpp" alt="" coords="1620,160,1743,189"/>
+<area shape="rect" href="$Singleton_8hpp.html" title="File containing the declaration of the Singleton template class." alt="" coords="2176,315,2275,344"/>
+<area shape="rect" href="$LoggerOutput_8hpp.html" title="Interface for different logger outputs." alt="" coords="1727,315,1849,344"/>
+<area shape="rect" href="$Console_8hpp.html" title="Console utility functions, like text coloring." alt="" coords="1807,392,1900,421"/>
+</map>

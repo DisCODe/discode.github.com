@@ -1,0 +1,9 @@
+<map id="G" name="G">
+<area shape="rect" href="$classBase_1_1Component.html" title="Abstract interface class for all modules &#45; data sources, processors etc." alt="" coords="5,181,131,211"/>
+<area shape="rect" href="$structSources_1_1Sequence_1_1Props.html" title="Sources::Sequence::Props" alt="" coords="155,181,331,211"/>
+<area shape="rect" href="$classBase_1_1Props.html" title="Base class for property structures." alt="" coords="196,101,289,131"/>
+<area shape="rect" href="$classBase_1_1DataStreamOut.html" title="Base::DataStreamOut\&lt; cv::Mat \&gt;" alt="" coords="355,181,571,211"/>
+<area shape="rect" href="$classBase_1_1DataStreamInterface.html" title="Interface class for DataStreams." alt="" coords="373,101,552,131"/>
+<area shape="rect" href="$classBase_1_1Connection.html" title="Connection between data streams." alt="" coords="401,5,524,35"/>
+<area shape="rect" href="$classBase_1_1Event.html" title="Event raised by Component." alt="" coords="595,181,685,211"/>
+</map>

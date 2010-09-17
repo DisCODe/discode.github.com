@@ -1,0 +1,23 @@
+<map id="G" name="G">
+<area shape="rect" href="$classBase_1_1EventHandler.html" title="EventHandler is called when associated Event is raised." alt="" coords="308,5,500,35"/>
+<area shape="rect" href="$classBase_1_1EventScheduler.html" title="EventScheduler is proxy object used to queue events raised between threads." alt="" coords="300,59,508,88"/>
+<area shape="rect" href="$classBase_1_1EventHandler.html" title="Base::EventHandler\&lt; BlobExtractor_Processor \&gt;" alt="" coords="252,112,556,141"/>
+<area shape="rect" href="$classBase_1_1EventHandler.html" title="Base::EventHandler\&lt; CameraOpenCV_Source \&gt;" alt="" coords="253,165,555,195"/>
+<area shape="rect" href="$classBase_1_1EventHandler.html" title="Base::EventHandler\&lt; CvColorConv_Processor \&gt;" alt="" coords="253,219,555,248"/>
+<area shape="rect" href="$classBase_1_1EventHandler.html" title="Base::EventHandler\&lt; CvFilter2D_Processor \&gt;" alt="" coords="260,272,548,301"/>
+<area shape="rect" href="$classBase_1_1EventHandler.html" title="Base::EventHandler\&lt; CvGaussianBlur_Processor \&gt;" alt="" coords="244,325,564,355"/>
+<area shape="rect" href="$classBase_1_1EventHandler.html" title="Base::EventHandler\&lt; CvMorphology_Processor \&gt;" alt="" coords="249,379,559,408"/>
+<area shape="rect" href="$classBase_1_1EventHandler.html" title="Base::EventHandler\&lt; CvPixelOperator_Processor \&gt;" alt="" coords="244,432,564,461"/>
+<area shape="rect" href="$classBase_1_1EventHandler.html" title="Base::EventHandler\&lt; CvSplit_Processor \&gt;" alt="" coords="271,485,537,515"/>
+<area shape="rect" href="$classBase_1_1EventHandler.html" title="Base::EventHandler\&lt; CvThreshold_Processor \&gt;" alt="" coords="255,539,553,568"/>
+<area shape="rect" href="$classBase_1_1EventHandler.html" title="Base::EventHandler\&lt; CvVideoWriter_Sink \&gt;" alt="" coords="267,592,541,621"/>
+<area shape="rect" href="$classBase_1_1EventHandler.html" title="Base::EventHandler\&lt; CvWindow_Sink \&gt;" alt="" coords="277,645,531,675"/>
+<area shape="rect" href="$classBase_1_1EventHandler.html" title="Base::EventHandler\&lt; Example_Processor \&gt;" alt="" coords="265,699,543,728"/>
+<area shape="rect" href="$classBase_1_1EventHandler.html" title="Base::EventHandler\&lt; ExecTimer \&gt;" alt="" coords="292,752,516,781"/>
+<area shape="rect" href="$classBase_1_1EventHandler.html" title="Base::EventHandler\&lt; Movie_Source \&gt;" alt="" coords="283,805,525,835"/>
+<area shape="rect" href="$classBase_1_1EventHandler.html" title="Base::EventHandler\&lt; MS_Barcode_Decide \&gt;" alt="" coords="263,859,545,888"/>
+<area shape="rect" href="$classBase_1_1EventHandler.html" title="Base::EventHandler\&lt; MS_Barcode_Macro \&gt;" alt="" coords="265,912,543,941"/>
+<area shape="rect" href="$classBase_1_1EventHandler.html" title="Base::EventHandler\&lt; MS_Barcode_Prepare \&gt;" alt="" coords="260,965,548,995"/>
+<area shape="rect" href="$classBase_1_1EventHandler.html" title="Base::EventHandler\&lt; MS_Sign_Decide \&gt;" alt="" coords="275,1019,533,1048"/>
+<area shape="rect" href="$classBase_1_1EventHandler.html" title="Base::EventHandler\&lt; MS_Sign_LUT \&gt;" alt="" coords="283,1072,525,1101"/>
+</map>

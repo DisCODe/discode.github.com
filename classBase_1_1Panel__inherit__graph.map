@@ -1,0 +1,4 @@
+<map id="G" name="G">
+<area shape="rect" href="$classCommon_1_1Panel__Empty.html" title="Empty panel &#45; used for all components that doesn&#39;t require task panel." alt="" coords="5,83,163,112"/>
+<area shape="rect" href="$classSources_1_1Image_1_1Image__Panel.html" title="Panel responsible for image management." alt="" coords="187,83,381,112"/>
+</map>

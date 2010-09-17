@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" href="$classV4L2.html#af6e2def6971791da286e24a4b201ed67" title="Method gets information about device channels." alt="" coords="261,5,392,35"/>
+<area shape="rect" href="$classVL.html#ae38c8fa3ac06f9d91d4664306f67f2fa" title="Method gets devices name." alt="" coords="272,59,381,88"/>
+<area shape="rect" href="$classVL.html#acde1955a7091cba4f139f72b31458908" title="VL::getImageSize" alt="" coords="264,112,389,141"/>
+<area shape="rect" href="$classVL.html#a72dd6fc1e3a28023b88bff17a1331683" title="VL::getInterlace" alt="" coords="271,165,383,195"/>
+<area shape="rect" href="$classV4L2.html#a8e1def4c697e0d3ae899073ae30e8ecf" title="V4L2::getIOMethod" alt="" coords="260,219,393,248"/>
+<area shape="rect" href="$classV4L2.html#ac52de245b954476b4275288cb572a950" title="Method gets palettes name." alt="" coords="265,272,388,301"/>
+<area shape="rect" href="$classVL.html#ab822ce8db062fca329c29f345bde5785" title="Method gets standard." alt="" coords="269,325,384,355"/>
+<area shape="rect" href="$classVL.html#a62e54c4415699a1a95bcc769c5bf18b4" title="Method creates object: V4L or V4L2." alt="" coords="444,219,519,248"/>
+</map>

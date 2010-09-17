@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" href="$classBase_1_1Connection.html#aa36fccda653c97d1ceac5edf51191cf1" title="Base::Connection::send" alt="" coords="237,32,397,61"/>
+<area shape="rect" href="$classBase_1_1DataStreamInterface.html#ab09b733f8b86cb837567b5ce25af881c" title="Base::DataStreamInterface::set" alt="" coords="445,32,651,61"/>
+<area shape="rect" href="$classBase_1_1DataStreamInterface.html#aaae9facdcfa7f06fe0261446a3848a3c" title="Base::DataStreamInterface::internalSet" alt="" coords="700,5,948,35"/>
+<area shape="rect" href="$classBase_1_1DataStreamInterface.html#a57a216cebd354f7b6b51e3b27eb328d5" title="Base::DataStreamInterface::type" alt="" coords="719,59,929,88"/>
+</map>

@@ -1,0 +1,20 @@
+<map id="G" name="G">
+<area shape="rect" href="$Logger_8hpp.html" title="Simple logging object." alt="" coords="955,237,1040,267"/>
+<area shape="rect" href="$Component__Aux_8hpp.html" title="File containing definitions of component&#45;related functors and macros." alt="" coords="1245,83,1387,112"/>
+<area shape="rect" href="$Props_8hpp.html" title="Props.hpp" alt="" coords="1629,160,1709,189"/>
+<area shape="rect" href="$SharedLibrary_8hpp.html" title="SharedLibrary.hpp" alt="" coords="2061,83,2187,112"/>
+<area shape="rect" href="$LoggerAux_8hpp.html" title="LoggerAux.hpp" alt="" coords="1011,547,1117,576"/>
+<area shape="rect" href="$LoggerImpl_8hpp.html" title="Simple logging object." alt="" coords="844,392,953,421"/>
+<area shape="rect" href="$ScopeLogger_8hpp.html" title="ScopeLogger.hpp" alt="" coords="837,315,960,344"/>
+<area shape="rect" href="$Singleton_8hpp.html" title="File containing the declaration of the Singleton template class." alt="" coords="504,469,603,499"/>
+<area shape="rect" href="$LoggerOutput_8hpp.html" title="Interface for different logger outputs." alt="" coords="893,469,1016,499"/>
+<area shape="rect" href="$Console_8hpp.html" title="Console utility functions, like text coloring." alt="" coords="1192,547,1285,576"/>
+<area shape="rect" href="$Component_8hpp.html" title="Abstract interface for all components." alt="" coords="1260,160,1372,189"/>
+<area shape="rect" href="$Panel_8hpp.html" title="Base class for all task panels." alt="" coords="1684,315,1761,344"/>
+<area shape="rect" href="$Event_8hpp.html" title="Component event." alt="" coords="1461,392,1541,421"/>
+<area shape="rect" href="$EventHandler_8hpp.html" title="Component event handler." alt="" coords="1573,469,1696,499"/>
+<area shape="rect" href="$DataStreamInterface_8hpp.html" title="DataStreamInterface.hpp" alt="" coords="1120,392,1285,421"/>
+<area shape="rect" href="$Timer_8hpp.html" title="Simple timer object." alt="" coords="1315,237,1395,267"/>
+<area shape="rect" href="$FraDIAException_8hpp.html" title="Class used for exception handling." alt="" coords="1735,547,1879,576"/>
+<area shape="rect" href="$SharedLibraryCommon_8hpp.html" title="SharedLibraryCommon.hpp" alt="" coords="2289,160,2468,189"/>
+</map>

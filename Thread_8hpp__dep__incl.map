@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" href="$Executor_8hpp.html" title="Core/Executor.hpp" alt="" coords="329,83,457,112"/>
+<area shape="rect" href="$Thread_8cpp.html" title="System specific routines for handling threads." alt="" coords="481,83,623,112"/>
+<area shape="rect" href="$Task_8hpp.html" title="Core/Task.hpp" alt="" coords="176,160,280,189"/>
+<area shape="rect" href="$main_8cpp.html" title="Main body responsible for menu showing and image processing." alt="" coords="341,315,445,344"/>
+<area shape="rect" href="$ExecutorManager_8hpp.html" title="File containing the ExecutorManager class." alt="" coords="304,237,483,267"/>
+<area shape="rect" href="$Configurator_8hpp.html" title="File containing the declaration of Configurator class." alt="" coords="5,237,152,267"/>
+<area shape="rect" href="$Task_8cpp.html" title="Core/Task.cpp" alt="" coords="176,237,280,267"/>
+<area shape="rect" href="$Configurator_8cpp.html" title="File containing definitions of Configurator class methods." alt="" coords="88,315,235,344"/>
+</map>

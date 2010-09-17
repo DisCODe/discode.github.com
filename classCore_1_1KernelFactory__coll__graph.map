@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" href="$classBase_1_1Panel.html" title="Base of all panels." alt="" coords="5,5,96,35"/>
+<area shape="rect" href="$classBase_1_1Kernel.html" title="Abstract interface class for all modules &#45; data sources, processors etc." alt="" coords="120,5,216,35"/>
+<area shape="rect" href="$classCommon_1_1SharedLibrary.html" title="Class representing shared object." alt="" coords="240,5,400,35"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="G" name="G">
+<area shape="rect" href="$classTypes_1_1Blobs_1_1BlobContour.html#abe7718026070831af5e448409ca2bac4" title="Add chain code to contour." alt="" coords="160,5,432,35"/>
+<area shape="rect" href="$ComponentLabeling_8cpp.html#a100e0c4f248408950ef6cd612a6c8f87" title="ASSIGN_LABEL" alt="" coords="236,59,356,88"/>
+<area shape="rect" href="$ComponentLabeling_8cpp.html#ae0881dec50a29351bda94e482ce3cb28" title="tracer" alt="" coords="269,112,323,141"/>
+<area shape="rect" href="$ComponentLabeling_8cpp.html#a60f487d43bfd39b64f320c5487926a23" title="ASSIGN_VISITED" alt="" coords="505,59,636,88"/>
+<area shape="rect" href="$ComponentLabeling_8cpp.html#a2bcdcae4cc36c0060f85f904cc6c826e" title="GET_IMAGE_PIXEL" alt="" coords="500,112,641,141"/>
+<area shape="rect" href="$ComponentLabeling_8cpp.html#ae2b92da1ce3ca327bddd6b4a5c39cfc5" title="GET_IMAGEMASK_PIXEL" alt="" coords="481,165,660,195"/>
+</map>

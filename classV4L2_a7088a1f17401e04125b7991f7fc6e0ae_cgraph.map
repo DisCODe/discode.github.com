@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" href="$classV4L2.html#af70de95b61f423c7d29b7118f8caaac2" title="Method stops frame grabber and deallocate memory." alt="" coords="152,32,336,61"/>
+<area shape="rect" href="$classV4L2.html#a7088f57b8ae2947c3d69e21345d97df9" title="Method deallocate buffer memory." alt="" coords="388,5,511,35"/>
+<area shape="rect" href="$classV4L2.html#a5378cbba243c74b0953b6b7904750a28" title="Method stops capture." alt="" coords="385,59,513,88"/>
+<area shape="rect" href="$classVL.html#a62e54c4415699a1a95bcc769c5bf18b4" title="Method creates object: V4L or V4L2." alt="" coords="564,59,639,88"/>
+</map>

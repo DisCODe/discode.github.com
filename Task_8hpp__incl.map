@@ -1,0 +1,19 @@
+<map id="G" name="G">
+<area shape="rect" href="$Subtask_8hpp.html" title="Subtask.hpp" alt="" coords="1004,83,1097,112"/>
+<area shape="rect" href="$Executor_8hpp.html" title="Executor.hpp" alt="" coords="1401,83,1500,112"/>
+<area shape="rect" href="$Component_8hpp.html" title="Abstract interface for all components." alt="" coords="1145,160,1257,189"/>
+<area shape="rect" href="$Event_8hpp.html" title="Component event." alt="" coords="1199,392,1279,421"/>
+<area shape="rect" href="$EventHandler_8hpp.html" title="Component event handler." alt="" coords="1363,469,1485,499"/>
+<area shape="rect" href="$DataStreamInterface_8hpp.html" title="DataStreamInterface.hpp" alt="" coords="1047,315,1212,344"/>
+<area shape="rect" href="$Logger_8hpp.html" title="Simple logging object." alt="" coords="701,237,787,267"/>
+<area shape="rect" href="$Timer_8hpp.html" title="Simple timer object." alt="" coords="1409,237,1489,267"/>
+<area shape="rect" href="$FraDIAException_8hpp.html" title="Class used for exception handling." alt="" coords="1853,547,1997,576"/>
+<area shape="rect" href="$LoggerAux_8hpp.html" title="LoggerAux.hpp" alt="" coords="573,547,680,576"/>
+<area shape="rect" href="$LoggerImpl_8hpp.html" title="Simple logging object." alt="" coords="721,392,831,421"/>
+<area shape="rect" href="$ScopeLogger_8hpp.html" title="ScopeLogger.hpp" alt="" coords="732,315,855,344"/>
+<area shape="rect" href="$Singleton_8hpp.html" title="File containing the declaration of the Singleton template class." alt="" coords="340,469,439,499"/>
+<area shape="rect" href="$LoggerOutput_8hpp.html" title="Interface for different logger outputs." alt="" coords="715,469,837,499"/>
+<area shape="rect" href="$Console_8hpp.html" title="Console utility functions, like text coloring." alt="" coords="1144,547,1237,576"/>
+<area shape="rect" href="$Thread_8hpp.html" title="Thread object responsible for handling and executing threads." alt="" coords="1607,160,1692,189"/>
+<area shape="rect" href="$Props_8hpp.html" title="Props.hpp" alt="" coords="1861,160,1941,189"/>
+</map>

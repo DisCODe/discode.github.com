@@ -1,0 +1,13 @@
+<map id="G" name="G">
+<area shape="rect" href="$classSources_1_1CameraV4L_1_1VL.html#a79df57c618582300854236aee00f6090" title="Sources::CameraV4L::VL::convChannel" alt="" coords="373,5,624,35"/>
+<area shape="rect" href="$classSources_1_1CameraV4L_1_1V4L2.html#aadc20e885b73b576b4e5cbb2a760d29f" title="Method initializes buffers." alt="" coords="373,59,624,88"/>
+<area shape="rect" href="$classSources_1_1CameraV4L_1_1V4L2.html#a57babe1ab581eb9e3128e8859d3cb809" title="Method sets picture property value like brightness or contrast." alt="" coords="360,112,637,141"/>
+<area shape="rect" href="$classSources_1_1CameraV4L_1_1V4L2.html#ad1959e44cae52e31757bc234e077139b" title="Method sets video property value like video standard or channel." alt="" coords="353,165,644,195"/>
+<area shape="rect" href="$classSources_1_1CameraV4L_1_1V4L2.html#a79778edcc6591133dc927d40c2f5339e" title="Method sets window property value like window width or height." alt="" coords="359,219,639,248"/>
+<area shape="rect" href="$classSources_1_1CameraV4L_1_1V4L2.html#a752ab5ff29829e87ebd01aefd4bc967f" title="Method starts capture." alt="" coords="368,272,629,301"/>
+<area shape="rect" href="$classSources_1_1CameraV4L_1_1V4L2.html#adcc8f9723522b005ea72cee8fc06ca66" title="Sources::CameraV4L::V4L2::tryPalettes" alt="" coords="372,325,625,355"/>
+<area shape="rect" href="$classSources_1_1CameraV4L_1_1VL.html#a31c916402375016dbf7aa44eafcabeaa" title="Method gets number of frame grabber channels." alt="" coords="709,5,957,35"/>
+<area shape="rect" href="$classSources_1_1CameraV4L_1_1VL.html#ad2740c020a11a33e72dd23e45458bce0" title="Sources::CameraV4L::VL::convInterlace" alt="" coords="705,219,961,248"/>
+<area shape="rect" href="$classSources_1_1CameraV4L_1_1V4L2.html#a73bc846d9a7401f9034fd86be3f13981" title="Method gets window property value like window width or height." alt="" coords="693,272,973,301"/>
+<area shape="rect" href="$namespaceSources_1_1CameraV4L.html#a1d3c1f4abca58eb2e4aa553531acdde9" title="Sources::CameraV4L::xioctl" alt="" coords="741,325,925,355"/>
+</map>

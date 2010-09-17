@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" href="$PixelFormats_8cpp.html" title="Sources/CameraV4L/PixelFormats.cpp" alt="" coords="5,83,253,112"/>
+<area shape="rect" href="$V4L_8cpp.html" title="Sources/CameraV4L/V4L.cpp" alt="" coords="277,83,469,112"/>
+<area shape="rect" href="$V4L2_8cpp.html" title="Sources/CameraV4L/V4L2.cpp" alt="" coords="493,83,693,112"/>
+</map>

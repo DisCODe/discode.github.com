@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" href="$classSources_1_1CameraV4L_1_1V4L.html#a18ee20bad896b15feaabc8311563f673" title="Method gets buffer size for single frame." alt="" coords="279,5,543,35"/>
+<area shape="rect" href="$classSources_1_1CameraV4L_1_1V4L.html#a0124f2e825cce0830aa58741b1df03a7" title="Method gets and shows actual device capabilities." alt="" coords="256,59,565,88"/>
+<area shape="rect" href="$classSources_1_1CameraV4L_1_1V4L.html#ac8f52fd2154e4b6a25ef14f62822f77a" title="Method gets video property value like video standard or channel." alt="" coords="269,112,552,141"/>
+<area shape="rect" href="$classSources_1_1CameraV4L_1_1V4L.html#ab31abed61af68944b978e63603b1ce19" title="Method opens device." alt="" coords="285,165,536,195"/>
+</map>

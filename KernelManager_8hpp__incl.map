@@ -1,0 +1,16 @@
+<map id="G" name="G">
+<area shape="rect" href="$Kernel__Aux_8hpp.html" title="File containing definitions of kernel&#45;related functors and macros." alt="" coords="967,160,1079,189"/>
+<area shape="rect" href="$FraDIAException_8hpp.html" title="Class used for exception handling." alt="" coords="5,469,149,499"/>
+<area shape="rect" href="$SharedLibraryCommon_8hpp.html" title="SharedLibraryCommon.hpp" alt="" coords="2475,160,2653,189"/>
+<area shape="rect" href="$Utils_8hpp.html" title="Utility functions &#45; declaration." alt="" coords="268,83,340,112"/>
+<area shape="rect" href="$Logger_8hpp.html" title="Simple logging object." alt="" coords="1380,160,1465,189"/>
+<area shape="rect" href="$KernelFactory_8hpp.html" title="File containing the KernelFactory template class." alt="" coords="1491,83,1616,112"/>
+<area shape="rect" href="$Kernel_8hpp.html" title="Abstract interface for all kernels." alt="" coords="516,237,599,267"/>
+<area shape="rect" href="$Panel_8hpp.html" title="Base class for all task panels." alt="" coords="1024,392,1101,421"/>
+<area shape="rect" href="$Event_8hpp.html" title="Kernel event." alt="" coords="595,315,675,344"/>
+<area shape="rect" href="$EventHandler_8hpp.html" title="Kernel event handler." alt="" coords="448,392,571,421"/>
+<area shape="rect" href="$DataStreamInterface_8hpp.html" title="DataStreamInterface.hpp" alt="" coords="224,469,389,499"/>
+<area shape="rect" href="$Props_8hpp.html" title="Props.hpp" alt="" coords="785,315,865,344"/>
+<area shape="rect" href="$Singleton_8hpp.html" title="File containing the declaration of the Singleton template class." alt="" coords="1373,237,1472,267"/>
+<area shape="rect" href="$SharedLibrary_8hpp.html" title="SharedLibrary.hpp" alt="" coords="2060,160,2185,189"/>
+</map>
