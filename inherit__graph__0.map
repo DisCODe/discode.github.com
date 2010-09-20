@@ -15,8 +15,8 @@
 <area shape="rect" href="$classProcessors_1_1MS__Barcode_1_1MS__Barcode__Prepare.html" title="Example processor class." alt="" coords="207,645,511,675"/>
 <area shape="rect" href="$classProcessors_1_1MS__Sign_1_1MS__Sign__Decide.html" title="Example processor class." alt="" coords="231,699,487,728"/>
 <area shape="rect" href="$classProcessors_1_1MS__Sign_1_1MS__Sign__LUT.html" title="Example processor class." alt="" coords="239,752,479,781"/>
-<area shape="rect" href="$classSinks_1_1CvVideoWriter_1_1CvVideoWriter__Sink.html" title="Sinks::CvVideoWriter::CvVideoWriter_Sink" alt="" coords="225,805,492,835"/>
-<area shape="rect" href="$classSinks_1_1CvWindow_1_1CvWindow__Sink.html" title="Sinks::CvWindow::CvWindow_Sink" alt="" coords="247,859,471,888"/>
+<area shape="rect" href="$classSinks_1_1CvVideoWriter_1_1CvVideoWriter__Sink.html" title="Writes all frames into movie file." alt="" coords="225,805,492,835"/>
+<area shape="rect" href="$classSinks_1_1CvWindow_1_1CvWindow__Sink.html" title="Creates a window and displays the image." alt="" coords="247,859,471,888"/>
 <area shape="rect" href="$classSources_1_1CameraOpenCV_1_1CameraOpenCV__Source.html" title="Class responsible for retrieving images from movies." alt="" coords="199,912,519,941"/>
 <area shape="rect" href="$classSources_1_1CameraUniCap_1_1CameraUniCap__Source.html" title="Unicap&#45;based camera source." alt="" coords="205,965,512,995"/>
 <area shape="rect" href="$classSources_1_1Image_1_1Image__Source.html" title="Class responsible for retrieving images from files." alt="" coords="256,1019,461,1048"/>

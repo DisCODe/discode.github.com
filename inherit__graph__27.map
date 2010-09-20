@@ -1,3 +1,8 @@
 <map id="G" name="G">
-<area shape="rect" href="$classCore_1_1Task.html" title="Core::Task" alt="" coords="7,5,89,35"/>
+<area shape="rect" href="$classTypes_1_1Drawable.html" title="Interface used for representation of drawable objects." alt="" coords="7,112,124,141"/>
+<area shape="rect" href="$classTypes_1_1Blobs_1_1Blob.html" title="Blob class." alt="" coords="195,5,325,35"/>
+<area shape="rect" href="$classTypes_1_1Blobs_1_1BlobResult.html" title="Class to calculate the blobs of an image and calculate some properties on them." alt="" coords="176,59,344,88"/>
+<area shape="rect" href="$classTypes_1_1DrawableContainer.html" title="Types::DrawableContainer" alt="" coords="173,112,347,141"/>
+<area shape="rect" href="$classTypes_1_1Ellipse.html" title="Types::Ellipse" alt="" coords="208,165,312,195"/>
+<area shape="rect" href="$classTypes_1_1Rectangle.html" title="Types::Rectangle" alt="" coords="199,219,321,248"/>
 </map>
