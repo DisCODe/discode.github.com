@@ -12,12 +12,13 @@
 <area shape="rect" href="$structProcessors_1_1CvThreshold_1_1ThresholdProps.html" title="CvThreshold properties." alt="" coords="160,645,427,675"/>
 <area shape="rect" href="$structProcessors_1_1MS__Barcode_1_1Props.html" title="MS_Barcode_Decide properties." alt="" coords="188,699,399,728"/>
 <area shape="rect" href="$structProcessors_1_1MS__Sign_1_1Props.html" title="MS_Sign_Decide properties." alt="" coords="199,752,388,781"/>
-<area shape="rect" href="$structSinks_1_1CvVideoWriter_1_1Props.html" title="CvVideoWriter properties." alt="" coords="200,805,387,835"/>
-<area shape="rect" href="$structSinks_1_1CvWindow_1_1WndProps.html" title="CvWindow properties." alt="" coords="199,859,388,888"/>
-<area shape="rect" href="$structSources_1_1CameraOpenCV_1_1Props.html" title="Sources::CameraOpenCV::Props" alt="" coords="188,912,399,941"/>
-<area shape="rect" href="$structSources_1_1CameraUniCap_1_1CameraUniCapProps.html" title="CameraUniCap_Source properties." alt="" coords="147,965,440,995"/>
-<area shape="rect" href="$structSources_1_1Movie_1_1Props.html" title="Movie_Source properties." alt="" coords="216,1019,371,1048"/>
-<area shape="rect" href="$structSources_1_1Sequence_1_1Props.html" title="Sources::Sequence::Props" alt="" coords="205,1072,381,1101"/>
+<area shape="rect" href="$structProcessors_1_1Stereo_1_1Props.html" title="Properties." alt="" coords="205,805,381,835"/>
+<area shape="rect" href="$structSinks_1_1CvVideoWriter_1_1Props.html" title="CvVideoWriter properties." alt="" coords="200,859,387,888"/>
+<area shape="rect" href="$structSinks_1_1CvWindow_1_1WndProps.html" title="CvWindow properties." alt="" coords="199,912,388,941"/>
+<area shape="rect" href="$structSources_1_1CameraOpenCV_1_1Props.html" title="Sources::CameraOpenCV::Props" alt="" coords="188,965,399,995"/>
+<area shape="rect" href="$structSources_1_1CameraUniCap_1_1CameraUniCapProps.html" title="CameraUniCap_Source properties." alt="" coords="147,1019,440,1048"/>
+<area shape="rect" href="$structSources_1_1Movie_1_1Props.html" title="Movie_Source properties." alt="" coords="216,1072,371,1101"/>
+<area shape="rect" href="$structSources_1_1Sequence_1_1Props.html" title="Sources::Sequence::Props" alt="" coords="205,1125,381,1155"/>
 <area shape="rect" href="$classCore_1_1ContinousExecutor.html" title="Call step continously." alt="" coords="489,5,655,35"/>
 <area shape="rect" href="$classCore_1_1PassiveExecutor.html" title="Don&#39;t call any step, only react." alt="" coords="495,59,649,88"/>
 <area shape="rect" href="$classCore_1_1PeriodicExecutor.html" title="Execute component periodically." alt="" coords="495,112,649,141"/>

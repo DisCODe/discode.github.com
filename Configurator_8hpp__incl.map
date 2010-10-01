@@ -1,20 +1,4 @@
 <map id="G" name="G">
-<area shape="rect" href="$Task_8hpp.html" title="Task.hpp" alt="" coords="1165,83,1240,112"/>
-<area shape="rect" href="$Subtask_8hpp.html" title="Subtask.hpp" alt="" coords="952,160,1045,189"/>
-<area shape="rect" href="$Executor_8hpp.html" title="Executor.hpp" alt="" coords="1153,160,1252,189"/>
-<area shape="rect" href="$Component_8hpp.html" title="Abstract interface for all components." alt="" coords="989,237,1101,267"/>
-<area shape="rect" href="$Event_8hpp.html" title="Component event." alt="" coords="267,469,347,499"/>
-<area shape="rect" href="$EventHandler_8hpp.html" title="Component event handler." alt="" coords="112,547,235,576"/>
-<area shape="rect" href="$DataStreamInterface_8hpp.html" title="DataStreamInterface.hpp" alt="" coords="1176,392,1341,421"/>
-<area shape="rect" href="$Logger_8hpp.html" title="Simple logging object." alt="" coords="811,315,896,344"/>
-<area shape="rect" href="$Timer_8hpp.html" title="Simple timer object." alt="" coords="1176,315,1256,344"/>
-<area shape="rect" href="$FraDIAException_8hpp.html" title="Class used for exception handling." alt="" coords="71,624,215,653"/>
-<area shape="rect" href="$LoggerAux_8hpp.html" title="LoggerAux.hpp" alt="" coords="573,624,680,653"/>
-<area shape="rect" href="$LoggerImpl_8hpp.html" title="Simple logging object." alt="" coords="799,469,908,499"/>
-<area shape="rect" href="$ScopeLogger_8hpp.html" title="ScopeLogger.hpp" alt="" coords="792,392,915,421"/>
-<area shape="rect" href="$Singleton_8hpp.html" title="File containing the declaration of the Singleton template class." alt="" coords="1099,547,1197,576"/>
-<area shape="rect" href="$LoggerOutput_8hpp.html" title="Interface for different logger outputs." alt="" coords="791,547,913,576"/>
-<area shape="rect" href="$Console_8hpp.html" title="Console utility functions, like text coloring." alt="" coords="704,624,797,653"/>
-<area shape="rect" href="$Thread_8hpp.html" title="Thread object responsible for handling and executing threads." alt="" coords="1373,237,1459,267"/>
-<area shape="rect" href="$Props_8hpp.html" title="Props.hpp" alt="" coords="1771,237,1851,267"/>
+<area shape="rect" href="$Task_8hpp.html" title="Task.hpp" alt="" coords="79,83,153,112"/>
+<area shape="rect" href="$Subtask_8hpp.html" title="Subtask.hpp" alt="" coords="69,160,163,189"/>
 </map>

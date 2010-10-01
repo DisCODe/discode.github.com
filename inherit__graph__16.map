@@ -1,5 +1,5 @@
 <map id="G" name="G">
-<area shape="rect" href="$classBase_1_1Props.html" title="Base class for property structures." alt="" coords="20,565,113,595"/>
+<area shape="rect" href="$classBase_1_1Props.html" title="Base class for property structures." alt="" coords="20,592,113,621"/>
 <area shape="rect" href="$classCore_1_1Executor.html" title="Executor object holds components and implements message queue." alt="" coords="269,85,376,115"/>
 <area shape="rect" href="$classPixelOperator.html" title="PixelOperator\&lt; T \&gt;" alt="" coords="257,165,388,195"/>
 <area shape="rect" href="$structProcessors_1_1BlobExtractor_1_1Props.html" title="Processors::BlobExtractor::Props" alt="" coords="215,219,431,248"/>
@@ -12,12 +12,13 @@
 <area shape="rect" href="$structProcessors_1_1CvThreshold_1_1ThresholdProps.html" title="CvThreshold properties." alt="" coords="189,592,456,621"/>
 <area shape="rect" href="$structProcessors_1_1MS__Barcode_1_1Props.html" title="MS_Barcode_Decide properties." alt="" coords="217,645,428,675"/>
 <area shape="rect" href="$structProcessors_1_1MS__Sign_1_1Props.html" title="MS_Sign_Decide properties." alt="" coords="228,699,417,728"/>
-<area shape="rect" href="$structSinks_1_1CvVideoWriter_1_1Props.html" title="CvVideoWriter properties." alt="" coords="229,752,416,781"/>
-<area shape="rect" href="$structSinks_1_1CvWindow_1_1WndProps.html" title="CvWindow properties." alt="" coords="228,805,417,835"/>
-<area shape="rect" href="$structSources_1_1CameraOpenCV_1_1Props.html" title="Sources::CameraOpenCV::Props" alt="" coords="217,859,428,888"/>
-<area shape="rect" href="$structSources_1_1CameraUniCap_1_1CameraUniCapProps.html" title="CameraUniCap_Source properties." alt="" coords="176,912,469,941"/>
-<area shape="rect" href="$structSources_1_1Movie_1_1Props.html" title="Movie_Source properties." alt="" coords="245,965,400,995"/>
-<area shape="rect" href="$structSources_1_1Sequence_1_1Props.html" title="Sources::Sequence::Props" alt="" coords="235,1019,411,1048"/>
+<area shape="rect" href="$structProcessors_1_1Stereo_1_1Props.html" title="Properties." alt="" coords="235,752,411,781"/>
+<area shape="rect" href="$structSinks_1_1CvVideoWriter_1_1Props.html" title="CvVideoWriter properties." alt="" coords="229,805,416,835"/>
+<area shape="rect" href="$structSinks_1_1CvWindow_1_1WndProps.html" title="CvWindow properties." alt="" coords="228,859,417,888"/>
+<area shape="rect" href="$structSources_1_1CameraOpenCV_1_1Props.html" title="Sources::CameraOpenCV::Props" alt="" coords="217,912,428,941"/>
+<area shape="rect" href="$structSources_1_1CameraUniCap_1_1CameraUniCapProps.html" title="CameraUniCap_Source properties." alt="" coords="176,965,469,995"/>
+<area shape="rect" href="$structSources_1_1Movie_1_1Props.html" title="Movie_Source properties." alt="" coords="245,1019,400,1048"/>
+<area shape="rect" href="$structSources_1_1Sequence_1_1Props.html" title="Sources::Sequence::Props" alt="" coords="235,1072,411,1101"/>
 <area shape="rect" href="$classCore_1_1ContinousExecutor.html" title="Call step continously." alt="" coords="519,5,684,35"/>
 <area shape="rect" href="$classCore_1_1PassiveExecutor.html" title="Don&#39;t call any step, only react." alt="" coords="524,59,679,88"/>
 <area shape="rect" href="$classCore_1_1PeriodicExecutor.html" title="Execute component periodically." alt="" coords="524,112,679,141"/>
