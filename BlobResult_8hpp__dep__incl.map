@@ -1,11 +1,11 @@
 <map id="G" name="G">
-<area shape="rect" href="$BlobResult_8cpp.html" title="Implementation of the BlobResult class." alt="" coords="5,83,192,112"/>
-<area shape="rect" href="$BlobExtractor__Processor_8hpp.html" title="Processors/BlobExtractor/BlobExtractor_Processor.hpp" alt="" coords="216,83,560,112"/>
-<area shape="rect" href="$MS__Barcode__Decide_8hpp.html" title="Processors/MS_Barcode_Decide/MS_Barcode_Decide.hpp" alt="" coords="584,83,947,112"/>
-<area shape="rect" href="$MS__Barcode__Macro_8hpp.html" title="Processors/MS_Barcode_Macro/MS_Barcode_Macro.hpp" alt="" coords="971,83,1325,112"/>
-<area shape="rect" href="$MS__Sign__Decide_8hpp.html" title="Processors/MS_Sign_Decide/MS_Sign_Decide.hpp" alt="" coords="1349,83,1669,112"/>
-<area shape="rect" href="$BlobExtractor__Processor_8cpp.html" title="Processors/BlobExtractor/BlobExtractor_Processor.cpp" alt="" coords="216,160,560,189"/>
-<area shape="rect" href="$MS__Barcode__Decide_8cpp.html" title="Processors/MS_Barcode_Decide/MS_Barcode_Decide.cpp" alt="" coords="584,160,947,189"/>
-<area shape="rect" href="$MS__Barcode__Macro_8cpp.html" title="Processors/MS_Barcode_Macro/MS_Barcode_Macro.cpp" alt="" coords="971,160,1325,189"/>
-<area shape="rect" href="$MS__Sign__Decide_8cpp.html" title="Processors/MS_Sign_Decide/MS_Sign_Decide.cpp" alt="" coords="1349,160,1669,189"/>
+<area shape="rect" id="node3" href="$BlobResult_8cpp.html" title="Implementation of the BlobResult class." alt="" coords="5,86,192,117"/>
+<area shape="rect" id="node5" href="$BlobExtractor__Processor_8hpp.html" title="Processors/BlobExtractor/BlobExtractor_Processor.hpp" alt="" coords="216,86,560,117"/>
+<area shape="rect" id="node9" href="$MS__Barcode__Decide_8hpp.html" title="Processors/MS_Barcode_Decide/MS_Barcode_Decide.hpp" alt="" coords="584,86,949,117"/>
+<area shape="rect" id="node13" href="$MS__Barcode__Macro_8hpp.html" title="Processors/MS_Barcode_Macro/MS_Barcode_Macro.hpp" alt="" coords="973,86,1331,117"/>
+<area shape="rect" id="node17" href="$MS__Sign__Decide_8hpp.html" title="Processors/MS_Sign_Decide/MS_Sign_Decide.hpp" alt="" coords="1355,86,1675,117"/>
+<area shape="rect" id="node7" href="$BlobExtractor__Processor_8cpp.html" title="Processors/BlobExtractor/BlobExtractor_Processor.cpp" alt="" coords="216,166,560,197"/>
+<area shape="rect" id="node11" href="$MS__Barcode__Decide_8cpp.html" title="Processors/MS_Barcode_Decide/MS_Barcode_Decide.cpp" alt="" coords="584,166,949,197"/>
+<area shape="rect" id="node15" href="$MS__Barcode__Macro_8cpp.html" title="Processors/MS_Barcode_Macro/MS_Barcode_Macro.cpp" alt="" coords="973,166,1331,197"/>
+<area shape="rect" id="node19" href="$MS__Sign__Decide_8cpp.html" title="Processors/MS_Sign_Decide/MS_Sign_Decide.cpp" alt="" coords="1355,166,1675,197"/>
 </map>

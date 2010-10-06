@@ -5,7 +5,7 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<title>FraDIA: Core/Configurator.cpp File Reference</title>
+<title>DisCODe: Core/Configurator.cpp File Reference</title>
 <link href="stylesheet.css" rel="stylesheet" type="text/css"/>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javaScript" src="search/search.js"></script>
@@ -14,16 +14,16 @@
 <body onload='searchBox.OnSelectItem(0);'>
 
 <div style="background: #EEEEEE url(header_grad.jpg); padding: 0px; height: 125px">
-<img src="fradia.png" style="margin: 5px;" alt="FraDIA logo"/>
+<img src="discode.png" style="margin: 5px;height: 100px; width: 100px;" alt="DisCODe logo"/>
 
 <!--
-<h1 class="title">FraDIA</h1>
-<h2 class="subtitle">Framework for Digital Image Analysis</h2>
+<h1 class="title">DisCODe</h1>
+<h2 class="subtitle">Distributed Component Oriented Data Processing</h2>
 -->
 
 </div>
 
-<a href="http://github.com/maciek-slon/FraDIA"><img style="position: absolute; top: 0; right: 0; border: 0;" src="forkme.png" alt="Fork me on GitHub" /></a>
+<a href="http://github.com/DisCODe/DisCODe"><img style="position: absolute; top: 0; right: 0; border: 0;" src="forkme.png" alt="Fork me on GitHub" /></a>
 
 <div style="overflow: hidden; background: #FFFFFF; height: 1px; border: 0; border-bottom: 1px solid #BBBBBB; clear: both; font-size: 1px">&nbsp;</div>
 
@@ -173,6 +173,9 @@ function toggleVisibility(linkObj) {
 <code>#include &quot;<a class="el" href="FraDIAException_8hpp.html">FraDIAException.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="Logger_8hpp.html">Logger.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="Component_8hpp.html">Component.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="Event_8hpp.html">Event.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="EventHandler_8hpp.html">EventHandler.hpp</a>&quot;</code><br/>
+<code>#include &quot;<a class="el" href="DataStreamInterface_8hpp.html">DataStreamInterface.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="ComponentManager_8hpp.html">ComponentManager.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="ExecutorManager_8hpp.html">ExecutorManager.hpp</a>&quot;</code><br/>
 <code>#include &quot;<a class="el" href="ConnectionManager_8hpp.html">ConnectionManager.hpp</a>&quot;</code><br/>
@@ -185,7 +188,7 @@ function toggleVisibility(linkObj) {
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="Configurator_8cpp__incl.png" border="0" usemap="#Core_2Configurator_8cpp" alt=""/></div>
 <map name="Core_2Configurator_8cpp" id="Core_2Configurator_8cpp">
-<area shape="rect" href="Configurator_8hpp.html" title="File containing the declaration of Configurator class." alt="" coords="965,237,1080,267"/><area shape="rect" href="FraDIAException_8hpp.html" title="Class used for exception handling." alt="" coords="3309,547,3453,576"/><area shape="rect" href="Logger_8hpp.html" title="Simple logging object." alt="" coords="533,392,619,421"/><area shape="rect" href="Component_8hpp.html" title="Abstract interface for all components." alt="" coords="1067,315,1179,344"/><area shape="rect" href="ComponentManager_8hpp.html" title="File containing the ComponentManager class." alt="" coords="1253,83,1416,112"/><area shape="rect" href="ExecutorManager_8hpp.html" title="File containing the ExecutorManager class." alt="" coords="443,237,589,267"/><area shape="rect" href="ConnectionManager_8hpp.html" title="DataStream connections management." alt="" coords="157,237,317,267"/><area shape="rect" href="Task_8hpp.html" title="Task.hpp" alt="" coords="715,315,789,344"/><area shape="rect" href="Subtask_8hpp.html" title="Subtask.hpp" alt="" coords="795,547,888,576"/><area shape="rect" href="LoggerAux_8hpp.html" title="LoggerAux.hpp" alt="" coords="277,701,384,731"/><area shape="rect" href="LoggerImpl_8hpp.html" title="Simple logging object." alt="" coords="425,547,535,576"/><area shape="rect" href="ScopeLogger_8hpp.html" title="ScopeLogger.hpp" alt="" coords="380,469,503,499"/><area shape="rect" href="Singleton_8hpp.html" title="File containing the declaration of the Singleton template class." alt="" coords="611,624,709,653"/><area shape="rect" href="LoggerOutput_8hpp.html" title="Interface for different logger outputs." alt="" coords="363,624,485,653"/><area shape="rect" href="Event_8hpp.html" title="Component event." alt="" coords="1171,392,1251,421"/><area shape="rect" href="EventHandler_8hpp.html" title="Component event handler." alt="" coords="1256,469,1379,499"/><area shape="rect" href="DataStreamInterface_8hpp.html" title="DataStreamInterface.hpp" alt="" coords="293,392,459,421"/><area shape="rect" href="Timer_8hpp.html" title="Simple timer object." alt="" coords="965,392,1045,421"/><area shape="rect" href="Component__Aux_8hpp.html" title="File containing definitions of component&#45;related functors and macros." alt="" coords="1264,237,1405,267"/><area shape="rect" href="SharedLibraryCommon_8hpp.html" title="SharedLibraryCommon.hpp" alt="" coords="2340,160,2519,189"/><area shape="rect" href="Utils_8hpp.html" title="Utility functions &#45; declaration." alt="" coords="1083,547,1155,576"/><area shape="rect" href="ComponentFactory_8hpp.html" title="File containing the ComponentFactory template class." alt="" coords="1467,160,1621,189"/><area shape="rect" href="Panel_8hpp.html" title="Base class for all task panels." alt="" coords="1329,547,1407,576"/><area shape="rect" href="Props_8hpp.html" title="Props.hpp" alt="" coords="1477,392,1557,421"/><area shape="rect" href="Executor_8hpp.html" title="Executor.hpp" alt="" coords="1203,315,1301,344"/><area shape="rect" href="Connection_8hpp.html" title="Connection.hpp" alt="" coords="265,315,377,344"/></map>
+<area shape="rect" id="node3" href="Configurator_8hpp.html" title="File containing the declaration of Configurator class." alt="" coords="51,246,168,277"/><area shape="rect" id="node20" href="FraDIAException_8hpp.html" title="Class used for exception handling." alt="" coords="3824,486,3968,517"/><area shape="rect" id="node31" href="Logger_8hpp.html" title="Simple logging object." alt="" coords="527,486,612,517"/><area shape="rect" id="node56" href="Component_8hpp.html" title="Abstract interface for all components." alt="" coords="1059,326,1171,357"/><area shape="rect" id="node60" href="Event_8hpp.html" title="Component event." alt="" coords="1956,326,2036,357"/><area shape="rect" id="node65" href="EventHandler_8hpp.html" title="Component event handler." alt="" coords="2051,406,2173,437"/><area shape="rect" id="node72" href="DataStreamInterface_8hpp.html" title="Interface class for DataStreams." alt="" coords="1277,486,1443,517"/><area shape="rect" id="node75" href="ComponentManager_8hpp.html" title="File containing the ComponentManager class." alt="" coords="1721,86,1884,117"/><area shape="rect" id="node141" href="ExecutorManager_8hpp.html" title="File containing the ExecutorManager class." alt="" coords="435,246,584,277"/><area shape="rect" id="node154" href="ConnectionManager_8hpp.html" title="DataStream connections management." alt="" coords="547,326,709,357"/><area shape="rect" id="node5" href="Task_8hpp.html" title="Task.hpp" alt="" coords="43,326,117,357"/><area shape="rect" id="node11" href="Subtask_8hpp.html" title="Subtask.hpp" alt="" coords="359,646,452,677"/><area shape="rect" id="node33" href="LoggerAux_8hpp.html" title="LoggerAux.hpp" alt="" coords="795,806,904,837"/><area shape="rect" id="node36" href="LoggerImpl_8hpp.html" title="Simple logging object." alt="" coords="611,646,720,677"/><area shape="rect" id="node53" href="ScopeLogger_8hpp.html" title="ScopeLogger.hpp" alt="" coords="597,566,720,597"/><area shape="rect" id="node43" href="Singleton_8hpp.html" title="File containing the declaration of the Singleton template class." alt="" coords="816,726,917,757"/><area shape="rect" id="node48" href="LoggerOutput_8hpp.html" title="Interface for different logger outputs." alt="" coords="616,726,741,757"/><area shape="rect" id="node84" href="Component__Aux_8hpp.html" title="File containing definitions of component&#45;related functors and macros." alt="" coords="1732,246,1873,277"/><area shape="rect" id="node108" href="SharedLibraryCommon_8hpp.html" title="SharedLibraryCommon.hpp" alt="" coords="2633,326,2812,357"/><area shape="rect" id="node122" href="Utils_8hpp.html" title="Utility functions &#45; declaration." alt="" coords="1691,646,1763,677"/><area shape="rect" id="node127" href="ComponentFactory_8hpp.html" title="File containing the ComponentFactory template class." alt="" coords="1565,166,1723,197"/><area shape="rect" id="node88" href="Panel_8hpp.html" title="Base class for all task panels." alt="" coords="1787,646,1864,677"/><area shape="rect" id="node91" href="Props_8hpp.html" title="Base class for property structures." alt="" coords="1480,406,1560,437"/><area shape="rect" id="node97" href="DataStream_8hpp.html" title="Concrete implementations of data streams." alt="" coords="1296,326,1411,357"/><area shape="rect" id="node100" href="Connection_8hpp.html" title="Connection.hpp" alt="" coords="981,406,1093,437"/><area shape="rect" id="node136" href="SharedLibrary_8hpp.html" title="SharedLibrary.hpp" alt="" coords="1948,246,2073,277"/><area shape="rect" id="node143" href="Executor_8hpp.html" title="Executor.hpp" alt="" coords="733,326,832,357"/></map>
 </div>
 <table class="memberdecls">
 <tr><td colspan="2"><h2><a name="namespaces"></a>
@@ -220,7 +223,7 @@ Namespaces</h2></td></tr>
 <div style="background: #FFFFFF; height: 1px; border: 0; border-top: 1px solid #BBBBBB; clear: both; font-size: 1px">&nbsp;</div>
 <div style="background: #EEEEEE url(footer_grad.jpg); height: 125px">
 <address style="text-align: center;"><small>
-Generated on Fri Oct 1 2010 by&nbsp;<a href="http://www.doxygen.org/index.html">Doxygen</a> 1.7.1</small></address><br/>
+Generated on Wed Oct 6 2010 by&nbsp;<a href="http://www.doxygen.org/index.html">Doxygen</a> 1.7.1</small></address><br/>
 <br/>
 <br/>
 <br/>

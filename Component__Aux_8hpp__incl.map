@@ -1,17 +1,20 @@
 <map id="G" name="G">
-<area shape="rect" href="$Component_8hpp.html" title="Abstract interface for all components." alt="" coords="892,83,1004,112"/>
-<area shape="rect" href="$Panel_8hpp.html" title="Base class for all task panels." alt="" coords="204,237,281,267"/>
-<area shape="rect" href="$Props_8hpp.html" title="Props.hpp" alt="" coords="1371,83,1451,112"/>
-<area shape="rect" href="$Event_8hpp.html" title="Component event." alt="" coords="408,315,488,344"/>
-<area shape="rect" href="$EventHandler_8hpp.html" title="Component event handler." alt="" coords="253,392,376,421"/>
-<area shape="rect" href="$DataStreamInterface_8hpp.html" title="DataStreamInterface.hpp" alt="" coords="1305,315,1471,344"/>
-<area shape="rect" href="$Logger_8hpp.html" title="Simple logging object." alt="" coords="905,160,991,189"/>
-<area shape="rect" href="$Timer_8hpp.html" title="Simple timer object." alt="" coords="1164,160,1244,189"/>
-<area shape="rect" href="$FraDIAException_8hpp.html" title="Class used for exception handling." alt="" coords="71,469,215,499"/>
-<area shape="rect" href="$LoggerAux_8hpp.html" title="LoggerAux.hpp" alt="" coords="1421,469,1528,499"/>
-<area shape="rect" href="$LoggerImpl_8hpp.html" title="Simple logging object." alt="" coords="799,315,908,344"/>
-<area shape="rect" href="$ScopeLogger_8hpp.html" title="ScopeLogger.hpp" alt="" coords="889,237,1012,267"/>
-<area shape="rect" href="$Singleton_8hpp.html" title="File containing the declaration of the Singleton template class." alt="" coords="948,392,1047,421"/>
-<area shape="rect" href="$LoggerOutput_8hpp.html" title="Interface for different logger outputs." alt="" coords="613,392,736,421"/>
-<area shape="rect" href="$Console_8hpp.html" title="Console utility functions, like text coloring." alt="" coords="592,469,685,499"/>
+<area shape="rect" id="node5" href="$Component_8hpp.html" title="Abstract interface for all components." alt="" coords="627,86,739,117"/>
+<area shape="rect" id="node10" href="$Panel_8hpp.html" title="Base class for all task panels." alt="" coords="365,326,443,357"/>
+<area shape="rect" id="node14" href="$Props_8hpp.html" title="Base class for property structures." alt="" coords="511,86,591,117"/>
+<area shape="rect" id="node18" href="$Event_8hpp.html" title="Component event." alt="" coords="239,166,319,197"/>
+<area shape="rect" id="node23" href="$EventHandler_8hpp.html" title="Component event handler." alt="" coords="139,406,261,437"/>
+<area shape="rect" id="node39" href="$DataStreamInterface_8hpp.html" title="Interface class for DataStreams." alt="" coords="1817,246,1983,277"/>
+<area shape="rect" id="node42" href="$DataStream_8hpp.html" title="Concrete implementations of data streams." alt="" coords="1453,86,1568,117"/>
+<area shape="rect" id="node26" href="$FraDIAException_8hpp.html" title="Class used for exception handling." alt="" coords="76,566,220,597"/>
+<area shape="rect" id="node45" href="$Connection_8hpp.html" title="Connection.hpp" alt="" coords="1167,166,1279,197"/>
+<area shape="rect" id="node86" href="$DataStreamBuffer_8hpp.html" title="DataStream buffering policies." alt="" coords="1303,166,1503,197"/>
+<area shape="rect" id="node90" href="$Synchronization_8hpp.html" title="Synchronization policies." alt="" coords="1527,166,1713,197"/>
+<area shape="rect" id="node52" href="$Logger_8hpp.html" title="Simple logging object." alt="" coords="1196,246,1281,277"/>
+<area shape="rect" id="node54" href="$LoggerAux_8hpp.html" title="LoggerAux.hpp" alt="" coords="1372,566,1481,597"/>
+<area shape="rect" id="node57" href="$LoggerImpl_8hpp.html" title="Simple logging object." alt="" coords="1129,406,1239,437"/>
+<area shape="rect" id="node83" href="$ScopeLogger_8hpp.html" title="ScopeLogger.hpp" alt="" coords="1093,326,1216,357"/>
+<area shape="rect" id="node64" href="$Singleton_8hpp.html" title="File containing the declaration of the Singleton template class." alt="" coords="747,486,848,517"/>
+<area shape="rect" id="node73" href="$LoggerOutput_8hpp.html" title="Interface for different logger outputs." alt="" coords="1121,486,1247,517"/>
+<area shape="rect" id="node76" href="$Console_8hpp.html" title="Console utility functions, like text coloring." alt="" coords="980,566,1073,597"/>
 </map>

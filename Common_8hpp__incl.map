@@ -1,5 +1,5 @@
 <map id="G" name="G">
-<area shape="rect" href="$FraDIAException_8hpp.html" title="Class used for exception handling." alt="" coords="173,83,317,112"/>
-<area shape="rect" href="$Panel__Empty_8hpp.html" title="Empty panel &#45; used for all components that doesn&#39;t require panel." alt="" coords="384,83,507,112"/>
-<area shape="rect" href="$Panel_8hpp.html" title="Base class for all task panels." alt="" coords="429,160,507,189"/>
+<area shape="rect" id="node3" href="$FraDIAException_8hpp.html" title="Class used for exception handling." alt="" coords="175,86,319,117"/>
+<area shape="rect" id="node15" href="$Panel__Empty_8hpp.html" title="Empty panel &#45; used for all components that doesn&#39;t require panel." alt="" coords="387,86,509,117"/>
+<area shape="rect" id="node17" href="$Panel_8hpp.html" title="Base class for all task panels." alt="" coords="432,166,509,197"/>
 </map>

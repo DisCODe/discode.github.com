@@ -1,7 +1,7 @@
 <map id="G" name="G">
-<area shape="rect" href="$classCommon_1_1SharedLibrary.html#aa5197a81813181fd82a8791c530adc2b" title="Return error from last call." alt="" coords="323,5,517,35"/>
-<area shape="rect" href="$classCommon_1_1SharedLibrary.html#a46ffd8e856172767cd4e307c65784f86" title="Get a function reference." alt="" coords="327,59,513,88"/>
-<area shape="rect" href="$classCommon_1_1SharedLibrary.html#a8c4e629fb9d8149fb9523162513f0c64" title="Load shared library." alt="" coords="324,112,516,141"/>
-<area shape="rect" href="$classCommon_1_1SharedLibrary.html#a7458996b4f16c6ab8f87e10fed156a12" title="Set location of library." alt="" coords="303,165,537,195"/>
-<area shape="rect" href="$classCommon_1_1FraDIAException.html#a8fffb6a1972e87ea0bea96e5f5044aed" title="Property &#45; returns exception description." alt="" coords="313,219,527,248"/>
+<area shape="rect" id="node3" href="$classCommon_1_1SharedLibrary.html#aa5197a81813181fd82a8791c530adc2b" title="Return error from last call." alt="" coords="323,5,517,35"/>
+<area shape="rect" id="node5" href="$classCommon_1_1SharedLibrary.html#a46ffd8e856172767cd4e307c65784f86" title="Get a function reference." alt="" coords="327,58,513,89"/>
+<area shape="rect" id="node7" href="$classCommon_1_1SharedLibrary.html#a8c4e629fb9d8149fb9523162513f0c64" title="Load shared library." alt="" coords="323,111,517,142"/>
+<area shape="rect" id="node9" href="$classCommon_1_1SharedLibrary.html#a7458996b4f16c6ab8f87e10fed156a12" title="Set location of library." alt="" coords="301,165,539,195"/>
+<area shape="rect" id="node11" href="$classCommon_1_1FraDIAException.html#a8fffb6a1972e87ea0bea96e5f5044aed" title="Property &#45; returns exception description." alt="" coords="313,218,527,249"/>
 </map>

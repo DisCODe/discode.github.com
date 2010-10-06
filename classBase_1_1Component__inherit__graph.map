@@ -1,25 +1,25 @@
 <map id="G" name="G">
-<area shape="rect" href="$classProcessors_1_1BlobExtractor_1_1BlobExtractor__Processor.html" title="Example processor class." alt="" coords="195,5,523,35"/>
-<area shape="rect" href="$classProcessors_1_1CvColorConv_1_1CvColorConv__Processor.html" title="Example processor class." alt="" coords="199,59,519,88"/>
-<area shape="rect" href="$classProcessors_1_1CvFilter2D_1_1CvFilter2D__Processor.html" title="Convolves an image with the kernel." alt="" coords="213,112,504,141"/>
-<area shape="rect" href="$classProcessors_1_1CvGaussianBlur_1_1CvGaussianBlur__Processor.html" title="Example processor class." alt="" coords="180,165,537,195"/>
-<area shape="rect" href="$classProcessors_1_1CvMorphology_1_1CvMorphology__Processor.html" title="Example processor class." alt="" coords="191,219,527,248"/>
-<area shape="rect" href="$classProcessors_1_1CvPixelOperator_1_1CvPixelOperator__Processor.html" title="Convolves an image with the kernel." alt="" coords="179,272,539,301"/>
-<area shape="rect" href="$classProcessors_1_1CvSplit_1_1CvSplit__Processor.html" title="Divides multi&#45;channel array into several single&#45;channel arrays." alt="" coords="232,325,485,355"/>
-<area shape="rect" href="$classProcessors_1_1CvThreshold_1_1CvThreshold__Processor.html" title="Example processor class." alt="" coords="201,379,516,408"/>
-<area shape="rect" href="$classProcessors_1_1Example_1_1Example__Processor.html" title="Example processor class." alt="" coords="223,432,495,461"/>
-<area shape="rect" href="$classProcessors_1_1ExecTimer_1_1ExecTimer.html" title="Example processor class." alt="" coords="244,485,473,515"/>
-<area shape="rect" href="$classProcessors_1_1MS__Barcode_1_1MS__Barcode__Decide.html" title="Example processor class." alt="" coords="209,539,508,568"/>
-<area shape="rect" href="$classProcessors_1_1MS__Barcode_1_1MS__Barcode__Macro.html" title="Example processor class." alt="" coords="211,592,507,621"/>
-<area shape="rect" href="$classProcessors_1_1MS__Barcode_1_1MS__Barcode__Prepare.html" title="Example processor class." alt="" coords="207,645,511,675"/>
-<area shape="rect" href="$classProcessors_1_1MS__Sign_1_1MS__Sign__Decide.html" title="Example processor class." alt="" coords="231,699,487,728"/>
-<area shape="rect" href="$classProcessors_1_1MS__Sign_1_1MS__Sign__LUT.html" title="Example processor class." alt="" coords="239,752,479,781"/>
-<area shape="rect" href="$classProcessors_1_1Stereo_1_1Stero__Processor.html" title="Convolves an image with the kernel." alt="" coords="240,805,477,835"/>
-<area shape="rect" href="$classSinks_1_1CvVideoWriter_1_1CvVideoWriter__Sink.html" title="Writes all frames into movie file." alt="" coords="225,859,492,888"/>
-<area shape="rect" href="$classSinks_1_1CvWindow_1_1CvWindow__Sink.html" title="Creates a window and displays the image." alt="" coords="247,912,471,941"/>
-<area shape="rect" href="$classSources_1_1CameraOpenCV_1_1CameraOpenCV__Source.html" title="Class responsible for retrieving images from movies." alt="" coords="199,965,519,995"/>
-<area shape="rect" href="$classSources_1_1CameraUniCap_1_1CameraUniCap__Source.html" title="Unicap&#45;based camera source." alt="" coords="205,1019,512,1048"/>
-<area shape="rect" href="$classSources_1_1Image_1_1Image__Source.html" title="Class responsible for retrieving images from files." alt="" coords="256,1072,461,1101"/>
-<area shape="rect" href="$classSources_1_1Movie_1_1Movie__Source.html" title="Class responsible for retrieving images from movies." alt="" coords="257,1125,460,1155"/>
-<area shape="rect" href="$classSources_1_1Sequence_1_1Sequence.html" title="Class responsible for retrieving images from image sequences." alt="" coords="259,1179,459,1208"/>
+<area shape="rect" id="node3" href="$classProcessors_1_1BlobExtractor_1_1BlobExtractor__Processor.html" title="Example processor class." alt="" coords="197,5,525,35"/>
+<area shape="rect" id="node5" href="$classProcessors_1_1CvColorConv_1_1CvColorConv__Processor.html" title="Example processor class." alt="" coords="200,58,523,89"/>
+<area shape="rect" id="node7" href="$classProcessors_1_1CvFilter2D_1_1CvFilter2D__Processor.html" title="Convolves an image with the kernel." alt="" coords="216,111,507,142"/>
+<area shape="rect" id="node9" href="$classProcessors_1_1CvGaussianBlur_1_1CvGaussianBlur__Processor.html" title="Example processor class." alt="" coords="183,165,540,195"/>
+<area shape="rect" id="node11" href="$classProcessors_1_1CvMorphology_1_1CvMorphology__Processor.html" title="Example processor class." alt="" coords="193,218,529,249"/>
+<area shape="rect" id="node13" href="$classProcessors_1_1CvPixelOperator_1_1CvPixelOperator__Processor.html" title="Convolves an image with the kernel." alt="" coords="181,271,541,302"/>
+<area shape="rect" id="node15" href="$classProcessors_1_1CvSplit_1_1CvSplit__Processor.html" title="Divides multi&#45;channel array into several single&#45;channel arrays." alt="" coords="235,325,488,355"/>
+<area shape="rect" id="node17" href="$classProcessors_1_1CvThreshold_1_1CvThreshold__Processor.html" title="Example processor class." alt="" coords="204,378,519,409"/>
+<area shape="rect" id="node19" href="$classProcessors_1_1Example_1_1Example__Processor.html" title="Example processor class." alt="" coords="225,431,497,462"/>
+<area shape="rect" id="node21" href="$classProcessors_1_1ExecTimer_1_1ExecTimer.html" title="Example processor class." alt="" coords="247,485,476,515"/>
+<area shape="rect" id="node23" href="$classProcessors_1_1MS__Barcode_1_1MS__Barcode__Decide.html" title="Example processor class." alt="" coords="211,538,512,569"/>
+<area shape="rect" id="node25" href="$classProcessors_1_1MS__Barcode_1_1MS__Barcode__Macro.html" title="Example processor class." alt="" coords="213,591,509,622"/>
+<area shape="rect" id="node27" href="$classProcessors_1_1MS__Barcode_1_1MS__Barcode__Prepare.html" title="Example processor class." alt="" coords="208,645,515,675"/>
+<area shape="rect" id="node29" href="$classProcessors_1_1MS__Sign_1_1MS__Sign__Decide.html" title="Example processor class." alt="" coords="233,698,489,729"/>
+<area shape="rect" id="node31" href="$classProcessors_1_1MS__Sign_1_1MS__Sign__LUT.html" title="Example processor class." alt="" coords="241,751,481,782"/>
+<area shape="rect" id="node33" href="$classProcessors_1_1Stereo_1_1Stero__Processor.html" title="Convolves an image with the kernel." alt="" coords="243,805,480,835"/>
+<area shape="rect" id="node35" href="$classSinks_1_1CvVideoWriter_1_1CvVideoWriter__Sink.html" title="Writes all frames into movie file." alt="" coords="228,858,495,889"/>
+<area shape="rect" id="node37" href="$classSinks_1_1CvWindow_1_1CvWindow__Sink.html" title="Creates a window and displays the image." alt="" coords="248,911,475,942"/>
+<area shape="rect" id="node39" href="$classSources_1_1CameraOpenCV_1_1CameraOpenCV__Source.html" title="Class responsible for retrieving images from movies." alt="" coords="201,965,521,995"/>
+<area shape="rect" id="node41" href="$classSources_1_1CameraUniCap_1_1CameraUniCap__Source.html" title="Unicap&#45;based camera source." alt="" coords="208,1018,515,1049"/>
+<area shape="rect" id="node43" href="$classSources_1_1Image_1_1Image__Source.html" title="Class responsible for retrieving images from files." alt="" coords="259,1071,464,1102"/>
+<area shape="rect" id="node45" href="$classSources_1_1Movie_1_1Movie__Source.html" title="Class responsible for retrieving images from movies." alt="" coords="260,1125,463,1155"/>
+<area shape="rect" id="node47" href="$classSources_1_1Sequence_1_1Sequence.html" title="Class responsible for retrieving images from image sequences." alt="" coords="260,1178,463,1209"/>
 </map>

@@ -1,25 +1,24 @@
 <map id="G" name="G">
-<area shape="rect" href="$Sequence_8hpp.html" title="Class responsible for retrieving images from image sequences &#45; class declaration." alt="" coords="572,83,676,112"/>
-<area shape="rect" href="$Utils_8hpp.html" title="Utility functions &#45; declaration." alt="" coords="2335,469,2407,499"/>
-<area shape="rect" href="$Component__Aux_8hpp.html" title="File containing definitions of component&#45;related functors and macros." alt="" coords="329,160,471,189"/>
-<area shape="rect" href="$Component_8hpp.html" title="Abstract interface for all components." alt="" coords="539,237,651,267"/>
-<area shape="rect" href="$Props_8hpp.html" title="Props.hpp" alt="" coords="101,237,181,267"/>
-<area shape="rect" href="$Panel__Empty_8hpp.html" title="Empty panel &#45; used for all components that doesn&#39;t require panel." alt="" coords="183,160,305,189"/>
-<area shape="rect" href="$DataStream_8hpp.html" title="DataStream.hpp" alt="" coords="1595,160,1709,189"/>
-<area shape="rect" href="$Panel_8hpp.html" title="Base class for all task panels." alt="" coords="205,237,283,267"/>
-<area shape="rect" href="$Event_8hpp.html" title="Component event." alt="" coords="408,469,488,499"/>
-<area shape="rect" href="$EventHandler_8hpp.html" title="Component event handler." alt="" coords="272,547,395,576"/>
-<area shape="rect" href="$DataStreamInterface_8hpp.html" title="DataStreamInterface.hpp" alt="" coords="1480,315,1645,344"/>
-<area shape="rect" href="$Logger_8hpp.html" title="Simple logging object." alt="" coords="1371,315,1456,344"/>
-<area shape="rect" href="$Timer_8hpp.html" title="Simple timer object." alt="" coords="459,315,539,344"/>
-<area shape="rect" href="$FraDIAException_8hpp.html" title="Class used for exception handling." alt="" coords="108,624,252,653"/>
-<area shape="rect" href="$LoggerAux_8hpp.html" title="LoggerAux.hpp" alt="" coords="1603,624,1709,653"/>
-<area shape="rect" href="$LoggerImpl_8hpp.html" title="Simple logging object." alt="" coords="1395,469,1504,499"/>
-<area shape="rect" href="$ScopeLogger_8hpp.html" title="ScopeLogger.hpp" alt="" coords="1320,392,1443,421"/>
-<area shape="rect" href="$Singleton_8hpp.html" title="File containing the declaration of the Singleton template class." alt="" coords="981,547,1080,576"/>
-<area shape="rect" href="$LoggerOutput_8hpp.html" title="Interface for different logger outputs." alt="" coords="1388,547,1511,576"/>
-<area shape="rect" href="$Console_8hpp.html" title="Console utility functions, like text coloring." alt="" coords="1304,624,1397,653"/>
-<area shape="rect" href="$Connection_8hpp.html" title="Connection.hpp" alt="" coords="1507,237,1619,267"/>
-<area shape="rect" href="$DataStreamBuffer_8hpp.html" title="DataStream buffering policies." alt="" coords="1643,237,1843,267"/>
-<area shape="rect" href="$Synchronization_8hpp.html" title="Synchronization policies." alt="" coords="1867,237,2053,267"/>
+<area shape="rect" id="node3" href="$Sequence_8hpp.html" title="Class responsible for retrieving images from image sequences &#45; class declaration." alt="" coords="1257,86,1361,117"/>
+<area shape="rect" id="node110" href="$Utils_8hpp.html" title="Utility functions &#45; declaration." alt="" coords="5,566,77,597"/>
+<area shape="rect" id="node5" href="$Component__Aux_8hpp.html" title="File containing definitions of component&#45;related functors and macros." alt="" coords="1239,166,1380,197"/>
+<area shape="rect" id="node9" href="$Component_8hpp.html" title="Abstract interface for all components." alt="" coords="519,246,631,277"/>
+<area shape="rect" id="node18" href="$Props_8hpp.html" title="Base class for property structures." alt="" coords="1501,246,1581,277"/>
+<area shape="rect" id="node46" href="$DataStream_8hpp.html" title="Concrete implementations of data streams." alt="" coords="1013,246,1128,277"/>
+<area shape="rect" id="node101" href="$Panel__Empty_8hpp.html" title="Empty panel &#45; used for all components that doesn&#39;t require panel." alt="" coords="1548,166,1671,197"/>
+<area shape="rect" id="node14" href="$Panel_8hpp.html" title="Base class for all task panels." alt="" coords="1605,246,1683,277"/>
+<area shape="rect" id="node22" href="$Event_8hpp.html" title="Component event." alt="" coords="1347,326,1427,357"/>
+<area shape="rect" id="node27" href="$EventHandler_8hpp.html" title="Component event handler." alt="" coords="1616,486,1739,517"/>
+<area shape="rect" id="node43" href="$DataStreamInterface_8hpp.html" title="Interface class for DataStreams." alt="" coords="1113,406,1279,437"/>
+<area shape="rect" id="node30" href="$FraDIAException_8hpp.html" title="Class used for exception handling." alt="" coords="1763,726,1907,757"/>
+<area shape="rect" id="node49" href="$Connection_8hpp.html" title="Connection.hpp" alt="" coords="835,326,947,357"/>
+<area shape="rect" id="node90" href="$DataStreamBuffer_8hpp.html" title="DataStream buffering policies." alt="" coords="971,326,1171,357"/>
+<area shape="rect" id="node94" href="$Synchronization_8hpp.html" title="Synchronization policies." alt="" coords="456,326,643,357"/>
+<area shape="rect" id="node56" href="$Logger_8hpp.html" title="Simple logging object." alt="" coords="864,406,949,437"/>
+<area shape="rect" id="node58" href="$LoggerAux_8hpp.html" title="LoggerAux.hpp" alt="" coords="1017,726,1127,757"/>
+<area shape="rect" id="node61" href="$LoggerImpl_8hpp.html" title="Simple logging object." alt="" coords="793,566,903,597"/>
+<area shape="rect" id="node87" href="$ScopeLogger_8hpp.html" title="ScopeLogger.hpp" alt="" coords="767,486,889,517"/>
+<area shape="rect" id="node68" href="$Singleton_8hpp.html" title="File containing the declaration of the Singleton template class." alt="" coords="449,646,551,677"/>
+<area shape="rect" id="node77" href="$LoggerOutput_8hpp.html" title="Interface for different logger outputs." alt="" coords="785,646,911,677"/>
+<area shape="rect" id="node80" href="$Console_8hpp.html" title="Console utility functions, like text coloring." alt="" coords="900,726,993,757"/>
 </map>
