@@ -1,7 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" href="$Component_8cpp.html" title="Abstract interface for all components." alt="" coords="5,83,152,112"/>
-<area shape="rect" href="$Executor_8cpp.html" title="Core/Executor.cpp" alt="" coords="176,83,304,112"/>
-<area shape="rect" href="$BlobExtractor__Processor_8cpp.html" title="Processors/BlobExtractor/BlobExtractor_Processor.cpp" alt="" coords="328,83,672,112"/>
-<area shape="rect" href="$ExecTimer_8hpp.html" title="Simple processor to measure algorithm execution time." alt="" coords="696,83,941,112"/>
-<area shape="rect" href="$ExecTimer_8cpp.html" title="Declaration of an example class, responsible for image processing." alt="" coords="696,160,941,189"/>
-</map>

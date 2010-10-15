@@ -1,7 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" href="$ComponentManager_8hpp.html" title="File containing the ComponentManager class." alt="" coords="57,83,249,112"/>
-<area shape="rect" href="$Utils_8cpp.html" title="Utility functions &#45; implementation." alt="" coords="273,83,401,112"/>
-<area shape="rect" href="$Sequence_8cpp.html" title="Class responsible for retrieving images from image sequences &#45; methods definition." alt="" coords="425,83,644,112"/>
-<area shape="rect" href="$Configurator_8cpp.html" title="File containing definitions of Configurator class methods." alt="" coords="5,160,152,189"/>
-<area shape="rect" href="$main_8cpp.html" title="Main body responsible for menu showing and image processing." alt="" coords="176,160,280,189"/>
-</map>

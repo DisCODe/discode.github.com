@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" href="$classTypes_1_1Blobs_1_1Blob.html#a42185fe8b321d9eb36ef2140a21440e8" title="Compute blob&#39;s moment (p,q up to MAX_CALCULATED_MOMENTS)." alt="" coords="319,32,505,61"/>
-<area shape="rect" href="$classTypes_1_1Blobs_1_1BlobContour.html#a5751d953b142c86624fd9f0558e8cd22" title="Get contour moment (p,q up to MAX_CALCULATED_MOMENTS)." alt="" coords="555,32,808,61"/>
-<area shape="rect" href="$classTypes_1_1Blobs_1_1BlobContour.html#a716d88e332268c967cf4dc6bbc63c0ae" title="Calculate contour points from crack codes." alt="" coords="856,5,1144,35"/>
-<area shape="rect" href="$classTypes_1_1Blobs_1_1BlobContour.html#a9131b3aa5394154b8624d0474145fbb0" title="Types::Blobs::BlobContour::IsEmpty" alt="" coords="884,59,1116,88"/>
-</map>

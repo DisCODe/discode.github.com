@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" href="$classBase_1_1EventHandlerInterface.html" title="Interface for EventHandler class." alt="" coords="7,32,193,61"/>
-<area shape="rect" href="$classBase_1_1EventHandler.html" title="EventHandler is called when associated Event is raised." alt="" coords="251,5,443,35"/>
-<area shape="rect" href="$classBase_1_1EventScheduler.html" title="EventScheduler is proxy object used to queue events raised between threads." alt="" coords="243,59,451,88"/>
-</map>
