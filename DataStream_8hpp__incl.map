@@ -1,13 +1,13 @@
 <map id="G" name="G">
-<area shape="rect" id="node3" href="$DataStreamInterface_8hpp.html" title="Interface class for DataStreams." alt="" coords="5,166,171,197"/>
-<area shape="rect" id="node7" href="$Connection_8hpp.html" title="Connection.hpp" alt="" coords="295,86,407,117"/>
-<area shape="rect" id="node50" href="$DataStreamBuffer_8hpp.html" title="DataStream buffering policies." alt="" coords="444,86,644,117"/>
-<area shape="rect" id="node54" href="$Synchronization_8hpp.html" title="Synchronization policies." alt="" coords="668,86,855,117"/>
-<area shape="rect" id="node15" href="$Logger_8hpp.html" title="Simple logging object." alt="" coords="287,166,372,197"/>
-<area shape="rect" id="node17" href="$LoggerAux_8hpp.html" title="LoggerAux.hpp" alt="" coords="204,486,313,517"/>
-<area shape="rect" id="node20" href="$LoggerImpl_8hpp.html" title="Simple logging object." alt="" coords="369,326,479,357"/>
-<area shape="rect" id="node47" href="$ScopeLogger_8hpp.html" title="ScopeLogger.hpp" alt="" coords="356,246,479,277"/>
-<area shape="rect" id="node28" href="$Singleton_8hpp.html" title="File containing the declaration of the Singleton template class." alt="" coords="783,406,884,437"/>
-<area shape="rect" id="node37" href="$LoggerOutput_8hpp.html" title="Interface for different logger outputs." alt="" coords="405,406,531,437"/>
-<area shape="rect" id="node40" href="$Console_8hpp.html" title="Console utility functions, like text coloring." alt="" coords="439,486,532,517"/>
+<area shape="rect" href="$DataStreamInterface_8hpp.html" title="Interface class for DataStreams." alt="" coords="5,160,171,189"/>
+<area shape="rect" href="$Connection_8hpp.html" title="Connection.hpp" alt="" coords="293,83,405,112"/>
+<area shape="rect" href="$DataStreamBuffer_8hpp.html" title="DataStream buffering policies." alt="" coords="443,83,643,112"/>
+<area shape="rect" href="$Synchronization_8hpp.html" title="Synchronization policies." alt="" coords="667,83,853,112"/>
+<area shape="rect" href="$Logger_8hpp.html" title="Simple logging object." alt="" coords="285,160,371,189"/>
+<area shape="rect" href="$LoggerAux_8hpp.html" title="LoggerAux.hpp" alt="" coords="205,469,312,499"/>
+<area shape="rect" href="$LoggerImpl_8hpp.html" title="Simple logging object." alt="" coords="368,315,477,344"/>
+<area shape="rect" href="$ScopeLogger_8hpp.html" title="ScopeLogger.hpp" alt="" coords="355,237,477,267"/>
+<area shape="rect" href="$Singleton_8hpp.html" title="File containing the declaration of the Singleton template class." alt="" coords="779,392,877,421"/>
+<area shape="rect" href="$LoggerOutput_8hpp.html" title="Interface for different logger outputs." alt="" coords="405,392,528,421"/>
+<area shape="rect" href="$Console_8hpp.html" title="Console utility functions, like text coloring." alt="" coords="437,469,531,499"/>
 </map>

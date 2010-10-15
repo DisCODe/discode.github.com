@@ -1,7 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" href="$classSources_1_1CameraV4L_1_1V4L.html#acb19a265bfb2c961eee05de916f6c1b8" title="Method sets memory for buffer." alt="" coords="361,5,612,35"/>
-<area shape="rect" href="$classSources_1_1CameraV4L_1_1V4L.html#af588d2ace9855589469fdf455e97f80f" title="Method sets memory for memory mapping." alt="" coords="359,59,615,88"/>
-<area shape="rect" href="$classSources_1_1CameraV4L_1_1V4L.html#a1114a91366fc1888dc05d391dbe1d37c" title="Method sets picture property value like brightness or contrast." alt="" coords="352,112,621,141"/>
-<area shape="rect" href="$classSources_1_1CameraV4L_1_1V4L.html#a2fe3c20f89b3a61922e2eeb9f0c63fab" title="Method sets video property value like video standard or channel." alt="" coords="345,165,628,195"/>
-<area shape="rect" href="$classSources_1_1CameraV4L_1_1V4L.html#ac947f2fcc430854e5f8d7d31a6c79ceb" title="Method sets window property value like window width or height." alt="" coords="351,219,623,248"/>
-</map>

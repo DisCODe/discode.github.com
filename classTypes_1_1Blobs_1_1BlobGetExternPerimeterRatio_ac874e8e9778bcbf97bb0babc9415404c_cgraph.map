@@ -1,4 +1,4 @@
 <map id="G" name="G">
-<area shape="rect" id="node3" href="$classTypes_1_1Blobs_1_1Blob.html#a53f1157fc2cf79e454753356e2876956" title="Get extern perimeter (perimeter touching image borders)." alt="" coords="395,5,629,35"/>
-<area shape="rect" id="node5" href="$classTypes_1_1Blobs_1_1Blob.html#a773172ca3aab1a006ff5aab0d9c875e9" title="Get blob perimeter, ie." alt="" coords="415,58,609,89"/>
+<area shape="rect" href="$classTypes_1_1Blobs_1_1Blob.html#a53f1157fc2cf79e454753356e2876956" title="Get extern perimeter (perimeter touching image borders)." alt="" coords="396,5,628,35"/>
+<area shape="rect" href="$classTypes_1_1Blobs_1_1Blob.html#a773172ca3aab1a006ff5aab0d9c875e9" title="Get blob perimeter, ie." alt="" coords="415,59,609,88"/>
 </map>

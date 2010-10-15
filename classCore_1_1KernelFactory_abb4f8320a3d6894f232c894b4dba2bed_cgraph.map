@@ -1,6 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" href="$classCore_1_1KernelFactory.html#a371124e1fbe96f9e3ba49fcc8f42d2c8" title="Methods deactivates kernel &#45; deletes its unused objects, etc." alt="" coords="288,5,491,35"/>
-<area shape="rect" href="$classCommon_1_1SharedLibrary.html#a298ca642825485c06f2f231dea8dd13f" title="Check if library is loaded." alt="" coords="285,59,493,88"/>
-<area shape="rect" href="$classCommon_1_1SharedLibrary.html#a08c6d908abd1bf8570252fbebd29de5d" title="Unload library from memory." alt="" coords="285,112,493,141"/>
-<area shape="rect" href="$classBase_1_1Kernel.html#ab8858824b51e6d40927202131b1f5662" title="Return pointer to properties of this object." alt="" coords="543,5,721,35"/>
-</map>

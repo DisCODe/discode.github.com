@@ -1,8 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" href="$namespaceUtils.html#a64a4b1578423b04b6d50ee8b92a0c88d" title="Set console font color to cyan." alt="" coords="181,5,264,35"/>
-<area shape="rect" href="$namespaceUtils.html#af1fca119e66cc289dd99afafa0a1361e" title="Set console font color to green." alt="" coords="179,59,267,88"/>
-<area shape="rect" href="$namespaceUtils.html#a6bfb1da7dfc560d92b392940b49d3cb4" title="Intense console font color." alt="" coords="175,112,271,141"/>
-<area shape="rect" href="$namespaceUtils.html#aafbe77b77a257d9706ee782314f30849" title="Set console font color to red." alt="" coords="187,165,259,195"/>
-<area shape="rect" href="$namespaceUtils.html#a9ec80df5597e890382ac194ff9dfe581" title="Reset console colors (ie." alt="" coords="181,219,264,248"/>
-<area shape="rect" href="$namespaceUtils.html#aba15e533ed671800ff20ecfe5e7cf9c5" title="Set console font color to yellow." alt="" coords="177,272,268,301"/>
-</map>

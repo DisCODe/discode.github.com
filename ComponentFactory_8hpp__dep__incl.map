@@ -1,5 +1,5 @@
 <map id="G" name="G">
-<area shape="rect" id="node3" href="$ComponentManager_8hpp.html" title="File containing the ComponentManager class." alt="" coords="5,86,200,117"/>
-<area shape="rect" id="node7" href="$main_8cpp.html" title="Main body responsible for menu showing and image processing." alt="" coords="184,166,291,197"/>
-<area shape="rect" id="node5" href="$Configurator_8cpp.html" title="File containing definitions of Configurator class methods." alt="" coords="13,166,160,197"/>
+<area shape="rect" href="$ComponentManager_8hpp.html" title="File containing the ComponentManager class." alt="" coords="5,83,197,112"/>
+<area shape="rect" href="$main_8cpp.html" title="Main body responsible for menu showing and image processing." alt="" coords="183,160,287,189"/>
+<area shape="rect" href="$Configurator_8cpp.html" title="File containing definitions of Configurator class methods." alt="" coords="12,160,159,189"/>
 </map>

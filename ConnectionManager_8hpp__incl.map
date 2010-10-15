@@ -1,11 +1,11 @@
 <map id="G" name="G">
-<area shape="rect" id="node9" href="$Connection_8hpp.html" title="Connection.hpp" alt="" coords="291,86,403,117"/>
-<area shape="rect" id="node15" href="$DataStreamInterface_8hpp.html" title="Interface class for DataStreams." alt="" coords="93,246,259,277"/>
-<area shape="rect" id="node18" href="$Logger_8hpp.html" title="Simple logging object." alt="" coords="304,166,389,197"/>
-<area shape="rect" id="node20" href="$LoggerAux_8hpp.html" title="LoggerAux.hpp" alt="" coords="168,486,277,517"/>
-<area shape="rect" id="node23" href="$LoggerImpl_8hpp.html" title="Simple logging object." alt="" coords="395,326,504,357"/>
-<area shape="rect" id="node50" href="$ScopeLogger_8hpp.html" title="ScopeLogger.hpp" alt="" coords="384,246,507,277"/>
-<area shape="rect" id="node31" href="$Singleton_8hpp.html" title="File containing the declaration of the Singleton template class." alt="" coords="747,406,848,437"/>
-<area shape="rect" id="node40" href="$LoggerOutput_8hpp.html" title="Interface for different logger outputs." alt="" coords="387,406,512,437"/>
-<area shape="rect" id="node43" href="$Console_8hpp.html" title="Console utility functions, like text coloring." alt="" coords="403,486,496,517"/>
+<area shape="rect" href="$Connection_8hpp.html" title="Connection.hpp" alt="" coords="291,83,403,112"/>
+<area shape="rect" href="$DataStreamInterface_8hpp.html" title="Interface class for DataStreams." alt="" coords="93,237,259,267"/>
+<area shape="rect" href="$Logger_8hpp.html" title="Simple logging object." alt="" coords="304,160,389,189"/>
+<area shape="rect" href="$LoggerAux_8hpp.html" title="LoggerAux.hpp" alt="" coords="171,469,277,499"/>
+<area shape="rect" href="$LoggerImpl_8hpp.html" title="Simple logging object." alt="" coords="395,315,504,344"/>
+<area shape="rect" href="$ScopeLogger_8hpp.html" title="ScopeLogger.hpp" alt="" coords="384,237,507,267"/>
+<area shape="rect" href="$Singleton_8hpp.html" title="File containing the declaration of the Singleton template class." alt="" coords="744,392,843,421"/>
+<area shape="rect" href="$LoggerOutput_8hpp.html" title="Interface for different logger outputs." alt="" coords="388,392,511,421"/>
+<area shape="rect" href="$Console_8hpp.html" title="Console utility functions, like text coloring." alt="" coords="403,469,496,499"/>
 </map>

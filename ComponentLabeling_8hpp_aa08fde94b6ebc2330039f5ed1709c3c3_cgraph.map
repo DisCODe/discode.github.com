@@ -1,5 +1,5 @@
 <map id="G" name="G">
-<area shape="rect" id="node3" href="$ComponentLabeling_8cpp.html#a60f487d43bfd39b64f320c5487926a23" title="ASSIGN_VISITED" alt="" coords="135,5,265,35"/>
-<area shape="rect" id="node5" href="$ComponentLabeling_8cpp.html#a2bcdcae4cc36c0060f85f904cc6c826e" title="GET_IMAGE_PIXEL" alt="" coords="129,58,271,89"/>
-<area shape="rect" id="node7" href="$ComponentLabeling_8cpp.html#ae2b92da1ce3ca327bddd6b4a5c39cfc5" title="GET_IMAGEMASK_PIXEL" alt="" coords="109,111,291,142"/>
+<area shape="rect" href="$ComponentLabeling_8cpp.html#a60f487d43bfd39b64f320c5487926a23" title="ASSIGN_VISITED" alt="" coords="135,5,265,35"/>
+<area shape="rect" href="$ComponentLabeling_8cpp.html#a2bcdcae4cc36c0060f85f904cc6c826e" title="GET_IMAGE_PIXEL" alt="" coords="129,59,271,88"/>
+<area shape="rect" href="$ComponentLabeling_8cpp.html#ae2b92da1ce3ca327bddd6b4a5c39cfc5" title="GET_IMAGEMASK_PIXEL" alt="" coords="111,112,289,141"/>
 </map>
