@@ -1,0 +1,11 @@
+<map id="G" name="G">
+<area shape="rect" href="$Connection_8hpp.html" title="Connection.hpp" alt="" coords="291,83,403,112"/>
+<area shape="rect" href="$DataStreamInterface_8hpp.html" title="Interface class for DataStreams." alt="" coords="93,237,259,267"/>
+<area shape="rect" href="$Logger_8hpp.html" title="Simple logging object." alt="" coords="304,160,389,189"/>
+<area shape="rect" href="$LoggerAux_8hpp.html" title="LoggerAux.hpp" alt="" coords="171,469,277,499"/>
+<area shape="rect" href="$LoggerImpl_8hpp.html" title="Simple logging object." alt="" coords="395,315,504,344"/>
+<area shape="rect" href="$ScopeLogger_8hpp.html" title="ScopeLogger.hpp" alt="" coords="384,237,507,267"/>
+<area shape="rect" href="$Singleton_8hpp.html" title="File containing the declaration of the Singleton template class." alt="" coords="744,392,843,421"/>
+<area shape="rect" href="$LoggerOutput_8hpp.html" title="Interface for different logger outputs." alt="" coords="388,392,511,421"/>
+<area shape="rect" href="$Console_8hpp.html" title="Console utility functions, like text coloring." alt="" coords="403,469,496,499"/>
+</map>

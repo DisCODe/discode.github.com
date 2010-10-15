@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" href="$Image__Panel_8cpp.html" title="Panel responsible for image management &#45; methods definitions." alt="" coords="5,83,219,112"/>
+<area shape="rect" href="$Image__Source_8hpp.html" title="Class responsible for retrieving images from files &#45; class declaration." alt="" coords="243,83,464,112"/>
+<area shape="rect" href="$Image__Source_8cpp.html" title="Class responsible for retrieving images from files &#45; methods definition." alt="" coords="243,160,464,189"/>
+</map>

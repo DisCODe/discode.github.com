@@ -1,0 +1,13 @@
+<map id="G" name="G">
+<area shape="rect" href="$BlobOperators_8cpp.html" title="Types/Blobs/BlobOperators.cpp" alt="" coords="5,83,211,112"/>
+<area shape="rect" href="$BlobResult_8hpp.html" title="Definition of the BlobResult class." alt="" coords="932,83,1119,112"/>
+<area shape="rect" href="$BlobExtractor__Processor_8cpp.html" title="Processors/BlobExtractor/BlobExtractor_Processor.cpp" alt="" coords="180,237,524,267"/>
+<area shape="rect" href="$BlobResult_8cpp.html" title="Implementation of the BlobResult class." alt="" coords="1419,160,1605,189"/>
+<area shape="rect" href="$BlobExtractor__Processor_8hpp.html" title="Processors/BlobExtractor/BlobExtractor_Processor.hpp" alt="" coords="285,160,629,189"/>
+<area shape="rect" href="$MS__Barcode__Decide_8hpp.html" title="Processors/MS_Barcode_Decide/MS_Barcode_Decide.hpp" alt="" coords="653,160,1016,189"/>
+<area shape="rect" href="$MS__Barcode__Macro_8hpp.html" title="Processors/MS_Barcode_Macro/MS_Barcode_Macro.hpp" alt="" coords="1040,160,1395,189"/>
+<area shape="rect" href="$MS__Sign__Decide_8hpp.html" title="Processors/MS_Sign_Decide/MS_Sign_Decide.hpp" alt="" coords="1629,160,1949,189"/>
+<area shape="rect" href="$MS__Barcode__Decide_8cpp.html" title="Processors/MS_Barcode_Decide/MS_Barcode_Decide.cpp" alt="" coords="653,237,1016,267"/>
+<area shape="rect" href="$MS__Barcode__Macro_8cpp.html" title="Processors/MS_Barcode_Macro/MS_Barcode_Macro.cpp" alt="" coords="1040,237,1395,267"/>
+<area shape="rect" href="$MS__Sign__Decide_8cpp.html" title="Processors/MS_Sign_Decide/MS_Sign_Decide.cpp" alt="" coords="1629,237,1949,267"/>
+</map>

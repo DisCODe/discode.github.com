@@ -1,0 +1,30 @@
+<map id="G" name="G">
+<area shape="rect" href="$MS__Barcode__Decide_8hpp.html" title="MS_Barcode_Decide.hpp" alt="" coords="1421,83,1589,112"/>
+<area shape="rect" href="$Logger_8hpp.html" title="Simple logging object." alt="" coords="541,392,627,421"/>
+<area shape="rect" href="$Rectangle_8hpp.html" title="File containing Rectangle type." alt="" coords="2413,315,2557,344"/>
+<area shape="rect" href="$Component__Aux_8hpp.html" title="File containing definitions of component&#45;related functors and macros." alt="" coords="685,160,827,189"/>
+<area shape="rect" href="$Component_8hpp.html" title="Abstract interface for all components." alt="" coords="379,237,491,267"/>
+<area shape="rect" href="$Props_8hpp.html" title="Base class for property structures." alt="" coords="537,237,617,267"/>
+<area shape="rect" href="$DataStream_8hpp.html" title="Concrete implementations of data streams." alt="" coords="1016,237,1131,267"/>
+<area shape="rect" href="$Panel__Empty_8hpp.html" title="Empty panel &#45; used for all components that doesn&#39;t require panel." alt="" coords="1639,160,1761,189"/>
+<area shape="rect" href="$BlobResult_8hpp.html" title="Definition of the BlobResult class." alt="" coords="2017,160,2204,189"/>
+<area shape="rect" href="$DrawableContainer_8hpp.html" title="File containing DrawableContainer type." alt="" coords="1887,315,2081,344"/>
+<area shape="rect" href="$Panel_8hpp.html" title="Base class for all task panels." alt="" coords="1684,237,1761,267"/>
+<area shape="rect" href="$Event_8hpp.html" title="Component event." alt="" coords="1399,392,1479,421"/>
+<area shape="rect" href="$EventHandler_8hpp.html" title="Component event handler." alt="" coords="1365,547,1488,576"/>
+<area shape="rect" href="$DataStreamInterface_8hpp.html" title="Interface class for DataStreams." alt="" coords="743,392,908,421"/>
+<area shape="rect" href="$FraDIAException_8hpp.html" title="Class used for exception handling." alt="" coords="1349,701,1493,731"/>
+<area shape="rect" href="$Connection_8hpp.html" title="Connection.hpp" alt="" coords="844,315,956,344"/>
+<area shape="rect" href="$DataStreamBuffer_8hpp.html" title="DataStream buffering policies." alt="" coords="1359,315,1559,344"/>
+<area shape="rect" href="$Synchronization_8hpp.html" title="Synchronization policies." alt="" coords="980,315,1167,344"/>
+<area shape="rect" href="$LoggerAux_8hpp.html" title="LoggerAux.hpp" alt="" coords="299,701,405,731"/>
+<area shape="rect" href="$LoggerImpl_8hpp.html" title="Simple logging object." alt="" coords="628,547,737,576"/>
+<area shape="rect" href="$ScopeLogger_8hpp.html" title="ScopeLogger.hpp" alt="" coords="523,469,645,499"/>
+<area shape="rect" href="$Singleton_8hpp.html" title="File containing the declaration of the Singleton template class." alt="" coords="903,624,1001,653"/>
+<area shape="rect" href="$LoggerOutput_8hpp.html" title="Interface for different logger outputs." alt="" coords="539,624,661,653"/>
+<area shape="rect" href="$Console_8hpp.html" title="Console utility functions, like text coloring." alt="" coords="611,701,704,731"/>
+<area shape="rect" href="$Blob_8hpp.html" title="Blob declaration." alt="" coords="2193,315,2265,344"/>
+<area shape="rect" href="$Drawable_8hpp.html" title="Drawable.hpp" alt="" coords="2048,392,2147,421"/>
+<area shape="rect" href="$BlobOperators_8hpp.html" title="Helper classes to perform operations on Blobs &#45; implementation." alt="" coords="1988,237,2116,267"/>
+<area shape="rect" href="$BlobContour_8hpp.html" title="BlobContour declaration." alt="" coords="2171,392,2288,421"/>
+</map>

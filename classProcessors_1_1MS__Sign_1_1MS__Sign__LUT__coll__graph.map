@@ -1,0 +1,14 @@
+<map id="G" name="G">
+<area shape="rect" href="$classBase_1_1EventHandler.html" title="Base::EventHandler\&lt; MS_Sign_LUT \&gt;" alt="" coords="1247,71,1489,100"/>
+<area shape="rect" href="$classBase_1_1Component.html" title="Abstract interface class for all modules &#45; data sources, processors etc." alt="" coords="575,5,700,35"/>
+<area shape="rect" href="$classBase_1_1DataStreamIn.html" title="Base::DataStreamIn\&lt; Mat \&gt;" alt="" coords="545,112,729,141"/>
+<area shape="rect" href="$classBase_1_1DataStreamInterface.html" title="Interface class for DataStreams." alt="" coords="247,36,425,65"/>
+<area shape="rect" href="$classBase_1_1DataStreamOut.html" title="Base::DataStreamOut\&lt; Mat \&gt;" alt="" coords="540,59,735,88"/>
+<area shape="rect" href="$classBase_1_1Connection.html" title="Connection between data streams." alt="" coords="7,36,129,65"/>
+<area shape="rect" href="$classBase_1_1DataStreamBuffer_1_1Queue.html" title="Base::DataStreamBuffer::Queue\&lt; Mat \&gt;" alt="" coords="208,89,464,119"/>
+<area shape="rect" href="$classBase_1_1Synchronization_1_1NoSync.html" title="Synchronization policy &#45; no synchronization." alt="" coords="235,143,437,172"/>
+<area shape="rect" href="$structProcessors_1_1MS__Sign_1_1Props.html" title="MS_Sign_Decide properties." alt="" coords="543,185,732,215"/>
+<area shape="rect" href="$classBase_1_1Props.html" title="Base class for property structures." alt="" coords="289,196,383,225"/>
+<area shape="rect" href="$classBase_1_1Event.html" title="Event raised by Component." alt="" coords="592,239,683,268"/>
+<area shape="rect" href="$classBase_1_1EventHandlerInterface.html" title="Interface for EventHandler class." alt="" coords="893,32,1080,61"/>
+</map>
