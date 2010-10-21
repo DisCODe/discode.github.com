@@ -1,5 +1,5 @@
 <map id="G" name="G">
-<area shape="rect" id="node3" href="$classBase_1_1Event.html#a61eb7d585dbbcfaa980c6c966d3e7cd2" title="Base::Event::raise" alt="" coords="379,5,507,35"/>
-<area shape="rect" id="node7" href="$classCommon_1_1Timer.html#ad1177c7ace7d64260f42983e2bbe941d" title="Restart timer." alt="" coords="363,58,523,89"/>
-<area shape="rect" id="node5" href="$classBase_1_1EventHandlerInterface.html#a0a62e3469fc8c7545c47c9e75aa8e5cc" title="Execute event handler function." alt="" coords="571,5,813,35"/>
+<area shape="rect" href="$classBase_1_1Event.html#a61eb7d585dbbcfaa980c6c966d3e7cd2" title="Base::Event::raise" alt="" coords="379,5,507,35"/>
+<area shape="rect" href="$classCommon_1_1Timer.html#ad1177c7ace7d64260f42983e2bbe941d" title="Restart timer." alt="" coords="363,59,523,88"/>
+<area shape="rect" href="$classBase_1_1EventHandlerInterface.html#a0a62e3469fc8c7545c47c9e75aa8e5cc" title="Execute event handler function." alt="" coords="572,5,812,35"/>
 </map>

@@ -1,24 +1,24 @@
 <map id="G" name="G">
-<area shape="rect" id="node3" href="$classCore_1_1ComponentManager.html#a00660f19a95f696577ebbeae2040e011" title="Core::ComponentManager::deactivateComponentList" alt="" coords="104,7,432,38"/>
-<area shape="rect" id="node5" href="$classCore_1_1Task.html#af69e9cc57b5e488e1a5e753c505df1c2" title="Prepare task to unload." alt="" coords="207,61,329,91"/>
-<area shape="rect" id="node7" href="$classCommon_1_1Thread.html#a737906940b0ad63989657b11b80ca9ac" title="Suspends the calling thread until the specified time in milliseconds has been reached." alt="" coords="519,58,689,89"/>
-<area shape="rect" id="node11" href="$classCore_1_1ComponentManager.html#a6e1e92f03917bc517edac86882a9d01a" title="Method tries to create components from all shared libraries loaded from the ." alt="" coords="107,165,429,195"/>
-<area shape="rect" id="node25" href="$classCommon_1_1DisCODeException.html#a1b2aa1d7bbfdbb96e313d5b32b404c77" title="Property &#45; returns exception description." alt="" coords="780,271,1009,302"/>
-<area shape="rect" id="node27" href="$classCore_1_1Configurator.html#a8b0b04b1bcdf1abf3af08a25157b15d9" title="Loads configuration from xml file." alt="" coords="151,269,385,299"/>
-<area shape="rect" id="node30" href="$classCommon_1_1DisCODeException.html#af36218eac0956806cc59fd2edf699fd8" title="Common::DisCODeException::printStackTrace" alt="" coords="121,322,415,353"/>
-<area shape="rect" id="node32" href="$classCore_1_1ExecutorManager.html#a0c72b4ecfdfd1fd67eea487eb772e91b" title="Core::ExecutorManager::release" alt="" coords="164,375,372,406"/>
-<area shape="rect" id="node34" href="$classCore_1_1ConnectionManager.html#a65706e74490b7b5ab1bd5108ba155896" title="Core::ConnectionManager::release" alt="" coords="157,429,379,459"/>
-<area shape="rect" id="node36" href="$classCore_1_1ComponentManager.html#a5791c8206c96a34317050429791bc50e" title="Core::ComponentManager::release" alt="" coords="157,482,379,513"/>
-<area shape="rect" id="node38" href="$classCore_1_1Configurator.html#a097a023e66da275da9fd880cdcef36e3" title="Core::Configurator::setComponentManager" alt="" coords="133,535,403,566"/>
-<area shape="rect" id="node40" href="$classCore_1_1Configurator.html#a396af3df9f49d1aa1fef5791445a1b3d" title="Core::Configurator::setConnectionManager" alt="" coords="135,589,401,619"/>
-<area shape="rect" id="node42" href="$classCore_1_1Configurator.html#a35549a237e4da1847e52979b939934ab" title="Core::Configurator::setExecutorManager" alt="" coords="141,642,395,673"/>
-<area shape="rect" id="node44" href="$classCore_1_1Task.html#abd709607e96eed2966c5f1e597797277" title="Start all threads of execution." alt="" coords="209,695,327,726"/>
-<area shape="rect" id="node46" href="$main_8cpp.html#abc1eb5b73937c21f0c857b478dea17c0" title="terminate" alt="" coords="231,749,305,779"/>
-<area shape="rect" id="node9" href="$classCommon_1_1Thread.html#aff9c047717fe23d4617fa8b90a01b6d7" title="Suspends the current thread until the specified time in milliseconds has been reached." alt="" coords="815,5,975,35"/>
-<area shape="rect" id="node13" href="$classCore_1_1ComponentFactory.html#ac4ed14d56ebd7a9044ee73d469b2ab56" title="Returns component name." alt="" coords="491,111,717,142"/>
-<area shape="rect" id="node15" href="$classCore_1_1ComponentFactory.html#a4eb201353a21f93e226926f9fae82e31" title="Method tries to load component information from given dynamic library." alt="" coords="481,165,727,195"/>
-<area shape="rect" id="node17" href="$classCommon_1_1SharedLibrary.html#aa5197a81813181fd82a8791c530adc2b" title="Return error from last call." alt="" coords="797,58,992,89"/>
-<area shape="rect" id="node19" href="$classCommon_1_1SharedLibrary.html#a46ffd8e856172767cd4e307c65784f86" title="Get a function reference." alt="" coords="801,111,988,142"/>
-<area shape="rect" id="node21" href="$classCommon_1_1SharedLibrary.html#a8c4e629fb9d8149fb9523162513f0c64" title="Load shared library." alt="" coords="797,165,992,195"/>
-<area shape="rect" id="node23" href="$classCommon_1_1SharedLibrary.html#a7458996b4f16c6ab8f87e10fed156a12" title="Set location of library." alt="" coords="776,218,1013,249"/>
+<area shape="rect" href="$classCore_1_1ComponentManager.html#a00660f19a95f696577ebbeae2040e011" title="Core::ComponentManager::deactivateComponentList" alt="" coords="104,8,432,37"/>
+<area shape="rect" href="$classCore_1_1Task.html#af69e9cc57b5e488e1a5e753c505df1c2" title="Prepare task to unload." alt="" coords="207,61,329,91"/>
+<area shape="rect" href="$classCommon_1_1Thread.html#a737906940b0ad63989657b11b80ca9ac" title="Suspends the calling thread until the specified time in milliseconds has been reached." alt="" coords="519,59,689,88"/>
+<area shape="rect" href="$classCore_1_1ComponentManager.html#a6e1e92f03917bc517edac86882a9d01a" title="Method tries to create components from all shared libraries loaded from the ." alt="" coords="108,165,428,195"/>
+<area shape="rect" href="$classCommon_1_1DisCODeException.html#a1b2aa1d7bbfdbb96e313d5b32b404c77" title="Property &#45; returns exception description." alt="" coords="781,272,1008,301"/>
+<area shape="rect" href="$classCore_1_1Configurator.html#a8b0b04b1bcdf1abf3af08a25157b15d9" title="Loads configuration from xml file." alt="" coords="151,269,385,299"/>
+<area shape="rect" href="$classCommon_1_1DisCODeException.html#af36218eac0956806cc59fd2edf699fd8" title="Common::DisCODeException::printStackTrace" alt="" coords="123,323,413,352"/>
+<area shape="rect" href="$classCore_1_1ExecutorManager.html#a0c72b4ecfdfd1fd67eea487eb772e91b" title="Core::ExecutorManager::release" alt="" coords="164,376,372,405"/>
+<area shape="rect" href="$classCore_1_1ConnectionManager.html#a65706e74490b7b5ab1bd5108ba155896" title="Core::ConnectionManager::release" alt="" coords="157,429,379,459"/>
+<area shape="rect" href="$classCore_1_1ComponentManager.html#a5791c8206c96a34317050429791bc50e" title="Core::ComponentManager::release" alt="" coords="157,483,379,512"/>
+<area shape="rect" href="$classCore_1_1Configurator.html#a097a023e66da275da9fd880cdcef36e3" title="Core::Configurator::setComponentManager" alt="" coords="135,536,401,565"/>
+<area shape="rect" href="$classCore_1_1Configurator.html#a396af3df9f49d1aa1fef5791445a1b3d" title="Core::Configurator::setConnectionManager" alt="" coords="135,589,401,619"/>
+<area shape="rect" href="$classCore_1_1Configurator.html#a35549a237e4da1847e52979b939934ab" title="Core::Configurator::setExecutorManager" alt="" coords="141,643,395,672"/>
+<area shape="rect" href="$classCore_1_1Task.html#abd709607e96eed2966c5f1e597797277" title="Start all threads of execution." alt="" coords="209,696,327,725"/>
+<area shape="rect" href="$main_8cpp.html#abc1eb5b73937c21f0c857b478dea17c0" title="terminate" alt="" coords="231,749,305,779"/>
+<area shape="rect" href="$classCommon_1_1Thread.html#aff9c047717fe23d4617fa8b90a01b6d7" title="Suspends the current thread until the specified time in milliseconds has been reached." alt="" coords="815,5,975,35"/>
+<area shape="rect" href="$classCore_1_1ComponentFactory.html#ac4ed14d56ebd7a9044ee73d469b2ab56" title="Returns component name." alt="" coords="491,112,717,141"/>
+<area shape="rect" href="$classCore_1_1ComponentFactory.html#a4eb201353a21f93e226926f9fae82e31" title="Method tries to load component information from given dynamic library." alt="" coords="481,165,727,195"/>
+<area shape="rect" href="$classCommon_1_1SharedLibrary.html#aa5197a81813181fd82a8791c530adc2b" title="Return error from last call." alt="" coords="797,59,992,88"/>
+<area shape="rect" href="$classCommon_1_1SharedLibrary.html#a46ffd8e856172767cd4e307c65784f86" title="Get a function reference." alt="" coords="801,112,988,141"/>
+<area shape="rect" href="$classCommon_1_1SharedLibrary.html#a8c4e629fb9d8149fb9523162513f0c64" title="Load shared library." alt="" coords="799,165,991,195"/>
+<area shape="rect" href="$classCommon_1_1SharedLibrary.html#a7458996b4f16c6ab8f87e10fed156a12" title="Set location of library." alt="" coords="777,219,1012,248"/>
 </map>

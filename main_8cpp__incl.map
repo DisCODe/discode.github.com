@@ -1,27 +1,27 @@
 <map id="G" name="G">
-<area shape="rect" id="node13" href="$DisCODeException_8hpp.html" title="Class used for exception handling." alt="" coords="209,486,367,517"/>
-<area shape="rect" id="node23" href="$ConnectionManager_8hpp.html" title="DataStream connections management." alt="" coords="2424,326,2587,357"/>
-<area shape="rect" id="node39" href="$Logger_8hpp.html" title="Simple logging object." alt="" coords="2784,486,2869,517"/>
-<area shape="rect" id="node53" href="$ComponentManager_8hpp.html" title="File containing the ComponentManager class." alt="" coords="1571,86,1733,117"/>
-<area shape="rect" id="node108" href="$ComponentFactory_8hpp.html" title="File containing the ComponentFactory template class." alt="" coords="2780,166,2937,197"/>
-<area shape="rect" id="node123" href="$ExecutorManager_8hpp.html" title="File containing the ExecutorManager class." alt="" coords="3236,246,3385,277"/>
-<area shape="rect" id="node125" href="$Executor_8hpp.html" title="Executor.hpp" alt="" coords="3279,326,3377,357"/>
-<area shape="rect" id="node141" href="$Configurator_8hpp.html" title="File containing the declaration of Configurator class." alt="" coords="3612,246,3729,277"/>
-<area shape="rect" id="node30" href="$Connection_8hpp.html" title="Connection.hpp" alt="" coords="1144,406,1256,437"/>
-<area shape="rect" id="node36" href="$DataStreamInterface_8hpp.html" title="Interface class for DataStreams." alt="" coords="819,486,984,517"/>
-<area shape="rect" id="node41" href="$LoggerAux_8hpp.html" title="LoggerAux.hpp" alt="" coords="2695,726,2804,757"/>
-<area shape="rect" id="node44" href="$LoggerImpl_8hpp.html" title="Simple logging object." alt="" coords="2661,646,2771,677"/>
-<area shape="rect" id="node50" href="$ScopeLogger_8hpp.html" title="ScopeLogger.hpp" alt="" coords="2712,566,2835,597"/>
-<area shape="rect" id="node62" href="$Component__Aux_8hpp.html" title="File containing definitions of component&#45;related functors and macros." alt="" coords="767,246,908,277"/>
-<area shape="rect" id="node91" href="$SharedLibraryCommon_8hpp.html" title="SharedLibraryCommon.hpp" alt="" coords="1871,326,2049,357"/>
-<area shape="rect" id="node103" href="$Utils_8hpp.html" title="Utility functions &#45; declaration." alt="" coords="1281,646,1353,677"/>
-<area shape="rect" id="node65" href="$Component_8hpp.html" title="Abstract interface for all components." alt="" coords="1080,326,1192,357"/>
-<area shape="rect" id="node69" href="$Panel_8hpp.html" title="Base class for all task panels." alt="" coords="768,646,845,677"/>
-<area shape="rect" id="node72" href="$Props_8hpp.html" title="Base class for property structures." alt="" coords="3427,406,3507,437"/>
-<area shape="rect" id="node76" href="$Event_8hpp.html" title="Component event." alt="" coords="685,326,765,357"/>
-<area shape="rect" id="node79" href="$EventHandler_8hpp.html" title="Component event handler." alt="" coords="592,406,715,437"/>
-<area shape="rect" id="node86" href="$DataStream_8hpp.html" title="Concrete implementations of data streams." alt="" coords="840,326,955,357"/>
-<area shape="rect" id="node118" href="$SharedLibrary_8hpp.html" title="SharedLibrary.hpp" alt="" coords="2745,246,2871,277"/>
-<area shape="rect" id="node130" href="$Thread_8hpp.html" title="Thread object responsible for handling and executing threads." alt="" coords="3237,406,3323,437"/>
-<area shape="rect" id="node143" href="$Task_8hpp.html" title="Task.hpp" alt="" coords="3503,326,3577,357"/>
+<area shape="rect" href="$DisCODeException_8hpp.html" title="Class used for exception handling." alt="" coords="205,469,363,499"/>
+<area shape="rect" href="$ConnectionManager_8hpp.html" title="DataStream connections management." alt="" coords="2419,315,2579,344"/>
+<area shape="rect" href="$Logger_8hpp.html" title="Simple logging object." alt="" coords="2776,469,2861,499"/>
+<area shape="rect" href="$ComponentManager_8hpp.html" title="File containing the ComponentManager class." alt="" coords="1565,83,1728,112"/>
+<area shape="rect" href="$ComponentFactory_8hpp.html" title="File containing the ComponentFactory template class." alt="" coords="2775,160,2929,189"/>
+<area shape="rect" href="$ExecutorManager_8hpp.html" title="File containing the ExecutorManager class." alt="" coords="3228,237,3375,267"/>
+<area shape="rect" href="$Executor_8hpp.html" title="Executor.hpp" alt="" coords="3271,315,3369,344"/>
+<area shape="rect" href="$Configurator_8hpp.html" title="File containing the declaration of Configurator class." alt="" coords="3603,237,3717,267"/>
+<area shape="rect" href="$Connection_8hpp.html" title="Connection.hpp" alt="" coords="1139,392,1251,421"/>
+<area shape="rect" href="$DataStreamInterface_8hpp.html" title="Interface class for DataStreams." alt="" coords="813,469,979,499"/>
+<area shape="rect" href="$LoggerAux_8hpp.html" title="LoggerAux.hpp" alt="" coords="2687,701,2793,731"/>
+<area shape="rect" href="$LoggerImpl_8hpp.html" title="Simple logging object." alt="" coords="2653,624,2763,653"/>
+<area shape="rect" href="$ScopeLogger_8hpp.html" title="ScopeLogger.hpp" alt="" coords="2704,547,2827,576"/>
+<area shape="rect" href="$Component__Aux_8hpp.html" title="File containing definitions of component&#45;related functors and macros." alt="" coords="761,237,903,267"/>
+<area shape="rect" href="$SharedLibraryCommon_8hpp.html" title="SharedLibraryCommon.hpp" alt="" coords="1865,315,2044,344"/>
+<area shape="rect" href="$Utils_8hpp.html" title="Utility functions &#45; declaration." alt="" coords="1276,624,1348,653"/>
+<area shape="rect" href="$Component_8hpp.html" title="Abstract interface for all components." alt="" coords="1075,315,1187,344"/>
+<area shape="rect" href="$Panel_8hpp.html" title="Base class for all task panels." alt="" coords="763,624,840,653"/>
+<area shape="rect" href="$Props_8hpp.html" title="Base class for property structures." alt="" coords="3419,392,3499,421"/>
+<area shape="rect" href="$Event_8hpp.html" title="Component event." alt="" coords="680,315,760,344"/>
+<area shape="rect" href="$EventHandler_8hpp.html" title="Component event handler." alt="" coords="587,392,709,421"/>
+<area shape="rect" href="$DataStream_8hpp.html" title="Concrete implementations of data streams." alt="" coords="835,315,949,344"/>
+<area shape="rect" href="$SharedLibrary_8hpp.html" title="SharedLibrary.hpp" alt="" coords="2740,237,2865,267"/>
+<area shape="rect" href="$Thread_8hpp.html" title="Thread object responsible for handling and executing threads." alt="" coords="3229,392,3315,421"/>
+<area shape="rect" href="$Task_8hpp.html" title="Task.hpp" alt="" coords="3495,315,3569,344"/>
 </map>

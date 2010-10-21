@@ -1,5 +1,5 @@
 <map id="G" name="G">
-<area shape="rect" id="node3" href="$classBase_1_1Component.html#a9242ff4d3d8a85795ec68de9400a448d" title="Method called when component is finished." alt="" coords="220,5,401,35"/>
-<area shape="rect" id="node5" href="$classBase_1_1Component.html#a2fa6c24c197ce0001f0e6fb05fa565df" title="Stop component." alt="" coords="232,58,389,89"/>
-<area shape="rect" id="node7" href="$classBase_1_1Component.html#a193d510d147cd7c70034f00b4e9d5b25" title="Method called when component is stopped." alt="" coords="452,58,625,89"/>
+<area shape="rect" href="$classBase_1_1Component.html#a9242ff4d3d8a85795ec68de9400a448d" title="Method called when component is finished." alt="" coords="220,5,401,35"/>
+<area shape="rect" href="$classBase_1_1Component.html#a2fa6c24c197ce0001f0e6fb05fa565df" title="Stop component." alt="" coords="232,59,389,88"/>
+<area shape="rect" href="$classBase_1_1Component.html#a193d510d147cd7c70034f00b4e9d5b25" title="Method called when component is stopped." alt="" coords="452,59,625,88"/>
 </map>

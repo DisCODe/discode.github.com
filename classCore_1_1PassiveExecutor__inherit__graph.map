@@ -1,5 +1,5 @@
 <map id="G" name="G">
-<area shape="rect" id="node2" href="$classCore_1_1Executor.html" title="Executor object holds components and implements message queue." alt="" coords="77,86,187,117"/>
-<area shape="rect" id="node4" href="$classCommon_1_1Thread.html" title="Thread object responsible for handling and executing threads." alt="" coords="5,6,128,37"/>
-<area shape="rect" id="node6" href="$classBase_1_1Props.html" title="Base class for property structures." alt="" coords="152,6,245,37"/>
+<area shape="rect" href="$classCore_1_1Executor.html" title="Executor object holds components and implements message queue." alt="" coords="77,83,184,112"/>
+<area shape="rect" href="$classCommon_1_1Thread.html" title="Thread object responsible for handling and executing threads." alt="" coords="5,5,125,35"/>
+<area shape="rect" href="$classBase_1_1Props.html" title="Base class for property structures." alt="" coords="149,5,243,35"/>
 </map>

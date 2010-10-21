@@ -1,3 +1,4 @@
 <map id="G" name="G">
-<area shape="rect" id="node1" href="$classUtils_1_1Logger_1_1ScopeLogger.html" title="Small class used to prepare line for logger." alt="" coords="5,5,184,35"/>
+<area shape="rect" href="$classUtils_1_1Logger_1_1LoggerOutput.html" title="Interface for different logger outputs." alt="" coords="7,5,185,35"/>
+<area shape="rect" href="$classUtils_1_1Logger_1_1ConsoleOutput.html" title="Utils::Logger::ConsoleOutput" alt="" coords="236,5,423,35"/>
 </map>

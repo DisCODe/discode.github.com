@@ -1,7 +1,9 @@
 <map id="G" name="G">
-<area shape="rect" id="node3" href="$classTypes_1_1Blobs_1_1Blob.html" title="Blob class." alt="" coords="195,5,328,35"/>
-<area shape="rect" id="node5" href="$classTypes_1_1Blobs_1_1BlobResult.html" title="Class to calculate the blobs of an image and calculate some properties on them." alt="" coords="176,58,347,89"/>
-<area shape="rect" id="node7" href="$classTypes_1_1DrawableContainer.html" title="Types::DrawableContainer" alt="" coords="175,111,348,142"/>
-<area shape="rect" id="node9" href="$classTypes_1_1Ellipse.html" title="Types::Ellipse" alt="" coords="209,165,313,195"/>
-<area shape="rect" id="node11" href="$classTypes_1_1Rectangle.html" title="Types::Rectangle" alt="" coords="200,218,323,249"/>
+<area shape="rect" href="$classTypes_1_1Blobs_1_1Blob.html" title="Blob class." alt="" coords="203,5,333,35"/>
+<area shape="rect" href="$classTypes_1_1Blobs_1_1BlobResult.html" title="Class to calculate the blobs of an image and calculate some properties on them." alt="" coords="184,59,352,88"/>
+<area shape="rect" href="$classTypes_1_1DrawableContainer.html" title="Types::DrawableContainer" alt="" coords="181,112,355,141"/>
+<area shape="rect" href="$classTypes_1_1Ellipse.html" title="Types::Ellipse" alt="" coords="216,165,320,195"/>
+<area shape="rect" href="$classTypes_1_1Objects3D_1_1Object3D.html" title="Types::Objects3D::Object3D" alt="" coords="175,219,361,248"/>
+<area shape="rect" href="$classTypes_1_1Rectangle.html" title="Types::Rectangle" alt="" coords="207,272,329,301"/>
+<area shape="rect" href="$classTypes_1_1Objects3D_1_1Chessboard.html" title="Types::Objects3D::Chessboard" alt="" coords="412,219,615,248"/>
 </map>

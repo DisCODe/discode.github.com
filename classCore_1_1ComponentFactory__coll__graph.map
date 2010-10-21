@@ -1,5 +1,5 @@
 <map id="G" name="G">
-<area shape="rect" id="node2" href="$classBase_1_1Panel.html" title="Base of all panels." alt="" coords="5,6,96,37"/>
-<area shape="rect" id="node4" href="$classBase_1_1Component.html" title="Abstract interface class for all modules &#45; data sources, processors etc." alt="" coords="120,6,245,37"/>
-<area shape="rect" id="node6" href="$classCommon_1_1SharedLibrary.html" title="Class representing shared object." alt="" coords="269,6,432,37"/>
+<area shape="rect" href="$classBase_1_1Panel.html" title="Base of all panels." alt="" coords="5,5,96,35"/>
+<area shape="rect" href="$classBase_1_1Component.html" title="Abstract interface class for all modules &#45; data sources, processors etc." alt="" coords="120,5,245,35"/>
+<area shape="rect" href="$classCommon_1_1SharedLibrary.html" title="Class representing shared object." alt="" coords="269,5,429,35"/>
 </map>

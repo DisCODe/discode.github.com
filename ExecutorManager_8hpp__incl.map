@@ -1,14 +1,14 @@
 <map id="G" name="G">
-<area shape="rect" id="node3" href="$Executor_8hpp.html" title="Executor.hpp" alt="" coords="919,86,1017,117"/>
-<area shape="rect" id="node34" href="$Logger_8hpp.html" title="Simple logging object." alt="" coords="1185,166,1271,197"/>
-<area shape="rect" id="node9" href="$Thread_8hpp.html" title="Thread object responsible for handling and executing threads." alt="" coords="740,166,825,197"/>
-<area shape="rect" id="node15" href="$EventHandler_8hpp.html" title="Component event handler." alt="" coords="180,406,303,437"/>
-<area shape="rect" id="node30" href="$Props_8hpp.html" title="Base class for property structures." alt="" coords="928,166,1008,197"/>
-<area shape="rect" id="node19" href="$DisCODeException_8hpp.html" title="Class used for exception handling." alt="" coords="95,486,252,517"/>
-<area shape="rect" id="node36" href="$LoggerAux_8hpp.html" title="LoggerAux.hpp" alt="" coords="1201,486,1311,517"/>
-<area shape="rect" id="node39" href="$LoggerImpl_8hpp.html" title="Simple logging object." alt="" coords="1075,326,1184,357"/>
-<area shape="rect" id="node66" href="$ScopeLogger_8hpp.html" title="ScopeLogger.hpp" alt="" coords="1167,246,1289,277"/>
-<area shape="rect" id="node47" href="$Singleton_8hpp.html" title="File containing the declaration of the Singleton template class." alt="" coords="651,406,752,437"/>
-<area shape="rect" id="node56" href="$LoggerOutput_8hpp.html" title="Interface for different logger outputs." alt="" coords="1005,406,1131,437"/>
-<area shape="rect" id="node59" href="$Console_8hpp.html" title="Console utility functions, like text coloring." alt="" coords="953,486,1047,517"/>
+<area shape="rect" href="$Executor_8hpp.html" title="Executor.hpp" alt="" coords="908,83,1007,112"/>
+<area shape="rect" href="$Logger_8hpp.html" title="Simple logging object." alt="" coords="1175,160,1260,189"/>
+<area shape="rect" href="$Thread_8hpp.html" title="Thread object responsible for handling and executing threads." alt="" coords="729,160,815,189"/>
+<area shape="rect" href="$EventHandler_8hpp.html" title="Component event handler." alt="" coords="177,392,300,421"/>
+<area shape="rect" href="$Props_8hpp.html" title="Base class for property structures." alt="" coords="917,160,997,189"/>
+<area shape="rect" href="$DisCODeException_8hpp.html" title="Class used for exception handling." alt="" coords="92,469,249,499"/>
+<area shape="rect" href="$LoggerAux_8hpp.html" title="LoggerAux.hpp" alt="" coords="1193,469,1300,499"/>
+<area shape="rect" href="$LoggerImpl_8hpp.html" title="Simple logging object." alt="" coords="1064,315,1173,344"/>
+<area shape="rect" href="$ScopeLogger_8hpp.html" title="ScopeLogger.hpp" alt="" coords="1156,237,1279,267"/>
+<area shape="rect" href="$Singleton_8hpp.html" title="File containing the declaration of the Singleton template class." alt="" coords="648,392,747,421"/>
+<area shape="rect" href="$LoggerOutput_8hpp.html" title="Interface for different logger outputs." alt="" coords="1000,392,1123,421"/>
+<area shape="rect" href="$Console_8hpp.html" title="Console utility functions, like text coloring." alt="" coords="945,469,1039,499"/>
 </map>
