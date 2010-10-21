@@ -1,7 +1,7 @@
 <map id="G" name="G">
-<area shape="rect" href="$classCore_1_1Executor.html#a07d29c8de868a122550839eadf90d3ac" title="Core::Executor::executeEvents" alt="" coords="235,5,437,35"/>
-<area shape="rect" href="$classCommon_1_1Thread.html#a737906940b0ad63989657b11b80ca9ac" title="Suspends the calling thread until the specified time in milliseconds has been reached." alt="" coords="251,59,421,88"/>
-<area shape="rect" href="$classCommon_1_1Thread.html#a8c46c8315587738bab66aef6cd16bc01" title="Gives up the remainder of the current thread&#39;s time slice, to allow other threads to run..." alt="" coords="259,112,413,141"/>
-<area shape="rect" href="$classBase_1_1EventHandlerInterface.html#a0a62e3469fc8c7545c47c9e75aa8e5cc" title="Execute event handler function." alt="" coords="487,5,727,35"/>
-<area shape="rect" href="$classCommon_1_1Thread.html#aff9c047717fe23d4617fa8b90a01b6d7" title="Suspends the current thread until the specified time in milliseconds has been reached." alt="" coords="527,59,687,88"/>
+<area shape="rect" id="node3" href="$classCore_1_1Executor.html#a07d29c8de868a122550839eadf90d3ac" title="Core::Executor::executeEvents" alt="" coords="235,5,437,35"/>
+<area shape="rect" id="node7" href="$classCommon_1_1Thread.html#a737906940b0ad63989657b11b80ca9ac" title="Suspends the calling thread until the specified time in milliseconds has been reached." alt="" coords="251,58,421,89"/>
+<area shape="rect" id="node11" href="$classCommon_1_1Thread.html#a8c46c8315587738bab66aef6cd16bc01" title="Gives up the remainder of the current thread&#39;s time slice, to allow other threads to run..." alt="" coords="257,111,415,142"/>
+<area shape="rect" id="node5" href="$classBase_1_1EventHandlerInterface.html#a0a62e3469fc8c7545c47c9e75aa8e5cc" title="Execute event handler function." alt="" coords="485,5,728,35"/>
+<area shape="rect" id="node9" href="$classCommon_1_1Thread.html#aff9c047717fe23d4617fa8b90a01b6d7" title="Suspends the current thread until the specified time in milliseconds has been reached." alt="" coords="527,58,687,89"/>
 </map>

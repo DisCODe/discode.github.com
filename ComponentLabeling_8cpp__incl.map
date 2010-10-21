@@ -1,6 +1,6 @@
 <map id="G" name="G">
-<area shape="rect" href="$ComponentLabeling_8hpp.html" title="ComponentLabeling.hpp" alt="" coords="168,83,328,112"/>
-<area shape="rect" href="$BlobContour_8hpp.html" title="BlobContour declaration." alt="" coords="5,237,200,267"/>
-<area shape="rect" href="$Blob_8hpp.html" title="Blob declaration." alt="" coords="173,160,323,189"/>
-<area shape="rect" href="$Drawable_8hpp.html" title="Drawable.hpp" alt="" coords="320,237,419,267"/>
+<area shape="rect" id="node3" href="$ComponentLabeling_8hpp.html" title="ComponentLabeling.hpp" alt="" coords="168,86,328,117"/>
+<area shape="rect" id="node5" href="$BlobContour_8hpp.html" title="BlobContour declaration." alt="" coords="5,246,200,277"/>
+<area shape="rect" id="node11" href="$Blob_8hpp.html" title="Blob declaration." alt="" coords="173,166,323,197"/>
+<area shape="rect" id="node16" href="$Drawable_8hpp.html" title="Drawable.hpp" alt="" coords="320,246,419,277"/>
 </map>

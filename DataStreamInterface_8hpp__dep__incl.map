@@ -1,51 +1,51 @@
 <map id="G" name="G">
-<area shape="rect" href="$Component__Aux_8hpp.html" title="File containing definitions of component&#45;related functors and macros." alt="" coords="4157,237,4333,267"/>
-<area shape="rect" href="$Configurator_8cpp.html" title="File containing definitions of Configurator class methods." alt="" coords="3639,469,3785,499"/>
-<area shape="rect" href="$DataStream_8hpp.html" title="Concrete implementations of data streams." alt="" coords="4372,160,4521,189"/>
-<area shape="rect" href="$Connection_8hpp.html" title="Base/Connection.hpp" alt="" coords="4153,83,4297,112"/>
-<area shape="rect" href="$Component_8cpp.html" title="Abstract interface for all components." alt="" coords="8528,83,8675,112"/>
-<area shape="rect" href="$Base_8hpp.html" title="Documentation and include file for Base namespace." alt="" coords="3757,315,3867,344"/>
-<area shape="rect" href="$ComponentFactory_8hpp.html" title="File containing the ComponentFactory template class." alt="" coords="3547,315,3733,344"/>
-<area shape="rect" href="$ComponentManager_8hpp.html" title="File containing the ComponentManager class." alt="" coords="3612,392,3804,421"/>
-<area shape="rect" href="$BlobExtractor__Processor_8hpp.html" title="Processors/BlobExtractor/BlobExtractor_Processor.hpp" alt="" coords="5283,315,5627,344"/>
-<area shape="rect" href="$CvColorConv__Processor_8hpp.html" title="Processors/CvColorConv/CvColorConv_Processor.hpp" alt="" coords="5651,315,5989,344"/>
-<area shape="rect" href="$CvFilter2D__Processor_8hpp.html" title="Processors/CvFilter2D/CvFilter2D_Processor.hpp" alt="" coords="6013,315,6320,344"/>
-<area shape="rect" href="$CvGaussianBlur__Processor_8hpp.html" title="Processors/CvGaussianBlur/CvGaussianBlur_Processor.hpp" alt="" coords="6344,315,6717,344"/>
-<area shape="rect" href="$CvMorphology__Processor_8hpp.html" title="Processors/CvMorphology/CvMorphology_Processor.hpp" alt="" coords="6741,315,7093,344"/>
-<area shape="rect" href="$CvPixelOperator__Processor_8hpp.html" title="Processors/CvPixelOperator/CvPixelOperator_Processor.hpp" alt="" coords="7117,315,7493,344"/>
-<area shape="rect" href="$CvSplit__Processor_8hpp.html" title="Processors/CvSplit/CvSplit_Processor.hpp" alt="" coords="7517,315,7787,344"/>
-<area shape="rect" href="$CvThreshold__Processor_8hpp.html" title="Processors/CvThreshold/CvThreshold_Processor.hpp" alt="" coords="7811,315,8141,344"/>
-<area shape="rect" href="$Example__Processor_8hpp.html" title="Declaration of an example class, responsible for image processing." alt="" coords="8165,315,8453,344"/>
-<area shape="rect" href="$ExecTimer_8hpp.html" title="Simple processor to measure algorithm execution time." alt="" coords="221,315,467,344"/>
-<area shape="rect" href="$MS__Barcode__Decide_8hpp.html" title="Processors/MS_Barcode_Decide/MS_Barcode_Decide.hpp" alt="" coords="491,315,853,344"/>
-<area shape="rect" href="$MS__Barcode__Macro_8hpp.html" title="Processors/MS_Barcode_Macro/MS_Barcode_Macro.hpp" alt="" coords="877,315,1232,344"/>
-<area shape="rect" href="$MS__Barcode__Prepare_8hpp.html" title="Processors/MS_Barcode_Prepare/MS_Barcode_Prepare.hpp" alt="" coords="1256,315,1629,344"/>
-<area shape="rect" href="$MS__Sign__Decide_8hpp.html" title="Processors/MS_Sign_Decide/MS_Sign_Decide.hpp" alt="" coords="1653,315,1973,344"/>
-<area shape="rect" href="$MS__Sign__LUT_8hpp.html" title="Processors/MS_Sign_LUT/MS_Sign_LUT.hpp" alt="" coords="1997,315,2285,344"/>
-<area shape="rect" href="$Stereo__Processor_8hpp.html" title="Processors/Stereo/Stereo_Processor.hpp" alt="" coords="2309,315,2571,344"/>
-<area shape="rect" href="$CameraOpenCV__Source_8hpp.html" title="Class responsible for retrieving images from camera." alt="" coords="2595,315,2931,344"/>
-<area shape="rect" href="$CameraUniCap__Source_8hpp.html" title="Unicap&#45;based camera source implementation." alt="" coords="2955,315,3277,344"/>
-<area shape="rect" href="$Image__Source_8hpp.html" title="Class responsible for retrieving images from files &#45; class declaration." alt="" coords="3301,315,3523,344"/>
-<area shape="rect" href="$Keyboard__Source_8hpp.html" title="Sources/Keyboard/Keyboard_Source.hpp" alt="" coords="3941,315,4200,344"/>
-<area shape="rect" href="$Movie__Source_8hpp.html" title="Class responsible for retrieving images from movies." alt="" coords="4224,315,4443,344"/>
-<area shape="rect" href="$Sequence_8hpp.html" title="Class responsible for retrieving images from image sequences &#45; class declaration." alt="" coords="4467,315,4685,344"/>
-<area shape="rect" href="$CvVideoWriter__Sink_8hpp.html" title="Sinks/CvVideoWriter/CvVideoWriter_Sink.hpp" alt="" coords="4709,315,4992,344"/>
-<area shape="rect" href="$CvWindow__Sink_8hpp.html" title="Sinks/CvWindow/CvWindow_Sink.hpp" alt="" coords="5016,315,5259,344"/>
-<area shape="rect" href="$main_8cpp.html" title="Main body responsible for menu showing and image processing." alt="" coords="3511,469,3615,499"/>
-<area shape="rect" href="$BlobExtractor__Processor_8cpp.html" title="Processors/BlobExtractor/BlobExtractor_Processor.cpp" alt="" coords="5283,392,5627,421"/>
-<area shape="rect" href="$CvColorConv__Processor_8cpp.html" title="Processors/CvColorConv/CvColorConv_Processor.cpp" alt="" coords="5651,392,5989,421"/>
-<area shape="rect" href="$CvFilter2D__Processor_8cpp.html" title="Processors/CvFilter2D/CvFilter2D_Processor.cpp" alt="" coords="6013,392,6320,421"/>
-<area shape="rect" href="$CvGaussianBlur__Processor_8cpp.html" title="Processors/CvGaussianBlur/CvGaussianBlur_Processor.cpp" alt="" coords="6344,392,6717,421"/>
-<area shape="rect" href="$CvMorphology__Processor_8cpp.html" title="Processors/CvMorphology/CvMorphology_Processor.cpp" alt="" coords="6741,392,7093,421"/>
-<area shape="rect" href="$CvPixelOperator__Processor_8cpp.html" title="Processors/CvPixelOperator/CvPixelOperator_Processor.cpp" alt="" coords="7117,392,7493,421"/>
-<area shape="rect" href="$CvSplit__Processor_8cpp.html" title="Processors/CvSplit/CvSplit_Processor.cpp" alt="" coords="7517,392,7787,421"/>
-<area shape="rect" href="$CvThreshold__Processor_8cpp.html" title="Processors/CvThreshold/CvThreshold_Processor.cpp" alt="" coords="7811,392,8141,421"/>
-<area shape="rect" href="$Example__Processor_8cpp.html" title="Declaration of an example class, responsible for image processing." alt="" coords="8165,392,8453,421"/>
-<area shape="rect" href="$ExecTimer_8cpp.html" title="Declaration of an example class, responsible for image processing." alt="" coords="221,392,467,421"/>
-<area shape="rect" href="$MS__Barcode__Decide_8cpp.html" title="Processors/MS_Barcode_Decide/MS_Barcode_Decide.cpp" alt="" coords="491,392,853,421"/>
-<area shape="rect" href="$MS__Barcode__Macro_8cpp.html" title="Processors/MS_Barcode_Macro/MS_Barcode_Macro.cpp" alt="" coords="877,392,1232,421"/>
-<area shape="rect" href="$MS__Barcode__Prepare_8cpp.html" title="Processors/MS_Barcode_Prepare/MS_Barcode_Prepare.cpp" alt="" coords="1256,392,1629,421"/>
-<area shape="rect" href="$MS__Sign__Decide_8cpp.html" title="Processors/MS_Sign_Decide/MS_Sign_Decide.cpp" alt="" coords="1653,392,1973,421"/>
-<area shape="rect" href="$CameraCalib_8h.html" title="Processors/CameraCalib/CameraCalib.h" alt="" coords="4611,237,4864,267"/>
-<area shape="rect" href="$ConnectionManager_8hpp.html" title="DataStream connections management." alt="" coords="5,392,197,421"/>
+<area shape="rect" id="node3" href="$Component__Aux_8hpp.html" title="File containing definitions of component&#45;related functors and macros." alt="" coords="4167,246,4343,277"/>
+<area shape="rect" id="node11" href="$Configurator_8cpp.html" title="File containing definitions of Configurator class methods." alt="" coords="3648,486,3795,517"/>
+<area shape="rect" id="node93" href="$DataStream_8hpp.html" title="Concrete implementations of data streams." alt="" coords="4381,166,4531,197"/>
+<area shape="rect" id="node122" href="$Connection_8hpp.html" title="Base/Connection.hpp" alt="" coords="4160,86,4307,117"/>
+<area shape="rect" id="node129" href="$Component_8cpp.html" title="Abstract interface for all components." alt="" coords="8547,86,8693,117"/>
+<area shape="rect" id="node5" href="$Base_8hpp.html" title="Documentation and include file for Base namespace." alt="" coords="3765,326,3875,357"/>
+<area shape="rect" id="node7" href="$ComponentFactory_8hpp.html" title="File containing the ComponentFactory template class." alt="" coords="3555,326,3741,357"/>
+<area shape="rect" id="node9" href="$ComponentManager_8hpp.html" title="File containing the ComponentManager class." alt="" coords="3620,406,3815,437"/>
+<area shape="rect" id="node17" href="$BlobExtractor__Processor_8hpp.html" title="Processors/BlobExtractor/BlobExtractor_Processor.hpp" alt="" coords="5296,326,5640,357"/>
+<area shape="rect" id="node21" href="$CvColorConv__Processor_8hpp.html" title="Processors/CvColorConv/CvColorConv_Processor.hpp" alt="" coords="5664,326,6003,357"/>
+<area shape="rect" id="node25" href="$CvFilter2D__Processor_8hpp.html" title="Processors/CvFilter2D/CvFilter2D_Processor.hpp" alt="" coords="6027,326,6336,357"/>
+<area shape="rect" id="node29" href="$CvGaussianBlur__Processor_8hpp.html" title="Processors/CvGaussianBlur/CvGaussianBlur_Processor.hpp" alt="" coords="6360,326,6733,357"/>
+<area shape="rect" id="node33" href="$CvMorphology__Processor_8hpp.html" title="Processors/CvMorphology/CvMorphology_Processor.hpp" alt="" coords="6757,326,7109,357"/>
+<area shape="rect" id="node37" href="$CvPixelOperator__Processor_8hpp.html" title="Processors/CvPixelOperator/CvPixelOperator_Processor.hpp" alt="" coords="7133,326,7509,357"/>
+<area shape="rect" id="node41" href="$CvSplit__Processor_8hpp.html" title="Processors/CvSplit/CvSplit_Processor.hpp" alt="" coords="7533,326,7803,357"/>
+<area shape="rect" id="node45" href="$CvThreshold__Processor_8hpp.html" title="Processors/CvThreshold/CvThreshold_Processor.hpp" alt="" coords="7827,326,8160,357"/>
+<area shape="rect" id="node49" href="$Example__Processor_8hpp.html" title="Declaration of an example class, responsible for image processing." alt="" coords="8184,326,8472,357"/>
+<area shape="rect" id="node53" href="$ExecTimer_8hpp.html" title="Simple processor to measure algorithm execution time." alt="" coords="221,326,467,357"/>
+<area shape="rect" id="node57" href="$MS__Barcode__Decide_8hpp.html" title="Processors/MS_Barcode_Decide/MS_Barcode_Decide.hpp" alt="" coords="491,326,856,357"/>
+<area shape="rect" id="node61" href="$MS__Barcode__Macro_8hpp.html" title="Processors/MS_Barcode_Macro/MS_Barcode_Macro.hpp" alt="" coords="880,326,1237,357"/>
+<area shape="rect" id="node65" href="$MS__Barcode__Prepare_8hpp.html" title="Processors/MS_Barcode_Prepare/MS_Barcode_Prepare.hpp" alt="" coords="1261,326,1635,357"/>
+<area shape="rect" id="node69" href="$MS__Sign__Decide_8hpp.html" title="Processors/MS_Sign_Decide/MS_Sign_Decide.hpp" alt="" coords="1659,326,1979,357"/>
+<area shape="rect" id="node73" href="$MS__Sign__LUT_8hpp.html" title="Processors/MS_Sign_LUT/MS_Sign_LUT.hpp" alt="" coords="2003,326,2291,357"/>
+<area shape="rect" id="node75" href="$Stereo__Processor_8hpp.html" title="Processors/Stereo/Stereo_Processor.hpp" alt="" coords="2315,326,2576,357"/>
+<area shape="rect" id="node77" href="$CameraOpenCV__Source_8hpp.html" title="Class responsible for retrieving images from camera." alt="" coords="2600,326,2936,357"/>
+<area shape="rect" id="node79" href="$CameraUniCap__Source_8hpp.html" title="Unicap&#45;based camera source implementation." alt="" coords="2960,326,3285,357"/>
+<area shape="rect" id="node81" href="$Image__Source_8hpp.html" title="Class responsible for retrieving images from files &#45; class declaration." alt="" coords="3309,326,3531,357"/>
+<area shape="rect" id="node83" href="$Keyboard__Source_8hpp.html" title="Sources/Keyboard/Keyboard_Source.hpp" alt="" coords="3949,326,4208,357"/>
+<area shape="rect" id="node85" href="$Movie__Source_8hpp.html" title="Class responsible for retrieving images from movies." alt="" coords="4232,326,4453,357"/>
+<area shape="rect" id="node87" href="$Sequence_8hpp.html" title="Class responsible for retrieving images from image sequences &#45; class declaration." alt="" coords="4477,326,4696,357"/>
+<area shape="rect" id="node89" href="$CvVideoWriter__Sink_8hpp.html" title="Sinks/CvVideoWriter/CvVideoWriter_Sink.hpp" alt="" coords="4720,326,5005,357"/>
+<area shape="rect" id="node91" href="$CvWindow__Sink_8hpp.html" title="Sinks/CvWindow/CvWindow_Sink.hpp" alt="" coords="5029,326,5272,357"/>
+<area shape="rect" id="node13" href="$main_8cpp.html" title="Main body responsible for menu showing and image processing." alt="" coords="3517,486,3624,517"/>
+<area shape="rect" id="node19" href="$BlobExtractor__Processor_8cpp.html" title="Processors/BlobExtractor/BlobExtractor_Processor.cpp" alt="" coords="5296,406,5640,437"/>
+<area shape="rect" id="node23" href="$CvColorConv__Processor_8cpp.html" title="Processors/CvColorConv/CvColorConv_Processor.cpp" alt="" coords="5664,406,6003,437"/>
+<area shape="rect" id="node27" href="$CvFilter2D__Processor_8cpp.html" title="Processors/CvFilter2D/CvFilter2D_Processor.cpp" alt="" coords="6027,406,6336,437"/>
+<area shape="rect" id="node31" href="$CvGaussianBlur__Processor_8cpp.html" title="Processors/CvGaussianBlur/CvGaussianBlur_Processor.cpp" alt="" coords="6360,406,6733,437"/>
+<area shape="rect" id="node35" href="$CvMorphology__Processor_8cpp.html" title="Processors/CvMorphology/CvMorphology_Processor.cpp" alt="" coords="6757,406,7109,437"/>
+<area shape="rect" id="node39" href="$CvPixelOperator__Processor_8cpp.html" title="Processors/CvPixelOperator/CvPixelOperator_Processor.cpp" alt="" coords="7133,406,7509,437"/>
+<area shape="rect" id="node43" href="$CvSplit__Processor_8cpp.html" title="Processors/CvSplit/CvSplit_Processor.cpp" alt="" coords="7533,406,7803,437"/>
+<area shape="rect" id="node47" href="$CvThreshold__Processor_8cpp.html" title="Processors/CvThreshold/CvThreshold_Processor.cpp" alt="" coords="7827,406,8160,437"/>
+<area shape="rect" id="node51" href="$Example__Processor_8cpp.html" title="Declaration of an example class, responsible for image processing." alt="" coords="8184,406,8472,437"/>
+<area shape="rect" id="node55" href="$ExecTimer_8cpp.html" title="Declaration of an example class, responsible for image processing." alt="" coords="221,406,467,437"/>
+<area shape="rect" id="node59" href="$MS__Barcode__Decide_8cpp.html" title="Processors/MS_Barcode_Decide/MS_Barcode_Decide.cpp" alt="" coords="491,406,856,437"/>
+<area shape="rect" id="node63" href="$MS__Barcode__Macro_8cpp.html" title="Processors/MS_Barcode_Macro/MS_Barcode_Macro.cpp" alt="" coords="880,406,1237,437"/>
+<area shape="rect" id="node67" href="$MS__Barcode__Prepare_8cpp.html" title="Processors/MS_Barcode_Prepare/MS_Barcode_Prepare.cpp" alt="" coords="1261,406,1635,437"/>
+<area shape="rect" id="node71" href="$MS__Sign__Decide_8cpp.html" title="Processors/MS_Sign_Decide/MS_Sign_Decide.cpp" alt="" coords="1659,406,1979,437"/>
+<area shape="rect" id="node97" href="$CameraCalib_8h.html" title="Processors/CameraCalib/CameraCalib.h" alt="" coords="4620,246,4873,277"/>
+<area shape="rect" id="node125" href="$ConnectionManager_8hpp.html" title="DataStream connections management." alt="" coords="5,406,197,437"/>
 </map>

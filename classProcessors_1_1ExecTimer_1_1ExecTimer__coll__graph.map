@@ -1,7 +1,7 @@
 <map id="G" name="G">
-<area shape="rect" href="$classBase_1_1EventHandler.html" title="Base::EventHandler\&lt; ExecTimer \&gt;" alt="" coords="145,235,369,264"/>
-<area shape="rect" href="$classBase_1_1Component.html" title="Abstract interface class for all modules &#45; data sources, processors etc." alt="" coords="136,5,261,35"/>
-<area shape="rect" href="$classBase_1_1EventHandlerInterface.html" title="Interface for EventHandler class." alt="" coords="5,120,192,149"/>
-<area shape="rect" href="$classBase_1_1Event.html" title="Event raised by Component." alt="" coords="285,5,376,35"/>
-<area shape="rect" href="$classCommon_1_1Timer.html" title="Simple high&#45;resolution timer." alt="" coords="400,5,515,35"/>
+<area shape="rect" id="node4" href="$classBase_1_1EventHandler.html" title="Base::EventHandler\&lt; ExecTimer \&gt;" alt="" coords="144,241,368,271"/>
+<area shape="rect" id="node2" href="$classBase_1_1Component.html" title="Abstract interface class for all modules &#45; data sources, processors etc." alt="" coords="135,6,260,37"/>
+<area shape="rect" id="node6" href="$classBase_1_1EventHandlerInterface.html" title="Interface for EventHandler class." alt="" coords="5,123,192,154"/>
+<area shape="rect" id="node9" href="$classBase_1_1Event.html" title="Event raised by Component." alt="" coords="284,6,377,37"/>
+<area shape="rect" id="node11" href="$classCommon_1_1Timer.html" title="Simple high&#45;resolution timer." alt="" coords="401,6,516,37"/>
 </map>

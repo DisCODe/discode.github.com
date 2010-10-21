@@ -1,7 +1,7 @@
 <map id="G" name="G">
-<area shape="rect" href="$ExecutorManager_8hpp.html" title="File containing the ExecutorManager class." alt="" coords="12,83,191,112"/>
-<area shape="rect" href="$main_8cpp.html" title="Main body responsible for menu showing and image processing." alt="" coords="176,160,280,189"/>
-<area shape="rect" href="$Executor_8cpp.html" title="Core/Executor.cpp" alt="" coords="265,83,393,112"/>
-<area shape="rect" href="$Task_8cpp.html" title="Core/Task.cpp" alt="" coords="417,83,521,112"/>
-<area shape="rect" href="$Configurator_8cpp.html" title="File containing definitions of Configurator class methods." alt="" coords="5,160,152,189"/>
+<area shape="rect" id="node3" href="$ExecutorManager_8hpp.html" title="File containing the ExecutorManager class." alt="" coords="13,86,192,117"/>
+<area shape="rect" id="node7" href="$main_8cpp.html" title="Main body responsible for menu showing and image processing." alt="" coords="176,166,283,197"/>
+<area shape="rect" id="node9" href="$Executor_8cpp.html" title="Core/Executor.cpp" alt="" coords="267,86,397,117"/>
+<area shape="rect" id="node12" href="$Task_8cpp.html" title="Core/Task.cpp" alt="" coords="421,86,528,117"/>
+<area shape="rect" id="node5" href="$Configurator_8cpp.html" title="File containing definitions of Configurator class methods." alt="" coords="5,166,152,197"/>
 </map>
