@@ -171,8 +171,8 @@ function toggleVisibility(linkObj) {
 <h1>Create a new task </h1>  </div>
 </div>
 <div class="contents">
-<h2><a class="anchor" id="ts_description"></a>
-Description</h2>
+<h2><a class="anchor" id="ts_objectives"></a>
+Tutorial objectives</h2>
 <p>Create a task responsible for loading sequence of images from files.</p>
 <h2><a class="anchor" id="ts_structure"></a>
 Task structure</h2>
@@ -187,7 +187,7 @@ Task file</h2>
 <li>Replace the <b>Mov1</b> component with the <b>Seq1</b> component. <div class="fragment"><pre class="fragment">    &lt;Components&gt;
         ...
         &lt;Seq1 type=<span class="stringliteral">&quot;Sequence&quot;</span> thread=<span class="stringliteral">&quot;Exec1&quot;</span> group=<span class="stringliteral">&quot;s1&quot;</span>&gt;
-            &lt;directory&gt;/home/discode/public_html/datasets/standard/&lt;/directory&gt;
+            &lt;directory&gt;/home/discode/public_html/datasets/opencv_classics/&lt;/directory&gt;
         &lt;/Seq1&gt;
         ...
 </pre></div></li>
@@ -195,9 +195,9 @@ Task file</h2>
 <ul>
 <li>Set the main thread component to <b>Seq1</b>. <div class="fragment"><pre class="fragment">    &lt;Executors&gt;
         ...
-        &lt;Thread1 type=<span class="stringliteral">&quot;continuous&quot;</span>&gt;
+        &lt;Exec1 type=<span class="stringliteral">&quot;continuous&quot;</span>&gt;
             &lt;main_component&gt;Seq1&lt;/main_component&gt;
-        &lt;/Thread1&gt;
+        &lt;/Exec1&gt;
         ...
 </pre></div></li>
 </ul>
@@ -223,7 +223,7 @@ Task file</h2>
 <h2><a class="anchor" id="ts_result"></a>
 Result</h2>
 <p>A sequence of images will be displayed image after image.</p>
-<dl class="note"><dt><b>Note:</b></dt><dd>To break the program execution press <b>CTRL +C</b> (the SIGINT signal will be sent).</dd></dl>
+<dl class="note"><dt><b>Note:</b></dt><dd>To break the program execution press <b>CTRL+C</b> (the SIGINT signal will be sent).</dd></dl>
 <h2><a class="anchor" id="ts_sections"></a>
 Related sections</h2>
 <dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="manuals_tasks.html">Tasks - building monumens from bricks</a> : Description of tasks </dd>
@@ -255,7 +255,7 @@ Related sections</h2>
 <div style="background: #FFFFFF; height: 1px; border: 0; border-top: 1px solid #BBBBBB; clear: both; font-size: 1px">&nbsp;</div>
 <div style="background: #EEEEEE url(images/footer_grad.jpg); height: 125px">
 <address style="text-align: center;"><small>
-Generated on Thu Oct 21 2010 by&nbsp;<a href="http://www.doxygen.org/index.html">Doxygen</a> 1.7.1</small></address><br/>
+Generated on Fri Oct 22 2010 by&nbsp;<a href="http://www.doxygen.org/index.html">Doxygen</a> 1.7.1</small></address><br/>
 <br/>
 <br/>
 <br/>

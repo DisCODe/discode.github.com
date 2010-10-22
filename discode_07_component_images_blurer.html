@@ -171,40 +171,176 @@ function toggleVisibility(linkObj) {
 <h1>Create a simple component </h1>  </div>
 </div>
 <div class="contents">
-<h2><a class="anchor" id="ts_description"></a>
-Description</h2>
-<p>The goal is to create a component responsible for sharpening of the images.</p>
+<h2><a class="anchor" id="ts_objectives"></a>
+Tutorial objectives</h2>
+<p>The goal is to create a component responsible for bluring of the images.</p>
 <p>Utilize the standard mean filter with 3-by-3 kernel shown below.  
 <TABLE>
 <TR> <TD>1</TD> <TD>1</TD> <TD>1</TD> </TR>
 <TR> <TD>1</TD> <TD>1</TD> <TD>1</TD> </TR>
 <TR> <TD>1</TD> <TD>1</TD> <TD>1</TD> </TR>
 </TABLE>
+<p>Instead of implementing the blue operation on your own please use the <a href="http://opencv.willowgarage.com/documentation/cpp/image_filtering.html?highlight=blur#blur">cv::blur</a> function from the OpenCV.</p>
 <h2><a class="anchor" id="ts_structure"></a>
 Task structure</h2>
-<p>The structure of the ImageSharpener task is shown below.</p>
+<p>The structure of the ImageBlurer task is shown below.</p>
 <div align="center">
 <img src="images/ImageBlurer.png" alt="ImageBlurer.png"/>
 </div>
  <dl class="note"><dt><b>Note:</b></dt><dd>For more details regarding the structure please click <a href="images/Legend.png">here</a>.</dd></dl>
-<h2><a class="anchor" id="ts_component"></a>
-Component</h2>
-<h3><a class="anchor" id="gen_shell"></a>
+<h2><a class="anchor" id="ts_component_blur"></a>
+The ImageBlurer component</h2>
+<h3><a class="anchor" id="component_gen_shell"></a>
 Generate code "shell"</h3>
 <p>Utilize the create.sh script for generation of the new component shell. </p>
-<div class="fragment"><pre class="fragment">./create.sh ImageBlurer
-</pre></div><dl class="note"><dt><b>Note:</b></dt><dd>The script is located in the <b>Component</b> directory.</dd></dl>
-<p>...</p>
+<pre class="console">
+./create.sh ImageBlurer
+</pre><dl class="note"><dt><b>Note:</b></dt><dd>The script is located in the <b>Component</b> directory.</dd></dl>
+<h3><a class="anchor" id="component_gen_makefile"></a>
+Generate makefile for created component</h3>
+<pre class="console">
+cd ImageBlurer
+cmake .
+</pre><h3><a class="anchor" id="component_cmake_edit"></a>
+Add OpenCV library to list of linked libraries.</h3>
+<p>Edit the <b>CMakeLists.txt</b> file in order to uncomment the OpenCV library dependency. </p>
+<div class="fragment"><pre class="fragment">...
+FIND_PACKAGE( OpenCV REQUIRED )
+SET(LIBS ${OpenCV_LIBS} ${OpenCV_LIBRARIES} ${LIBS} )
+...
+</pre></div> <dl class="note"><dt><b>Note:</b></dt><dd>To uncommend given line remove the # character from the front.</dd></dl>
+<h3><a class="anchor" id="component_make"></a>
+Compile the component</h3>
+<p>From now on you can compile your component by calling the <b>make</b> command. </p>
+<pre class="console">
+make
+</pre><h3><a class="anchor" id="component_install"></a>
+Copy the component to bin directory</h3>
+<p>After the component is compiled you can copy it to binaries. </p>
+<pre class="console">
+cp libImageBlurer.so ../../bin/
+</pre> <dl class="note"><dt><b>Note:</b></dt><dd>Perform those two steps after your component will be finished.</dd></dl>
+<h3><a class="anchor" id="component_edit"></a>
+Edit the header file ImageBlurer.hpp</h3>
+<p>Edit the component header and perform changes listed below.</p>
+<ul>
+<li>Add required OpenCV headers after the existing ones. <div class="fragment"><pre class="fragment">...
+#include &lt;cv.h&gt;
+...
+</pre></div></li>
+</ul>
+<ul>
+<li>Add access to the OpenCV namespace <b>cv</b>. <div class="fragment"><pre class="fragment">...
+using <span class="keyword">namespace </span>cv;
+...
+</pre></div></li>
+</ul>
+<ul>
+<li>Enter the <b>protected</b> section of the <b>ImageBlurer_Processor</b> class and add input and output data streams. <div class="fragment"><pre class="fragment">    ...
+    <a class="code" href="classBase_1_1DataStreamIn.html">Base::DataStreamIn &lt;Mat&gt;</a> in_img;
+
+    <a class="code" href="classBase_1_1DataStreamOut.html">Base::DataStreamOut &lt;Mat&gt;</a> out_img;
+    ...
+</pre></div></li>
+</ul>
+<ul>
+<li>Add event handler (when a new image will arrived) and event (raised when image the image processing will be done). <div class="fragment"><pre class="fragment">    ...
+    <span class="keywordtype">void</span> onNewImage();
+
+    <a class="code" href="classBase_1_1EventHandler.html" title="EventHandler is called when associated Event is raised.">Base::EventHandler &lt;ImageBlurer_Processor&gt;</a> h_onNewImage;
+
+    <a class="code" href="classBase_1_1Event.html" title="Event raised by Component.">Base::Event</a> * newImage;
+    ...
+</pre></div></li>
+</ul>
+<h3><a class="anchor" id="component_edit"></a>
+Edit the header file ImageBlurer.hpp</h3>
+<p>Edit the component source and perform changes listed below.</p>
+<ul>
+<li>In the body of the <b>OnInit()</b> method register data streams, events and event handlers. <div class="fragment"><pre class="fragment">    ...
+    <span class="comment">// Register handler.</span>
+    h_onNewImage.<a class="code" href="classBase_1_1EventHandler.html#a8171897ef1ecdea9f961d56a8cb65c9e" title="Setup event handler parameters.">setup</a>(<span class="keyword">this</span>, &amp;ImageBlurer_Processor::onNewImage);
+    registerHandler(<span class="stringliteral">&quot;onNewImage&quot;</span>, &amp;h_onNewImage);
+    <span class="comment">// Register event.</span>
+    newImage = registerEvent(<span class="stringliteral">&quot;newImage&quot;</span>);
+
+    <span class="comment">// Register data streams.</span>
+    registerStream(<span class="stringliteral">&quot;in_img&quot;</span>, &amp;in_img);
+    registerStream(<span class="stringliteral">&quot;out_img&quot;</span>, &amp;out_img);
+    ...
+</pre></div></li>
+</ul>
+<ul>
+<li>Add new <b>onNewImage()</b> method. <div class="fragment"><pre class="fragment">...
+void ImageBlurer_Processor::onNewImage()
+{
+    <a class="code" href="Logger_8hpp.html#aba7b09d6e8fbe414c23705ad24dde6ff" title="Start message printing.">LOG</a>(<a class="code" href="Logger_8hpp.html#aad9cc64d45a76ba0d37c00f8cd9caa37">TRACE</a>) &lt;&lt; <span class="stringliteral">&quot;ImageBlurer_Processor::onNewImage\n&quot;</span>;
+    <span class="keywordflow">try</span> {
+        <span class="comment">// Read image from input data stream.</span>
+        Mat img = in_img.<a class="code" href="classBase_1_1DataStreamIn.html#ac57c59a3a88f0400677dc3453388c88b">read</a>();
+        <span class="comment">// Perform smoothing.</span>
+        blur(img, img, cv::Size(3,3));
+        <span class="comment">// Write blured image to output data stream.</span>
+        out_img.<a class="code" href="classBase_1_1DataStreamOut.html#a2e52c419ac6d9559712f8ed8fe9686b2">write</a>(img);
+        <span class="comment">// Raise event.</span>
+        newImage-&gt;<a class="code" href="classBase_1_1Event.html#a61eb7d585dbbcfaa980c6c966d3e7cd2">raise</a>();
+    } <span class="keywordflow">catch</span> (...) {
+        <a class="code" href="Logger_8hpp.html#aba7b09d6e8fbe414c23705ad24dde6ff" title="Start message printing.">LOG</a>(<a class="code" href="Logger_8hpp.html#a8fe83ac76edc595f6b98cd4a4127aed5">ERROR</a>) &lt;&lt; <span class="stringliteral">&quot;ImageBlurer_Processor::onNewImage failed\n&quot;</span>;
+    }
+}
+...
+</pre></div></li>
+</ul>
+<ul>
+<li>Compile and copy the component to bin library.</li>
+</ul>
 <h2><a class="anchor" id="ts_file"></a>
 Task file</h2>
 <p>Create a new ImageBlurer.xml file on the base of the RefreshedTriggeredSequenceViewer.xml.</p>
 <ul>
-<li>Add the <b>Blur1</b> component to the list of components.</li>
-<li>Set the <b>Blur1</b> executor to <b>Exec1</b>.</li>
-<li>Connect data ports between: <b>Seq1.Out</b> - <b>Blur1.In</b> and <b>Blur1.Out</b> - <b>Wnd1.In</b>.</li>
-<li>Connect events and event handlers between: <b>Seq1.NewImage</b> - <b>Blur1.onNewImage</b> and <b>Blur1.NewImage</b> - <b>Wnd1.onNewImage</b>.</li>
+<li>Add the <b>Blur1</b> component to the list of components, set its executor to <b>Exec1</b> <div class="fragment"><pre class="fragment">        ...
+        &lt;Blur1 type=<span class="stringliteral">&quot;ImageBlurer&quot;</span> thread=<span class="stringliteral">&quot;Exec1&quot;</span> group=<span class="stringliteral">&quot;s1&quot;</span>&gt;
+        &lt;/Blur1&gt;
+        ...
+</pre></div></li>
+</ul>
+<ul>
+<li>Connect data ports between: <b>Seq1.Out</b> - <b>Blur1.In</b> and <b>Blur1.Out</b> - <b>Wnd1.In</b>. <div class="fragment"><pre class="fragment">        ...
+        &lt;Seq1&gt;
+            &lt;out_img type=<span class="stringliteral">&quot;out&quot;</span> group=<span class="stringliteral">&quot;Con1&quot;</span>/&gt;
+        &lt;/Seq1&gt;
+        &lt;Blur1&gt;
+            &lt;in_img  type=<span class="stringliteral">&quot;in&quot;</span> group=<span class="stringliteral">&quot;Con1&quot;</span>/&gt;
+        &lt;/Blur1&gt;
+
+        &lt;Blur1&gt;
+            &lt;out_img type=<span class="stringliteral">&quot;out&quot;</span> group=<span class="stringliteral">&quot;Con2&quot;</span>/&gt;
+        &lt;/Blur1&gt;
+        &lt;Wnd1&gt;
+            &lt;in_img  type=<span class="stringliteral">&quot;in&quot;</span> group=<span class="stringliteral">&quot;Con2&quot;</span>/&gt;
+        &lt;/Wnd1&gt;
+        ...
+</pre></div></li>
+</ul>
+<ul>
+<li>Connect events and event handlers between: <b>Seq1.NewImage</b> - <b>Blur1.onNewImage</b> and <b>Blur1.NewImage</b> - <b>Wnd1.onNewImage</b>. <div class="fragment"><pre class="fragment">        ...
+        &lt;Event source=<span class="stringliteral">&quot;Seq1.newImage&quot;</span> destination=<span class="stringliteral">&quot;Blur1.onNewImage&quot;</span>/&gt;
+        &lt;Event source=<span class="stringliteral">&quot;Blur1.newImage&quot;</span> destination=<span class="stringliteral">&quot;Wnd1.onNewImage&quot;</span>/&gt;
+        ...
+</pre></div></li>
 </ul>
 <dl class="note"><dt><b>Note:</b></dt><dd>For more task file details please refer to the previous tutorials.</dd></dl>
+<h2><a class="anchor" id="ts_result"></a>
+Result</h2>
+<p>A sequence of blurred images will be displayed. </p>
+<dl class="note"><dt><b>Note:</b></dt><dd>Compare the results with original images <a href="/home/discode/public_html/datasets/opencv_classics">/home/discode/public_html/datasets/opencv_classics</a></dd></dl>
+<h2><a class="anchor" id="ts_sections"></a>
+Related sections</h2>
+<dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="manuals_components.html">Components - definition, types, states</a> : Description of components </dd>
+<dd>
+<a class="el" href="manuals_datastreams.html">DataStreams - mechanism for passing data between components</a> : Description of data streams </dd>
+<dd>
+<a class="el" href="manuals_events.html">Events - mechanisms for control of the flow</a> : Description of events</dd></dl>
  <table style="width: 100%; border-top: 1px solid #cccccc"><tr><td style="text-align: left">&larr;  <a class="el" href="discode_06_refreshedtriggered_sequencereader.html">Move one of the components to another thread</a>  </td></table>  </div>
 <!--- window showing the filter options -->
 <div id="MSearchSelectWindow"
@@ -225,7 +361,7 @@ Task file</h2>
 <div style="background: #FFFFFF; height: 1px; border: 0; border-top: 1px solid #BBBBBB; clear: both; font-size: 1px">&nbsp;</div>
 <div style="background: #EEEEEE url(images/footer_grad.jpg); height: 125px">
 <address style="text-align: center;"><small>
-Generated on Thu Oct 21 2010 by&nbsp;<a href="http://www.doxygen.org/index.html">Doxygen</a> 1.7.1</small></address><br/>
+Generated on Fri Oct 22 2010 by&nbsp;<a href="http://www.doxygen.org/index.html">Doxygen</a> 1.7.1</small></address><br/>
 <br/>
 <br/>
 <br/>

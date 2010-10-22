@@ -171,13 +171,13 @@ function toggleVisibility(linkObj) {
 <h1>Override task parameter from the command line </h1>  </div>
 </div>
 <div class="contents">
-<h2><a class="anchor" id="ts_description"></a>
-Description</h2>
+<h2><a class="anchor" id="ts_objectives"></a>
+Tutorial objectives</h2>
 <p>Use the -S option in the command line in order to override the default value of parameter.</p>
 <h2><a class="anchor" id="ts_command"></a>
 Command</h2>
 <pre class="console">
-./DisCODe -T ../Tasks/MovieViewer.xml -SComponents.Mov1.filename=/home/discode/public_html/datasets/MS_Sign/Sign_2_HD.avi
+./DisCODe -T ../Tasks/MovieViewer.xml -SComponents.Mov1.filename=/home/discode/public_html/datasets/movies_sign/Sign_2_HD.avi
 </pre><h2><a class="anchor" id="ts_file"></a>
 Task file</h2>
 <p>The file containing the MovieViewer task is listed below. </p>
@@ -186,7 +186,7 @@ Task file</h2>
     &lt;!-- List of components --&gt;
     &lt;Components&gt;
         &lt;Mov1 type=<span class="stringliteral">&quot;Movie&quot;</span> thread=<span class="stringliteral">&quot;Exec1&quot;</span> group=<span class="stringliteral">&quot;s1&quot;</span>&gt;
-            &lt;filename&gt;/home/discode/public_html/datasets/MS_Sign/Sign_1_HD.avi&lt;/filename&gt;
+            &lt;filename&gt;/home/discode/public_html/datasets/movies_sign/Sign_1_HD.avi&lt;/filename&gt;
         &lt;/Mov1&gt;
 
         &lt;Wnd1 type=<span class="stringliteral">&quot;CvWindow&quot;</span> thread=<span class="stringliteral">&quot;Exec1&quot;</span> group=<span class="stringliteral">&quot;s1&quot;</span>&gt;
@@ -220,7 +220,7 @@ Task file</h2>
 </pre></div><h2><a class="anchor" id="ts_result"></a>
 Result</h2>
 <p>Another movie will be displayed frame by frame.</p>
-<dl class="note"><dt><b>Note:</b></dt><dd>To break the program execution press <b>CTRL +C</b> (the SIGINT signal will be sent).</dd></dl>
+<dl class="note"><dt><b>Note:</b></dt><dd>To break the program execution press <b>CTRL+C</b> (the SIGINT signal will be sent).</dd></dl>
 <h2><a class="anchor" id="ts_sections"></a>
 Related sections</h2>
 <dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="discode_01_parameters.html">Display DisCODe parameters</a> : Explanations of inline parameters </dd>
@@ -246,7 +246,7 @@ Related sections</h2>
 <div style="background: #FFFFFF; height: 1px; border: 0; border-top: 1px solid #BBBBBB; clear: both; font-size: 1px">&nbsp;</div>
 <div style="background: #EEEEEE url(images/footer_grad.jpg); height: 125px">
 <address style="text-align: center;"><small>
-Generated on Thu Oct 21 2010 by&nbsp;<a href="http://www.doxygen.org/index.html">Doxygen</a> 1.7.1</small></address><br/>
+Generated on Fri Oct 22 2010 by&nbsp;<a href="http://www.doxygen.org/index.html">Doxygen</a> 1.7.1</small></address><br/>
 <br/>
 <br/>
 <br/>

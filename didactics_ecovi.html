@@ -173,9 +173,31 @@ function toggleVisibility(linkObj) {
 <div class="contents">
 <h2><a class="anchor" id="Download"></a>
 Download</h2>
+<h3><a class="anchor" id="discode_sh"></a>
+The DisCODe SDK install script</h3>
+<p>The latest SDK prepared for machines working under the control of the GENTOO network Linux (Segomo Server) can be downloaded from <a href="http://segomo.elka.pw.edu.pl/~discode/DisCODe-1.0.0-Linux.sh">here</a>.</p>
+<p>After successful download please display script parameters. </p>
+<pre class="console">
+cd bin 
+./DisCODe-1.0.0-Linux.sh --help
+</pre><p>Execute the script to install the SDK. </p>
+<dl class="note"><dt><b>Note:</b></dt><dd>Utilize the <b>--prefix</b> to set the directory in which SDK will be installed.</dd></dl>
+<h3><a class="anchor" id="discode_datasets"></a>
+The Datasets</h3>
+<p>Datasets can be downloaded, as well as used externally.</p>
+<p>Movies:</p>
 <ul>
-<li><a href="http://segomo.elka.pw.edu.pl/~discode/DisCODe-1.0.0-Linux.tar.gz">Pack</a> - A package for machines working under the control of the GENTOO network linux (segomo).</li>
-<li>Datasets - Images and movies for tutorials can be downloaded from <a href="http://segomo.elka.pw.edu.pl/~discode/datasets/">http://segomo.elka.pw.edu.pl/~discode/datasets/</a></li>
+<li><a href="/home/discode/public_html/datasets/movies_sign">/home/discode/public_html/datasets/movies_sign</a> - Movies containing road signs.</li>
+</ul>
+<p>Images:</p>
+<ul>
+<li><a href="/home/discode/public_html/datasets/opencv_classics">/home/discode/public_html/datasets/opencv_classics</a> - images used commonly in computer vision (Lena, etc.).</li>
+<li><a href="/home/discode/public_html/datasets/opencv_other">/home/discode/public_html/datasets/opencv_other</a> - some other images from the OpenCV examples.</li>
+</ul>
+<p>Calibration:</p>
+<ul>
+<li><a href="/home/discode/public_html/datasets/calibration_opencv">/home/discode/public_html/datasets/calibration_opencv</a> - chessboard pictures from the OpenCV examples.</li>
+<li><a href="/home/discode/public_html/datasets/calibration_robotics_lab">/home/discode/public_html/datasets/calibration_robotics_lab</a> - chessboard pictures taken with the use camera from the Robotics Lab.</li>
 </ul>
 <h2><a class="anchor" id="decovi_t0"></a>
 Tutorial 0: Introduction to DisCODe</h2>
@@ -192,7 +214,9 @@ Tutorial 0: Introduction to DisCODe</h2>
 <h2><a class="anchor" id="decovi_t1"></a>
 Tutorial 1: Camera calibration</h2>
 <ul>
-<li><a class="el" href="didactics_tutorial_camera_calibration.html">Camera calibration</a> </li>
+<li><a class="el" href="camera_calibration_01_findchessboard.html">Localize the calibration pattern</a></li>
+<li><a class="el" href="camera_calibration_02_calibration.html">Perform the calibration computations</a></li>
+<li><a class="el" href="camera_calibration_03_undistortion.html">Display the undistorted images</a> </li>
 </ul>
 </div>
 <!--- window showing the filter options -->
@@ -214,7 +238,7 @@ Tutorial 1: Camera calibration</h2>
 <div style="background: #FFFFFF; height: 1px; border: 0; border-top: 1px solid #BBBBBB; clear: both; font-size: 1px">&nbsp;</div>
 <div style="background: #EEEEEE url(images/footer_grad.jpg); height: 125px">
 <address style="text-align: center;"><small>
-Generated on Thu Oct 21 2010 by&nbsp;<a href="http://www.doxygen.org/index.html">Doxygen</a> 1.7.1</small></address><br/>
+Generated on Fri Oct 22 2010 by&nbsp;<a href="http://www.doxygen.org/index.html">Doxygen</a> 1.7.1</small></address><br/>
 <br/>
 <br/>
 <br/>

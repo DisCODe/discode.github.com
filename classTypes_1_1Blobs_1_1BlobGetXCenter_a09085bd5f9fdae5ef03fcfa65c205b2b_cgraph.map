@@ -1,5 +1,5 @@
 <map id="G" name="G">
-<area shape="rect" href="$classTypes_1_1Blobs_1_1Blob.html#a35415cd9a86a614ac529d91b0166a17f" title="Maximum X." alt="" coords="319,5,492,35"/>
-<area shape="rect" href="$classTypes_1_1Blobs_1_1Blob.html#a083cbc5b4bc898d1a199ebf3a79ec6e3" title="Minimum X." alt="" coords="320,59,491,88"/>
-<area shape="rect" href="$classTypes_1_1Blobs_1_1Blob.html#adeb33a52261eeee3e696bf9a42a5bf52" title="Get bounding box (without rotation) of a blob." alt="" coords="543,32,780,61"/>
+<area shape="rect" id="node3" href="$classTypes_1_1Blobs_1_1Blob.html#a35415cd9a86a614ac529d91b0166a17f" title="Maximum X." alt="" coords="319,5,492,35"/>
+<area shape="rect" id="node7" href="$classTypes_1_1Blobs_1_1Blob.html#a083cbc5b4bc898d1a199ebf3a79ec6e3" title="Minimum X." alt="" coords="320,58,491,89"/>
+<area shape="rect" id="node5" href="$classTypes_1_1Blobs_1_1Blob.html#adeb33a52261eeee3e696bf9a42a5bf52" title="Get bounding box (without rotation) of a blob." alt="" coords="543,31,780,62"/>
 </map>

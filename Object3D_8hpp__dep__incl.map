@@ -1,5 +1,5 @@
 <map id="G" name="G">
-<area shape="rect" href="$Chessboard_8hpp.html" title="Types/Objects3D/Chessboard.hpp" alt="" coords="144,83,363,112"/>
-<area shape="rect" href="$CvFindChessboardCorners__Processor_8hpp.html" title="Processors/CvFindChessboardCorners/CvFindChessboardCorners_Processor.hpp" alt="" coords="5,160,501,189"/>
-<area shape="rect" href="$CvFindChessboardCorners__Processor_8cpp.html" title="Processors/CvFindChessboardCorners/CvFindChessboardCorners_Processor.cpp" alt="" coords="5,237,501,267"/>
+<area shape="rect" id="node3" href="$Chessboard_8hpp.html" title="Types/Objects3D/Chessboard.hpp" alt="" coords="143,86,364,117"/>
+<area shape="rect" id="node5" href="$CvFindChessboardCorners__Processor_8hpp.html" title="Processors/CvFindChessboardCorners/CvFindChessboardCorners_Processor.hpp" alt="" coords="5,166,501,197"/>
+<area shape="rect" id="node7" href="$CvFindChessboardCorners__Processor_8cpp.html" title="Processors/CvFindChessboardCorners/CvFindChessboardCorners_Processor.cpp" alt="" coords="5,246,501,277"/>
 </map>

@@ -1,6 +1,6 @@
 <map id="G" name="G">
-<area shape="rect" href="$classCore_1_1Executor.html" title="Executor object holds components and implements message queue." alt="" coords="227,83,333,112"/>
-<area shape="rect" href="$classCore_1_1ContinuousExecutor.html" title="Call step continuously." alt="" coords="5,160,179,189"/>
-<area shape="rect" href="$classCore_1_1PassiveExecutor.html" title="Don&#39;t call any step, only react." alt="" coords="203,160,357,189"/>
-<area shape="rect" href="$classCore_1_1PeriodicExecutor.html" title="Execute component periodically." alt="" coords="381,160,536,189"/>
+<area shape="rect" id="node3" href="$classCore_1_1Executor.html" title="Executor object holds components and implements message queue." alt="" coords="225,86,335,117"/>
+<area shape="rect" id="node5" href="$classCore_1_1ContinuousExecutor.html" title="Call step continuously." alt="" coords="5,166,179,197"/>
+<area shape="rect" id="node7" href="$classCore_1_1PassiveExecutor.html" title="Don&#39;t call any step, only react." alt="" coords="203,166,357,197"/>
+<area shape="rect" id="node9" href="$classCore_1_1PeriodicExecutor.html" title="Execute component periodically." alt="" coords="381,166,536,197"/>
 </map>

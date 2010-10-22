@@ -1,15 +1,15 @@
 <map id="G" name="G">
-<area shape="rect" href="$classBase_1_1EventHandler.html" title="Base::EventHandler\&lt; CvFindChessboardCorners_Processor \&gt;" alt="" coords="1776,101,2157,131"/>
-<area shape="rect" href="$classBase_1_1Component.html" title="Abstract interface class for all modules &#45; data sources, processors etc." alt="" coords="700,5,825,35"/>
-<area shape="rect" href="$classBase_1_1DataStreamIn.html" title="Base::DataStreamIn\&lt; Mat \&gt;" alt="" coords="671,115,855,144"/>
-<area shape="rect" href="$classBase_1_1DataStreamInterface.html" title="Interface class for DataStreams." alt="" coords="247,60,425,89"/>
-<area shape="rect" href="$classBase_1_1DataStreamOut.html" title="Base::DataStreamOut\&lt; Types::DrawableContainer \&gt;" alt="" coords="600,59,925,88"/>
-<area shape="rect" href="$classBase_1_1Connection.html" title="Connection between data streams." alt="" coords="7,60,129,89"/>
-<area shape="rect" href="$classBase_1_1DataStreamBuffer_1_1Queue.html" title="Base::DataStreamBuffer::Queue\&lt; Mat \&gt;" alt="" coords="208,120,464,149"/>
-<area shape="rect" href="$classBase_1_1Synchronization_1_1NoSync.html" title="Synchronization policy &#45; no synchronization." alt="" coords="235,173,437,203"/>
-<area shape="rect" href="$classBase_1_1EventHandlerInterface.html" title="Interface for EventHandler class." alt="" coords="1304,63,1491,92"/>
-<area shape="rect" href="$classBase_1_1Event.html" title="Event raised by Component." alt="" coords="717,175,808,204"/>
-<area shape="rect" href="$structProcessors_1_1CvFindChessboardCorners_1_1CvFindChessboardCornersProps.html" title="Processors::CvFindChessboardCorners::CvFindChessboardCornersProps" alt="" coords="539,228,987,257"/>
-<area shape="rect" href="$classBase_1_1Props.html" title="Base class for property structures." alt="" coords="289,228,383,257"/>
-<area shape="rect" href="$classCommon_1_1Timer.html" title="Simple high&#45;resolution timer." alt="" coords="705,281,820,311"/>
+<area shape="rect" id="node14" href="$classBase_1_1EventHandler.html" title="Base::EventHandler\&lt; CvFindChessboardCorners_Processor \&gt;" alt="" coords="1783,101,2164,131"/>
+<area shape="rect" id="node2" href="$classBase_1_1Component.html" title="Abstract interface class for all modules &#45; data sources, processors etc." alt="" coords="703,5,828,35"/>
+<area shape="rect" id="node4" href="$classBase_1_1DataStreamIn.html" title="Base::DataStreamIn\&lt; Mat \&gt;" alt="" coords="672,114,859,145"/>
+<area shape="rect" id="node6" href="$classBase_1_1DataStreamInterface.html" title="Interface class for DataStreams." alt="" coords="247,59,425,90"/>
+<area shape="rect" id="node27" href="$classBase_1_1DataStreamOut.html" title="Base::DataStreamOut\&lt; Types::DrawableContainer \&gt;" alt="" coords="603,58,928,89"/>
+<area shape="rect" id="node8" href="$classBase_1_1Connection.html" title="Connection between data streams." alt="" coords="5,59,131,90"/>
+<area shape="rect" id="node10" href="$classBase_1_1DataStreamBuffer_1_1Queue.html" title="Base::DataStreamBuffer::Queue\&lt; Mat \&gt;" alt="" coords="208,119,464,150"/>
+<area shape="rect" id="node12" href="$classBase_1_1Synchronization_1_1NoSync.html" title="Synchronization policy &#45; no synchronization." alt="" coords="233,173,439,203"/>
+<area shape="rect" id="node16" href="$classBase_1_1EventHandlerInterface.html" title="Interface for EventHandler class." alt="" coords="1309,62,1496,93"/>
+<area shape="rect" id="node19" href="$classBase_1_1Event.html" title="Event raised by Component." alt="" coords="719,174,812,205"/>
+<area shape="rect" id="node21" href="$structProcessors_1_1CvFindChessboardCorners_1_1CvFindChessboardCornersProps.html" title="Processors::CvFindChessboardCorners::CvFindChessboardCornersProps" alt="" coords="541,227,989,258"/>
+<area shape="rect" id="node23" href="$classBase_1_1Props.html" title="Base class for property structures." alt="" coords="289,227,383,258"/>
+<area shape="rect" id="node25" href="$classCommon_1_1Timer.html" title="Simple high&#45;resolution timer." alt="" coords="708,281,823,311"/>
 </map>

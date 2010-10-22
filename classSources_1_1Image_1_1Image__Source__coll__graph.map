@@ -1,7 +1,7 @@
 <map id="G" name="G">
-<area shape="rect" href="$classBase_1_1Component.html" title="Abstract interface class for all modules &#45; data sources, processors etc." alt="" coords="5,181,131,211"/>
-<area shape="rect" href="$classBase_1_1DataStreamOut.html" title="Base::DataStreamOut\&lt; int \&gt;" alt="" coords="155,181,341,211"/>
-<area shape="rect" href="$classBase_1_1DataStreamInterface.html" title="Interface class for DataStreams." alt="" coords="159,101,337,131"/>
-<area shape="rect" href="$classBase_1_1Connection.html" title="Connection between data streams." alt="" coords="187,5,309,35"/>
-<area shape="rect" href="$classBase_1_1Event.html" title="Event raised by Component." alt="" coords="365,181,456,211"/>
+<area shape="rect" id="node2" href="$classBase_1_1Component.html" title="Abstract interface class for all modules &#45; data sources, processors etc." alt="" coords="5,187,131,218"/>
+<area shape="rect" id="node4" href="$classBase_1_1DataStreamOut.html" title="Base::DataStreamOut\&lt; int \&gt;" alt="" coords="155,187,341,218"/>
+<area shape="rect" id="node6" href="$classBase_1_1DataStreamInterface.html" title="Interface class for DataStreams." alt="" coords="159,105,337,135"/>
+<area shape="rect" id="node8" href="$classBase_1_1Connection.html" title="Connection between data streams." alt="" coords="185,6,311,37"/>
+<area shape="rect" id="node10" href="$classBase_1_1Event.html" title="Event raised by Component." alt="" coords="365,187,459,218"/>
 </map>

@@ -1,9 +1,9 @@
 <map id="G" name="G">
-<area shape="rect" href="$Component_8cpp.html" title="Abstract interface for all components." alt="" coords="5,83,152,112"/>
-<area shape="rect" href="$Executor_8cpp.html" title="Core/Executor.cpp" alt="" coords="176,83,304,112"/>
-<area shape="rect" href="$BlobExtractor__Processor_8cpp.html" title="Processors/BlobExtractor/BlobExtractor_Processor.cpp" alt="" coords="328,83,672,112"/>
-<area shape="rect" href="$CvFindChessboardCorners__Processor_8hpp.html" title="Processors/CvFindChessboardCorners/CvFindChessboardCorners_Processor.hpp" alt="" coords="696,83,1192,112"/>
-<area shape="rect" href="$ExecTimer_8hpp.html" title="Simple processor to measure algorithm execution time." alt="" coords="1216,83,1461,112"/>
-<area shape="rect" href="$CvFindChessboardCorners__Processor_8cpp.html" title="Processors/CvFindChessboardCorners/CvFindChessboardCorners_Processor.cpp" alt="" coords="696,160,1192,189"/>
-<area shape="rect" href="$ExecTimer_8cpp.html" title="Declaration of an example class, responsible for image processing." alt="" coords="1216,160,1461,189"/>
+<area shape="rect" id="node3" href="$Component_8cpp.html" title="Abstract interface for all components." alt="" coords="5,86,152,117"/>
+<area shape="rect" id="node5" href="$Executor_8cpp.html" title="Core/Executor.cpp" alt="" coords="176,86,307,117"/>
+<area shape="rect" id="node7" href="$BlobExtractor__Processor_8cpp.html" title="Processors/BlobExtractor/BlobExtractor_Processor.cpp" alt="" coords="331,86,675,117"/>
+<area shape="rect" id="node9" href="$CvFindChessboardCorners__Processor_8hpp.html" title="Processors/CvFindChessboardCorners/CvFindChessboardCorners_Processor.hpp" alt="" coords="699,86,1195,117"/>
+<area shape="rect" id="node13" href="$ExecTimer_8hpp.html" title="Simple processor to measure algorithm execution time." alt="" coords="1219,86,1464,117"/>
+<area shape="rect" id="node11" href="$CvFindChessboardCorners__Processor_8cpp.html" title="Processors/CvFindChessboardCorners/CvFindChessboardCorners_Processor.cpp" alt="" coords="699,166,1195,197"/>
+<area shape="rect" id="node15" href="$ExecTimer_8cpp.html" title="Declaration of an example class, responsible for image processing." alt="" coords="1219,166,1464,197"/>
 </map>

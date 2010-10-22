@@ -1,4 +1,4 @@
 <map id="G" name="G">
-<area shape="rect" href="$Panel__Empty_8hpp.html" title="Empty panel &#45; used for all components that doesn&#39;t require panel." alt="" coords="173,83,296,112"/>
-<area shape="rect" href="$Panel_8hpp.html" title="Base class for all task panels." alt="" coords="196,160,273,189"/>
+<area shape="rect" id="node5" href="$Panel__Empty_8hpp.html" title="Empty panel &#45; used for all components that doesn&#39;t require panel." alt="" coords="173,86,296,117"/>
+<area shape="rect" id="node7" href="$Panel_8hpp.html" title="Base class for all task panels." alt="" coords="196,166,273,197"/>
 </map>
