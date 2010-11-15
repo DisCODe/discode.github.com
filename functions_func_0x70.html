@@ -37,10 +37,10 @@
 	<li><h2>Project</h2></li>
 	<li><ul>
 		<li><a href="index.html">Main page</a></li>
-		<li><a href="manuals.html">Manuals</a></li>
+		<li><a href="installation.html">Installation</a></li>
+		<li><a href="manuals.html">System overview</a></li>
 		<li><a href="tutorials.html">Tutorials</a></li>
 		<li><a href="faq.html">FAQ</a></li>
-		<li><a href="credits.html">Credits</a></li>
 	</ul></li>
 	<li><h2>Components</h2></li>
 	<li><ul>
@@ -62,12 +62,6 @@
 	<li><h2>Didactics</h2></li>
 	<li><ul>
 		<li><a href="didactics_ecovi.html">ECOVI</a></li>
-		<li><a href="didactics_eiasr.html">EIASR</a></li>
-	</ul></li>
-	<li><h2>Download</h2></li>
-	<li><ul>
-<!--		<li><a href="download.html">DisCODe SDK</a></li> -->
-		<li><a href="http://github.com/DisCODe/DisCODe">GitHub Access</a></li>
 	</ul></li>
 
 	<li><h2>Search</h2></li>
@@ -205,6 +199,7 @@ function toggleVisibility(linkObj) {
       <li><a href="functions_func_0x73.html#index_s"><span>s</span></a></li>
       <li><a href="functions_func_0x74.html#index_t"><span>t</span></a></li>
       <li><a href="functions_func_0x75.html#index_u"><span>u</span></a></li>
+      <li><a href="functions_func_0x76.html#index_v"><span>v</span></a></li>
       <li><a href="functions_func_0x77.html#index_w"><span>w</span></a></li>
       <li><a href="functions_func_0x79.html#index_y"><span>y</span></a></li>
       <li><a href="functions_func_0x7e.html#index_~"><span>~</span></a></li>
@@ -217,6 +212,9 @@ function toggleVisibility(linkObj) {
 <h3><a class="anchor" id="index_p"></a>- p -</h3><ul>
 <li>Panel()
 : <a class="el" href="classBase_1_1Panel.html#ac5a28a4f46b3e1cfe1eefafafe033d64">Base::Panel</a>
+</li>
+<li>parse()
+: <a class="el" href="classCore_1_1CommandInterpreter.html#a6cbaa40fbbeed162b07cb5922de7d6a1">Core::CommandInterpreter</a>
 </li>
 <li>PassiveExecutor()
 : <a class="el" href="classCore_1_1PassiveExecutor.html#a323bbb201fc2f7597f52d2590130a8b1">Core::PassiveExecutor</a>
@@ -231,9 +229,9 @@ function toggleVisibility(linkObj) {
 : <a class="el" href="classCore_1_1PeriodicExecutor.html#acdf422ae4cb0edcd19c62c4851bff5f2">Core::PeriodicExecutor</a>
 </li>
 <li>print()
-: <a class="el" href="classUtils_1_1Logger_1_1ConsoleOutput.html#ab99845f1c47e2006e3f2f9930a7e00ba">Utils::Logger::ConsoleOutput</a>
-, <a class="el" href="classUtils_1_1Logger_1_1Logger.html#ae9f2577e97c1d18033a2b33bfd0445b5">Utils::Logger::Logger</a>
-, <a class="el" href="classUtils_1_1Logger_1_1LoggerOutput.html#adbdf9c51cb0d6267eb0e8d240240fb43">Utils::Logger::LoggerOutput</a>
+: <a class="el" href="classUtils_1_1Logger_1_1LoggerOutput.html#a6810086ce730e7ddf0a537af2fa01780">Utils::Logger::LoggerOutput</a>
+, <a class="el" href="classUtils_1_1Logger_1_1ConsoleOutput.html#a2024d8589ea17922712bd9b1e696b1b1">Utils::Logger::ConsoleOutput</a>
+, <a class="el" href="classUtils_1_1Logger_1_1Logger.html#a160797faaa0be52f8e29f8a02fb94a2c">Utils::Logger::Logger</a>
 </li>
 <li>PrintBlobs()
 : <a class="el" href="classTypes_1_1Blobs_1_1BlobResult.html#a0a758266e284b1a9233e9ea095e31827">Types::Blobs::BlobResult</a>
@@ -244,6 +242,9 @@ function toggleVisibility(linkObj) {
 <li>printHandlers()
 : <a class="el" href="classBase_1_1Component.html#a960136f1e980187c6521a7d002cc5662">Base::Component</a>
 </li>
+<li>printSettings()
+: <a class="el" href="classSources_1_1CameraV4L_1_1V4L2.html#ab1bc70c492f8b286995ea4ebc2e31870">Sources::CameraV4L::V4L2</a>
+</li>
 <li>printStackTrace()
 : <a class="el" href="classCommon_1_1DisCODeException.html#af36218eac0956806cc59fd2edf699fd8">Common::DisCODeException</a>
 </li>
@@ -252,6 +253,9 @@ function toggleVisibility(linkObj) {
 </li>
 <li>Props()
 : <a class="el" href="structProcessors_1_1CvPixelOperator_1_1Props.html#acf28b79e7cbff189732e0b10848b9836">Processors::CvPixelOperator::Props</a>
+</li>
+<li>put_value()
+: <a class="el" href="classTypes_1_1CvMatTranslator.html#a1d2fb221944f753dd00c487f8348f5e8">Types::CvMatTranslator</a>
 </li>
 </ul>
 </div>
@@ -274,7 +278,7 @@ function toggleVisibility(linkObj) {
 <div style="background: #FFFFFF; height: 1px; border: 0; border-top: 1px solid #BBBBBB; clear: both; font-size: 1px">&nbsp;</div>
 <div style="background: #EEEEEE url(images/footer_grad.jpg); height: 125px">
 <address style="text-align: center;"><small>
-Generated on Fri Oct 22 2010 by&nbsp;<a href="http://www.doxygen.org/index.html">Doxygen</a> 1.7.1</small></address><br/>
+Generated on Mon Nov 15 2010 by&nbsp;<a href="http://www.doxygen.org/index.html">Doxygen</a> 1.7.1</small></address><br/>
 <br/>
 <br/>
 <br/>

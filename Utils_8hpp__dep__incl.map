@@ -1,7 +1,9 @@
 <map id="G" name="G">
-<area shape="rect" id="node3" href="$ComponentManager_8hpp.html" title="File containing the ComponentManager class." alt="" coords="56,86,251,117"/>
-<area shape="rect" id="node9" href="$Utils_8cpp.html" title="Utility functions &#45; implementation." alt="" coords="275,86,403,117"/>
-<area shape="rect" id="node11" href="$Sequence_8cpp.html" title="Class responsible for retrieving images from image sequences &#45; methods definition." alt="" coords="427,86,645,117"/>
-<area shape="rect" id="node5" href="$Configurator_8cpp.html" title="File containing definitions of Configurator class methods." alt="" coords="5,166,152,197"/>
-<area shape="rect" id="node7" href="$main_8cpp.html" title="Main body responsible for menu showing and image processing." alt="" coords="176,166,283,197"/>
+<area shape="rect" id="node3" href="$Utils_8cpp.html" title="Utility functions &#45; implementation." alt="" coords="5,86,363,117"/>
+<area shape="rect" id="node5" href="$ComponentManager_8hpp.html" title="File containing the ComponentManager class." alt="" coords="819,86,1240,117"/>
+<area shape="rect" id="node11" href="$ExecutorManager_8hpp.html" title="File containing the ExecutorManager class." alt="" coords="387,86,795,117"/>
+<area shape="rect" id="node15" href="$VL_8cpp.html" title="/home/tkornuta/workspace/discode/src/Sources/CameraV4L/VL.cpp" alt="" coords="1264,86,1677,117"/>
+<area shape="rect" id="node17" href="$Sequence_8cpp.html" title="Class responsible for retrieving images from image sequences &#45; methods definition." alt="" coords="1701,86,2147,117"/>
+<area shape="rect" id="node7" href="$Configurator_8cpp.html" title="File containing definitions of Configurator class methods." alt="" coords="417,166,793,197"/>
+<area shape="rect" id="node9" href="$main_8cpp.html" title="Main body responsible for menu showing and image processing." alt="" coords="847,166,1180,197"/>
 </map>

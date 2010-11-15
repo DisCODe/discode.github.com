@@ -1,5 +1,7 @@
 <map id="G" name="G">
-<area shape="rect" id="node5" href="$classTanhOperator.html" title="TanhOperator\&lt; T \&gt;" alt="" coords="5,166,136,197"/>
-<area shape="rect" id="node7" href="$classUnit.html" title="Unit\&lt; T \&gt;" alt="" coords="160,166,237,197"/>
-<area shape="rect" id="node2" href="$classBase_1_1Props.html" title="Base class for property structures." alt="" coords="88,6,181,37"/>
+<area shape="rect" id="node5" href="$classAndOperator.html" title="AndOperator\&lt; T \&gt;" alt="" coords="5,166,131,197"/>
+<area shape="rect" id="node7" href="$classOrOperator.html" title="OrOperator\&lt; T \&gt;" alt="" coords="155,166,272,197"/>
+<area shape="rect" id="node9" href="$classTanhOperator.html" title="TanhOperator\&lt; T \&gt;" alt="" coords="296,166,427,197"/>
+<area shape="rect" id="node11" href="$classUnitOperator.html" title="UnitOperator\&lt; T \&gt;" alt="" coords="451,166,576,197"/>
+<area shape="rect" id="node2" href="$classBase_1_1Props.html" title="Base class for property structures." alt="" coords="240,6,333,37"/>
 </map>

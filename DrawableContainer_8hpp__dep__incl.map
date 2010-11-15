@@ -1,10 +1,8 @@
 <map id="G" name="G">
-<area shape="rect" id="node3" href="$CvFindChessboardCorners__Processor_8hpp.html" title="Processors/CvFindChessboardCorners/CvFindChessboardCorners_Processor.hpp" alt="" coords="5,86,501,117"/>
-<area shape="rect" id="node7" href="$MS__Barcode__Decide_8hpp.html" title="Processors/MS_Barcode_Decide/MS_Barcode_Decide.hpp" alt="" coords="525,86,891,117"/>
-<area shape="rect" id="node11" href="$MS__Barcode__Macro_8hpp.html" title="Processors/MS_Barcode_Macro/MS_Barcode_Macro.hpp" alt="" coords="915,86,1272,117"/>
-<area shape="rect" id="node15" href="$MS__Sign__Decide_8hpp.html" title="Processors/MS_Sign_Decide/MS_Sign_Decide.hpp" alt="" coords="1296,86,1616,117"/>
-<area shape="rect" id="node5" href="$CvFindChessboardCorners__Processor_8cpp.html" title="Processors/CvFindChessboardCorners/CvFindChessboardCorners_Processor.cpp" alt="" coords="5,166,501,197"/>
-<area shape="rect" id="node9" href="$MS__Barcode__Decide_8cpp.html" title="Processors/MS_Barcode_Decide/MS_Barcode_Decide.cpp" alt="" coords="525,166,891,197"/>
-<area shape="rect" id="node13" href="$MS__Barcode__Macro_8cpp.html" title="Processors/MS_Barcode_Macro/MS_Barcode_Macro.cpp" alt="" coords="915,166,1272,197"/>
-<area shape="rect" id="node17" href="$MS__Sign__Decide_8cpp.html" title="Processors/MS_Sign_Decide/MS_Sign_Decide.cpp" alt="" coords="1296,166,1616,197"/>
+<area shape="rect" id="node3" href="$MS__Barcode__Decide_8hpp.html" title="/home/tkornuta/workspace/discode/src/Processors/MS_Barcode_Decide/MS_Barcode_Decide.hpp" alt="" coords="5,86,597,117"/>
+<area shape="rect" id="node7" href="$MS__Barcode__Macro_8hpp.html" title="/home/tkornuta/workspace/discode/src/Processors/MS_Barcode_Macro/MS_Barcode_Macro.hpp" alt="" coords="621,86,1205,117"/>
+<area shape="rect" id="node11" href="$MS__Sign__Decide_8hpp.html" title="/home/tkornuta/workspace/discode/src/Processors/MS_Sign_Decide/MS_Sign_Decide.hpp" alt="" coords="1229,86,1779,117"/>
+<area shape="rect" id="node5" href="$MS__Barcode__Decide_8cpp.html" title="/home/tkornuta/workspace/discode/src/Processors/MS_Barcode_Decide/MS_Barcode_Decide.cpp" alt="" coords="5,166,597,197"/>
+<area shape="rect" id="node9" href="$MS__Barcode__Macro_8cpp.html" title="/home/tkornuta/workspace/discode/src/Processors/MS_Barcode_Macro/MS_Barcode_Macro.cpp" alt="" coords="621,166,1205,197"/>
+<area shape="rect" id="node13" href="$MS__Sign__Decide_8cpp.html" title="/home/tkornuta/workspace/discode/src/Processors/MS_Sign_Decide/MS_Sign_Decide.cpp" alt="" coords="1229,166,1779,197"/>
 </map>

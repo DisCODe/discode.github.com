@@ -37,10 +37,10 @@
 	<li><h2>Project</h2></li>
 	<li><ul>
 		<li><a href="index.html">Main page</a></li>
-		<li><a href="manuals.html">Manuals</a></li>
+		<li><a href="installation.html">Installation</a></li>
+		<li><a href="manuals.html">System overview</a></li>
 		<li><a href="tutorials.html">Tutorials</a></li>
 		<li><a href="faq.html">FAQ</a></li>
-		<li><a href="credits.html">Credits</a></li>
 	</ul></li>
 	<li><h2>Components</h2></li>
 	<li><ul>
@@ -62,12 +62,6 @@
 	<li><h2>Didactics</h2></li>
 	<li><ul>
 		<li><a href="didactics_ecovi.html">ECOVI</a></li>
-		<li><a href="didactics_eiasr.html">EIASR</a></li>
-	</ul></li>
-	<li><h2>Download</h2></li>
-	<li><ul>
-<!--		<li><a href="download.html">DisCODe SDK</a></li> -->
-		<li><a href="http://github.com/DisCODe/DisCODe">GitHub Access</a></li>
 	</ul></li>
 
 	<li><h2>Search</h2></li>
@@ -209,7 +203,7 @@ function toggleVisibility(linkObj) {
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="structProcessors_1_1CvPixelOperator_1_1Props__coll__graph.png" border="0" usemap="#Processors_1_1CvPixelOperator_1_1Props_coll__map" alt="Collaboration graph"/></div>
 <map name="Processors_1_1CvPixelOperator_1_1Props_coll__map" id="Processors_1_1CvPixelOperator_1_1Props_coll__map">
-<area shape="rect" id="node2" href="classBase_1_1Props.html" title="Base class for property structures." alt="" coords="5,6,99,37"/><area shape="rect" id="node4" href="classPixelOperator.html" title="PixelOperator\&lt; double \&gt;" alt="" coords="52,89,215,119"/></map>
+<area shape="rect" id="node2" href="classBase_1_1Props.html" title="Base class for property structures." alt="" coords="5,6,99,37"/><area shape="rect" id="node4" href="classPixelOperator.html" title="PixelOperator\&lt; uint8_t \&gt;" alt="" coords="52,89,215,119"/></map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 
 <p><a href="structProcessors_1_1CvPixelOperator_1_1Props-members.html">List of all members.</a></p>
@@ -220,11 +214,11 @@ Public Member Functions</h2></td></tr>
 <tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Load settings.  <a href="#a56458c3096357ddebf4c31d8ddd14104"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProcessors_1_1CvPixelOperator_1_1Props.html#a1b02ea17b3604344f4f4d825b461bd02">save</a> (ptree &amp;pt)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProcessors_1_1CvPixelOperator_1_1Props.html#acf28b79e7cbff189732e0b10848b9836">Props</a> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProcessors_1_1CvPixelOperator_1_1Props.html#a35fd492b42382e378701b0f69095275b">~Props</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProcessors_1_1CvPixelOperator_1_1Props.html#ab8799e78604636a009eea864750a9b58">~Props</a> ()</td></tr>
 <tr><td colspan="2"><h2><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPixelOperator.html">PixelOperator</a>&lt; double &gt; *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProcessors_1_1CvPixelOperator_1_1Props.html#aa09b6032a23e5fa91674f761276ef40b">op</a></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">ptree&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProcessors_1_1CvPixelOperator_1_1Props.html#a8dde31c1fe0ef19e4bc4686794a24c55">tmp</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classPixelOperator.html">PixelOperator</a>&lt; uint8_t &gt; *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProcessors_1_1CvPixelOperator_1_1Props.html#a14d9f05019b7d1e0ce5289d6e1ea7f17">op</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">std::string&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="structProcessors_1_1CvPixelOperator_1_1Props.html#abc0c2f2a7fc840c87a9d8e46625ab2db">type</a></td></tr>
 </table>
 <hr/><a name="_details"></a><h2>Detailed Description</h2>
 <p>Properties. </p>
@@ -246,16 +240,16 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a35fd492b42382e378701b0f69095275b"></a><!-- doxytag: member="Processors::CvPixelOperator::Props::~Props" ref="a35fd492b42382e378701b0f69095275b" args="()" -->
+<a class="anchor" id="ab8799e78604636a009eea864750a9b58"></a><!-- doxytag: member="Processors::CvPixelOperator::Props::~Props" ref="ab8799e78604636a009eea864750a9b58" args="()" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">Processors::CvPixelOperator::Props::~Props </td>
+          <td class="memname">virtual Processors::CvPixelOperator::Props::~Props </td>
           <td>(</td>
           <td class="paramname"></td>
           <td>&nbsp;)&nbsp;</td>
-          <td><code> [inline]</code></td>
+          <td><code> [inline, virtual]</code></td>
         </tr>
       </table>
 </div>
@@ -320,12 +314,12 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/><h2>Member Data Documentation</h2>
-<a class="anchor" id="aa09b6032a23e5fa91674f761276ef40b"></a><!-- doxytag: member="Processors::CvPixelOperator::Props::op" ref="aa09b6032a23e5fa91674f761276ef40b" args="" -->
+<a class="anchor" id="a14d9f05019b7d1e0ce5289d6e1ea7f17"></a><!-- doxytag: member="Processors::CvPixelOperator::Props::op" ref="a14d9f05019b7d1e0ce5289d6e1ea7f17" args="" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classPixelOperator.html">PixelOperator</a>&lt;double&gt;* <a class="el" href="structProcessors_1_1CvPixelOperator_1_1Props.html#aa09b6032a23e5fa91674f761276ef40b">Processors::CvPixelOperator::Props::op</a></td>
+          <td class="memname"><a class="el" href="classPixelOperator.html">PixelOperator</a>&lt;uint8_t&gt;* <a class="el" href="structProcessors_1_1CvPixelOperator_1_1Props.html#a14d9f05019b7d1e0ce5289d6e1ea7f17">Processors::CvPixelOperator::Props::op</a></td>
         </tr>
       </table>
 </div>
@@ -333,12 +327,12 @@ Public Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a8dde31c1fe0ef19e4bc4686794a24c55"></a><!-- doxytag: member="Processors::CvPixelOperator::Props::tmp" ref="a8dde31c1fe0ef19e4bc4686794a24c55" args="" -->
+<a class="anchor" id="abc0c2f2a7fc840c87a9d8e46625ab2db"></a><!-- doxytag: member="Processors::CvPixelOperator::Props::type" ref="abc0c2f2a7fc840c87a9d8e46625ab2db" args="" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">ptree <a class="el" href="structProcessors_1_1CvPixelOperator_1_1Props.html#a8dde31c1fe0ef19e4bc4686794a24c55">Processors::CvPixelOperator::Props::tmp</a></td>
+          <td class="memname">std::string <a class="el" href="structProcessors_1_1CvPixelOperator_1_1Props.html#abc0c2f2a7fc840c87a9d8e46625ab2db">Processors::CvPixelOperator::Props::type</a></td>
         </tr>
       </table>
 </div>
@@ -347,7 +341,7 @@ Public Attributes</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>Processors/CvPixelOperator/<a class="el" href="CvPixelOperator__Processor_8hpp.html">CvPixelOperator_Processor.hpp</a></li>
+<li>/home/tkornuta/workspace/discode/src/Processors/CvPixelOperator/<a class="el" href="CvPixelOperator__Processor_8hpp.html">CvPixelOperator_Processor.hpp</a></li>
 </ul>
 </div>
 <!--- window showing the filter options -->
@@ -369,7 +363,7 @@ Public Attributes</h2></td></tr>
 <div style="background: #FFFFFF; height: 1px; border: 0; border-top: 1px solid #BBBBBB; clear: both; font-size: 1px">&nbsp;</div>
 <div style="background: #EEEEEE url(images/footer_grad.jpg); height: 125px">
 <address style="text-align: center;"><small>
-Generated on Fri Oct 22 2010 by&nbsp;<a href="http://www.doxygen.org/index.html">Doxygen</a> 1.7.1</small></address><br/>
+Generated on Mon Nov 15 2010 by&nbsp;<a href="http://www.doxygen.org/index.html">Doxygen</a> 1.7.1</small></address><br/>
 <br/>
 <br/>
 <br/>

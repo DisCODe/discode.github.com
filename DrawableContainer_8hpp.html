@@ -5,7 +5,7 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<title>DisCODe: Types/DrawableContainer.hpp File Reference</title>
+<title>DisCODe: /home/tkornuta/workspace/discode/src/Types/DrawableContainer.hpp File Reference</title>
 <link href="stylesheet.css" rel="stylesheet" type="text/css"/>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javaScript" src="search/search.js"></script>
@@ -37,10 +37,10 @@
 	<li><h2>Project</h2></li>
 	<li><ul>
 		<li><a href="index.html">Main page</a></li>
-		<li><a href="manuals.html">Manuals</a></li>
+		<li><a href="installation.html">Installation</a></li>
+		<li><a href="manuals.html">System overview</a></li>
 		<li><a href="tutorials.html">Tutorials</a></li>
 		<li><a href="faq.html">FAQ</a></li>
-		<li><a href="credits.html">Credits</a></li>
 	</ul></li>
 	<li><h2>Components</h2></li>
 	<li><ul>
@@ -62,12 +62,6 @@
 	<li><h2>Didactics</h2></li>
 	<li><ul>
 		<li><a href="didactics_ecovi.html">ECOVI</a></li>
-		<li><a href="didactics_eiasr.html">EIASR</a></li>
-	</ul></li>
-	<li><h2>Download</h2></li>
-	<li><ul>
-<!--		<li><a href="download.html">DisCODe SDK</a></li> -->
-		<li><a href="http://github.com/DisCODe/DisCODe">GitHub Access</a></li>
 	</ul></li>
 
 	<li><h2>Search</h2></li>
@@ -177,7 +171,7 @@ function toggleVisibility(linkObj) {
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a>  </div>
   <div class="headertitle">
-<h1>Types/DrawableContainer.hpp File Reference</h1>  </div>
+<h1>/home/tkornuta/workspace/discode/src/Types/DrawableContainer.hpp File Reference</h1>  </div>
 </div>
 <div class="contents">
 
@@ -186,23 +180,24 @@ function toggleVisibility(linkObj) {
 <code>#include &quot;<a class="el" href="Drawable_8hpp.html">Drawable.hpp</a>&quot;</code><br/>
 <code>#include &lt;cv.h&gt;</code><br/>
 <code>#include &lt;vector&gt;</code><br/>
+<code>#include &lt;boost/foreach.hpp&gt;</code><br/>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png"/> Include dependency graph for DrawableContainer.hpp:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-0-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="DrawableContainer_8hpp__incl.png" border="0" usemap="#Types_2DrawableContainer_8hpp" alt=""/></div>
-<map name="Types_2DrawableContainer_8hpp" id="Types_2DrawableContainer_8hpp">
-<area shape="rect" id="node3" href="Drawable_8hpp.html" title="Drawable.hpp" alt="" coords="5,86,104,117"/></map>
+<div class="center"><img src="DrawableContainer_8hpp__incl.png" border="0" usemap="#_2home_2tkornuta_2workspace_2discode_2src_2Types_2DrawableContainer_8hpp" alt=""/></div>
+<map name="_2home_2tkornuta_2workspace_2discode_2src_2Types_2DrawableContainer_8hpp" id="_2home_2tkornuta_2workspace_2discode_2src_2Types_2DrawableContainer_8hpp">
+<area shape="rect" id="node3" href="Drawable_8hpp.html" title="Drawable.hpp" alt="" coords="47,86,145,117"/></map>
 </div>
 <div id="dynsection-1" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-1-trigger" src="closed.png"/> This graph shows which files directly or indirectly include this file:</div>
 <div id="dynsection-1-summary" class="dynsummary" style="display:block;">
 </div>
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
-<div class="center"><img src="DrawableContainer_8hpp__dep__incl.png" border="0" usemap="#Types_2DrawableContainer_8hppdep" alt=""/></div>
-<map name="Types_2DrawableContainer_8hppdep" id="Types_2DrawableContainer_8hppdep">
-<area shape="rect" id="node3" href="CvFindChessboardCorners__Processor_8hpp.html" title="Processors/CvFindChessboardCorners/CvFindChessboardCorners_Processor.hpp" alt="" coords="5,86,501,117"/><area shape="rect" id="node7" href="MS__Barcode__Decide_8hpp.html" title="Processors/MS_Barcode_Decide/MS_Barcode_Decide.hpp" alt="" coords="525,86,891,117"/><area shape="rect" id="node11" href="MS__Barcode__Macro_8hpp.html" title="Processors/MS_Barcode_Macro/MS_Barcode_Macro.hpp" alt="" coords="915,86,1272,117"/><area shape="rect" id="node15" href="MS__Sign__Decide_8hpp.html" title="Processors/MS_Sign_Decide/MS_Sign_Decide.hpp" alt="" coords="1296,86,1616,117"/><area shape="rect" id="node5" href="CvFindChessboardCorners__Processor_8cpp.html" title="Processors/CvFindChessboardCorners/CvFindChessboardCorners_Processor.cpp" alt="" coords="5,166,501,197"/><area shape="rect" id="node9" href="MS__Barcode__Decide_8cpp.html" title="Processors/MS_Barcode_Decide/MS_Barcode_Decide.cpp" alt="" coords="525,166,891,197"/><area shape="rect" id="node13" href="MS__Barcode__Macro_8cpp.html" title="Processors/MS_Barcode_Macro/MS_Barcode_Macro.cpp" alt="" coords="915,166,1272,197"/><area shape="rect" id="node17" href="MS__Sign__Decide_8cpp.html" title="Processors/MS_Sign_Decide/MS_Sign_Decide.cpp" alt="" coords="1296,166,1616,197"/></map>
+<div class="center"><img src="DrawableContainer_8hpp__dep__incl.png" border="0" usemap="#_2home_2tkornuta_2workspace_2discode_2src_2Types_2DrawableContainer_8hppdep" alt=""/></div>
+<map name="_2home_2tkornuta_2workspace_2discode_2src_2Types_2DrawableContainer_8hppdep" id="_2home_2tkornuta_2workspace_2discode_2src_2Types_2DrawableContainer_8hppdep">
+<area shape="rect" id="node3" href="MS__Barcode__Decide_8hpp.html" title="/home/tkornuta/workspace/discode/src/Processors/MS_Barcode_Decide/MS_Barcode_Decide.hpp" alt="" coords="5,86,597,117"/><area shape="rect" id="node7" href="MS__Barcode__Macro_8hpp.html" title="/home/tkornuta/workspace/discode/src/Processors/MS_Barcode_Macro/MS_Barcode_Macro.hpp" alt="" coords="621,86,1205,117"/><area shape="rect" id="node11" href="MS__Sign__Decide_8hpp.html" title="/home/tkornuta/workspace/discode/src/Processors/MS_Sign_Decide/MS_Sign_Decide.hpp" alt="" coords="1229,86,1779,117"/><area shape="rect" id="node5" href="MS__Barcode__Decide_8cpp.html" title="/home/tkornuta/workspace/discode/src/Processors/MS_Barcode_Decide/MS_Barcode_Decide.cpp" alt="" coords="5,166,597,197"/><area shape="rect" id="node9" href="MS__Barcode__Macro_8cpp.html" title="/home/tkornuta/workspace/discode/src/Processors/MS_Barcode_Macro/MS_Barcode_Macro.cpp" alt="" coords="621,166,1205,197"/><area shape="rect" id="node13" href="MS__Sign__Decide_8cpp.html" title="/home/tkornuta/workspace/discode/src/Processors/MS_Sign_Decide/MS_Sign_Decide.cpp" alt="" coords="1229,166,1779,197"/></map>
 </div>
 <table class="memberdecls">
 <tr><td colspan="2"><h2><a name="nested-classes"></a>
@@ -240,7 +235,7 @@ Namespaces</h2></td></tr>
 <div style="background: #FFFFFF; height: 1px; border: 0; border-top: 1px solid #BBBBBB; clear: both; font-size: 1px">&nbsp;</div>
 <div style="background: #EEEEEE url(images/footer_grad.jpg); height: 125px">
 <address style="text-align: center;"><small>
-Generated on Fri Oct 22 2010 by&nbsp;<a href="http://www.doxygen.org/index.html">Doxygen</a> 1.7.1</small></address><br/>
+Generated on Mon Nov 15 2010 by&nbsp;<a href="http://www.doxygen.org/index.html">Doxygen</a> 1.7.1</small></address><br/>
 <br/>
 <br/>
 <br/>

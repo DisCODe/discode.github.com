@@ -37,10 +37,10 @@
 	<li><h2>Project</h2></li>
 	<li><ul>
 		<li><a href="index.html">Main page</a></li>
-		<li><a href="manuals.html">Manuals</a></li>
+		<li><a href="installation.html">Installation</a></li>
+		<li><a href="manuals.html">System overview</a></li>
 		<li><a href="tutorials.html">Tutorials</a></li>
 		<li><a href="faq.html">FAQ</a></li>
-		<li><a href="credits.html">Credits</a></li>
 	</ul></li>
 	<li><h2>Components</h2></li>
 	<li><ul>
@@ -62,12 +62,6 @@
 	<li><h2>Didactics</h2></li>
 	<li><ul>
 		<li><a href="didactics_ecovi.html">ECOVI</a></li>
-		<li><a href="didactics_eiasr.html">EIASR</a></li>
-	</ul></li>
-	<li><h2>Download</h2></li>
-	<li><ul>
-<!--		<li><a href="download.html">DisCODe SDK</a></li> -->
-		<li><a href="http://github.com/DisCODe/DisCODe">GitHub Access</a></li>
 	</ul></li>
 
 	<li><h2>Search</h2></li>
@@ -167,7 +161,7 @@ function toggleVisibility(linkObj) {
   </div>
   <div class="navpath">
     <ul>
-      <li><a class="el" href="manuals.html">Manuals</a>      </li>
+      <li><a class="el" href="manuals.html">System overview</a>      </li>
     </ul>
   </div>
 </div>
@@ -176,7 +170,7 @@ function toggleVisibility(linkObj) {
 <h1>Tasks - building monumens from bricks </h1>  </div>
 </div>
 <div class="contents">
-<center> [<a class="el" href="manuals.html">Manuals</a>] </center><p>Perception is the process of attaining awareness or understanding of sensory information, that can consist of multiple processing steps. In DisCODe each step is encapsulated in a single <b>Component</b>.</p>
+ <table style="width: 100%; border-bottom: 1px solid #cccccc"><tr><td colspan= 2 style="text-align: center">&uarr;  <a class="el" href="manuals.html">System overview</a>  </td></tr><tr><td style="text-align: right">  <a class="el" href="manuals_components.html">Components - definition, types, states</a>  &rarr;</td></tr></table> <p>Perception is the process of attaining awareness or understanding of sensory information, that can consist of multiple processing steps. In DisCODe each step is encapsulated in a single <b>Component</b>.</p>
 <p>Because those components can be arranged in many orders and executed in different ways (f.e. there might be a need that sime of them should work concurrently in different <b>Threads</b>), there are component managers called <b>Executors</b>, that can govern all or some of them.</p>
 <p>In order to let components being totally independent of each other special methods of data passing between them (loose coupling) needed to be created. We wanted also to distinguish the communication related strictly for passing data processed by one component to another from communication responsible for passing commands - events, that might occur occasionally. This lead to the creation of two mechanisms: datastreams and events.</p>
 <p><b>DataStream</b> is a one-to-many type connection for passing processed data (every output datastream of given component can be linked to many inputs of many components). The DisCODe creates <b>Connections</b> between components (in fact between their output and input datastreams) during the application start.</p>
@@ -185,7 +179,7 @@ function toggleVisibility(linkObj) {
 <img src="images/task_elements.png" alt="task_elements.png"/>
 </div>
 <p>The tasks are created in the form of XML configuration files, having the form presented in the figure above. Only a single task can be loaded during the application start.</p>
- <table style="width: 100%; border-top: 1px solid #cccccc"><tr><td style="text-align: right">  <a class="el" href="manuals_components.html">Components - definition, types, states</a>  &rarr;</td></table>  </div>
+ <table style="width: 100%; border-top: 1px solid #cccccc"><tr><td colspan= 2 style="text-align: center">&uarr;  <a class="el" href="manuals.html">System overview</a>  </td></tr><tr><td style="text-align: right">  <a class="el" href="manuals_components.html">Components - definition, types, states</a>  &rarr;</td></tr></table>  </div>
 <!--- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -205,7 +199,7 @@ function toggleVisibility(linkObj) {
 <div style="background: #FFFFFF; height: 1px; border: 0; border-top: 1px solid #BBBBBB; clear: both; font-size: 1px">&nbsp;</div>
 <div style="background: #EEEEEE url(images/footer_grad.jpg); height: 125px">
 <address style="text-align: center;"><small>
-Generated on Fri Oct 22 2010 by&nbsp;<a href="http://www.doxygen.org/index.html">Doxygen</a> 1.7.1</small></address><br/>
+Generated on Mon Nov 15 2010 by&nbsp;<a href="http://www.doxygen.org/index.html">Doxygen</a> 1.7.1</small></address><br/>
 <br/>
 <br/>
 <br/>

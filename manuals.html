@@ -5,7 +5,7 @@
 
 <head>
 <meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
-<title>DisCODe: Manuals</title>
+<title>DisCODe: System overview</title>
 <link href="stylesheet.css" rel="stylesheet" type="text/css"/>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javaScript" src="search/search.js"></script>
@@ -37,10 +37,10 @@
 	<li><h2>Project</h2></li>
 	<li><ul>
 		<li><a href="index.html">Main page</a></li>
-		<li><a href="manuals.html">Manuals</a></li>
+		<li><a href="installation.html">Installation</a></li>
+		<li><a href="manuals.html">System overview</a></li>
 		<li><a href="tutorials.html">Tutorials</a></li>
 		<li><a href="faq.html">FAQ</a></li>
-		<li><a href="credits.html">Credits</a></li>
 	</ul></li>
 	<li><h2>Components</h2></li>
 	<li><ul>
@@ -62,12 +62,6 @@
 	<li><h2>Didactics</h2></li>
 	<li><ul>
 		<li><a href="didactics_ecovi.html">ECOVI</a></li>
-		<li><a href="didactics_eiasr.html">EIASR</a></li>
-	</ul></li>
-	<li><h2>Download</h2></li>
-	<li><ul>
-<!--		<li><a href="download.html">DisCODe SDK</a></li> -->
-		<li><a href="http://github.com/DisCODe/DisCODe">GitHub Access</a></li>
 	</ul></li>
 
 	<li><h2>Search</h2></li>
@@ -168,33 +162,34 @@ function toggleVisibility(linkObj) {
 </div>
 <div class="header">
   <div class="headertitle">
-<h1>Manuals </h1>  </div>
+<h1>System overview </h1>  </div>
 </div>
 <div class="contents">
-<p>This page contains desription of the most important concepts - parts of the system.</p>
+ <div class="linklist"><p>This page contains desription of the most important concepts - parts of the system.</p>
 <p>The DisCODe-based system can be compared to a complex living organism. If components are equivalents of limbs, than the dataports are equivalents of circulatory system and events play the role of nervous system. The last but not least elements of this puzzle are executors, playing a heart-like role and clocking the execution of limbs.</p>
 <h2><a class="anchor" id="discode_tasks"></a>
 DisCODe Tasks</h2>
 <ul>
-<li><a class="el" href="manuals_tasks.html">Tasks - building monumens from bricks</a></li>
+<li><a class="el" href="manuals_tasks.html">Tasks</a><br/>
+ Building monuments from bricks.</li>
 </ul>
 <h2><a class="anchor" id="discode_components"></a>
 DisCODe Components</h2>
 <ul>
-<li><a class="el" href="manuals_components.html">Components - definition, types, states</a></li>
+<li><a class="el" href="manuals_components.html">Components - definition, types, states</a><br/>
+ Small independent blocks, basic principle in DisCODe.</li>
 </ul>
 <h2><a class="anchor" id="discode_constant"></a>
 DisCODe Core</h2>
 <ul>
-<li><a class="el" href="manuals_datastreams.html">DataStreams - mechanism for passing data between components</a></li>
+<li><a class="el" href="manuals_datastreams.html">Data streams</a><br/>
+ Mechanism for passing data between components.</li>
+<li><a class="el" href="manuals_events.html">Events</a><br/>
+ Mechanism for control of the processing flow.</li>
+<li><a class="el" href="manuals_executors.html">Executors</a><br/>
+ Task 'engines', spawns all required threads and keep them running.</li>
 </ul>
-<ul>
-<li><a class="el" href="manuals_events.html">Events - mechanisms for control of the flow</a></li>
-</ul>
-<ul>
-<li><a class="el" href="manuals_executors.html">Executors - task 'engines'</a> </li>
-</ul>
-</div>
+ </div> </div>
 <!--- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -214,7 +209,7 @@ DisCODe Core</h2>
 <div style="background: #FFFFFF; height: 1px; border: 0; border-top: 1px solid #BBBBBB; clear: both; font-size: 1px">&nbsp;</div>
 <div style="background: #EEEEEE url(images/footer_grad.jpg); height: 125px">
 <address style="text-align: center;"><small>
-Generated on Fri Oct 22 2010 by&nbsp;<a href="http://www.doxygen.org/index.html">Doxygen</a> 1.7.1</small></address><br/>
+Generated on Mon Nov 15 2010 by&nbsp;<a href="http://www.doxygen.org/index.html">Doxygen</a> 1.7.1</small></address><br/>
 <br/>
 <br/>
 <br/>

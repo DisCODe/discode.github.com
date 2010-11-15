@@ -37,10 +37,10 @@
 	<li><h2>Project</h2></li>
 	<li><ul>
 		<li><a href="index.html">Main page</a></li>
-		<li><a href="manuals.html">Manuals</a></li>
+		<li><a href="installation.html">Installation</a></li>
+		<li><a href="manuals.html">System overview</a></li>
 		<li><a href="tutorials.html">Tutorials</a></li>
 		<li><a href="faq.html">FAQ</a></li>
-		<li><a href="credits.html">Credits</a></li>
 	</ul></li>
 	<li><h2>Components</h2></li>
 	<li><ul>
@@ -62,12 +62,6 @@
 	<li><h2>Didactics</h2></li>
 	<li><ul>
 		<li><a href="didactics_ecovi.html">ECOVI</a></li>
-		<li><a href="didactics_eiasr.html">EIASR</a></li>
-	</ul></li>
-	<li><h2>Download</h2></li>
-	<li><ul>
-<!--		<li><a href="download.html">DisCODe SDK</a></li> -->
-		<li><a href="http://github.com/DisCODe/DisCODe">GitHub Access</a></li>
 	</ul></li>
 
 	<li><h2>Search</h2></li>
@@ -171,54 +165,56 @@ function toggleVisibility(linkObj) {
 <h1>ECOVI - Computer Vision </h1>  </div>
 </div>
 <div class="contents">
-<h2><a class="anchor" id="Download"></a>
-Download</h2>
-<h3><a class="anchor" id="discode_sh"></a>
-The DisCODe SDK install script</h3>
-<p>The latest SDK prepared for machines working under the control of the GENTOO network Linux (Segomo Server) can be downloaded from <a href="http://segomo.elka.pw.edu.pl/~discode/DisCODe-1.0.0-Linux.sh">here</a>.</p>
-<p>After successful download please display script parameters. </p>
-<pre class="console">
-cd bin 
-./DisCODe-1.0.0-Linux.sh --help
-</pre><p>Execute the script to install the SDK. </p>
-<dl class="note"><dt><b>Note:</b></dt><dd>Utilize the <b>--prefix</b> to set the directory in which SDK will be installed.</dd></dl>
-<h3><a class="anchor" id="discode_datasets"></a>
-The Datasets</h3>
+<h2><a class="anchor" id="ecovi_discode_installation"></a>
+The DisCODe installation</h2>
+<p>Please refer to the <a class="el" href="installation.html">Installation instructions</a>. Please perform the following steps:</p>
+<ul>
+<li>select the SDK for Windows (32bit),</li>
+<li>install both the developement environment and SDK,</li>
+<li>create a test component and configure its makefile.</li>
+</ul>
+<h2><a class="anchor" id="ecovi_discode_datasets"></a>
+Required datasets</h2>
 <p>Datasets can be downloaded, as well as used externally.</p>
-<p>Movies:</p>
 <ul>
-<li><a href="http://segomo.elka.pw.edu.pl/~discode/datasets/movies_sign">/home/discode/public_html/datasets/movies_sign</a> - Movies containing road signs.</li>
+<li>Movies containing road signs.<br/>
+ Dir: <a href="http://segomo.elka.pw.edu.pl/~discode/datasets/movies_sign">/home/discode/public_html/datasets/movies_sign</a></li>
 </ul>
-<p>Images:</p>
 <ul>
-<li><a href="http://segomo.elka.pw.edu.pl/~discode/datasets/opencv_classics">/home/discode/public_html/datasets/opencv_classics</a> - images used commonly in computer vision (Lena, etc.).</li>
-<li><a href="http://segomo.elka.pw.edu.pl/~discode/datasets/opencv_other">/home/discode/public_html/datasets/opencv_other</a> - some other images from the OpenCV examples.</li>
+<li>Images used commonly in computer vision (Lena, etc.).<br/>
+ Dir: <a href="http://segomo.elka.pw.edu.pl/~discode/datasets/opencv_classics">/home/discode/public_html/datasets/opencv_classics</a><br/>
+ Rar: <a href="http://segomo.elka.pw.edu.pl/~discode/datasets/opencv_classics.rar">opencv_classics.rar</a></li>
 </ul>
-<p>Calibration:</p>
 <ul>
-<li><a href="http://segomo.elka.pw.edu.pl/~discode/datasets/calibration_opencv">/home/discode/public_html/datasets/calibration_opencv</a> - chessboard pictures from the OpenCV examples.</li>
-<li><a href="http://segomo.elka.pw.edu.pl/~discode/datasets/calibration_robotics_lab">/home/discode/public_html/datasets/calibration_robotics_lab</a> - chessboard pictures taken with the use camera from the Robotics Lab.</li>
+<li>Some other images from the OpenCV examples.<br/>
+ Dir: <a href="http://segomo.elka.pw.edu.pl/~discode/datasets/opencv_other">/home/discode/public_html/datasets/opencv_other</a><br/>
+ Rar: <a href="http://segomo.elka.pw.edu.pl/~discode/datasets/opencv_other.rar">opencv_other.rar</a></li>
 </ul>
-<h2><a class="anchor" id="decovi_t0"></a>
-Tutorial 0: Introduction to DisCODe</h2>
 <ul>
-<li><a class="el" href="discode_00_description.html">How to read the tutorials</a></li>
-<li><a class="el" href="discode_01_parameters.html">Display DisCODe parameters</a></li>
-<li><a class="el" href="discode_02_moviereader.html">Run a simple task</a></li>
-<li><a class="el" href="discode_03_moviereader_changeparameter.html">Override task parameter from the command line</a></li>
-<li><a class="el" href="discode_04_sequencereader.html">Create a new task</a></li>
-<li><a class="el" href="discode_05_trigerred_sequencereader.html">Expand task by a new component</a></li>
-<li><a class="el" href="discode_06_refreshedtriggered_sequencereader.html">Move one of the components to another thread</a></li>
-<li><a class="el" href="discode_07_component_images_blurer.html">Create a simple component</a></li>
+<li>Calibration: chessboard pictures from the OpenCV examples.<br/>
+ Dir: <a href="http://segomo.elka.pw.edu.pl/~discode/datasets/calibration_opencv">/home/discode/public_html/datasets/calibration_opencv</a><br/>
+ Rar: <a href="http://segomo.elka.pw.edu.pl/~discode/datasets/calibration_opencv.rar">calibration_opencv.rar</a></li>
 </ul>
-<h2><a class="anchor" id="decovi_t1"></a>
-Tutorial 1: Camera calibration</h2>
 <ul>
-<li><a class="el" href="camera_calibration_01_findchessboard.html">Localize the calibration pattern</a></li>
-<li><a class="el" href="camera_calibration_02_calibration.html">Perform the calibration computations</a></li>
-<li><a class="el" href="camera_calibration_03_undistortion.html">Display the undistorted images</a> </li>
+<li>Calibration: chessboard pictures taken with the use camera from the Robotics Lab ICCE.<br/>
+ Dir: <a href="http://segomo.elka.pw.edu.pl/~discode/datasets/calibration_robotics_lab">/home/discode/public_html/datasets/calibration_robotics_lab</a><br/>
+ Rar: <a href="http://segomo.elka.pw.edu.pl/~discode/datasets/calibration_robotics_lab.rar">calibration_robotics_lab.rar</a></li>
 </ul>
-</div>
+<h2><a class="anchor" id="ecovi_tutorials"></a>
+Tutorials</h2>
+ <div class="linklist"><ul>
+<li>Tutorial 0: <a class="el" href="discode_tutorials.html">The introduction to DisCODe</a> [Beginner level]<br/>
+ The tutorial contains a step-by-step introduction to DisCODe.</li>
+</ul>
+<ul>
+<li>Tutorial 1: <a class="el" href="camera_calibration_tutorials.html">Camera calibration</a> [Intermediate level]<br/>
+ The tutorial regards the problem of camera calibration.</li>
+</ul>
+<ul>
+<li>Tutorial 2: feature_extraction_tutorials [Intermediate level]<br/>
+ The tutorial focuses on the extraction of features from images.</li>
+</ul>
+ </div> </div>
 <!--- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -238,7 +234,7 @@ Tutorial 1: Camera calibration</h2>
 <div style="background: #FFFFFF; height: 1px; border: 0; border-top: 1px solid #BBBBBB; clear: both; font-size: 1px">&nbsp;</div>
 <div style="background: #EEEEEE url(images/footer_grad.jpg); height: 125px">
 <address style="text-align: center;"><small>
-Generated on Fri Oct 22 2010 by&nbsp;<a href="http://www.doxygen.org/index.html">Doxygen</a> 1.7.1</small></address><br/>
+Generated on Mon Nov 15 2010 by&nbsp;<a href="http://www.doxygen.org/index.html">Doxygen</a> 1.7.1</small></address><br/>
 <br/>
 <br/>
 <br/>

@@ -1,5 +1,5 @@
 <map id="G" name="G">
-<area shape="rect" id="node2" href="$classBase_1_1Component.html" title="Abstract interface class for all modules &#45; data sources, processors etc." alt="" coords="11,89,136,119"/>
-<area shape="rect" id="node4" href="$structSources_1_1Keyboard_1_1Props.html" title="Keyboard_Source properties." alt="" coords="160,89,333,119"/>
-<area shape="rect" id="node6" href="$classBase_1_1Props.html" title="Base class for property structures." alt="" coords="200,6,293,37"/>
+<area shape="rect" id="node2" href="$classBase_1_1Component.html" title="Abstract interface class for all modules &#45; data sources, processors etc." alt="" coords="5,105,131,135"/>
+<area shape="rect" id="node6" href="$structSources_1_1Keyboard_1_1Props.html" title="Keyboard_Source properties." alt="" coords="155,105,328,135"/>
+<area shape="rect" id="node8" href="$classBase_1_1Props.html" title="Base class for property structures." alt="" coords="195,6,288,37"/>
 </map>

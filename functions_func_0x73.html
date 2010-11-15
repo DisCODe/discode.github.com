@@ -37,10 +37,10 @@
 	<li><h2>Project</h2></li>
 	<li><ul>
 		<li><a href="index.html">Main page</a></li>
-		<li><a href="manuals.html">Manuals</a></li>
+		<li><a href="installation.html">Installation</a></li>
+		<li><a href="manuals.html">System overview</a></li>
 		<li><a href="tutorials.html">Tutorials</a></li>
 		<li><a href="faq.html">FAQ</a></li>
-		<li><a href="credits.html">Credits</a></li>
 	</ul></li>
 	<li><h2>Components</h2></li>
 	<li><ul>
@@ -62,12 +62,6 @@
 	<li><h2>Didactics</h2></li>
 	<li><ul>
 		<li><a href="didactics_ecovi.html">ECOVI</a></li>
-		<li><a href="didactics_eiasr.html">EIASR</a></li>
-	</ul></li>
-	<li><h2>Download</h2></li>
-	<li><ul>
-<!--		<li><a href="download.html">DisCODe SDK</a></li> -->
-		<li><a href="http://github.com/DisCODe/DisCODe">GitHub Access</a></li>
 	</ul></li>
 
 	<li><h2>Search</h2></li>
@@ -205,6 +199,7 @@ function toggleVisibility(linkObj) {
       <li class="current"><a href="functions_func_0x73.html#index_s"><span>s</span></a></li>
       <li><a href="functions_func_0x74.html#index_t"><span>t</span></a></li>
       <li><a href="functions_func_0x75.html#index_u"><span>u</span></a></li>
+      <li><a href="functions_func_0x76.html#index_v"><span>v</span></a></li>
       <li><a href="functions_func_0x77.html#index_w"><span>w</span></a></li>
       <li><a href="functions_func_0x79.html#index_y"><span>y</span></a></li>
       <li><a href="functions_func_0x7e.html#index_~"><span>~</span></a></li>
@@ -220,31 +215,35 @@ function toggleVisibility(linkObj) {
 , <a class="el" href="classCore_1_1Executor.html#ad964330015f9429ca49508eefe099bff">Core::Executor</a>
 , <a class="el" href="structProcessors_1_1CvColorConv_1_1ColorConvProps.html#a63176578f036e5919e94b00c3db6f043">Processors::CvColorConv::ColorConvProps</a>
 , <a class="el" href="structProcessors_1_1CvMorphology_1_1Props.html#a8af0677d46ecd5b1263905b54fb347f7">Processors::CvMorphology::Props</a>
-, <a class="el" href="structProcessors_1_1MS__Sign_1_1Props.html#a180533903b0a90791ff09a2f0f90a7f1">Processors::MS_Sign::Props</a>
+, <a class="el" href="structProcessors_1_1MS__Barcode_1_1Props.html#a4dd019ef58eec3a1beb32033efb642ce">Processors::MS_Barcode::Props</a>
 , <a class="el" href="structProcessors_1_1CvPixelOperator_1_1Props.html#a1b02ea17b3604344f4f4d825b461bd02">Processors::CvPixelOperator::Props</a>
-, <a class="el" href="structProcessors_1_1Stereo_1_1Props.html#ad774df9c842260b7a5d2489f1dfacd00">Processors::Stereo::Props</a>
-, <a class="el" href="structSources_1_1CameraOpenCV_1_1Props.html#acfaaf5cf99ec4da5a07526a64c23e104">Sources::CameraOpenCV::Props</a>
+, <a class="el" href="structProcessors_1_1MS__Sign_1_1Props.html#a180533903b0a90791ff09a2f0f90a7f1">Processors::MS_Sign::Props</a>
 , <a class="el" href="structProcessors_1_1CvFilter2D_1_1Props.html#aefc1f4adab3582f9bca6c22f1161c916">Processors::CvFilter2D::Props</a>
 , <a class="el" href="classPixelOperator.html#acc4789584ce29b9390328f32601b6e67">PixelOperator&lt; T &gt;</a>
-, <a class="el" href="structSources_1_1CameraUniCap_1_1CameraUniCapProps.html#a7056955aa73a1724dc70b50d88dae799">Sources::CameraUniCap::CameraUniCapProps</a>
-, <a class="el" href="structSources_1_1Keyboard_1_1Props.html#ab7c9a290d49245f05f6218df20e5ae13">Sources::Keyboard::Props</a>
-, <a class="el" href="structProcessors_1_1CvSplit_1_1Props.html#ac2c7e8bdc5e11f055b7c81b93381bf7e">Processors::CvSplit::Props</a>
-, <a class="el" href="structSources_1_1Movie_1_1Props.html#aed81c756ad698410a433d6df91a616b5">Sources::Movie::Props</a>
-, <a class="el" href="structSources_1_1Sequence_1_1Props.html#a4ca239b6743fbb7e960bff9901fc0178">Sources::Sequence::Props</a>
-, <a class="el" href="structProcessors_1_1BlobExtractor_1_1Props.html#ae8e2ec868c65387361277ea07356174d">Processors::BlobExtractor::Props</a>
-, <a class="el" href="structProcessors_1_1CvFindChessboardCorners_1_1CvFindChessboardCornersProps.html#a95d780511693b468038d7768cf9c6278">Processors::CvFindChessboardCorners::CvFindChessboardCornersProps</a>
-, <a class="el" href="structProcessors_1_1CvThreshold_1_1ThresholdProps.html#a2027d0e8f57c02a3709c66d1cda054b8">Processors::CvThreshold::ThresholdProps</a>
+, <a class="el" href="structProcessors_1_1Stereo_1_1Props.html#ad774df9c842260b7a5d2489f1dfacd00">Processors::Stereo::Props</a>
+, <a class="el" href="structProcessors_1_1Example_1_1Example__Props.html#afc0cff34a47d4b4ac7575458e64d9234">Processors::Example::Example_Props</a>
+, <a class="el" href="structProcessors_1_1CvSolvePnP_1_1CvSolvePnPProps.html#a606c86c7370e08046560400885bcfc6d">Processors::CvSolvePnP::CvSolvePnPProps</a>
 , <a class="el" href="structSinks_1_1CvVideoWriter_1_1Props.html#aee0f092d81f684f6dcc62f646add2c26">Sinks::CvVideoWriter::Props</a>
 , <a class="el" href="structSinks_1_1CvWindow_1_1WndProps.html#a1ff946d3ecb72c6d9c8e66282f559647">Sinks::CvWindow::WndProps</a>
-, <a class="el" href="structProcessors_1_1MS__Barcode_1_1Props.html#a4dd019ef58eec3a1beb32033efb642ce">Processors::MS_Barcode::Props</a>
+, <a class="el" href="structProcessors_1_1BlobExtractor_1_1Props.html#ae8e2ec868c65387361277ea07356174d">Processors::BlobExtractor::Props</a>
+, <a class="el" href="structProcessors_1_1CvFindChessboardCorners_1_1CvFindChessboardCornersProps.html#a95d780511693b468038d7768cf9c6278">Processors::CvFindChessboardCorners::CvFindChessboardCornersProps</a>
+, <a class="el" href="structProcessors_1_1CvSplit_1_1Props.html#ac2c7e8bdc5e11f055b7c81b93381bf7e">Processors::CvSplit::Props</a>
+, <a class="el" href="structSources_1_1CameraOpenCV_1_1Props.html#acfaaf5cf99ec4da5a07526a64c23e104">Sources::CameraOpenCV::Props</a>
+, <a class="el" href="structSources_1_1CameraUniCap_1_1CameraUniCapProps.html#a7056955aa73a1724dc70b50d88dae799">Sources::CameraUniCap::CameraUniCapProps</a>
+, <a class="el" href="structProcessors_1_1CvThreshold_1_1ThresholdProps.html#a2027d0e8f57c02a3709c66d1cda054b8">Processors::CvThreshold::ThresholdProps</a>
+, <a class="el" href="structSources_1_1CameraV4L_1_1CameraProps.html#a841e48736f510976f75c02d232ae2a6a">Sources::CameraV4L::CameraProps</a>
+, <a class="el" href="structSources_1_1Keyboard_1_1Props.html#ab7c9a290d49245f05f6218df20e5ae13">Sources::Keyboard::Props</a>
 , <a class="el" href="structProcessors_1_1CvGaussianBlur_1_1BlurProps.html#a8d75b92e78bc18dc78ea4469cef6789b">Processors::CvGaussianBlur::BlurProps</a>
+, <a class="el" href="structProcessors_1_1CvUndistort_1_1CvUndistortProps.html#afc75768dc4c8a967d16de11dc7d83bb9">Processors::CvUndistort::CvUndistortProps</a>
+, <a class="el" href="structSources_1_1Movie_1_1Props.html#aed81c756ad698410a433d6df91a616b5">Sources::Movie::Props</a>
+, <a class="el" href="structSources_1_1Sequence_1_1Props.html#a4ca239b6743fbb7e960bff9901fc0178">Sources::Sequence::Props</a>
 , <a class="el" href="structProcessors_1_1MS__Barcode_1_1Props.html#a4dd019ef58eec3a1beb32033efb642ce">Processors::MS_Barcode::Props</a>
 </li>
 <li>scheduleHandler()
 : <a class="el" href="classCore_1_1Executor.html#ad9043829f3561476e9190fb1914e729d">Core::Executor</a>
 </li>
 <li>ScopeLogger()
-: <a class="el" href="classUtils_1_1Logger_1_1ScopeLogger.html#a8e6bd5507ef1fe7256a1d6050e825855">Utils::Logger::ScopeLogger</a>
+: <a class="el" href="classUtils_1_1Logger_1_1ScopeLogger.html#a051985f26820af8b8411f61e7c18e2ac">Utils::Logger::ScopeLogger</a>
 </li>
 <li>ScopeSync()
 : <a class="el" href="classBase_1_1Synchronization_1_1ScopeSync.html#afcb8f35c541ba1b9aef20b63be288cab">Base::Synchronization::ScopeSync&lt; T &gt;</a>
@@ -257,6 +256,7 @@ function toggleVisibility(linkObj) {
 </li>
 <li>set()
 : <a class="el" href="classBase_1_1DataStreamInterface.html#ab09b733f8b86cb837567b5ce25af881c">Base::DataStreamInterface</a>
+, <a class="el" href="classSources_1_1CameraV4L_1_1V4L2.html#ac85bacabe47cb12bd961dd3240e85795">Sources::CameraV4L::V4L2</a>
 </li>
 <li>setComponentManager()
 : <a class="el" href="classCore_1_1Configurator.html#a097a023e66da275da9fd880cdcef36e3">Core::Configurator</a>
@@ -270,11 +270,14 @@ function toggleVisibility(linkObj) {
 <li>setConnectionManager()
 : <a class="el" href="classCore_1_1Configurator.html#a396af3df9f49d1aa1fef5791445a1b3d">Core::Configurator</a>
 </li>
+<li>setDevice()
+: <a class="el" href="structSources_1_1CameraV4L_1_1CameraProps.html#a360977fe0cd222d21a7550d43ff80dff">Sources::CameraV4L::CameraProps</a>
+</li>
 <li>setExecutorManager()
 : <a class="el" href="classCore_1_1Configurator.html#a35549a237e4da1847e52979b939934ab">Core::Configurator</a>
 </li>
 <li>setImagePoints()
-: <a class="el" href="classTypes_1_1Objects3D_1_1Object3D.html#a4fcae43f69fd7c72c81088f13e29a927">Types::Objects3D::Object3D</a>
+: <a class="el" href="classTypes_1_1Objects3D_1_1Object3D.html#ac4ff16062faae45b9621319a46b1147b">Types::Objects3D::Object3D</a>
 </li>
 <li>setLevel()
 : <a class="el" href="classUtils_1_1Logger_1_1Logger.html#a8a10da4d737b881b9cd49f08a32494e5">Utils::Logger::Logger</a>
@@ -285,11 +288,22 @@ function toggleVisibility(linkObj) {
 <li>setLvl()
 : <a class="el" href="classUtils_1_1Logger_1_1LoggerOutput.html#a104f33ff2893a882f06bf005afa7f660">Utils::Logger::LoggerOutput</a>
 </li>
+<li>setMemBuf()
+: <a class="el" href="classSources_1_1CameraV4L_1_1V4L.html#aa6e30e8d49344b34cc2c1dd9cb7c9417">Sources::CameraV4L::V4L</a>
+</li>
+<li>setMemMap()
+: <a class="el" href="classSources_1_1CameraV4L_1_1V4L.html#ac3004e1bb899b4cef04ac43a22f363a7">Sources::CameraV4L::V4L</a>
+</li>
 <li>setModelPoints()
-: <a class="el" href="classTypes_1_1Objects3D_1_1Object3D.html#a453e3a52083c78f27bda983644bf8e5c">Types::Objects3D::Object3D</a>
+: <a class="el" href="classTypes_1_1Objects3D_1_1Object3D.html#a2e306973ef56422ee18de9831569bcda">Types::Objects3D::Object3D</a>
 </li>
 <li>setName()
 : <a class="el" href="classBase_1_1Component.html#adccd9a9133ebf4fdcff1ce6fc8b58458">Base::Component</a>
+</li>
+<li>setPicProperty()
+: <a class="el" href="classSources_1_1CameraV4L_1_1V4L.html#a4d872efa98a1b66f9766f047fc6f8fcf">Sources::CameraV4L::V4L</a>
+, <a class="el" href="classSources_1_1CameraV4L_1_1V4L2.html#a0c733baf78168853f2d77c85670a276c">Sources::CameraV4L::V4L2</a>
+, <a class="el" href="classSources_1_1CameraV4L_1_1VL.html#ae3d38e9080da4a74d1b16674a9c28c35">Sources::CameraV4L::VL</a>
 </li>
 <li>setPosition()
 : <a class="el" href="classTypes_1_1Objects3D_1_1Object3D.html#abde67178715fb7f0d2c5ef8c63a47f0a">Types::Objects3D::Object3D</a>
@@ -301,6 +315,16 @@ function toggleVisibility(linkObj) {
 : <a class="el" href="classBase_1_1EventHandler.html#a8171897ef1ecdea9f961d56a8cb65c9e">Base::EventHandler&lt; Class &gt;</a>
 , <a class="el" href="classBase_1_1EventScheduler.html#ae17da487fc78ba12fffb428383bab2e9">Base::EventScheduler&lt; Class &gt;</a>
 </li>
+<li>setVideoProperty()
+: <a class="el" href="classSources_1_1CameraV4L_1_1V4L.html#a504d0298160d0dabeff715c4152413f0">Sources::CameraV4L::V4L</a>
+, <a class="el" href="classSources_1_1CameraV4L_1_1V4L2.html#a9d3e357803e0b9eb9ef18aadd02e5b12">Sources::CameraV4L::V4L2</a>
+, <a class="el" href="classSources_1_1CameraV4L_1_1VL.html#a2a29111714c06464a8eace076a870111">Sources::CameraV4L::VL</a>
+</li>
+<li>setWinProperty()
+: <a class="el" href="classSources_1_1CameraV4L_1_1VL.html#a0a7897234d612f2c09dd5e424ff87449">Sources::CameraV4L::VL</a>
+, <a class="el" href="classSources_1_1CameraV4L_1_1V4L2.html#ae8a18ea54475a3322909fe23658b4ce5">Sources::CameraV4L::V4L2</a>
+, <a class="el" href="classSources_1_1CameraV4L_1_1V4L.html#afa451cca8130d3fcbe7a608b53056d53">Sources::CameraV4L::V4L</a>
+</li>
 <li>SharedLibrary()
 : <a class="el" href="classCommon_1_1SharedLibrary.html#a93872b6cce7db834b087f4116a079ced">Common::SharedLibrary</a>
 </li>
@@ -311,10 +335,13 @@ function toggleVisibility(linkObj) {
 : <a class="el" href="classCommon_1_1Thread.html#aff9c047717fe23d4617fa8b90a01b6d7">Common::Thread</a>
 </li>
 <li>start()
-: <a class="el" href="classCommon_1_1Thread.html#a74ae55f25fe29113d4340baec13b2d52">Common::Thread</a>
-, <a class="el" href="classBase_1_1Component.html#ae6e0b00d39549e7a0ff1df2c69265113">Base::Component</a>
+: <a class="el" href="classBase_1_1Component.html#ae6e0b00d39549e7a0ff1df2c69265113">Base::Component</a>
+, <a class="el" href="classCommon_1_1Thread.html#a74ae55f25fe29113d4340baec13b2d52">Common::Thread</a>
 , <a class="el" href="classCore_1_1Task.html#abd709607e96eed2966c5f1e597797277">Core::Task</a>
 , <a class="el" href="classCore_1_1Subtask.html#aa08b370b24d18501e967992771b1af85">Core::Subtask</a>
+</li>
+<li>startCapture()
+: <a class="el" href="classSources_1_1CameraV4L_1_1V4L2.html#a80d99f50b60f626d1c27583332d5546e">Sources::CameraV4L::V4L2</a>
 </li>
 <li>StdDev()
 : <a class="el" href="classTypes_1_1Blobs_1_1Blob.html#a4dfed7f2542926920056a192ddf80dda">Types::Blobs::Blob</a>
@@ -327,9 +354,12 @@ function toggleVisibility(linkObj) {
 : <a class="el" href="classProcessors_1_1Stereo_1_1Stero__Processor.html#a0236d3575dac1986d70fbbdf959e6e38">Processors::Stereo::Stero_Processor</a>
 </li>
 <li>stop()
-: <a class="el" href="classBase_1_1Component.html#a2fa6c24c197ce0001f0e6fb05fa565df">Base::Component</a>
+: <a class="el" href="classCore_1_1Task.html#a7323d0d6b4663203fa9bb594f50e3ae1">Core::Task</a>
+, <a class="el" href="classBase_1_1Component.html#a2fa6c24c197ce0001f0e6fb05fa565df">Base::Component</a>
 , <a class="el" href="classCore_1_1Subtask.html#a519d2853f9f9db29c8b9e55280c117a4">Core::Subtask</a>
-, <a class="el" href="classCore_1_1Task.html#a7323d0d6b4663203fa9bb594f50e3ae1">Core::Task</a>
+</li>
+<li>stopCapture()
+: <a class="el" href="classSources_1_1CameraV4L_1_1V4L2.html#a5e6f86260f91bf0c3765a3dfd7a39658">Sources::CameraV4L::V4L2</a>
 </li>
 <li>store()
 : <a class="el" href="classBase_1_1DataStreamBuffer_1_1Oldest.html#aa7f9e476faba4e1f15b9d9303bc0acec">Base::DataStreamBuffer::Oldest&lt; T &gt;</a>
@@ -341,19 +371,20 @@ function toggleVisibility(linkObj) {
 </li>
 <li>str2mat()
 : <a class="el" href="structProcessors_1_1MS__Barcode_1_1Props.html#a1c54c5b9dca7eb3904c27a2b044054f1">Processors::MS_Barcode::Props</a>
-, <a class="el" href="structProcessors_1_1CvFilter2D_1_1Props.html#a9f6649775e2e15660a495b0785dad6fa">Processors::CvFilter2D::Props</a>
+, <a class="el" href="classBase_1_1Props.html#af256cbad4244a2f7578c3344d6fde2fb">Base::Props</a>
 , <a class="el" href="structProcessors_1_1MS__Barcode_1_1Props.html#a1c54c5b9dca7eb3904c27a2b044054f1">Processors::MS_Barcode::Props</a>
+, <a class="el" href="structProcessors_1_1CvFilter2D_1_1Props.html#a9f6649775e2e15660a495b0785dad6fa">Processors::CvFilter2D::Props</a>
 </li>
 <li>str2type()
-: <a class="el" href="structProcessors_1_1CvColorConv_1_1ColorConvProps.html#a28997736252ce0725a6b7413b15bb02f">Processors::CvColorConv::ColorConvProps</a>
+: <a class="el" href="structProcessors_1_1CvMorphology_1_1Props.html#a80705b29621c392980fddc13cd701215">Processors::CvMorphology::Props</a>
+, <a class="el" href="structProcessors_1_1CvColorConv_1_1ColorConvProps.html#a28997736252ce0725a6b7413b15bb02f">Processors::CvColorConv::ColorConvProps</a>
 , <a class="el" href="structProcessors_1_1CvThreshold_1_1ThresholdProps.html#adec4e0f16cfa2c1737e72b621e9440de">Processors::CvThreshold::ThresholdProps</a>
-, <a class="el" href="structProcessors_1_1CvMorphology_1_1Props.html#a80705b29621c392980fddc13cd701215">Processors::CvMorphology::Props</a>
 </li>
 <li>Subtask()
 : <a class="el" href="classCore_1_1Subtask.html#ad9112352f35c8ea5a889d1740aa9eb0f">Core::Subtask</a>
 </li>
 <li>summary()
-: <a class="el" href="classUtils_1_1Logger_1_1Logger.html#ae1544f6a96e1988ef38fb58c577b22fc">Utils::Logger::Logger</a>
+: <a class="el" href="classUtils_1_1Logger_1_1Logger.html#a9f06c93ec816915be47af8aea9b02a90">Utils::Logger::Logger</a>
 </li>
 </ul>
 </div>
@@ -376,7 +407,7 @@ function toggleVisibility(linkObj) {
 <div style="background: #FFFFFF; height: 1px; border: 0; border-top: 1px solid #BBBBBB; clear: both; font-size: 1px">&nbsp;</div>
 <div style="background: #EEEEEE url(images/footer_grad.jpg); height: 125px">
 <address style="text-align: center;"><small>
-Generated on Fri Oct 22 2010 by&nbsp;<a href="http://www.doxygen.org/index.html">Doxygen</a> 1.7.1</small></address><br/>
+Generated on Mon Nov 15 2010 by&nbsp;<a href="http://www.doxygen.org/index.html">Doxygen</a> 1.7.1</small></address><br/>
 <br/>
 <br/>
 <br/>

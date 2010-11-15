@@ -1,12 +1,12 @@
 <map id="G" name="G">
-<area shape="rect" id="node8" href="$classBase_1_1EventHandler.html" title="Base::EventHandler\&lt; CvVideoWriter_Sink \&gt;" alt="" coords="1225,62,1500,93"/>
-<area shape="rect" id="node2" href="$classBase_1_1Component.html" title="Abstract interface class for all modules &#45; data sources, processors etc." alt="" coords="572,34,697,65"/>
-<area shape="rect" id="node4" href="$structSinks_1_1CvVideoWriter_1_1Props.html" title="CvVideoWriter properties." alt="" coords="541,87,728,118"/>
-<area shape="rect" id="node6" href="$classBase_1_1Props.html" title="Base class for property structures." alt="" coords="289,74,383,105"/>
-<area shape="rect" id="node10" href="$classBase_1_1EventHandlerInterface.html" title="Interface for EventHandler class." alt="" coords="857,5,1044,35"/>
-<area shape="rect" id="node13" href="$classBase_1_1DataStreamIn.html" title="Base::DataStreamIn\&lt; Mat \&gt;" alt="" coords="541,167,728,198"/>
-<area shape="rect" id="node15" href="$classBase_1_1DataStreamInterface.html" title="Interface class for DataStreams." alt="" coords="247,127,425,158"/>
-<area shape="rect" id="node17" href="$classBase_1_1Connection.html" title="Connection between data streams." alt="" coords="5,127,131,158"/>
-<area shape="rect" id="node19" href="$classBase_1_1DataStreamBuffer_1_1Queue.html" title="Base::DataStreamBuffer::Queue\&lt; Mat \&gt;" alt="" coords="208,181,464,211"/>
-<area shape="rect" id="node21" href="$classBase_1_1Synchronization_1_1NoSync.html" title="Synchronization policy &#45; no synchronization." alt="" coords="233,234,439,265"/>
+<area shape="rect" id="node11" href="$classBase_1_1EventHandler.html" title="Base::EventHandler\&lt; CvVideoWriter_Sink \&gt;" alt="" coords="1247,62,1521,93"/>
+<area shape="rect" id="node2" href="$classBase_1_1Component.html" title="Abstract interface class for all modules &#45; data sources, processors etc." alt="" coords="593,14,719,45"/>
+<area shape="rect" id="node6" href="$structSinks_1_1CvVideoWriter_1_1Props.html" title="CvVideoWriter properties." alt="" coords="563,87,749,118"/>
+<area shape="rect" id="node8" href="$classBase_1_1Props.html" title="Base class for property structures." alt="" coords="289,97,383,127"/>
+<area shape="rect" id="node13" href="$classBase_1_1EventHandlerInterface.html" title="Interface for EventHandler class." alt="" coords="879,5,1065,35"/>
+<area shape="rect" id="node16" href="$classBase_1_1DataStreamIn.html" title="Base::DataStreamIn\&lt; Mat \&gt;" alt="" coords="563,167,749,198"/>
+<area shape="rect" id="node18" href="$classBase_1_1DataStreamInterface.html" title="Interface class for DataStreams." alt="" coords="247,150,425,181"/>
+<area shape="rect" id="node20" href="$classBase_1_1Connection.html" title="Connection between data streams." alt="" coords="5,150,131,181"/>
+<area shape="rect" id="node22" href="$classBase_1_1DataStreamBuffer_1_1Queue.html" title="Base::DataStreamBuffer::Queue\&lt; Mat \&gt;" alt="" coords="208,203,464,234"/>
+<area shape="rect" id="node24" href="$classBase_1_1Synchronization_1_1NoSync.html" title="Synchronization policy &#45; no synchronization." alt="" coords="233,257,439,287"/>
 </map>

@@ -37,10 +37,10 @@
 	<li><h2>Project</h2></li>
 	<li><ul>
 		<li><a href="index.html">Main page</a></li>
-		<li><a href="manuals.html">Manuals</a></li>
+		<li><a href="installation.html">Installation</a></li>
+		<li><a href="manuals.html">System overview</a></li>
 		<li><a href="tutorials.html">Tutorials</a></li>
 		<li><a href="faq.html">FAQ</a></li>
-		<li><a href="credits.html">Credits</a></li>
 	</ul></li>
 	<li><h2>Components</h2></li>
 	<li><ul>
@@ -62,12 +62,6 @@
 	<li><h2>Didactics</h2></li>
 	<li><ul>
 		<li><a href="didactics_ecovi.html">ECOVI</a></li>
-		<li><a href="didactics_eiasr.html">EIASR</a></li>
-	</ul></li>
-	<li><h2>Download</h2></li>
-	<li><ul>
-<!--		<li><a href="download.html">DisCODe SDK</a></li> -->
-		<li><a href="http://github.com/DisCODe/DisCODe">GitHub Access</a></li>
 	</ul></li>
 
 	<li><h2>Search</h2></li>
@@ -204,8 +198,10 @@ Functions</h2></td></tr>
 <tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Reset console colors (ie.  <a href="#a9ec80df5597e890382ac194ff9dfe581"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">std::ostream &amp;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceUtils.html#a6bfb1da7dfc560d92b392940b49d3cb4">intense</a> (std::ostream &amp;s)</td></tr>
 <tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Intense console font color.  <a href="#a6bfb1da7dfc560d92b392940b49d3cb4"></a><br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceUtils.html#a10855d57551eb2b3fcba14917a684c3c">searchFiles</a> (const std::string &amp;root, const std::string &amp;regexp, bool with_path=true)</td></tr>
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Find all files matching given regular expression in specified location.  <a href="#a10855d57551eb2b3fcba14917a684c3c"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">std::vector&lt; std::string &gt;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceUtils.html#ab4dda5d8925a53c7d486109ac60c72e8">searchFiles</a> (const std::string &amp;root, const std::string &amp;regexp, bool with_path=true)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Find all files matching given regular expression in specified location.  <a href="#ab4dda5d8925a53c7d486109ac60c72e8"></a><br/></td></tr>
+<tr><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr><td class="memTemplItemLeft" align="right" valign="top">unsigned int&nbsp;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceUtils.html#a2cd4efa02c5e742a94c6e22bc2fd9758">distLevenshtein</a> (const T &amp;s1, const T &amp;s2)</td></tr>
 </table>
 <hr/><h2>Function Documentation</h2>
 <a class="anchor" id="ac2e247efcadb7f6198e85a79d3b12ebb"></a><!-- doxytag: member="Utils::blue" ref="ac2e247efcadb7f6198e85a79d3b12ebb" args="(std::ostream &amp;s)" -->
@@ -245,6 +241,35 @@ Functions</h2></td></tr>
 <div class="memdoc">
 
 <p>Set console font color to cyan. </p>
+
+</div>
+</div>
+<a class="anchor" id="a2cd4efa02c5e742a94c6e22bc2fd9758"></a><!-- doxytag: member="Utils::distLevenshtein" ref="a2cd4efa02c5e742a94c6e22bc2fd9758" args="(const T &amp;s1, const T &amp;s2)" -->
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">unsigned int Utils::distLevenshtein </td>
+          <td>(</td>
+          <td class="paramtype">const T &amp;&nbsp;</td>
+          <td class="paramname"> <em>s1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T &amp;&nbsp;</td>
+          <td class="paramname"> <em>s2</em></td><td>&nbsp;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td><td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
 
 </div>
 </div>
@@ -349,12 +374,12 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a10855d57551eb2b3fcba14917a684c3c"></a><!-- doxytag: member="Utils::searchFiles" ref="a10855d57551eb2b3fcba14917a684c3c" args="(const std::string &amp;root, const std::string &amp;regexp, bool with_path=true)" -->
+<a class="anchor" id="ab4dda5d8925a53c7d486109ac60c72e8"></a><!-- doxytag: member="Utils::searchFiles" ref="ab4dda5d8925a53c7d486109ac60c72e8" args="(const std::string &amp;root, const std::string &amp;regexp, bool with_path=true)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">std::vector&lt; std::string &gt; Utils::searchFiles </td>
+          <td class="memname">MYLIB_EXPORT std::vector&lt; std::string &gt; Utils::searchFiles </td>
           <td>(</td>
           <td class="paramtype">const std::string &amp;&nbsp;</td>
           <td class="paramname"> <em>root</em>, </td>
@@ -453,7 +478,7 @@ Functions</h2></td></tr>
 <div style="background: #FFFFFF; height: 1px; border: 0; border-top: 1px solid #BBBBBB; clear: both; font-size: 1px">&nbsp;</div>
 <div style="background: #EEEEEE url(images/footer_grad.jpg); height: 125px">
 <address style="text-align: center;"><small>
-Generated on Fri Oct 22 2010 by&nbsp;<a href="http://www.doxygen.org/index.html">Doxygen</a> 1.7.1</small></address><br/>
+Generated on Mon Nov 15 2010 by&nbsp;<a href="http://www.doxygen.org/index.html">Doxygen</a> 1.7.1</small></address><br/>
 <br/>
 <br/>
 <br/>

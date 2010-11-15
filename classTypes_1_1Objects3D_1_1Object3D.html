@@ -37,10 +37,10 @@
 	<li><h2>Project</h2></li>
 	<li><ul>
 		<li><a href="index.html">Main page</a></li>
-		<li><a href="manuals.html">Manuals</a></li>
+		<li><a href="installation.html">Installation</a></li>
+		<li><a href="manuals.html">System overview</a></li>
 		<li><a href="tutorials.html">Tutorials</a></li>
 		<li><a href="faq.html">FAQ</a></li>
-		<li><a href="credits.html">Credits</a></li>
 	</ul></li>
 	<li><h2>Components</h2></li>
 	<li><ul>
@@ -62,12 +62,6 @@
 	<li><h2>Didactics</h2></li>
 	<li><ul>
 		<li><a href="didactics_ecovi.html">ECOVI</a></li>
-		<li><a href="didactics_eiasr.html">EIASR</a></li>
-	</ul></li>
-	<li><h2>Download</h2></li>
-	<li><ul>
-<!--		<li><a href="download.html">DisCODe SDK</a></li> -->
-		<li><a href="http://github.com/DisCODe/DisCODe">GitHub Access</a></li>
 	</ul></li>
 
 	<li><h2>Search</h2></li>
@@ -213,20 +207,61 @@ function toggleVisibility(linkObj) {
 <table class="memberdecls">
 <tr><td colspan="2"><h2><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTypes_1_1Objects3D_1_1Object3D.html#a5f00e2a300e5775d92364259d55e992e">Object3D</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTypes_1_1Objects3D_1_1Object3D.html#a9c0018a5e9948a8fdec9f7046d08a711">Object3D</a> (const <a class="el" href="classTypes_1_1Objects3D_1_1Object3D.html">Object3D</a> &amp;o)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">virtual&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTypes_1_1Objects3D_1_1Object3D.html#ae719633a70964fe035b60267eb76ae60">~Object3D</a> ()</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTypes_1_1Objects3D_1_1Object3D.html#a4fcae43f69fd7c72c81088f13e29a927">setImagePoints</a> (const cv::vector&lt; cv::Point2f &gt; &amp;<a class="el" href="classTypes_1_1Objects3D_1_1Object3D.html#ad48708a2cff2f9ec4e15f7c55968de2f">imagePoints</a>)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">const cv::vector&lt; cv::Point2f &gt; &amp;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTypes_1_1Objects3D_1_1Object3D.html#a0293f69e320272ddf47a7f715937767c">getImagePoints</a> () const </td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTypes_1_1Objects3D_1_1Object3D.html#a453e3a52083c78f27bda983644bf8e5c">setModelPoints</a> (const cv::vector&lt; cv::Point3f &gt; &amp;<a class="el" href="classTypes_1_1Objects3D_1_1Object3D.html#a5109c73626c3a1b7dc343da54de356db">modelPoints</a>)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">const cv::vector&lt; cv::Point3f &gt; &amp;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTypes_1_1Objects3D_1_1Object3D.html#ad044ba29785a63a1581ee3e6115d736d">getModelPoints</a> () const </td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTypes_1_1Objects3D_1_1Object3D.html#ac4ff16062faae45b9621319a46b1147b">setImagePoints</a> (const std::vector&lt; cv::Point2f &gt; &amp;<a class="el" href="classTypes_1_1Objects3D_1_1Object3D.html#a92cfcd44c9810690b959f5eec384ed34">imagePoints</a>)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const std::vector&lt; cv::Point2f &gt; &amp;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTypes_1_1Objects3D_1_1Object3D.html#aa79a886528c258b4fb74de68afe177ad">getImagePoints</a> () const </td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTypes_1_1Objects3D_1_1Object3D.html#a2e306973ef56422ee18de9831569bcda">setModelPoints</a> (const std::vector&lt; cv::Point3f &gt; &amp;<a class="el" href="classTypes_1_1Objects3D_1_1Object3D.html#adbfca5e40962769ce8838b0f40d7bfcc">modelPoints</a>)</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">const std::vector&lt; cv::Point3f &gt; &amp;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTypes_1_1Objects3D_1_1Object3D.html#a0fb615da52f1b5b510ef1b3207857feb">getModelPoints</a> () const </td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTypes_1_1Objects3D_1_1Object3D.html#abde67178715fb7f0d2c5ef8c63a47f0a">setPosition</a> (const <a class="el" href="structTypes_1_1Objects3D_1_1HomogMatrix.html">HomogMatrix</a> &amp;<a class="el" href="classTypes_1_1Objects3D_1_1Object3D.html#adfacf99791755de9a19b6cd12e799ffd">position</a>)</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">const <a class="el" href="structTypes_1_1Objects3D_1_1HomogMatrix.html">HomogMatrix</a> &amp;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTypes_1_1Objects3D_1_1Object3D.html#add90b16fda886f8e91327917c1d48d82">getPosition</a> () const </td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual <a class="el" href="classTypes_1_1Objects3D_1_1Object3D.html">Object3D</a> *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTypes_1_1Objects3D_1_1Object3D.html#afb0fd627700307e7694784cc35f9b4e8">clone</a> ()=0</td></tr>
 <tr><td colspan="2"><h2><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">cv::vector&lt; cv::Point2f &gt;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTypes_1_1Objects3D_1_1Object3D.html#ad48708a2cff2f9ec4e15f7c55968de2f">imagePoints</a></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">cv::vector&lt; cv::Point3f &gt;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTypes_1_1Objects3D_1_1Object3D.html#a5109c73626c3a1b7dc343da54de356db">modelPoints</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">bool&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTypes_1_1Objects3D_1_1Object3D.html#aee92570872f5194e3073cafe661a0e8f">imagePointsSet</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">bool&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTypes_1_1Objects3D_1_1Object3D.html#aaa8b3ee15815a4be51333a89d1c92148">modelPointsSet</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">bool&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTypes_1_1Objects3D_1_1Object3D.html#a03362b88c82018298ca8065bce31157f">positionSet</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">std::vector&lt; cv::Point2f &gt;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTypes_1_1Objects3D_1_1Object3D.html#a92cfcd44c9810690b959f5eec384ed34">imagePoints</a></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">std::vector&lt; cv::Point3f &gt;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTypes_1_1Objects3D_1_1Object3D.html#adbfca5e40962769ce8838b0f40d7bfcc">modelPoints</a></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="structTypes_1_1Objects3D_1_1HomogMatrix.html">HomogMatrix</a>&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classTypes_1_1Objects3D_1_1Object3D.html#adfacf99791755de9a19b6cd12e799ffd">position</a></td></tr>
 </table>
 <hr/><h2>Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a5f00e2a300e5775d92364259d55e992e"></a><!-- doxytag: member="Types::Objects3D::Object3D::Object3D" ref="a5f00e2a300e5775d92364259d55e992e" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Types::Objects3D::Object3D::Object3D </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [inline]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="a9c0018a5e9948a8fdec9f7046d08a711"></a><!-- doxytag: member="Types::Objects3D::Object3D::Object3D" ref="a9c0018a5e9948a8fdec9f7046d08a711" args="(const Object3D &amp;o)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Types::Objects3D::Object3D::Object3D </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classTypes_1_1Objects3D_1_1Object3D.html">Object3D</a> &amp;&nbsp;</td>
+          <td class="paramname"> <em>o</em></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [inline]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="ae719633a70964fe035b60267eb76ae60"></a><!-- doxytag: member="Types::Objects3D::Object3D::~Object3D" ref="ae719633a70964fe035b60267eb76ae60" args="()" -->
 <div class="memitem">
 <div class="memproto">
@@ -245,12 +280,33 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <hr/><h2>Member Function Documentation</h2>
-<a class="anchor" id="a0293f69e320272ddf47a7f715937767c"></a><!-- doxytag: member="Types::Objects3D::Object3D::getImagePoints" ref="a0293f69e320272ddf47a7f715937767c" args="() const " -->
+<a class="anchor" id="afb0fd627700307e7694784cc35f9b4e8"></a><!-- doxytag: member="Types::Objects3D::Object3D::clone" ref="afb0fd627700307e7694784cc35f9b4e8" args="()=0" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const cv::vector&lt;cv::Point2f&gt;&amp; Types::Objects3D::Object3D::getImagePoints </td>
+          <td class="memname">virtual <a class="el" href="classTypes_1_1Objects3D_1_1Object3D.html">Object3D</a>* Types::Objects3D::Object3D::clone </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [pure virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Reimplemented from <a class="el" href="classTypes_1_1Drawable.html#a02b77509553d74e496f8321d651a6456">Types::Drawable</a>.</p>
+
+<p>Implemented in <a class="el" href="classTypes_1_1Objects3D_1_1Chessboard.html#ac9d98143fb10d194f7435af29cea03fd">Types::Objects3D::Chessboard</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa79a886528c258b4fb74de68afe177ad"></a><!-- doxytag: member="Types::Objects3D::Object3D::getImagePoints" ref="aa79a886528c258b4fb74de68afe177ad" args="() const " -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const std::vector&lt;cv::Point2f&gt;&amp; Types::Objects3D::Object3D::getImagePoints </td>
           <td>(</td>
           <td class="paramname"></td>
           <td>&nbsp;)&nbsp;</td>
@@ -262,12 +318,12 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="ad044ba29785a63a1581ee3e6115d736d"></a><!-- doxytag: member="Types::Objects3D::Object3D::getModelPoints" ref="ad044ba29785a63a1581ee3e6115d736d" args="() const " -->
+<a class="anchor" id="a0fb615da52f1b5b510ef1b3207857feb"></a><!-- doxytag: member="Types::Objects3D::Object3D::getModelPoints" ref="a0fb615da52f1b5b510ef1b3207857feb" args="() const " -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">const cv::vector&lt;cv::Point3f&gt;&amp; Types::Objects3D::Object3D::getModelPoints </td>
+          <td class="memname">const std::vector&lt;cv::Point3f&gt;&amp; Types::Objects3D::Object3D::getModelPoints </td>
           <td>(</td>
           <td class="paramname"></td>
           <td>&nbsp;)&nbsp;</td>
@@ -296,14 +352,14 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a4fcae43f69fd7c72c81088f13e29a927"></a><!-- doxytag: member="Types::Objects3D::Object3D::setImagePoints" ref="a4fcae43f69fd7c72c81088f13e29a927" args="(const cv::vector&lt; cv::Point2f &gt; &amp;imagePoints)" -->
+<a class="anchor" id="ac4ff16062faae45b9621319a46b1147b"></a><!-- doxytag: member="Types::Objects3D::Object3D::setImagePoints" ref="ac4ff16062faae45b9621319a46b1147b" args="(const std::vector&lt; cv::Point2f &gt; &amp;imagePoints)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void Types::Objects3D::Object3D::setImagePoints </td>
           <td>(</td>
-          <td class="paramtype">const cv::vector&lt; cv::Point2f &gt; &amp;&nbsp;</td>
+          <td class="paramtype">const std::vector&lt; cv::Point2f &gt; &amp;&nbsp;</td>
           <td class="paramname"> <em>imagePoints</em></td>
           <td>&nbsp;)&nbsp;</td>
           <td><code> [inline]</code></td>
@@ -314,14 +370,14 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a453e3a52083c78f27bda983644bf8e5c"></a><!-- doxytag: member="Types::Objects3D::Object3D::setModelPoints" ref="a453e3a52083c78f27bda983644bf8e5c" args="(const cv::vector&lt; cv::Point3f &gt; &amp;modelPoints)" -->
+<a class="anchor" id="a2e306973ef56422ee18de9831569bcda"></a><!-- doxytag: member="Types::Objects3D::Object3D::setModelPoints" ref="a2e306973ef56422ee18de9831569bcda" args="(const std::vector&lt; cv::Point3f &gt; &amp;modelPoints)" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
           <td class="memname">void Types::Objects3D::Object3D::setModelPoints </td>
           <td>(</td>
-          <td class="paramtype">const cv::vector&lt; cv::Point3f &gt; &amp;&nbsp;</td>
+          <td class="paramtype">const std::vector&lt; cv::Point3f &gt; &amp;&nbsp;</td>
           <td class="paramname"> <em>modelPoints</em></td>
           <td>&nbsp;)&nbsp;</td>
           <td><code> [inline]</code></td>
@@ -351,12 +407,12 @@ Protected Attributes</h2></td></tr>
 </div>
 </div>
 <hr/><h2>Member Data Documentation</h2>
-<a class="anchor" id="ad48708a2cff2f9ec4e15f7c55968de2f"></a><!-- doxytag: member="Types::Objects3D::Object3D::imagePoints" ref="ad48708a2cff2f9ec4e15f7c55968de2f" args="" -->
+<a class="anchor" id="a92cfcd44c9810690b959f5eec384ed34"></a><!-- doxytag: member="Types::Objects3D::Object3D::imagePoints" ref="a92cfcd44c9810690b959f5eec384ed34" args="" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">cv::vector&lt;cv::Point2f&gt; <a class="el" href="classTypes_1_1Objects3D_1_1Object3D.html#ad48708a2cff2f9ec4e15f7c55968de2f">Types::Objects3D::Object3D::imagePoints</a><code> [protected]</code></td>
+          <td class="memname">std::vector&lt;cv::Point2f&gt; <a class="el" href="classTypes_1_1Objects3D_1_1Object3D.html#a92cfcd44c9810690b959f5eec384ed34">Types::Objects3D::Object3D::imagePoints</a><code> [protected]</code></td>
         </tr>
       </table>
 </div>
@@ -364,12 +420,38 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="a5109c73626c3a1b7dc343da54de356db"></a><!-- doxytag: member="Types::Objects3D::Object3D::modelPoints" ref="a5109c73626c3a1b7dc343da54de356db" args="" -->
+<a class="anchor" id="aee92570872f5194e3073cafe661a0e8f"></a><!-- doxytag: member="Types::Objects3D::Object3D::imagePointsSet" ref="aee92570872f5194e3073cafe661a0e8f" args="" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">cv::vector&lt;cv::Point3f&gt; <a class="el" href="classTypes_1_1Objects3D_1_1Object3D.html#a5109c73626c3a1b7dc343da54de356db">Types::Objects3D::Object3D::modelPoints</a><code> [protected]</code></td>
+          <td class="memname">bool <a class="el" href="classTypes_1_1Objects3D_1_1Object3D.html#aee92570872f5194e3073cafe661a0e8f">Types::Objects3D::Object3D::imagePointsSet</a><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="adbfca5e40962769ce8838b0f40d7bfcc"></a><!-- doxytag: member="Types::Objects3D::Object3D::modelPoints" ref="adbfca5e40962769ce8838b0f40d7bfcc" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">std::vector&lt;cv::Point3f&gt; <a class="el" href="classTypes_1_1Objects3D_1_1Object3D.html#adbfca5e40962769ce8838b0f40d7bfcc">Types::Objects3D::Object3D::modelPoints</a><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
+<a class="anchor" id="aaa8b3ee15815a4be51333a89d1c92148"></a><!-- doxytag: member="Types::Objects3D::Object3D::modelPointsSet" ref="aaa8b3ee15815a4be51333a89d1c92148" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classTypes_1_1Objects3D_1_1Object3D.html#aaa8b3ee15815a4be51333a89d1c92148">Types::Objects3D::Object3D::modelPointsSet</a><code> [protected]</code></td>
         </tr>
       </table>
 </div>
@@ -390,8 +472,21 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a03362b88c82018298ca8065bce31157f"></a><!-- doxytag: member="Types::Objects3D::Object3D::positionSet" ref="a03362b88c82018298ca8065bce31157f" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool <a class="el" href="classTypes_1_1Objects3D_1_1Object3D.html#a03362b88c82018298ca8065bce31157f">Types::Objects3D::Object3D::positionSet</a><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>Types/Objects3D/<a class="el" href="Object3D_8hpp.html">Object3D.hpp</a></li>
+<li>/home/tkornuta/workspace/discode/src/Types/Objects3D/<a class="el" href="Object3D_8hpp.html">Object3D.hpp</a></li>
 </ul>
 </div>
 <!--- window showing the filter options -->
@@ -413,7 +508,7 @@ Protected Attributes</h2></td></tr>
 <div style="background: #FFFFFF; height: 1px; border: 0; border-top: 1px solid #BBBBBB; clear: both; font-size: 1px">&nbsp;</div>
 <div style="background: #EEEEEE url(images/footer_grad.jpg); height: 125px">
 <address style="text-align: center;"><small>
-Generated on Fri Oct 22 2010 by&nbsp;<a href="http://www.doxygen.org/index.html">Doxygen</a> 1.7.1</small></address><br/>
+Generated on Mon Nov 15 2010 by&nbsp;<a href="http://www.doxygen.org/index.html">Doxygen</a> 1.7.1</small></address><br/>
 <br/>
 <br/>
 <br/>

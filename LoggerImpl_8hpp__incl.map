@@ -1,6 +1,5 @@
 <map id="G" name="G">
-<area shape="rect" id="node11" href="$Singleton_8hpp.html" title="File containing the declaration of the Singleton template class." alt="" coords="297,86,399,117"/>
-<area shape="rect" id="node19" href="$LoggerAux_8hpp.html" title="LoggerAux.hpp" alt="" coords="848,166,957,197"/>
-<area shape="rect" id="node22" href="$LoggerOutput_8hpp.html" title="Interface for different logger outputs." alt="" coords="667,86,792,117"/>
-<area shape="rect" id="node25" href="$Console_8hpp.html" title="Console utility functions, like text coloring." alt="" coords="600,166,693,197"/>
+<area shape="rect" id="node11" href="$LoggerAux_8hpp.html" title="LoggerAux.hpp" alt="" coords="386,166,495,197"/>
+<area shape="rect" id="node14" href="$LoggerOutput_8hpp.html" title="Interface for different logger outputs." alt="" coords="97,86,222,117"/>
+<area shape="rect" id="node17" href="$Console_8hpp.html" title="Console utility functions, like text coloring." alt="" coords="118,166,211,197"/>
 </map>

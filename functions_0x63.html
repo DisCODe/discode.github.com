@@ -37,10 +37,10 @@
 	<li><h2>Project</h2></li>
 	<li><ul>
 		<li><a href="index.html">Main page</a></li>
-		<li><a href="manuals.html">Manuals</a></li>
+		<li><a href="installation.html">Installation</a></li>
+		<li><a href="manuals.html">System overview</a></li>
 		<li><a href="tutorials.html">Tutorials</a></li>
 		<li><a href="faq.html">FAQ</a></li>
-		<li><a href="credits.html">Credits</a></li>
 	</ul></li>
 	<li><h2>Components</h2></li>
 	<li><ul>
@@ -62,12 +62,6 @@
 	<li><h2>Didactics</h2></li>
 	<li><ul>
 		<li><a href="didactics_ecovi.html">ECOVI</a></li>
-		<li><a href="didactics_eiasr.html">EIASR</a></li>
-	</ul></li>
-	<li><h2>Download</h2></li>
-	<li><ul>
-<!--		<li><a href="download.html">DisCODe SDK</a></li> -->
-		<li><a href="http://github.com/DisCODe/DisCODe">GitHub Access</a></li>
 	</ul></li>
 
 	<li><h2>Search</h2></li>
@@ -206,6 +200,7 @@ function toggleVisibility(linkObj) {
       <li><a href="functions_0x73.html#index_s"><span>s</span></a></li>
       <li><a href="functions_0x74.html#index_t"><span>t</span></a></li>
       <li><a href="functions_0x75.html#index_u"><span>u</span></a></li>
+      <li><a href="functions_0x76.html#index_v"><span>v</span></a></li>
       <li><a href="functions_0x77.html#index_w"><span>w</span></a></li>
       <li><a href="functions_0x79.html#index_y"><span>y</span></a></li>
       <li><a href="functions_0x7e.html#index_~"><span>~</span></a></li>
@@ -219,18 +214,28 @@ Here is a list of all class members with links to the classes they belong to:
 <li>CameraCalib_Processor()
 : <a class="el" href="classProcessors_1_1CameraCalib_1_1CameraCalib__Processor.html#af6b2d5e8cb900421e57c1219567848a9">Processors::CameraCalib::CameraCalib_Processor</a>
 </li>
+<li>cameraMatrix
+: <a class="el" href="structProcessors_1_1CvSolvePnP_1_1CvSolvePnPProps.html#aaf85e6d04e0f82308f58dd7adf6722a1">Processors::CvSolvePnP::CvSolvePnPProps</a>
+, <a class="el" href="structProcessors_1_1CvUndistort_1_1CvUndistortProps.html#a5437873e46685c9a5f652f63e9e22c73">Processors::CvUndistort::CvUndistortProps</a>
+</li>
 <li>CameraOpenCV_Source()
 : <a class="el" href="classSources_1_1CameraOpenCV_1_1CameraOpenCV__Source.html#ac3602ac49d6b5f03815c4a81a15699e0">Sources::CameraOpenCV::CameraOpenCV_Source</a>
 </li>
 <li>CameraUniCap_Source()
 : <a class="el" href="classSources_1_1CameraUniCap_1_1CameraUniCap__Source.html#a3f798f57a6205bc408df8c8e2cd6a444">Sources::CameraUniCap::CameraUniCap_Source</a>
 </li>
+<li>CameraV4L_Source()
+: <a class="el" href="classSources_1_1CameraV4L_1_1CameraV4L__Source.html#a77ce60e3921cf40d8b7f36399333ea29">Sources::CameraV4L::CameraV4L_Source</a>
+</li>
 <li>cap
-: <a class="el" href="classSources_1_1CameraOpenCV_1_1CameraOpenCV__Source.html#af462786acd758b0dbd1849d2322eb541">Sources::CameraOpenCV::CameraOpenCV_Source</a>
-, <a class="el" href="classSources_1_1Movie_1_1Movie__Source.html#a28f17dbccd7e47d783734d5daae99b86">Sources::Movie::Movie_Source</a>
+: <a class="el" href="classSources_1_1Movie_1_1Movie__Source.html#a28f17dbccd7e47d783734d5daae99b86">Sources::Movie::Movie_Source</a>
+, <a class="el" href="classSources_1_1CameraOpenCV_1_1CameraOpenCV__Source.html#af462786acd758b0dbd1849d2322eb541">Sources::CameraOpenCV::CameraOpenCV_Source</a>
 </li>
 <li>cc2str()
 : <a class="el" href="structSinks_1_1CvVideoWriter_1_1Props.html#a40ab62732e60c0ac201531552aedb92a">Sinks::CvVideoWriter::Props</a>
+</li>
+<li>channel
+: <a class="el" href="structSources_1_1CameraV4L_1_1CameraProps.html#ae333624c6f2891b4c872b1acd21da16e">Sources::CameraV4L::CameraProps</a>
 </li>
 <li>channels
 : <a class="el" href="structProcessors_1_1CvSplit_1_1Props.html#a8f13abda6144df2f5aeb21bf59cf115a">Processors::CvSplit::Props</a>
@@ -242,12 +247,19 @@ Here is a list of all class members with links to the classes they belong to:
 : <a class="el" href="classTypes_1_1Blobs_1_1BlobResult.html#a5bd0c4cdf0c889c28e023a43164b2a58">Types::Blobs::BlobResult</a>
 </li>
 <li>clone()
-: <a class="el" href="classTypes_1_1Rectangle.html#a7ea31a6e5bc56901c89dcbb9d0313a12">Types::Rectangle</a>
-, <a class="el" href="classTypes_1_1Blobs_1_1BlobResult.html#a1a2fed575bcd863a4c221a7699ce95cf">Types::Blobs::BlobResult</a>
-, <a class="el" href="classTypes_1_1Drawable.html#a02b77509553d74e496f8321d651a6456">Types::Drawable</a>
+: <a class="el" href="classTypes_1_1Drawable.html#a02b77509553d74e496f8321d651a6456">Types::Drawable</a>
 , <a class="el" href="classTypes_1_1DrawableContainer.html#a0f333e14c53416d9ce5953163382a416">Types::DrawableContainer</a>
 , <a class="el" href="classTypes_1_1Ellipse.html#abc9728a7b451852d0bad7188cfe76025">Types::Ellipse</a>
-, <a class="el" href="classTypes_1_1Objects3D_1_1Chessboard.html#adc2ad2105488b0fabaa5af858f941ed9">Types::Objects3D::Chessboard</a>
+, <a class="el" href="classTypes_1_1Objects3D_1_1Chessboard.html#ac9d98143fb10d194f7435af29cea03fd">Types::Objects3D::Chessboard</a>
+, <a class="el" href="classTypes_1_1Objects3D_1_1Object3D.html#afb0fd627700307e7694784cc35f9b4e8">Types::Objects3D::Object3D</a>
+, <a class="el" href="classTypes_1_1Rectangle.html#a7ea31a6e5bc56901c89dcbb9d0313a12">Types::Rectangle</a>
+, <a class="el" href="classTypes_1_1Blobs_1_1BlobResult.html#a1a2fed575bcd863a4c221a7699ce95cf">Types::Blobs::BlobResult</a>
+</li>
+<li>closeDevice()
+: <a class="el" href="classSources_1_1CameraV4L_1_1V4L.html#a5c58198a62deb2d1d1f31d23351119c7">Sources::CameraV4L::V4L</a>
+</li>
+<li>CommandInterpreter()
+: <a class="el" href="classCore_1_1CommandInterpreter.html#a5741203895d7d0b04551391783a37858">Core::CommandInterpreter</a>
 </li>
 <li>comp_pair
 : <a class="el" href="classCore_1_1ComponentManager.html#a037a8c32368fe87bf81ffd517d0f3ace">Core::ComponentManager</a>
@@ -291,6 +303,25 @@ Here is a list of all class members with links to the classes they belong to:
 </li>
 <li>contrast
 : <a class="el" href="structSources_1_1CameraUniCap_1_1CameraUniCapProps.html#a0cef54d3983b3fc720fc9cb33458a717">Sources::CameraUniCap::CameraUniCapProps</a>
+, <a class="el" href="structSources_1_1CameraV4L_1_1CameraProps.html#a25d196a564abbd0b7d0124be99b0bfb0">Sources::CameraV4L::CameraProps</a>
+</li>
+<li>convChannel()
+: <a class="el" href="classSources_1_1CameraV4L_1_1VL.html#a7f4b6a765043229d5528a06be6ae3cda">Sources::CameraV4L::VL</a>
+</li>
+<li>convInterlace()
+: <a class="el" href="classSources_1_1CameraV4L_1_1VL.html#af79f6685edcfa63da1eca1a03a3cef5f">Sources::CameraV4L::VL</a>
+</li>
+<li>convInterlace2String()
+: <a class="el" href="classSources_1_1CameraV4L_1_1VL.html#a31aa99575ed7a4d8689d38ebec2064ef">Sources::CameraV4L::VL</a>
+</li>
+<li>convIOMethod()
+: <a class="el" href="classSources_1_1CameraV4L_1_1VL.html#a3afec6b1354ed119446de0951debbf3b">Sources::CameraV4L::VL</a>
+</li>
+<li>convPalette()
+: <a class="el" href="classSources_1_1CameraV4L_1_1VL.html#a91025708b8d04597c7b20c1de1ae355c">Sources::CameraV4L::VL</a>
+</li>
+<li>convStandard()
+: <a class="el" href="classSources_1_1CameraV4L_1_1VL.html#ab8e255c231cca0ab4c87512214315bc8">Sources::CameraV4L::VL</a>
 </li>
 <li>create()
 : <a class="el" href="classCore_1_1ComponentFactory.html#ab36c01e2593bd04d69eae15b790a3b84">Core::ComponentFactory</a>
@@ -321,17 +352,26 @@ Here is a list of all class members with links to the classes they belong to:
 <li>CvGaussianBlur_Processor()
 : <a class="el" href="classProcessors_1_1CvGaussianBlur_1_1CvGaussianBlur__Processor.html#ad78c62e424dbc190722946338397cd77">Processors::CvGaussianBlur::CvGaussianBlur_Processor</a>
 </li>
+<li>CvMatTranslator()
+: <a class="el" href="classTypes_1_1CvMatTranslator.html#ac82603c83f5b37c0a4f694666fa0b430">Types::CvMatTranslator</a>
+</li>
 <li>CvMorphology_Processor()
 : <a class="el" href="classProcessors_1_1CvMorphology_1_1CvMorphology__Processor.html#a82c4193ff419f983bff966dbdd640491">Processors::CvMorphology::CvMorphology_Processor</a>
 </li>
 <li>CvPixelOperator_Processor()
 : <a class="el" href="classProcessors_1_1CvPixelOperator_1_1CvPixelOperator__Processor.html#aa638ad61d11b87729ba4e895efe9515e">Processors::CvPixelOperator::CvPixelOperator_Processor</a>
 </li>
+<li>CvSolvePnP_Processor()
+: <a class="el" href="classProcessors_1_1CvSolvePnP_1_1CvSolvePnP__Processor.html#ae4fd4e8f5c219a96e7bd493debcc2351">Processors::CvSolvePnP::CvSolvePnP_Processor</a>
+</li>
 <li>CvSplit_Processor()
 : <a class="el" href="classProcessors_1_1CvSplit_1_1CvSplit__Processor.html#a503b772c222262d0cae65140660abf7a">Processors::CvSplit::CvSplit_Processor</a>
 </li>
 <li>CvThreshold_Processor()
 : <a class="el" href="classProcessors_1_1CvThreshold_1_1CvThreshold__Processor.html#a8c29e5c64be02d6342c3ddc926e7b13d">Processors::CvThreshold::CvThreshold_Processor</a>
+</li>
+<li>CvUndistort_Processor()
+: <a class="el" href="classProcessors_1_1CvUndistort_1_1CvUndistort__Processor.html#ac8e79421fccad85a16e61ab2a5822e20">Processors::CvUndistort::CvUndistort_Processor</a>
 </li>
 <li>CvVideoWriter_Sink()
 : <a class="el" href="classSinks_1_1CvVideoWriter_1_1CvVideoWriter__Sink.html#ae6d94f7a22c7df8ba8e4ec5fd9baca21">Sinks::CvVideoWriter::CvVideoWriter_Sink</a>
@@ -360,7 +400,7 @@ Here is a list of all class members with links to the classes they belong to:
 <div style="background: #FFFFFF; height: 1px; border: 0; border-top: 1px solid #BBBBBB; clear: both; font-size: 1px">&nbsp;</div>
 <div style="background: #EEEEEE url(images/footer_grad.jpg); height: 125px">
 <address style="text-align: center;"><small>
-Generated on Fri Oct 22 2010 by&nbsp;<a href="http://www.doxygen.org/index.html">Doxygen</a> 1.7.1</small></address><br/>
+Generated on Mon Nov 15 2010 by&nbsp;<a href="http://www.doxygen.org/index.html">Doxygen</a> 1.7.1</small></address><br/>
 <br/>
 <br/>
 <br/>

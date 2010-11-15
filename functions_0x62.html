@@ -37,10 +37,10 @@
 	<li><h2>Project</h2></li>
 	<li><ul>
 		<li><a href="index.html">Main page</a></li>
-		<li><a href="manuals.html">Manuals</a></li>
+		<li><a href="installation.html">Installation</a></li>
+		<li><a href="manuals.html">System overview</a></li>
 		<li><a href="tutorials.html">Tutorials</a></li>
 		<li><a href="faq.html">FAQ</a></li>
-		<li><a href="credits.html">Credits</a></li>
 	</ul></li>
 	<li><h2>Components</h2></li>
 	<li><ul>
@@ -62,12 +62,6 @@
 	<li><h2>Didactics</h2></li>
 	<li><ul>
 		<li><a href="didactics_ecovi.html">ECOVI</a></li>
-		<li><a href="didactics_eiasr.html">EIASR</a></li>
-	</ul></li>
-	<li><h2>Download</h2></li>
-	<li><ul>
-<!--		<li><a href="download.html">DisCODe SDK</a></li> -->
-		<li><a href="http://github.com/DisCODe/DisCODe">GitHub Access</a></li>
 	</ul></li>
 
 	<li><h2>Search</h2></li>
@@ -206,6 +200,7 @@ function toggleVisibility(linkObj) {
       <li><a href="functions_0x73.html#index_s"><span>s</span></a></li>
       <li><a href="functions_0x74.html#index_t"><span>t</span></a></li>
       <li><a href="functions_0x75.html#index_u"><span>u</span></a></li>
+      <li><a href="functions_0x76.html#index_v"><span>v</span></a></li>
       <li><a href="functions_0x77.html#index_w"><span>w</span></a></li>
       <li><a href="functions_0x79.html#index_y"><span>y</span></a></li>
       <li><a href="functions_0x7e.html#index_~"><span>~</span></a></li>
@@ -216,19 +211,15 @@ function toggleVisibility(linkObj) {
 Here is a list of all class members with links to the classes they belong to:
 
 <h3><a class="anchor" id="index_b"></a>- b -</h3><ul>
-<li>Base::Singleton&lt; Logger &gt;
-: <a class="el" href="classUtils_1_1Logger_1_1Logger.html#a326de314a83e8111cb21b52b9d3b58de">Utils::Logger::Logger</a>
-</li>
 <li>bkg_color
 : <a class="el" href="structProcessors_1_1BlobExtractor_1_1Props.html#a82d6c850f253a47c386adb796005d716">Processors::BlobExtractor::Props</a>
 </li>
-<li>Blob()
-: <a class="el" href="classTypes_1_1Blobs_1_1Blob.html#a66cf6f23e792fc810d3dab6c86f073f8">Types::Blobs::Blob</a>
-, <a class="el" href="classTypes_1_1Blobs_1_1BlobContour.html#af0e1e98a10bb6c1ad69d148d4f241cd7">Types::Blobs::BlobContour</a>
-, <a class="el" href="classTypes_1_1Blobs_1_1Blob.html#a08271a5c3fc67edf17ae07cdc7eb59e9">Types::Blobs::Blob</a>
+<li>Blob
+: <a class="el" href="classTypes_1_1Blobs_1_1BlobContour.html#af0e1e98a10bb6c1ad69d148d4f241cd7">Types::Blobs::BlobContour</a>
+, <a class="el" href="classTypes_1_1Blobs_1_1Blob.html#a59a9bff202af72606f8e734dbd50b4bc">Types::Blobs::Blob</a>
 </li>
 <li>BlobContour()
-: <a class="el" href="classTypes_1_1Blobs_1_1BlobContour.html#aa60d8c8aae1e3bc028116dc5eb04a75e">Types::Blobs::BlobContour</a>
+: <a class="el" href="classTypes_1_1Blobs_1_1BlobContour.html#a00a0a214999543d46672bed9f28fded9">Types::Blobs::BlobContour</a>
 </li>
 <li>BlobExtractor_Processor()
 : <a class="el" href="classProcessors_1_1BlobExtractor_1_1BlobExtractor__Processor.html#a3b7fdce1f4bec7f7f9d11ac584c233eb">Processors::BlobExtractor::BlobExtractor_Processor</a>
@@ -240,7 +231,7 @@ Here is a list of all class members with links to the classes they belong to:
 : <a class="el" href="classTypes_1_1Blobs_1_1BlobGetExterior.html#aeb0a65fa88c0e6d365095c8173dd0a24">Types::Blobs::BlobGetExterior</a>
 </li>
 <li>BlobGetExternHullPerimeterRatio()
-: <a class="el" href="classTypes_1_1Blobs_1_1BlobGetExternHullPerimeterRatio.html#a11213860b5f39d5841246efb841f1a0d">Types::Blobs::BlobGetExternHullPerimeterRatio</a>
+: <a class="el" href="classTypes_1_1Blobs_1_1BlobGetExternHullPerimeterRatio.html#a4ea74a8dba961e5194a2db5f6f186744">Types::Blobs::BlobGetExternHullPerimeterRatio</a>
 </li>
 <li>BlobGetExternPerimeter()
 : <a class="el" href="classTypes_1_1Blobs_1_1BlobGetExternPerimeter.html#a5b9211ea4dbf3f4a90600ca6c10f1843">Types::Blobs::BlobGetExternPerimeter</a>
@@ -258,13 +249,14 @@ Here is a list of all class members with links to the classes they belong to:
 : <a class="el" href="classTypes_1_1Blobs_1_1BlobGetStdDev.html#a02eef8f9137f00d036e1fdd26fbd819c">Types::Blobs::BlobGetStdDev</a>
 </li>
 <li>BlobGetXYInside()
-: <a class="el" href="classTypes_1_1Blobs_1_1BlobGetXYInside.html#a2729a79b43a86fc7f7fdc63a9433c012">Types::Blobs::BlobGetXYInside</a>
+: <a class="el" href="classTypes_1_1Blobs_1_1BlobGetXYInside.html#a4837fa5887e20b91438c0df82debcc89">Types::Blobs::BlobGetXYInside</a>
 </li>
 <li>BlobResult()
-: <a class="el" href="classTypes_1_1Blobs_1_1BlobResult.html#ada3bd9b2612f1660c5b27e2638deb717">Types::Blobs::BlobResult</a>
+: <a class="el" href="classTypes_1_1Blobs_1_1BlobResult.html#a3a1ce255b51bd1386f1f83a55fd4fc69">Types::Blobs::BlobResult</a>
 </li>
 <li>brightness
 : <a class="el" href="structSources_1_1CameraUniCap_1_1CameraUniCapProps.html#a7f74c3ed8bfaa19da80b2ff34d146cdd">Sources::CameraUniCap::CameraUniCapProps</a>
+, <a class="el" href="structSources_1_1CameraV4L_1_1CameraProps.html#a6b688a48977a1efe693afff43eb09661">Sources::CameraV4L::CameraProps</a>
 </li>
 <li>buffer
 : <a class="el" href="classSources_1_1CameraUniCap_1_1CameraUniCap__Source.html#a5db42115e6d194773589709bb5842156">Sources::CameraUniCap::CameraUniCap_Source</a>
@@ -290,7 +282,7 @@ Here is a list of all class members with links to the classes they belong to:
 <div style="background: #FFFFFF; height: 1px; border: 0; border-top: 1px solid #BBBBBB; clear: both; font-size: 1px">&nbsp;</div>
 <div style="background: #EEEEEE url(images/footer_grad.jpg); height: 125px">
 <address style="text-align: center;"><small>
-Generated on Fri Oct 22 2010 by&nbsp;<a href="http://www.doxygen.org/index.html">Doxygen</a> 1.7.1</small></address><br/>
+Generated on Mon Nov 15 2010 by&nbsp;<a href="http://www.doxygen.org/index.html">Doxygen</a> 1.7.1</small></address><br/>
 <br/>
 <br/>
 <br/>

@@ -1,3 +1,36 @@
 <map id="G" name="G">
-<area shape="rect" id="node1" href="$classCommon_1_1SharedLibrary.html" title="Class representing shared object." alt="" coords="5,5,168,35"/>
+<area shape="rect" id="node1" href="$classBase_1_1Props.html" title="Base class for property structures." alt="" coords="20,805,113,835"/>
+<area shape="rect" id="node3" href="$classCore_1_1Executor.html" title="Executor object holds components and implements message queue." alt="" coords="345,85,455,115"/>
+<area shape="rect" id="node11" href="$classPixelOperator.html" title="PixelOperator\&lt; T \&gt;" alt="" coords="333,218,467,249"/>
+<area shape="rect" id="node21" href="$structProcessors_1_1BlobExtractor_1_1Props.html" title="Processors::BlobExtractor::Props" alt="" coords="292,271,508,302"/>
+<area shape="rect" id="node23" href="$structProcessors_1_1CvColorConv_1_1ColorConvProps.html" title="CvColorConv properties." alt="" coords="263,325,537,355"/>
+<area shape="rect" id="node25" href="$structProcessors_1_1CvFilter2D_1_1Props.html" title="Properties." alt="" coords="301,378,499,409"/>
+<area shape="rect" id="node27" href="$structProcessors_1_1CvFindChessboardCorners_1_1CvFindChessboardCornersProps.html" title="Processors::CvFindChessboardCorners::CvFindChessboardCornersProps" alt="" coords="176,431,624,462"/>
+<area shape="rect" id="node29" href="$structProcessors_1_1CvGaussianBlur_1_1BlurProps.html" title="CvThreshold properties." alt="" coords="273,485,527,515"/>
+<area shape="rect" id="node31" href="$structProcessors_1_1CvMorphology_1_1Props.html" title="CvThreshold properties." alt="" coords="289,538,511,569"/>
+<area shape="rect" id="node33" href="$structProcessors_1_1CvPixelOperator_1_1Props.html" title="Properties." alt="" coords="284,591,516,622"/>
+<area shape="rect" id="node35" href="$structProcessors_1_1CvSolvePnP_1_1CvSolvePnPProps.html" title="Processors::CvSolvePnP::CvSolvePnPProps" alt="" coords="259,645,541,675"/>
+<area shape="rect" id="node37" href="$structProcessors_1_1CvSplit_1_1Props.html" title="CvSplit properties." alt="" coords="311,698,489,729"/>
+<area shape="rect" id="node39" href="$structProcessors_1_1CvThreshold_1_1ThresholdProps.html" title="CvThreshold properties." alt="" coords="267,751,533,782"/>
+<area shape="rect" id="node41" href="$structProcessors_1_1CvUndistort_1_1CvUndistortProps.html" title="Processors::CvUndistort::CvUndistortProps" alt="" coords="263,805,537,835"/>
+<area shape="rect" id="node43" href="$structProcessors_1_1Example_1_1Example__Props.html" title="Example properties." alt="" coords="277,858,523,889"/>
+<area shape="rect" id="node45" href="$structProcessors_1_1MS__Barcode_1_1Props.html" title="MS_Barcode_Decide properties." alt="" coords="293,911,507,942"/>
+<area shape="rect" id="node47" href="$structProcessors_1_1MS__Sign_1_1Props.html" title="MS_Sign_Decide properties." alt="" coords="305,965,495,995"/>
+<area shape="rect" id="node49" href="$structProcessors_1_1Stereo_1_1Props.html" title="Properties." alt="" coords="312,1018,488,1049"/>
+<area shape="rect" id="node51" href="$structSinks_1_1CvVideoWriter_1_1Props.html" title="CvVideoWriter properties." alt="" coords="307,1071,493,1102"/>
+<area shape="rect" id="node53" href="$structSinks_1_1CvWindow_1_1WndProps.html" title="CvWindow properties." alt="" coords="305,1125,495,1155"/>
+<area shape="rect" id="node55" href="$structSources_1_1CameraOpenCV_1_1Props.html" title="Sources::CameraOpenCV::Props" alt="" coords="293,1178,507,1209"/>
+<area shape="rect" id="node57" href="$structSources_1_1CameraUniCap_1_1CameraUniCapProps.html" title="CameraUniCap_Source properties." alt="" coords="253,1231,547,1262"/>
+<area shape="rect" id="node59" href="$structSources_1_1CameraV4L_1_1CameraProps.html" title="Sources::CameraV4L::CameraProps" alt="" coords="284,1285,516,1315"/>
+<area shape="rect" id="node61" href="$structSources_1_1Keyboard_1_1Props.html" title="Keyboard_Source properties." alt="" coords="313,1338,487,1369"/>
+<area shape="rect" id="node63" href="$structSources_1_1Movie_1_1Props.html" title="Movie_Source properties." alt="" coords="323,1391,477,1422"/>
+<area shape="rect" id="node65" href="$structSources_1_1Sequence_1_1Props.html" title="Sources::Sequence::Props" alt="" coords="311,1445,489,1475"/>
+<area shape="rect" id="node5" href="$classCore_1_1ContinuousExecutor.html" title="Call step continuously." alt="" coords="673,5,847,35"/>
+<area shape="rect" id="node7" href="$classCore_1_1PassiveExecutor.html" title="Don&#39;t call any step, only react." alt="" coords="683,58,837,89"/>
+<area shape="rect" id="node9" href="$classCore_1_1PeriodicExecutor.html" title="Execute component periodically." alt="" coords="683,111,837,142"/>
+<area shape="rect" id="node13" href="$classAndOperator.html" title="AndOperator\&lt; T \&gt;" alt="" coords="697,165,823,195"/>
+<area shape="rect" id="node15" href="$classOrOperator.html" title="OrOperator\&lt; T \&gt;" alt="" coords="701,218,819,249"/>
+<area shape="rect" id="node17" href="$classTanhOperator.html" title="TanhOperator\&lt; T \&gt;" alt="" coords="695,271,825,302"/>
+<area shape="rect" id="node19" href="$classUnitOperator.html" title="UnitOperator\&lt; T \&gt;" alt="" coords="697,325,823,355"/>
+<area shape="rect" id="node66" href="$classCommon_1_1Thread.html" title="Thread object responsible for handling and executing threads." alt="" coords="5,85,128,115"/>
 </map>

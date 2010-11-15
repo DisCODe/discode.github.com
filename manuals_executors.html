@@ -37,10 +37,10 @@
 	<li><h2>Project</h2></li>
 	<li><ul>
 		<li><a href="index.html">Main page</a></li>
-		<li><a href="manuals.html">Manuals</a></li>
+		<li><a href="installation.html">Installation</a></li>
+		<li><a href="manuals.html">System overview</a></li>
 		<li><a href="tutorials.html">Tutorials</a></li>
 		<li><a href="faq.html">FAQ</a></li>
-		<li><a href="credits.html">Credits</a></li>
 	</ul></li>
 	<li><h2>Components</h2></li>
 	<li><ul>
@@ -62,12 +62,6 @@
 	<li><h2>Didactics</h2></li>
 	<li><ul>
 		<li><a href="didactics_ecovi.html">ECOVI</a></li>
-		<li><a href="didactics_eiasr.html">EIASR</a></li>
-	</ul></li>
-	<li><h2>Download</h2></li>
-	<li><ul>
-<!--		<li><a href="download.html">DisCODe SDK</a></li> -->
-		<li><a href="http://github.com/DisCODe/DisCODe">GitHub Access</a></li>
 	</ul></li>
 
 	<li><h2>Search</h2></li>
@@ -167,7 +161,7 @@ function toggleVisibility(linkObj) {
   </div>
   <div class="navpath">
     <ul>
-      <li><a class="el" href="manuals.html">Manuals</a>      </li>
+      <li><a class="el" href="manuals.html">System overview</a>      </li>
     </ul>
   </div>
 </div>
@@ -176,7 +170,7 @@ function toggleVisibility(linkObj) {
 <h1>Executors - task 'engines' </h1>  </div>
 </div>
 <div class="contents">
-<center> [<a class="el" href="manuals.html">Manuals</a>] </center><h2><a class="anchor" id="executors_desc"></a>
+ <table style="width: 100%; border-bottom: 1px solid #cccccc"><tr><td colspan= 2 style="text-align: center">&uarr;  <a class="el" href="manuals.html">System overview</a>  </td></tr><tr><td style="text-align: left">&larr;  <a class="el" href="manuals_events.html">Events - mechanisms for control of the flow</a>  </td></tr></table> <h2><a class="anchor" id="executors_desc"></a>
 Introduction</h2>
 <p>The <a class="el" href="classCore_1_1Executor.html">Executors</a> are responsible for activation of components of given processing stream. Executor object holds <a class="el" href="classBase_1_1Component.html">components</a> and implements a message queue.</p>
 <p>It is quite important that every executor (besides the executors working in the passive mode) should have a main component set. The most important thing regarding the main component is that it will be executed first.</p>
@@ -204,7 +198,7 @@ Executor types</h2>
 <p>The PassiveExecutor should be used in tasks, which contain components that can activate by they own. For example, the goal of <a class="el" href="classSources_1_1CameraUniCap_1_1CameraUniCap__Source.html">unicap</a> camera source is the retrieval of images from framegrabber. The source can activate on its own when a hardware interrupt will be received.</p>
 <p>PassiveExecutor can also be utilized for control of a single thread in multi-threaded applications.</p>
 <p>The list of executors isn't complete - and it can be expanded f.e. by a cyclic component, that will execute the step method of all related components (the most simplest is a round-robin based algorithm).</p>
- <table style="width: 100%; border-top: 1px solid #cccccc"><tr><td style="text-align: left">&larr;  <a class="el" href="manuals_events.html">Events - mechanisms for control of the flow</a>  </td></table>  </div>
+ <table style="width: 100%; border-top: 1px solid #cccccc"><tr><td colspan= 2 style="text-align: center">&uarr;  <a class="el" href="manuals.html">System overview</a>  </td></tr><tr><td style="text-align: left">&larr;  <a class="el" href="manuals_events.html">Events - mechanisms for control of the flow</a>  </td></tr></table>  </div>
 <!--- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -224,7 +218,7 @@ Executor types</h2>
 <div style="background: #FFFFFF; height: 1px; border: 0; border-top: 1px solid #BBBBBB; clear: both; font-size: 1px">&nbsp;</div>
 <div style="background: #EEEEEE url(images/footer_grad.jpg); height: 125px">
 <address style="text-align: center;"><small>
-Generated on Fri Oct 22 2010 by&nbsp;<a href="http://www.doxygen.org/index.html">Doxygen</a> 1.7.1</small></address><br/>
+Generated on Mon Nov 15 2010 by&nbsp;<a href="http://www.doxygen.org/index.html">Doxygen</a> 1.7.1</small></address><br/>
 <br/>
 <br/>
 <br/>

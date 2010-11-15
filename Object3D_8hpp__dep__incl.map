@@ -1,5 +1,7 @@
 <map id="G" name="G">
-<area shape="rect" id="node3" href="$Chessboard_8hpp.html" title="Types/Objects3D/Chessboard.hpp" alt="" coords="143,86,364,117"/>
-<area shape="rect" id="node5" href="$CvFindChessboardCorners__Processor_8hpp.html" title="Processors/CvFindChessboardCorners/CvFindChessboardCorners_Processor.hpp" alt="" coords="5,166,501,197"/>
-<area shape="rect" id="node7" href="$CvFindChessboardCorners__Processor_8cpp.html" title="Processors/CvFindChessboardCorners/CvFindChessboardCorners_Processor.cpp" alt="" coords="5,246,501,277"/>
+<area shape="rect" id="node3" href="$CvSolvePnP__Processor_8hpp.html" title="Position estimation component." alt="" coords="75,86,635,117"/>
+<area shape="rect" id="node7" href="$Chessboard_8hpp.html" title="/home/tkornuta/workspace/discode/src/Types/Objects3D/Chessboard.hpp" alt="" coords="693,86,1141,117"/>
+<area shape="rect" id="node5" href="$CvSolvePnP__Processor_8cpp.html" title="/home/tkornuta/workspace/discode/src/Processors/CvSolvePnP/CvSolvePnP_Processor.cpp" alt="" coords="5,166,565,197"/>
+<area shape="rect" id="node9" href="$CvFindChessboardCorners__Processor_8hpp.html" title="Chessboard localization component." alt="" coords="589,166,1315,197"/>
+<area shape="rect" id="node11" href="$CvFindChessboardCorners__Processor_8cpp.html" title="/home/tkornuta/workspace/discode/src/Processors/CvFindChessboardCorners/CvFindChessboardCorners_Processor.cpp" alt="" coords="589,246,1315,277"/>
 </map>

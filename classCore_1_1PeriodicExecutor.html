@@ -37,10 +37,10 @@
 	<li><h2>Project</h2></li>
 	<li><ul>
 		<li><a href="index.html">Main page</a></li>
-		<li><a href="manuals.html">Manuals</a></li>
+		<li><a href="installation.html">Installation</a></li>
+		<li><a href="manuals.html">System overview</a></li>
 		<li><a href="tutorials.html">Tutorials</a></li>
 		<li><a href="faq.html">FAQ</a></li>
-		<li><a href="credits.html">Credits</a></li>
 	</ul></li>
 	<li><h2>Components</h2></li>
 	<li><ul>
@@ -62,12 +62,6 @@
 	<li><h2>Didactics</h2></li>
 	<li><ul>
 		<li><a href="didactics_ecovi.html">ECOVI</a></li>
-		<li><a href="didactics_eiasr.html">EIASR</a></li>
-	</ul></li>
-	<li><h2>Download</h2></li>
-	<li><ul>
-<!--		<li><a href="download.html">DisCODe SDK</a></li> -->
-		<li><a href="http://github.com/DisCODe/DisCODe">GitHub Access</a></li>
 	</ul></li>
 
 	<li><h2>Search</h2></li>
@@ -191,7 +185,7 @@ function toggleVisibility(linkObj) {
 <p>Execute component periodically.  
 <a href="#_details">More...</a></p>
 
-<p><code>#include &lt;Executor.hpp&gt;</code></p>
+<p><code>#include &lt;PeriodicExecutor.hpp&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png"/> Inheritance diagram for Core::PeriodicExecutor:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -208,7 +202,7 @@ function toggleVisibility(linkObj) {
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="classCore_1_1PeriodicExecutor__coll__graph.png" border="0" usemap="#Core_1_1PeriodicExecutor_coll__map" alt="Collaboration graph"/></div>
 <map name="Core_1_1PeriodicExecutor_coll__map" id="Core_1_1PeriodicExecutor_coll__map">
-<area shape="rect" id="node2" href="classCore_1_1Executor.html" title="Executor object holds components and implements message queue." alt="" coords="77,89,187,119"/><area shape="rect" id="node4" href="classCommon_1_1Thread.html" title="Thread object responsible for handling and executing threads." alt="" coords="5,6,128,37"/><area shape="rect" id="node6" href="classBase_1_1Props.html" title="Base class for property structures." alt="" coords="152,6,245,37"/><area shape="rect" id="node8" href="classBase_1_1Component.html" title="Abstract interface class for all modules &#45; data sources, processors etc." alt="" coords="211,89,336,119"/></map>
+<area shape="rect" id="node2" href="classCore_1_1Executor.html" title="Executor object holds components and implements message queue." alt="" coords="144,105,253,135"/><area shape="rect" id="node4" href="classCommon_1_1Thread.html" title="Thread object responsible for handling and executing threads." alt="" coords="5,6,128,37"/><area shape="rect" id="node6" href="classBase_1_1Props.html" title="Base class for property structures." alt="" coords="152,6,245,37"/><area shape="rect" id="node11" href="classBase_1_1Component.html" title="Abstract interface class for all modules &#45; data sources, processors etc." alt="" coords="384,105,509,135"/></map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 
 <p><a href="classCore_1_1PeriodicExecutor-members.html">List of all members.</a></p>
@@ -325,15 +319,15 @@ Protected Member Functions</h2></td></tr>
 <div id="dynsection-3-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="classCore_1_1PeriodicExecutor_ad28900a4f9e0765303e0f4d3fece4732_cgraph.png" border="0" usemap="#classCore_1_1PeriodicExecutor_ad28900a4f9e0765303e0f4d3fece4732_cgraph" alt=""/></div>
 <map name="classCore_1_1PeriodicExecutor_ad28900a4f9e0765303e0f4d3fece4732_cgraph" id="classCore_1_1PeriodicExecutor_ad28900a4f9e0765303e0f4d3fece4732_cgraph">
-<area shape="rect" id="node3" href="classCommon_1_1Timer.html#adab65e2979a4db4ec958311b925fbdba" title="Return elapsed time in seconds." alt="" coords="523,5,691,36"/><area shape="rect" id="node5" href="classCore_1_1Executor.html#a07d29c8de868a122550839eadf90d3ac" title="Core::Executor::executeEvents" alt="" coords="235,164,437,194"/><area shape="rect" id="node9" href="classCommon_1_1Thread.html#a737906940b0ad63989657b11b80ca9ac" title="Suspends the calling thread until the specified time in milliseconds has been reached." alt="" coords="251,217,421,248"/><area shape="rect" id="node13" href="classCore_1_1Executor.html#a82358046c74201ea90a397f21b950a50" title="Return name." alt="" coords="261,270,411,301"/><area shape="rect" id="node15" href="classCommon_1_1Timer.html#ad1177c7ace7d64260f42983e2bbe941d" title="Restart timer." alt="" coords="527,112,687,142"/><area shape="rect" id="node17" href="classBase_1_1Component.html#a82661084f2ad57d03d8fb3827e13631c" title="Check, if component is running." alt="" coords="248,324,424,354"/><area shape="rect" id="node19" href="classBase_1_1Component.html#a4bdac536ab81ce2b7cb98c6ee3421cb1" title="Single work step." alt="" coords="257,58,415,89"/><area shape="rect" id="node25" href="classCommon_1_1Thread.html#a8c46c8315587738bab66aef6cd16bc01" title="Gives up the remainder of the current thread&#39;s time slice, to allow other threads to run..." alt="" coords="257,377,415,408"/><area shape="rect" id="node7" href="classBase_1_1EventHandlerInterface.html#a0a62e3469fc8c7545c47c9e75aa8e5cc" title="Execute event handler function." alt="" coords="485,165,728,196"/><area shape="rect" id="node11" href="classCommon_1_1Thread.html#aff9c047717fe23d4617fa8b90a01b6d7" title="Suspends the current thread until the specified time in milliseconds has been reached." alt="" coords="527,218,687,249"/><area shape="rect" id="node22" href="classBase_1_1Component.html#aebffbb3d951b5be33917ef4ed79c8707" title="Method called when step is called." alt="" coords="520,58,693,89"/></map>
+<area shape="rect" id="node3" href="classCommon_1_1Timer.html#adab65e2979a4db4ec958311b925fbdba" title="Return elapsed time in seconds." alt="" coords="523,137,691,167"/><area shape="rect" id="node5" href="classCore_1_1Executor.html#a07d29c8de868a122550839eadf90d3ac" title="Core::Executor::executeEvents" alt="" coords="235,5,437,35"/><area shape="rect" id="node9" href="classCommon_1_1Thread.html#a737906940b0ad63989657b11b80ca9ac" title="Suspends the calling thread until the specified time in milliseconds has been reached." alt="" coords="251,58,421,89"/><area shape="rect" id="node13" href="classCore_1_1Executor.html#a82358046c74201ea90a397f21b950a50" title="Return name." alt="" coords="261,162,411,193"/><area shape="rect" id="node15" href="classCommon_1_1Timer.html#ad1177c7ace7d64260f42983e2bbe941d" title="Restart timer." alt="" coords="527,295,687,326"/><area shape="rect" id="node17" href="classBase_1_1Component.html#ae8c59ce2ee320b1b805739e9a99e44c2" title="Check, if component is running." alt="" coords="248,269,424,299"/><area shape="rect" id="node19" href="classBase_1_1Component.html#a4bdac536ab81ce2b7cb98c6ee3421cb1" title="Single work step." alt="" coords="257,215,415,246"/><area shape="rect" id="node7" href="classBase_1_1EventHandlerInterface.html#a0a62e3469fc8c7545c47c9e75aa8e5cc" title="Execute event handler function." alt="" coords="485,5,728,35"/><area shape="rect" id="node11" href="classCommon_1_1Thread.html#aff9c047717fe23d4617fa8b90a01b6d7" title="Suspends the current thread until the specified time in milliseconds has been reached." alt="" coords="527,58,687,89"/><area shape="rect" id="node22" href="classBase_1_1Component.html#aebffbb3d951b5be33917ef4ed79c8707" title="Method called when step is called." alt="" coords="520,215,693,246"/></map>
 </div>
 </p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>Core/<a class="el" href="Executor_8hpp.html">Executor.hpp</a></li>
-<li>Core/<a class="el" href="Executor_8cpp.html">Executor.cpp</a></li>
+<li>/home/tkornuta/workspace/discode/src/Core/<a class="el" href="PeriodicExecutor_8hpp.html">PeriodicExecutor.hpp</a></li>
+<li>/home/tkornuta/workspace/discode/src/Core/<a class="el" href="PeriodicExecutor_8cpp.html">PeriodicExecutor.cpp</a></li>
 </ul>
 </div>
 <!--- window showing the filter options -->
@@ -355,7 +349,7 @@ Protected Member Functions</h2></td></tr>
 <div style="background: #FFFFFF; height: 1px; border: 0; border-top: 1px solid #BBBBBB; clear: both; font-size: 1px">&nbsp;</div>
 <div style="background: #EEEEEE url(images/footer_grad.jpg); height: 125px">
 <address style="text-align: center;"><small>
-Generated on Fri Oct 22 2010 by&nbsp;<a href="http://www.doxygen.org/index.html">Doxygen</a> 1.7.1</small></address><br/>
+Generated on Mon Nov 15 2010 by&nbsp;<a href="http://www.doxygen.org/index.html">Doxygen</a> 1.7.1</small></address><br/>
 <br/>
 <br/>
 <br/>

@@ -37,10 +37,10 @@
 	<li><h2>Project</h2></li>
 	<li><ul>
 		<li><a href="index.html">Main page</a></li>
-		<li><a href="manuals.html">Manuals</a></li>
+		<li><a href="installation.html">Installation</a></li>
+		<li><a href="manuals.html">System overview</a></li>
 		<li><a href="tutorials.html">Tutorials</a></li>
 		<li><a href="faq.html">FAQ</a></li>
-		<li><a href="credits.html">Credits</a></li>
 	</ul></li>
 	<li><h2>Components</h2></li>
 	<li><ul>
@@ -62,12 +62,6 @@
 	<li><h2>Didactics</h2></li>
 	<li><ul>
 		<li><a href="didactics_ecovi.html">ECOVI</a></li>
-		<li><a href="didactics_eiasr.html">EIASR</a></li>
-	</ul></li>
-	<li><h2>Download</h2></li>
-	<li><ul>
-<!--		<li><a href="download.html">DisCODe SDK</a></li> -->
-		<li><a href="http://github.com/DisCODe/DisCODe">GitHub Access</a></li>
 	</ul></li>
 
 	<li><h2>Search</h2></li>
@@ -205,6 +199,7 @@ function toggleVisibility(linkObj) {
       <li><a href="functions_func_0x73.html#index_s"><span>s</span></a></li>
       <li><a href="functions_func_0x74.html#index_t"><span>t</span></a></li>
       <li><a href="functions_func_0x75.html#index_u"><span>u</span></a></li>
+      <li><a href="functions_func_0x76.html#index_v"><span>v</span></a></li>
       <li><a href="functions_func_0x77.html#index_w"><span>w</span></a></li>
       <li><a href="functions_func_0x79.html#index_y"><span>y</span></a></li>
       <li><a href="functions_func_0x7e.html#index_~"><span>~</span></a></li>
@@ -221,8 +216,17 @@ function toggleVisibility(linkObj) {
 <li>Image_Source()
 : <a class="el" href="classSources_1_1Image_1_1Image__Source.html#ab3cb9247b2bc8684d10364e803faa733">Sources::Image::Image_Source</a>
 </li>
+<li>imageBits()
+: <a class="el" href="classSources_1_1CameraV4L_1_1V4L2.html#a0711de094a6b62c50e231f92453e98d8">Sources::CameraV4L::V4L2</a>
+</li>
 <li>init()
 : <a class="el" href="classBase_1_1Singleton.html#aec2e1b51309df8084334381630b1559e">Base::Singleton&lt; T &gt;</a>
+, <a class="el" href="classSources_1_1CameraV4L_1_1V4L.html#a618987c058037d0d21f67d6d4dbbd4b7">Sources::CameraV4L::V4L</a>
+, <a class="el" href="classSources_1_1CameraV4L_1_1V4L2.html#aa42198b5ca8201869358cc6ca5c99848">Sources::CameraV4L::V4L2</a>
+, <a class="el" href="classSources_1_1CameraV4L_1_1VL.html#a77b6b542a886fe9cb7437adef72e3ec7">Sources::CameraV4L::VL</a>
+</li>
+<li>initBuffers()
+: <a class="el" href="classSources_1_1CameraV4L_1_1V4L2.html#a764fd4ea7bdf1316c4a956cfb5c44923">Sources::CameraV4L::V4L2</a>
 </li>
 <li>initialize()
 : <a class="el" href="classBase_1_1Component.html#ab65908e687a6d900acb8a1ae7ba81096">Base::Component</a>
@@ -232,16 +236,20 @@ function toggleVisibility(linkObj) {
 : <a class="el" href="classCore_1_1ComponentManager.html#a6e1e92f03917bc517edac86882a9d01a">Core::ComponentManager</a>
 </li>
 <li>initialized()
-: <a class="el" href="classBase_1_1Component.html#a6094e6d5ee0b31dbd283cd78b4484a51">Base::Component</a>
+: <a class="el" href="classBase_1_1Component.html#a01e3433f701adab9e82b73ec6f3f6eb4">Base::Component</a>
 </li>
 <li>instance()
 : <a class="el" href="classBase_1_1Singleton.html#ad0b7769fc100bfacfed28fae917b2b38">Base::Singleton&lt; T &gt;</a>
+, <a class="el" href="classUtils_1_1Logger_1_1Logger.html#a12b56dabced49b3cb5d2ca0217606cd5">Utils::Logger::Logger</a>
 </li>
 <li>internalSet()
-: <a class="el" href="classBase_1_1DataStreamInPtr.html#a4d61bf47950c0652c5eadfa9eba2d9d1">Base::DataStreamInPtr&lt; T, BufferingPolicy, Sync &gt;</a>
-, <a class="el" href="classBase_1_1DataStreamInterface.html#aaae9facdcfa7f06fe0261446a3848a3c">Base::DataStreamInterface</a>
+: <a class="el" href="classBase_1_1DataStreamIn.html#a5c4e32ee1600787d7c3848bf16130e17">Base::DataStreamIn&lt; T, BufferingPolicy, Sync &gt;</a>
 , <a class="el" href="classBase_1_1DataStreamOut.html#acfb474d7a8b03eef1f78465d64c43a59">Base::DataStreamOut&lt; T &gt;</a>
-, <a class="el" href="classBase_1_1DataStreamIn.html#a5c4e32ee1600787d7c3848bf16130e17">Base::DataStreamIn&lt; T, BufferingPolicy, Sync &gt;</a>
+, <a class="el" href="classBase_1_1DataStreamInPtr.html#a4d61bf47950c0652c5eadfa9eba2d9d1">Base::DataStreamInPtr&lt; T, BufferingPolicy, Sync &gt;</a>
+, <a class="el" href="classBase_1_1DataStreamInterface.html#aaae9facdcfa7f06fe0261446a3848a3c">Base::DataStreamInterface</a>
+</li>
+<li>interrupt()
+: <a class="el" href="classCommon_1_1Thread.html#a7034f7486fe5d06542574cad47cfaf72">Common::Thread</a>
 </li>
 <li>IsEmpty()
 : <a class="el" href="classTypes_1_1Blobs_1_1BlobContour.html#a9131b3aa5394154b8624d0474145fbb0">Types::Blobs::BlobContour</a>
@@ -268,7 +276,7 @@ function toggleVisibility(linkObj) {
 <div style="background: #FFFFFF; height: 1px; border: 0; border-top: 1px solid #BBBBBB; clear: both; font-size: 1px">&nbsp;</div>
 <div style="background: #EEEEEE url(images/footer_grad.jpg); height: 125px">
 <address style="text-align: center;"><small>
-Generated on Fri Oct 22 2010 by&nbsp;<a href="http://www.doxygen.org/index.html">Doxygen</a> 1.7.1</small></address><br/>
+Generated on Mon Nov 15 2010 by&nbsp;<a href="http://www.doxygen.org/index.html">Doxygen</a> 1.7.1</small></address><br/>
 <br/>
 <br/>
 <br/>

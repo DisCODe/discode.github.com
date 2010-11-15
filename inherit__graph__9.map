@@ -1,4 +1,3 @@
 <map id="G" name="G">
-<area shape="rect" id="node3" href="$classBase_1_1Singleton.html" title="Base::Singleton\&lt; Logger \&gt;" alt="" coords="151,5,327,35"/>
-<area shape="rect" id="node5" href="$classUtils_1_1Logger_1_1Logger.html" title="Class for loggind messages." alt="" coords="377,5,519,35"/>
+<area shape="rect" id="node1" href="$classBase_1_1Singleton.html" title="Template singleton class, implemented in a Boost&#45;singleton manner." alt="" coords="5,5,152,35"/>
 </map>

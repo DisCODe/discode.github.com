@@ -37,10 +37,10 @@
 	<li><h2>Project</h2></li>
 	<li><ul>
 		<li><a href="index.html">Main page</a></li>
-		<li><a href="manuals.html">Manuals</a></li>
+		<li><a href="installation.html">Installation</a></li>
+		<li><a href="manuals.html">System overview</a></li>
 		<li><a href="tutorials.html">Tutorials</a></li>
 		<li><a href="faq.html">FAQ</a></li>
-		<li><a href="credits.html">Credits</a></li>
 	</ul></li>
 	<li><h2>Components</h2></li>
 	<li><ul>
@@ -62,12 +62,6 @@
 	<li><h2>Didactics</h2></li>
 	<li><ul>
 		<li><a href="didactics_ecovi.html">ECOVI</a></li>
-		<li><a href="didactics_eiasr.html">EIASR</a></li>
-	</ul></li>
-	<li><h2>Download</h2></li>
-	<li><ul>
-<!--		<li><a href="download.html">DisCODe SDK</a></li> -->
-		<li><a href="http://github.com/DisCODe/DisCODe">GitHub Access</a></li>
 	</ul></li>
 
 	<li><h2>Search</h2></li>
@@ -189,11 +183,11 @@ function toggleVisibility(linkObj) {
 <h1>Processors::Example::Example_Processor Class Reference</h1>  </div>
 </div>
 <div class="contents">
-<!-- doxytag: class="Processors::Example::Example_Processor" --><!-- doxytag: inherits="Base::Component" -->
+<!-- doxytag: class="Processors::Example::Example_Processor" --><!-- doxytag: inherits="Base::Component,Base::Component" -->
 <p><a class="el" href="namespaceProcessors_1_1Example.html">Example</a> processor class.  
 <a href="#_details">More...</a></p>
 
-<p><code>#include &lt;Example_Processor.hpp&gt;</code></p>
+<p><code>#include &lt;Example.hpp&gt;</code></p>
 <div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
   <img id="dynsection-0-trigger" src="closed.png"/> Inheritance diagram for Processors::Example::Example_Processor:</div>
 <div id="dynsection-0-summary" class="dynsummary" style="display:block;">
@@ -210,7 +204,7 @@ function toggleVisibility(linkObj) {
 <div id="dynsection-1-content" class="dyncontent" style="display:none;">
 <div class="center"><img src="classProcessors_1_1Example_1_1Example__Processor__coll__graph.png" border="0" usemap="#Processors_1_1Example_1_1Example__Processor_coll__map" alt="Collaboration graph"/></div>
 <map name="Processors_1_1Example_1_1Example__Processor_coll__map" id="Processors_1_1Example_1_1Example__Processor_coll__map">
-<area shape="rect" id="node14" href="classBase_1_1EventHandler.html" title="Base::EventHandler\&lt; Example_Processor \&gt;" alt="" coords="1223,62,1500,93"/><area shape="rect" id="node2" href="classBase_1_1Component.html" title="Abstract interface class for all modules &#45; data sources, processors etc." alt="" coords="560,65,685,95"/><area shape="rect" id="node4" href="classBase_1_1DataStreamIn.html" title="Base::DataStreamIn\&lt; int \&gt;" alt="" coords="533,118,712,149"/><area shape="rect" id="node6" href="classBase_1_1DataStreamInterface.html" title="Interface class for DataStreams." alt="" coords="243,65,421,95"/><area shape="rect" id="node8" href="classBase_1_1Connection.html" title="Connection between data streams." alt="" coords="5,65,131,95"/><area shape="rect" id="node10" href="classBase_1_1DataStreamBuffer_1_1Queue.html" title="Base::DataStreamBuffer::Queue\&lt; int \&gt;" alt="" coords="208,118,456,149"/><area shape="rect" id="node12" href="classBase_1_1Synchronization_1_1NoSync.html" title="Synchronization policy &#45; no synchronization." alt="" coords="229,171,435,202"/><area shape="rect" id="node16" href="classBase_1_1EventHandlerInterface.html" title="Interface for EventHandler class." alt="" coords="853,5,1040,35"/></map>
+<area shape="rect" id="node17" href="classBase_1_1EventHandler.html" title="Base::EventHandler\&lt; Example_Processor \&gt;" alt="" coords="1303,62,1580,93"/><area shape="rect" id="node2" href="classBase_1_1Component.html" title="Abstract interface class for all modules &#45; data sources, processors etc." alt="" coords="605,59,731,90"/><area shape="rect" id="node7" href="classBase_1_1DataStreamIn.html" title="Base::DataStreamIn\&lt; int \&gt;" alt="" coords="579,113,757,143"/><area shape="rect" id="node9" href="classBase_1_1DataStreamInterface.html" title="Interface class for DataStreams." alt="" coords="243,59,421,90"/><area shape="rect" id="node11" href="classBase_1_1Connection.html" title="Connection between data streams." alt="" coords="5,59,131,90"/><area shape="rect" id="node13" href="classBase_1_1DataStreamBuffer_1_1Queue.html" title="Base::DataStreamBuffer::Queue\&lt; int \&gt;" alt="" coords="208,113,456,143"/><area shape="rect" id="node15" href="classBase_1_1Synchronization_1_1NoSync.html" title="Synchronization policy &#45; no synchronization." alt="" coords="229,166,435,197"/><area shape="rect" id="node19" href="classBase_1_1EventHandlerInterface.html" title="Interface for EventHandler class." alt="" coords="933,5,1120,35"/><area shape="rect" id="node22" href="structProcessors_1_1Example_1_1Example__Props.html" title="Example properties." alt="" coords="545,193,791,223"/><area shape="rect" id="node24" href="classBase_1_1Props.html" title="Base class for property structures." alt="" coords="285,219,379,250"/></map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 
 <p><a href="classProcessors_1_1Example_1_1Example__Processor-members.html">List of all members.</a></p>
@@ -221,6 +215,12 @@ Public Member Functions</h2></td></tr>
 <tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Constructor.  <a href="#a3b51f041c01b9a2df2234af64642684e"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">virtual&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProcessors_1_1Example_1_1Example__Processor.html#a60911b53f63bcc5c861b1bd315e65b88">~Example_Processor</a> ()</td></tr>
 <tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Destructor.  <a href="#a60911b53f63bcc5c861b1bd315e65b88"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProcessors_1_1Example_1_1Example__Processor.html#a3b51f041c01b9a2df2234af64642684e">Example_Processor</a> (const std::string &amp;name=&quot;&quot;)</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Constructor.  <a href="#a3b51f041c01b9a2df2234af64642684e"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProcessors_1_1Example_1_1Example__Processor.html#a6ceac86714e83d3b988266bd23ef53f9">~Example_Processor</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Destructor.  <a href="#a6ceac86714e83d3b988266bd23ef53f9"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classBase_1_1Props.html">Base::Props</a> *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProcessors_1_1Example_1_1Example__Processor.html#a8acdb876483123b561c2e566ffb8c855">getProperties</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Return window properties.  <a href="#a8acdb876483123b561c2e566ffb8c855"></a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">bool&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProcessors_1_1Example_1_1Example__Processor.html#a5e68d9536767dd3e21d577910a3630a5">onInit</a> ()</td></tr>
@@ -235,6 +235,16 @@ Protected Member Functions</h2></td></tr>
 <tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Stop component.  <a href="#a2c958b8b209427753ba90d0dcc674079"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProcessors_1_1Example_1_1Example__Processor.html#a72d64341adf25cbe1e1f88ac6cfee24d">onNewImage</a> ()</td></tr>
 <tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Event handler function.  <a href="#a72d64341adf25cbe1e1f88ac6cfee24d"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">bool&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProcessors_1_1Example_1_1Example__Processor.html#a5e68d9536767dd3e21d577910a3630a5">onInit</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Connects source to given device.  <a href="#a5e68d9536767dd3e21d577910a3630a5"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">bool&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProcessors_1_1Example_1_1Example__Processor.html#aa624a2706b59a3b9df75ab010ec005fe">onFinish</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Disconnect source from device, closes streams, etc.  <a href="#aa624a2706b59a3b9df75ab010ec005fe"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">bool&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProcessors_1_1Example_1_1Example__Processor.html#a928b3a14d26e0a2cd515ad40f5587a17">onStep</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Retrieves data from device.  <a href="#a928b3a14d26e0a2cd515ad40f5587a17"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">bool&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProcessors_1_1Example_1_1Example__Processor.html#aeaadc1da2326360bf02f654e969de794">onStart</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Start component.  <a href="#aeaadc1da2326360bf02f654e969de794"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">bool&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProcessors_1_1Example_1_1Example__Processor.html#a2c958b8b209427753ba90d0dcc674079">onStop</a> ()</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Stop component.  <a href="#a2c958b8b209427753ba90d0dcc674079"></a><br/></td></tr>
 <tr><td colspan="2"><h2><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classBase_1_1EventHandler.html">Base::EventHandler</a><br class="typebreak"/>
@@ -242,6 +252,8 @@ Protected Attributes</h2></td></tr>
 <tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Event handler.  <a href="#a4a4e9157b227b3b8dc66ade0ee2db739"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="classBase_1_1DataStreamIn.html">Base::DataStreamIn</a>&lt; int &gt;&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProcessors_1_1Example_1_1Example__Processor.html#a99b20f3b0aac1719f33c5fa559f819ea">in_delay</a></td></tr>
 <tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Input data stream.  <a href="#a99b20f3b0aac1719f33c5fa559f819ea"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="structProcessors_1_1Example_1_1Example__Props.html">Example_Props</a>&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classProcessors_1_1Example_1_1Example__Processor.html#ac75ed59b7d48ae6562cd0e09fa64b053">props</a></td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Properties.  <a href="#ac75ed59b7d48ae6562cd0e09fa64b053"></a><br/></td></tr>
 </table>
 <hr/><a name="_details"></a><h2>Detailed Description</h2>
 <p><a class="el" href="namespaceProcessors_1_1Example.html">Example</a> processor class. </p>
@@ -286,7 +298,67 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="a3b51f041c01b9a2df2234af64642684e"></a><!-- doxytag: member="Processors::Example::Example_Processor::Example_Processor" ref="a3b51f041c01b9a2df2234af64642684e" args="(const std::string &amp;name=&quot;&quot;)" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">Processors::Example::Example_Processor::Example_Processor </td>
+          <td>(</td>
+          <td class="paramtype">const std::string &amp;&nbsp;</td>
+          <td class="paramname"> <em>name</em> = <code>&quot;&quot;</code></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Constructor. </p>
+
+</div>
+</div>
+<a class="anchor" id="a6ceac86714e83d3b988266bd23ef53f9"></a><!-- doxytag: member="Processors::Example::Example_Processor::~Example_Processor" ref="a6ceac86714e83d3b988266bd23ef53f9" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">virtual Processors::Example::Example_Processor::~Example_Processor </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Destructor. </p>
+
+</div>
+</div>
 <hr/><h2>Member Function Documentation</h2>
+<a class="anchor" id="a8acdb876483123b561c2e566ffb8c855"></a><!-- doxytag: member="Processors::Example::Example_Processor::getProperties" ref="a8acdb876483123b561c2e566ffb8c855" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classBase_1_1Props.html">Base::Props</a>* Processors::Example::Example_Processor::getProperties </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [inline, virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Return window properties. </p>
+
+<p>Reimplemented from <a class="el" href="classBase_1_1Component.html#a9ab9d73b75dd3648e58e1b9df71f4461">Base::Component</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="aa624a2706b59a3b9df75ab010ec005fe"></a><!-- doxytag: member="Processors::Example::Example_Processor::onFinish" ref="aa624a2706b59a3b9df75ab010ec005fe" args="()" -->
 <div class="memitem">
 <div class="memproto">
@@ -305,6 +377,48 @@ Protected Attributes</h2></td></tr>
 <p>Disconnect source from device, closes streams, etc. </p>
 
 <p>Implements <a class="el" href="classBase_1_1Component.html#a9242ff4d3d8a85795ec68de9400a448d">Base::Component</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="aa624a2706b59a3b9df75ab010ec005fe"></a><!-- doxytag: member="Processors::Example::Example_Processor::onFinish" ref="aa624a2706b59a3b9df75ab010ec005fe" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Processors::Example::Example_Processor::onFinish </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [protected, virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Disconnect source from device, closes streams, etc. </p>
+
+<p>Implements <a class="el" href="classBase_1_1Component.html#a9242ff4d3d8a85795ec68de9400a448d">Base::Component</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a5e68d9536767dd3e21d577910a3630a5"></a><!-- doxytag: member="Processors::Example::Example_Processor::onInit" ref="a5e68d9536767dd3e21d577910a3630a5" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Processors::Example::Example_Processor::onInit </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [protected, virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Connects source to given device. </p>
+
+<p>Implements <a class="el" href="classBase_1_1Component.html#a5f5b4c8b2ad9604984700df2896f94f4">Base::Component</a>.</p>
 
 </div>
 </div>
@@ -369,6 +483,27 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="aeaadc1da2326360bf02f654e969de794"></a><!-- doxytag: member="Processors::Example::Example_Processor::onStart" ref="aeaadc1da2326360bf02f654e969de794" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Processors::Example::Example_Processor::onStart </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [protected, virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Start component. </p>
+
+<p>Implements <a class="el" href="classBase_1_1Component.html#af829001a25aba32995bc021e362e328f">Base::Component</a>.</p>
+
+</div>
+</div>
 <a class="anchor" id="a928b3a14d26e0a2cd515ad40f5587a17"></a><!-- doxytag: member="Processors::Example::Example_Processor::onStep" ref="a928b3a14d26e0a2cd515ad40f5587a17" args="()" -->
 <div class="memitem">
 <div class="memproto">
@@ -387,6 +522,48 @@ Protected Attributes</h2></td></tr>
 <p>Retrieves data from device. </p>
 
 <p>Implements <a class="el" href="classBase_1_1Component.html#aebffbb3d951b5be33917ef4ed79c8707">Base::Component</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a928b3a14d26e0a2cd515ad40f5587a17"></a><!-- doxytag: member="Processors::Example::Example_Processor::onStep" ref="a928b3a14d26e0a2cd515ad40f5587a17" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Processors::Example::Example_Processor::onStep </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [protected, virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Retrieves data from device. </p>
+
+<p>Implements <a class="el" href="classBase_1_1Component.html#aebffbb3d951b5be33917ef4ed79c8707">Base::Component</a>.</p>
+
+</div>
+</div>
+<a class="anchor" id="a2c958b8b209427753ba90d0dcc674079"></a><!-- doxytag: member="Processors::Example::Example_Processor::onStop" ref="a2c958b8b209427753ba90d0dcc674079" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">bool Processors::Example::Example_Processor::onStop </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [protected, virtual]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Stop component. </p>
+
+<p>Implements <a class="el" href="classBase_1_1Component.html#a193d510d147cd7c70034f00b4e9d5b25">Base::Component</a>.</p>
 
 </div>
 </div>
@@ -442,9 +619,26 @@ Protected Attributes</h2></td></tr>
 
 </div>
 </div>
+<a class="anchor" id="ac75ed59b7d48ae6562cd0e09fa64b053"></a><!-- doxytag: member="Processors::Example::Example_Processor::props" ref="ac75ed59b7d48ae6562cd0e09fa64b053" args="" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structProcessors_1_1Example_1_1Example__Props.html">Example_Props</a> <a class="el" href="classProcessors_1_1Example_1_1Example__Processor.html#ac75ed59b7d48ae6562cd0e09fa64b053">Processors::Example::Example_Processor::props</a><code> [protected]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+<p>Properties. </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>Processors/Example/<a class="el" href="Example__Processor_8hpp.html">Example_Processor.hpp</a></li>
-<li>Processors/Example/<a class="el" href="Example__Processor_8cpp.html">Example_Processor.cpp</a></li>
+<li>/home/tkornuta/workspace/discode/src/Processors/Example/<a class="el" href="Example__Processor_8hpp.html">Example_Processor.hpp</a></li>
+<li>/home/tkornuta/workspace/discode/src/SDK/Component/Example/<a class="el" href="Example_8hpp.html">Example.hpp</a></li>
+<li>/home/tkornuta/workspace/discode/src/Processors/Example/<a class="el" href="Example__Processor_8cpp.html">Example_Processor.cpp</a></li>
+<li>/home/tkornuta/workspace/discode/src/SDK/Component/Example/<a class="el" href="Example_8cpp.html">Example.cpp</a></li>
 </ul>
 </div>
 <!--- window showing the filter options -->
@@ -466,7 +660,7 @@ Protected Attributes</h2></td></tr>
 <div style="background: #FFFFFF; height: 1px; border: 0; border-top: 1px solid #BBBBBB; clear: both; font-size: 1px">&nbsp;</div>
 <div style="background: #EEEEEE url(images/footer_grad.jpg); height: 125px">
 <address style="text-align: center;"><small>
-Generated on Fri Oct 22 2010 by&nbsp;<a href="http://www.doxygen.org/index.html">Doxygen</a> 1.7.1</small></address><br/>
+Generated on Mon Nov 15 2010 by&nbsp;<a href="http://www.doxygen.org/index.html">Doxygen</a> 1.7.1</small></address><br/>
 <br/>
 <br/>
 <br/>

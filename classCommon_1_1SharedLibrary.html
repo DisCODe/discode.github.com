@@ -37,10 +37,10 @@
 	<li><h2>Project</h2></li>
 	<li><ul>
 		<li><a href="index.html">Main page</a></li>
-		<li><a href="manuals.html">Manuals</a></li>
+		<li><a href="installation.html">Installation</a></li>
+		<li><a href="manuals.html">System overview</a></li>
 		<li><a href="tutorials.html">Tutorials</a></li>
 		<li><a href="faq.html">FAQ</a></li>
-		<li><a href="credits.html">Credits</a></li>
 	</ul></li>
 	<li><h2>Components</h2></li>
 	<li><ul>
@@ -62,12 +62,6 @@
 	<li><h2>Didactics</h2></li>
 	<li><ul>
 		<li><a href="didactics_ecovi.html">ECOVI</a></li>
-		<li><a href="didactics_eiasr.html">EIASR</a></li>
-	</ul></li>
-	<li><h2>Download</h2></li>
-	<li><ul>
-<!--		<li><a href="download.html">DisCODe SDK</a></li> -->
-		<li><a href="http://github.com/DisCODe/DisCODe">GitHub Access</a></li>
 	</ul></li>
 
 	<li><h2>Search</h2></li>
@@ -192,6 +186,13 @@ function toggleVisibility(linkObj) {
 <a href="#_details">More...</a></p>
 
 <p><code>#include &lt;SharedLibrary.hpp&gt;</code></p>
+<div id="dynsection-0" onclick="return toggleVisibility(this)" class="dynheader closed" style="cursor:pointer;">
+  <img id="dynsection-0-trigger" src="closed.png"/> Collaboration diagram for Common::SharedLibrary:</div>
+<div id="dynsection-0-summary" class="dynsummary" style="display:block;">
+</div>
+<div id="dynsection-0-content" class="dyncontent" style="display:none;">
+<div class="center"><img src="classCommon_1_1SharedLibrary__coll__graph.png" border="0" usemap="#Common_1_1SharedLibrary_coll__map" alt="Collaboration graph"/></div>
+<center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 
 <p><a href="classCommon_1_1SharedLibrary-members.html">List of all members.</a></p>
 <table class="memberdecls">
@@ -205,8 +206,8 @@ Public Member Functions</h2></td></tr>
 <tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Set location of library.  <a href="#a7458996b4f16c6ab8f87e10fed156a12"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">bool&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCommon_1_1SharedLibrary.html#a8c4e629fb9d8149fb9523162513f0c64">load</a> ()</td></tr>
 <tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Load shared library.  <a href="#a8c4e629fb9d8149fb9523162513f0c64"></a><br/></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">bool&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCommon_1_1SharedLibrary.html#a298ca642825485c06f2f231dea8dd13f">loaded</a> ()</td></tr>
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Check if library is loaded.  <a href="#a298ca642825485c06f2f231dea8dd13f"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">bool&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCommon_1_1SharedLibrary.html#a20de739121ca14c50b0e8af2fbd305a9">loaded</a> () const </td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Check if library is loaded.  <a href="#a20de739121ca14c50b0e8af2fbd305a9"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">bool&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCommon_1_1SharedLibrary.html#a08c6d908abd1bf8570252fbebd29de5d">unload</a> ()</td></tr>
 <tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Unload library from memory.  <a href="#a08c6d908abd1bf8570252fbebd29de5d"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">char *&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCommon_1_1SharedLibrary.html#aa5197a81813181fd82a8791c530adc2b">error</a> ()</td></tr>
@@ -328,7 +329,7 @@ template&lt;class RetValue , class Params... &gt; </div>
 <p>This function must have been declared with the same parameters and return type and marked as extern "C".</p>
 <p>Depending on platform and compiler settings, it may also be necessary to prefix the function with BOOST_EXTENSION_DECL, to make it externally visible.</p>
 <dl class="warning"><dt><b>Warning:</b></dt><dd>If the function signature does not match, strange errors can occur. </dd></dl>
-<dl class="pre"><dt><b>Precondition:</b></dt><dd><a class="el" href="classCommon_1_1SharedLibrary.html#a298ca642825485c06f2f231dea8dd13f" title="Check if library is loaded.">loaded()</a> == true. </dd></dl>
+<dl class="pre"><dt><b>Precondition:</b></dt><dd><a class="el" href="classCommon_1_1SharedLibrary.html#a20de739121ca14c50b0e8af2fbd305a9" title="Check if library is loaded.">loaded()</a> == true. </dd></dl>
 <dl class="post"><dt><b>Postcondition:</b></dt><dd>None. </dd></dl>
 
 </div>
@@ -354,7 +355,7 @@ template&lt;class RetValue , class Params... &gt; </div>
 
 </div>
 </div>
-<a class="anchor" id="a298ca642825485c06f2f231dea8dd13f"></a><!-- doxytag: member="Common::SharedLibrary::loaded" ref="a298ca642825485c06f2f231dea8dd13f" args="()" -->
+<a class="anchor" id="a20de739121ca14c50b0e8af2fbd305a9"></a><!-- doxytag: member="Common::SharedLibrary::loaded" ref="a20de739121ca14c50b0e8af2fbd305a9" args="() const " -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -363,7 +364,7 @@ template&lt;class RetValue , class Params... &gt; </div>
           <td>(</td>
           <td class="paramname"></td>
           <td>&nbsp;)&nbsp;</td>
-          <td><code> [inline]</code></td>
+          <td> const<code> [inline]</code></td>
         </tr>
       </table>
 </div>
@@ -483,7 +484,7 @@ template&lt;class RetValue , class Params... &gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>Common/<a class="el" href="SharedLibrary_8hpp.html">SharedLibrary.hpp</a></li>
+<li>/home/tkornuta/workspace/discode/src/Common/<a class="el" href="SharedLibrary_8hpp.html">SharedLibrary.hpp</a></li>
 </ul>
 </div>
 <!--- window showing the filter options -->
@@ -505,7 +506,7 @@ template&lt;class RetValue , class Params... &gt; </div>
 <div style="background: #FFFFFF; height: 1px; border: 0; border-top: 1px solid #BBBBBB; clear: both; font-size: 1px">&nbsp;</div>
 <div style="background: #EEEEEE url(images/footer_grad.jpg); height: 125px">
 <address style="text-align: center;"><small>
-Generated on Fri Oct 22 2010 by&nbsp;<a href="http://www.doxygen.org/index.html">Doxygen</a> 1.7.1</small></address><br/>
+Generated on Mon Nov 15 2010 by&nbsp;<a href="http://www.doxygen.org/index.html">Doxygen</a> 1.7.1</small></address><br/>
 <br/>
 <br/>
 <br/>

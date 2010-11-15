@@ -37,10 +37,10 @@
 	<li><h2>Project</h2></li>
 	<li><ul>
 		<li><a href="index.html">Main page</a></li>
-		<li><a href="manuals.html">Manuals</a></li>
+		<li><a href="installation.html">Installation</a></li>
+		<li><a href="manuals.html">System overview</a></li>
 		<li><a href="tutorials.html">Tutorials</a></li>
 		<li><a href="faq.html">FAQ</a></li>
-		<li><a href="credits.html">Credits</a></li>
 	</ul></li>
 	<li><h2>Components</h2></li>
 	<li><ul>
@@ -62,12 +62,6 @@
 	<li><h2>Didactics</h2></li>
 	<li><ul>
 		<li><a href="didactics_ecovi.html">ECOVI</a></li>
-		<li><a href="didactics_eiasr.html">EIASR</a></li>
-	</ul></li>
-	<li><h2>Download</h2></li>
-	<li><ul>
-<!--		<li><a href="download.html">DisCODe SDK</a></li> -->
-		<li><a href="http://github.com/DisCODe/DisCODe">GitHub Access</a></li>
 	</ul></li>
 
 	<li><h2>Search</h2></li>
@@ -206,15 +200,15 @@ function toggleVisibility(linkObj) {
 <table class="memberdecls">
 <tr><td colspan="2"><h2><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr><td class="memItemLeft" align="right" valign="top">virtual void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUtils_1_1Logger_1_1LoggerOutput.html#adbdf9c51cb0d6267eb0e8d240240fb43">print</a> (const std::string &amp;msg, <a class="el" href="namespaceUtils_1_1Logger.html#a0d07c666187b3c60e46f373294a4fc1f">Severity</a> sev, const std::string &amp;file, int line)=0</td></tr>
-<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Log given message.  <a href="#adbdf9c51cb0d6267eb0e8d240240fb43"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">virtual void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUtils_1_1Logger_1_1LoggerOutput.html#a6810086ce730e7ddf0a537af2fa01780">print</a> (const std::string &amp;msg, <a class="el" href="namespaceUtils_1_1Logger.html#a0d07c666187b3c60e46f373294a4fc1f">Severity</a> sev, const std::string &amp;file, int line) const =0</td></tr>
+<tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Log given message.  <a href="#a6810086ce730e7ddf0a537af2fa01780"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUtils_1_1Logger_1_1LoggerOutput.html#a104f33ff2893a882f06bf005afa7f660">setLvl</a> (<a class="el" href="namespaceUtils_1_1Logger.html#a0d07c666187b3c60e46f373294a4fc1f">Severity</a> sev)</td></tr>
-<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceUtils_1_1Logger.html#a0d07c666187b3c60e46f373294a4fc1f">Severity</a>&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUtils_1_1Logger_1_1LoggerOutput.html#a5e4016036605d276e7b2abed79f0f209">getLvl</a> ()</td></tr>
+<tr><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespaceUtils_1_1Logger.html#a0d07c666187b3c60e46f373294a4fc1f">Severity</a>&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classUtils_1_1Logger_1_1LoggerOutput.html#af4605b1f6bfc86c3e5621aa4ae08fac7">getLvl</a> () const </td></tr>
 </table>
 <hr/><a name="_details"></a><h2>Detailed Description</h2>
 <p>Interface for different logger outputs. </p>
 <hr/><h2>Member Function Documentation</h2>
-<a class="anchor" id="a5e4016036605d276e7b2abed79f0f209"></a><!-- doxytag: member="Utils::Logger::LoggerOutput::getLvl" ref="a5e4016036605d276e7b2abed79f0f209" args="()" -->
+<a class="anchor" id="af4605b1f6bfc86c3e5621aa4ae08fac7"></a><!-- doxytag: member="Utils::Logger::LoggerOutput::getLvl" ref="af4605b1f6bfc86c3e5621aa4ae08fac7" args="() const " -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -223,7 +217,7 @@ Public Member Functions</h2></td></tr>
           <td>(</td>
           <td class="paramname"></td>
           <td>&nbsp;)&nbsp;</td>
-          <td><code> [inline]</code></td>
+          <td> const<code> [inline]</code></td>
         </tr>
       </table>
 </div>
@@ -231,7 +225,7 @@ Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a class="anchor" id="adbdf9c51cb0d6267eb0e8d240240fb43"></a><!-- doxytag: member="Utils::Logger::LoggerOutput::print" ref="adbdf9c51cb0d6267eb0e8d240240fb43" args="(const std::string &amp;msg, Severity sev, const std::string &amp;file, int line)=0" -->
+<a class="anchor" id="a6810086ce730e7ddf0a537af2fa01780"></a><!-- doxytag: member="Utils::Logger::LoggerOutput::print" ref="a6810086ce730e7ddf0a537af2fa01780" args="(const std::string &amp;msg, Severity sev, const std::string &amp;file, int line) const =0" -->
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -262,7 +256,7 @@ Public Member Functions</h2></td></tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td><td><code> [pure virtual]</code></td>
+          <td></td><td></td><td> const<code> [pure virtual]</code></td>
         </tr>
       </table>
 </div>
@@ -280,7 +274,7 @@ Public Member Functions</h2></td></tr>
   </dd>
 </dl>
 
-<p>Implemented in <a class="el" href="classUtils_1_1Logger_1_1ConsoleOutput.html#ab99845f1c47e2006e3f2f9930a7e00ba">Utils::Logger::ConsoleOutput</a>.</p>
+<p>Implemented in <a class="el" href="classUtils_1_1Logger_1_1ConsoleOutput.html#a2024d8589ea17922712bd9b1e696b1b1">Utils::Logger::ConsoleOutput</a>.</p>
 
 </div>
 </div>
@@ -303,7 +297,7 @@ Public Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>Common/<a class="el" href="LoggerOutput_8hpp.html">LoggerOutput.hpp</a></li>
+<li>/home/tkornuta/workspace/discode/src/Common/<a class="el" href="LoggerOutput_8hpp.html">LoggerOutput.hpp</a></li>
 </ul>
 </div>
 <!--- window showing the filter options -->
@@ -325,7 +319,7 @@ Public Member Functions</h2></td></tr>
 <div style="background: #FFFFFF; height: 1px; border: 0; border-top: 1px solid #BBBBBB; clear: both; font-size: 1px">&nbsp;</div>
 <div style="background: #EEEEEE url(images/footer_grad.jpg); height: 125px">
 <address style="text-align: center;"><small>
-Generated on Fri Oct 22 2010 by&nbsp;<a href="http://www.doxygen.org/index.html">Doxygen</a> 1.7.1</small></address><br/>
+Generated on Mon Nov 15 2010 by&nbsp;<a href="http://www.doxygen.org/index.html">Doxygen</a> 1.7.1</small></address><br/>
 <br/>
 <br/>
 <br/>

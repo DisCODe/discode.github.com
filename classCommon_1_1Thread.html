@@ -37,10 +37,10 @@
 	<li><h2>Project</h2></li>
 	<li><ul>
 		<li><a href="index.html">Main page</a></li>
-		<li><a href="manuals.html">Manuals</a></li>
+		<li><a href="installation.html">Installation</a></li>
+		<li><a href="manuals.html">System overview</a></li>
 		<li><a href="tutorials.html">Tutorials</a></li>
 		<li><a href="faq.html">FAQ</a></li>
-		<li><a href="credits.html">Credits</a></li>
 	</ul></li>
 	<li><h2>Components</h2></li>
 	<li><ul>
@@ -62,12 +62,6 @@
 	<li><h2>Didactics</h2></li>
 	<li><ul>
 		<li><a href="didactics_ecovi.html">ECOVI</a></li>
-		<li><a href="didactics_eiasr.html">EIASR</a></li>
-	</ul></li>
-	<li><h2>Download</h2></li>
-	<li><ul>
-<!--		<li><a href="download.html">DisCODe SDK</a></li> -->
-		<li><a href="http://github.com/DisCODe/DisCODe">GitHub Access</a></li>
 	</ul></li>
 
 	<li><h2>Search</h2></li>
@@ -229,6 +223,7 @@ Public Member Functions</h2></td></tr>
 <tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Wait for thread to complete or the timeout has been reach.  <a href="#a40f3dc23916eade6212e5a2851dcc59f"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCommon_1_1Thread.html#a8c46c8315587738bab66aef6cd16bc01">yield</a> ()</td></tr>
 <tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Gives up the remainder of the current thread's time slice, to allow other threads to run.  <a href="#a8c46c8315587738bab66aef6cd16bc01"></a><br/></td></tr>
+<tr><td class="memItemLeft" align="right" valign="top">void&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCommon_1_1Thread.html#a7034f7486fe5d06542574cad47cfaf72">interrupt</a> ()</td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">bool&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCommon_1_1Thread.html#a210534ad76813fb0c13cfe811ae5119a">setPriority</a> (<a class="el" href="classCommon_1_1Thread.html#a91db81d7aeaa6112b25a92d802825359">Priority</a> priority)</td></tr>
 <tr><td class="mdescLeft">&nbsp;</td><td class="mdescRight">Set thread priority.  <a href="#a210534ad76813fb0c13cfe811ae5119a"></a><br/></td></tr>
 <tr><td class="memItemLeft" align="right" valign="top">bool&nbsp;</td><td class="memItemRight" valign="bottom"><a class="el" href="classCommon_1_1Thread.html#af6dd58da48b19aba3967feefd84d80dd">kill</a> ()</td></tr>
@@ -300,6 +295,23 @@ Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/><h2>Member Function Documentation</h2>
+<a class="anchor" id="a7034f7486fe5d06542574cad47cfaf72"></a><!-- doxytag: member="Common::Thread::interrupt" ref="a7034f7486fe5d06542574cad47cfaf72" args="()" -->
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void Common::Thread::interrupt </td>
+          <td>(</td>
+          <td class="paramname"></td>
+          <td>&nbsp;)&nbsp;</td>
+          <td><code> [inline]</code></td>
+        </tr>
+      </table>
+</div>
+<div class="memdoc">
+
+</div>
+</div>
 <a class="anchor" id="af6dd58da48b19aba3967feefd84d80dd"></a><!-- doxytag: member="Common::Thread::kill" ref="af6dd58da48b19aba3967feefd84d80dd" args="()" -->
 <div class="memitem">
 <div class="memproto">
@@ -523,8 +535,8 @@ Protected Member Functions</h2></td></tr>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>Common/<a class="el" href="Thread_8hpp.html">Thread.hpp</a></li>
-<li>Common/<a class="el" href="Thread_8cpp.html">Thread.cpp</a></li>
+<li>/home/tkornuta/workspace/discode/src/Common/<a class="el" href="Thread_8hpp.html">Thread.hpp</a></li>
+<li>/home/tkornuta/workspace/discode/src/Common/<a class="el" href="Thread_8cpp.html">Thread.cpp</a></li>
 </ul>
 </div>
 <!--- window showing the filter options -->
@@ -546,7 +558,7 @@ Protected Member Functions</h2></td></tr>
 <div style="background: #FFFFFF; height: 1px; border: 0; border-top: 1px solid #BBBBBB; clear: both; font-size: 1px">&nbsp;</div>
 <div style="background: #EEEEEE url(images/footer_grad.jpg); height: 125px">
 <address style="text-align: center;"><small>
-Generated on Fri Oct 22 2010 by&nbsp;<a href="http://www.doxygen.org/index.html">Doxygen</a> 1.7.1</small></address><br/>
+Generated on Mon Nov 15 2010 by&nbsp;<a href="http://www.doxygen.org/index.html">Doxygen</a> 1.7.1</small></address><br/>
 <br/>
 <br/>
 <br/>

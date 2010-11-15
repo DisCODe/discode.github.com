@@ -37,10 +37,10 @@
 	<li><h2>Project</h2></li>
 	<li><ul>
 		<li><a href="index.html">Main page</a></li>
-		<li><a href="manuals.html">Manuals</a></li>
+		<li><a href="installation.html">Installation</a></li>
+		<li><a href="manuals.html">System overview</a></li>
 		<li><a href="tutorials.html">Tutorials</a></li>
 		<li><a href="faq.html">FAQ</a></li>
-		<li><a href="credits.html">Credits</a></li>
 	</ul></li>
 	<li><h2>Components</h2></li>
 	<li><ul>
@@ -62,12 +62,6 @@
 	<li><h2>Didactics</h2></li>
 	<li><ul>
 		<li><a href="didactics_ecovi.html">ECOVI</a></li>
-		<li><a href="didactics_eiasr.html">EIASR</a></li>
-	</ul></li>
-	<li><h2>Download</h2></li>
-	<li><ul>
-<!--		<li><a href="download.html">DisCODe SDK</a></li> -->
-		<li><a href="http://github.com/DisCODe/DisCODe">GitHub Access</a></li>
 	</ul></li>
 
 	<li><h2>Search</h2></li>
@@ -171,7 +165,7 @@ function toggleVisibility(linkObj) {
 <h1>Create a simple component </h1>  </div>
 </div>
 <div class="contents">
-<h2><a class="anchor" id="ts_objectives"></a>
+ <table style="width: 100%; border-bottom: 1px solid #cccccc"><tr><td colspan= 2 style="text-align: center">&uarr;  <a class="el" href="discode_tutorials.html">The introduction to DisCODe</a>  </td></tr><tr><td style="text-align: left; width: 50%">&larr;  <a class="el" href="discode_06_refreshedtriggered_sequencereader.html">Move one of the components to another thread</a>  </td><td style="text-align: right">  <a class="el" href="discode_08_component_properties.html">Create component properties</a>  &rarr;</td></tr></table> <h2><a class="anchor" id="ts_objectives"></a>
 Tutorial objectives</h2>
 <p>The goal is to create a component responsible for bluring of the images.</p>
 <p>Utilize the standard mean filter with 3-by-3 kernel shown below.  
@@ -190,37 +184,33 @@ Task structure</h2>
  <dl class="note"><dt><b>Note:</b></dt><dd>For more details regarding the structure please click <a href="images/Legend.png">here</a>.</dd></dl>
 <h2><a class="anchor" id="ts_component_blur"></a>
 The ImageBlurer component</h2>
-<h3><a class="anchor" id="component_gen_shell"></a>
-Generate code "shell"</h3>
-<p>Utilize the create.sh script for generation of the new component shell. </p>
-<pre class="console">
-./create.sh ImageBlurer
-</pre><dl class="note"><dt><b>Note:</b></dt><dd>The script is located in the <b>Component</b> directory.</dd></dl>
-<h3><a class="anchor" id="component_gen_makefile"></a>
-Generate makefile for created component</h3>
-<pre class="console">
-cd ImageBlurer
-cmake .
-</pre><h3><a class="anchor" id="component_cmake_edit"></a>
+<h3><a class="anchor" id="component_creation"></a>
+Utilize the existing tools to create the component body, configure cmake and generate makefile.</h3>
+<p>Select your operating system:  
+<table style="border: 0px;">
+<tr><td style="padding: 4px 0; width: 60px; text-align: center; vertical-align: middle;"><img src="logos/linux_logo.png"></td><td style="padding: 4px; text-align: left; vertical-align: middle">
+ <a class="el" href="linux_sdk_new_comp.html">New Component in SDK</a>  
+</td>
+<td>
+Describes how to utilize the SDK in order to create and compile new component under Ubuntu OS.
+</td>
+</tr>
+<tr><td style="padding: 4px 0; width: 60px; text-align: center; vertical-align: middle;"><img src="logos/windows_logo.png"></td><td style="padding: 4px; text-align: left; vertical-align: middle">
+ <a class="el" href="win_sdk_new_comp.html">New Component in SDK</a>  
+</td>
+<td>
+Describes how to utilize the SDK in order to create and compile new component under Windows OS (32bit).
+</td></tr>
+</table>
+<h3><a class="anchor" id="component_cmake_edit"></a>
 Add OpenCV library to list of linked libraries.</h3>
 <p>Edit the <b>CMakeLists.txt</b> file in order to uncomment the OpenCV library dependency. </p>
 <div class="fragment"><pre class="fragment">...
 FIND_PACKAGE( OpenCV REQUIRED )
 SET(LIBS ${OpenCV_LIBS} ${OpenCV_LIBRARIES} ${LIBS} )
 ...
-</pre></div> <dl class="note"><dt><b>Note:</b></dt><dd>To uncommend given line remove the # character from the front.</dd></dl>
-<h3><a class="anchor" id="component_make"></a>
-Compile the component</h3>
-<p>From now on you can compile your component by calling the <b>make</b> command. </p>
-<pre class="console">
-make
-</pre><h3><a class="anchor" id="component_install"></a>
-Copy the component to bin directory</h3>
-<p>After the component is compiled you can copy it to binaries. </p>
-<pre class="console">
-cp libImageBlurer.so ../../bin/
-</pre> <dl class="note"><dt><b>Note:</b></dt><dd>Perform those two steps after your component will be finished.</dd></dl>
-<h3><a class="anchor" id="component_edit"></a>
+</pre></div> <dl class="note"><dt><b>Note:</b></dt><dd>To uncomment given line remove the # character from the front.</dd></dl>
+<h3><a class="anchor" id="blurer_hpp_edit"></a>
 Edit the header file ImageBlurer.hpp</h3>
 <p>Edit the component header and perform changes listed below.</p>
 <ul>
@@ -253,8 +243,8 @@ using <span class="keyword">namespace </span>cv;
     ...
 </pre></div></li>
 </ul>
-<h3><a class="anchor" id="component_edit"></a>
-Edit the header file ImageBlurer.hpp</h3>
+<h3><a class="anchor" id="blurer_cpp_edit"></a>
+Edit the source file ImageBlurer.cpp</h3>
 <p>Edit the component source and perform changes listed below.</p>
 <ul>
 <li>In the body of the <b>OnInit()</b> method register data streams, events and event handlers. <div class="fragment"><pre class="fragment">    ...
@@ -274,18 +264,18 @@ Edit the header file ImageBlurer.hpp</h3>
 <li>Add new <b>onNewImage()</b> method. <div class="fragment"><pre class="fragment">...
 void ImageBlurer_Processor::onNewImage()
 {
-    <a class="code" href="Logger_8hpp.html#aba7b09d6e8fbe414c23705ad24dde6ff" title="Start message printing.">LOG</a>(<a class="code" href="Logger_8hpp.html#aad9cc64d45a76ba0d37c00f8cd9caa37">TRACE</a>) &lt;&lt; <span class="stringliteral">&quot;ImageBlurer_Processor::onNewImage\n&quot;</span>;
+    <a class="code" href="Logger_8hpp.html#aba7b09d6e8fbe414c23705ad24dde6ff" title="Start message printing.">LOG</a>(<a class="code" href="Logger_8hpp.html#a41896b80530e7744b6ca1d92fd07a3f8">LTRACE</a>) &lt;&lt; <span class="stringliteral">&quot;ImageBlurer_Processor::onNewImage\n&quot;</span>;
     <span class="keywordflow">try</span> {
         <span class="comment">// Read image from input data stream.</span>
         Mat img = in_img.<a class="code" href="classBase_1_1DataStreamIn.html#ac57c59a3a88f0400677dc3453388c88b">read</a>();
-        <span class="comment">// Perform smoothing.</span>
-        blur(img, img, cv::Size(3,3));
+        <span class="comment">// Perform bluring.</span>
+        blur(img, img, cv::Size(10,10));
         <span class="comment">// Write blured image to output data stream.</span>
         out_img.<a class="code" href="classBase_1_1DataStreamOut.html#a2e52c419ac6d9559712f8ed8fe9686b2">write</a>(img);
         <span class="comment">// Raise event.</span>
         newImage-&gt;<a class="code" href="classBase_1_1Event.html#a61eb7d585dbbcfaa980c6c966d3e7cd2">raise</a>();
     } <span class="keywordflow">catch</span> (...) {
-        <a class="code" href="Logger_8hpp.html#aba7b09d6e8fbe414c23705ad24dde6ff" title="Start message printing.">LOG</a>(<a class="code" href="Logger_8hpp.html#a8fe83ac76edc595f6b98cd4a4127aed5">ERROR</a>) &lt;&lt; <span class="stringliteral">&quot;ImageBlurer_Processor::onNewImage failed\n&quot;</span>;
+        <a class="code" href="Logger_8hpp.html#aba7b09d6e8fbe414c23705ad24dde6ff" title="Start message printing.">LOG</a>(<a class="code" href="Logger_8hpp.html#aa103969ee27b4418f3c140b1c2c2076e">LERROR</a>) &lt;&lt; <span class="stringliteral">&quot;ImageBlurer_Processor::onNewImage failed\n&quot;</span>;
     }
 }
 ...
@@ -333,7 +323,7 @@ Task file</h2>
 <h2><a class="anchor" id="ts_result"></a>
 Result</h2>
 <p>A sequence of blurred images will be displayed. </p>
-<dl class="note"><dt><b>Note:</b></dt><dd>Compare the results with original images <a href="/home/discode/public_html/datasets/opencv_classics">/home/discode/public_html/datasets/opencv_classics</a></dd></dl>
+<dl class="note"><dt><b>Note:</b></dt><dd>Compare the results with original images <a href="http://segomo.elka.pw.edu.pl/~discode/datasets/opencv_classics">/home/discode/public_html/datasets/opencv_classics</a></dd></dl>
 <h2><a class="anchor" id="ts_sections"></a>
 Related sections</h2>
 <dl class="see"><dt><b>See also:</b></dt><dd><a class="el" href="manuals_components.html">Components - definition, types, states</a> : Description of components </dd>
@@ -341,7 +331,7 @@ Related sections</h2>
 <a class="el" href="manuals_datastreams.html">DataStreams - mechanism for passing data between components</a> : Description of data streams </dd>
 <dd>
 <a class="el" href="manuals_events.html">Events - mechanisms for control of the flow</a> : Description of events</dd></dl>
- <table style="width: 100%; border-top: 1px solid #cccccc"><tr><td style="text-align: left">&larr;  <a class="el" href="discode_06_refreshedtriggered_sequencereader.html">Move one of the components to another thread</a>  </td></table>  </div>
+ <table style="width: 100%; border-top: 1px solid #cccccc"><tr><td colspan= 2 style="text-align: center">&uarr;  <a class="el" href="discode_tutorials.html">The introduction to DisCODe</a>  </td></tr><tr><td style="text-align: left; width: 50%">&larr;  <a class="el" href="discode_06_refreshedtriggered_sequencereader.html">Move one of the components to another thread</a>  </td><td style="text-align: right">  <a class="el" href="discode_08_component_properties.html">Create component properties</a>  &rarr;</td></tr></table>  </div>
 <!--- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -361,7 +351,7 @@ Related sections</h2>
 <div style="background: #FFFFFF; height: 1px; border: 0; border-top: 1px solid #BBBBBB; clear: both; font-size: 1px">&nbsp;</div>
 <div style="background: #EEEEEE url(images/footer_grad.jpg); height: 125px">
 <address style="text-align: center;"><small>
-Generated on Fri Oct 22 2010 by&nbsp;<a href="http://www.doxygen.org/index.html">Doxygen</a> 1.7.1</small></address><br/>
+Generated on Mon Nov 15 2010 by&nbsp;<a href="http://www.doxygen.org/index.html">Doxygen</a> 1.7.1</small></address><br/>
 <br/>
 <br/>
 <br/>

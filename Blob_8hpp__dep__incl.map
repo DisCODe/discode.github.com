@@ -1,18 +1,18 @@
 <map id="G" name="G">
-<area shape="rect" id="node3" href="$Blob_8cpp.html" title="Blob implementation." alt="" coords="1128,86,1277,117"/>
-<area shape="rect" id="node5" href="$BlobOperators_8hpp.html" title="Helper classes to perform operations on Blobs &#45; implementation." alt="" coords="1352,86,1557,117"/>
-<area shape="rect" id="node9" href="$BlobResult_8hpp.html" title="Definition of the BlobResult class." alt="" coords="1120,166,1307,197"/>
-<area shape="rect" id="node31" href="$Types_8hpp.html" title="Documentation and include file for Types namespace." alt="" coords="1581,86,1704,117"/>
-<area shape="rect" id="node33" href="$ComponentLabeling_8hpp.html" title="Processors/BlobExtractor/ComponentLabeling.hpp" alt="" coords="1749,86,2064,117"/>
-<area shape="rect" id="node7" href="$BlobOperators_8cpp.html" title="Types/Blobs/BlobOperators.cpp" alt="" coords="1352,166,1557,197"/>
-<area shape="rect" id="node15" href="$BlobExtractor__Processor_8cpp.html" title="Processors/BlobExtractor/BlobExtractor_Processor.cpp" alt="" coords="1540,326,1884,357"/>
-<area shape="rect" id="node11" href="$BlobResult_8cpp.html" title="Implementation of the BlobResult class." alt="" coords="1120,246,1307,277"/>
-<area shape="rect" id="node13" href="$BlobExtractor__Processor_8hpp.html" title="Processors/BlobExtractor/BlobExtractor_Processor.hpp" alt="" coords="1331,246,1675,277"/>
-<area shape="rect" id="node17" href="$MS__Barcode__Decide_8hpp.html" title="Processors/MS_Barcode_Decide/MS_Barcode_Decide.hpp" alt="" coords="731,246,1096,277"/>
-<area shape="rect" id="node21" href="$MS__Barcode__Macro_8hpp.html" title="Processors/MS_Barcode_Macro/MS_Barcode_Macro.hpp" alt="" coords="5,246,363,277"/>
-<area shape="rect" id="node25" href="$MS__Sign__Decide_8hpp.html" title="Processors/MS_Sign_Decide/MS_Sign_Decide.hpp" alt="" coords="387,246,707,277"/>
-<area shape="rect" id="node19" href="$MS__Barcode__Decide_8cpp.html" title="Processors/MS_Barcode_Decide/MS_Barcode_Decide.cpp" alt="" coords="731,326,1096,357"/>
-<area shape="rect" id="node23" href="$MS__Barcode__Macro_8cpp.html" title="Processors/MS_Barcode_Macro/MS_Barcode_Macro.cpp" alt="" coords="5,326,363,357"/>
-<area shape="rect" id="node27" href="$MS__Sign__Decide_8cpp.html" title="Processors/MS_Sign_Decide/MS_Sign_Decide.cpp" alt="" coords="387,326,707,357"/>
-<area shape="rect" id="node36" href="$ComponentLabeling_8cpp.html" title="Processors/BlobExtractor/ComponentLabeling.cpp" alt="" coords="1749,166,2064,197"/>
+<area shape="rect" id="node3" href="$ComponentLabeling_8hpp.html" title="/home/tkornuta/workspace/discode/src/Processors/BlobExtractor/ComponentLabeling.hpp" alt="" coords="5,86,547,117"/>
+<area shape="rect" id="node9" href="$Blob_8cpp.html" title="Blob implementation." alt="" coords="571,86,949,117"/>
+<area shape="rect" id="node11" href="$BlobOperators_8hpp.html" title="Helper classes to perform operations on Blobs &#45; implementation." alt="" coords="973,86,1408,117"/>
+<area shape="rect" id="node16" href="$BlobResult_8hpp.html" title="Definition of the BlobResult class." alt="" coords="1371,166,1784,197"/>
+<area shape="rect" id="node36" href="$Types_8hpp.html" title="Documentation and include file for Types namespace." alt="" coords="1483,86,1832,117"/>
+<area shape="rect" id="node5" href="$BlobExtractor__Processor_8cpp.html" title="/home/tkornuta/workspace/discode/src/Processors/BlobExtractor/BlobExtractor_Processor.cpp" alt="" coords="329,326,903,357"/>
+<area shape="rect" id="node7" href="$ComponentLabeling_8cpp.html" title="/home/tkornuta/workspace/discode/src/Processors/BlobExtractor/ComponentLabeling.cpp" alt="" coords="37,166,579,197"/>
+<area shape="rect" id="node14" href="$BlobOperators_8cpp.html" title="/home/tkornuta/workspace/discode/src/Types/Blobs/BlobOperators.cpp" alt="" coords="912,166,1347,197"/>
+<area shape="rect" id="node18" href="$BlobExtractor__Processor_8hpp.html" title="/home/tkornuta/workspace/discode/src/Processors/BlobExtractor/BlobExtractor_Processor.hpp" alt="" coords="653,246,1227,277"/>
+<area shape="rect" id="node21" href="$MS__Barcode__Decide_8hpp.html" title="/home/tkornuta/workspace/discode/src/Processors/MS_Barcode_Decide/MS_Barcode_Decide.hpp" alt="" coords="1251,246,1843,277"/>
+<area shape="rect" id="node25" href="$MS__Barcode__Macro_8hpp.html" title="/home/tkornuta/workspace/discode/src/Processors/MS_Barcode_Macro/MS_Barcode_Macro.hpp" alt="" coords="1867,246,2451,277"/>
+<area shape="rect" id="node29" href="$MS__Sign__Decide_8hpp.html" title="/home/tkornuta/workspace/discode/src/Processors/MS_Sign_Decide/MS_Sign_Decide.hpp" alt="" coords="2475,246,3024,277"/>
+<area shape="rect" id="node33" href="$BlobResult_8cpp.html" title="Implementation of the BlobResult class." alt="" coords="3048,246,3461,277"/>
+<area shape="rect" id="node23" href="$MS__Barcode__Decide_8cpp.html" title="/home/tkornuta/workspace/discode/src/Processors/MS_Barcode_Decide/MS_Barcode_Decide.cpp" alt="" coords="1251,326,1843,357"/>
+<area shape="rect" id="node27" href="$MS__Barcode__Macro_8cpp.html" title="/home/tkornuta/workspace/discode/src/Processors/MS_Barcode_Macro/MS_Barcode_Macro.cpp" alt="" coords="1867,326,2451,357"/>
+<area shape="rect" id="node31" href="$MS__Sign__Decide_8cpp.html" title="/home/tkornuta/workspace/discode/src/Processors/MS_Sign_Decide/MS_Sign_Decide.cpp" alt="" coords="2475,326,3024,357"/>
 </map>
