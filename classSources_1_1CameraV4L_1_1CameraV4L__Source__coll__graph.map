@@ -1,0 +1,10 @@
+<map id="G" name="G">
+<area shape="rect" id="node2" href="$classBase_1_1Component.html" title="Abstract interface class for all modules &#45; data sources, processors etc." alt="" coords="567,31,692,62"/>
+<area shape="rect" id="node6" href="$structSources_1_1CameraV4L_1_1CameraProps.html" title="Sources::CameraV4L::CameraProps" alt="" coords="513,123,745,154"/>
+<area shape="rect" id="node8" href="$classBase_1_1Props.html" title="Base class for property structures." alt="" coords="252,111,345,142"/>
+<area shape="rect" id="node10" href="$classSources_1_1CameraV4L_1_1VL.html" title="Sources::CameraV4L::VL" alt="" coords="213,179,384,210"/>
+<area shape="rect" id="node14" href="$classBase_1_1DataStreamOut.html" title="Base::DataStreamOut\&lt; Mat \&gt;" alt="" coords="532,257,727,287"/>
+<area shape="rect" id="node16" href="$classBase_1_1DataStreamInterface.html" title="Interface class for DataStreams." alt="" coords="209,257,388,287"/>
+<area shape="rect" id="node18" href="$classBase_1_1Connection.html" title="Connection between data streams." alt="" coords="5,257,131,287"/>
+<area shape="rect" id="node20" href="$classBase_1_1Event.html" title="Event raised by Component." alt="" coords="583,310,676,341"/>
+</map>

@@ -1,0 +1,4 @@
+\form#0:$ val_{out} = val_{in} $
+\form#1:$ val_{out} = tanh(\sigma \cdot (val_{in}-mean)) $
+\form#2:$ val_{out} = val_{in} \wedge mask $
+\form#3:$ val_{out} = val_{in} \vee mask $

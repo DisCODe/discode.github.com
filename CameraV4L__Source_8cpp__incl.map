@@ -1,0 +1,26 @@
+<map id="G" name="G">
+<area shape="rect" id="node5" href="$CameraV4L__Source_8hpp.html" title="CameraV4L_Source.hpp" alt="" coords="1018,86,1181,117"/>
+<area shape="rect" id="node40" href="$Logger_8hpp.html" title="Simple logging object." alt="" coords="166,406,252,437"/>
+<area shape="rect" id="node66" href="$VL__Common_8hpp.html" title="VL_Common.hpp" alt="" coords="1948,326,2070,357"/>
+<area shape="rect" id="node86" href="$VL_8hpp.html" title="VL.hpp" alt="" coords="2102,166,2164,197"/>
+<area shape="rect" id="node131" href="$V4L_8hpp.html" title="V4L.hpp" alt="" coords="2453,86,2522,117"/>
+<area shape="rect" id="node146" href="$V4L2_8hpp.html" title="V4L2.hpp" alt="" coords="2094,86,2172,117"/>
+<area shape="rect" id="node7" href="$Component__Aux_8hpp.html" title="File containing definitions of component&#45;related functors and macros." alt="" coords="774,166,916,197"/>
+<area shape="rect" id="node11" href="$Component_8hpp.html" title="Abstract interface for all components." alt="" coords="1038,246,1150,277"/>
+<area shape="rect" id="node31" href="$DataStream_8hpp.html" title="Concrete implementations of data streams." alt="" coords="378,246,493,277"/>
+<area shape="rect" id="node59" href="$Panel__Empty_8hpp.html" title="Empty panel &#45; used for all components that doesn&#39;t require panel." alt="" coords="940,166,1062,197"/>
+<area shape="rect" id="node63" href="$CameraProps_8hpp.html" title="CameraProps.hpp" alt="" coords="1396,246,1521,277"/>
+<area shape="rect" id="node16" href="$Panel_8hpp.html" title="Base class for all task panels." alt="" coords="937,246,1014,277"/>
+<area shape="rect" id="node19" href="$Props_8hpp.html" title="Base class for property structures." alt="" coords="1346,326,1426,357"/>
+<area shape="rect" id="node21" href="$Event_8hpp.html" title="Component event." alt="" coords="782,246,862,277"/>
+<area shape="rect" id="node24" href="$EventHandler_8hpp.html" title="Component event handler." alt="" coords="868,326,990,357"/>
+<area shape="rect" id="node28" href="$DataStreamInterface_8hpp.html" title="Interface class for DataStreams." alt="" coords="526,406,692,437"/>
+<area shape="rect" id="node34" href="$Connection_8hpp.html" title="Connection.hpp" alt="" coords="44,326,156,357"/>
+<area shape="rect" id="node54" href="$DataStreamBuffer_8hpp.html" title="DataStream buffering policies." alt="" coords="230,326,430,357"/>
+<area shape="rect" id="node56" href="$Synchronization_8hpp.html" title="Synchronization policies." alt="" coords="454,326,641,357"/>
+<area shape="rect" id="node42" href="$LoggerAux_8hpp.html" title="LoggerAux.hpp" alt="" coords="342,646,452,677"/>
+<area shape="rect" id="node45" href="$LoggerImpl_8hpp.html" title="Simple logging object." alt="" coords="250,566,360,597"/>
+<area shape="rect" id="node50" href="$ScopeLogger_8hpp.html" title="ScopeLogger.hpp" alt="" coords="148,486,270,517"/>
+<area shape="rect" id="node112" href="$V4L__define_8hpp.html" title="V4L_define.hpp" alt="" coords="2550,246,2662,277"/>
+<area shape="rect" id="node157" href="$PrintV4L2_8hpp.html" title="PrintV4L2.hpp" alt="" coords="3132,166,3236,197"/>
+</map>

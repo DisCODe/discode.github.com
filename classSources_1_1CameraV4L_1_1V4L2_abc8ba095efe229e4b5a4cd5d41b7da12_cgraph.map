@@ -1,0 +1,6 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$classSources_1_1CameraV4L_1_1V4L2.html#ae4ccd7c38a91e54d705d4f36b5009feb" title="Method stops frame grabber and deallocate memory." alt="" coords="287,31,601,62"/>
+<area shape="rect" id="node5" href="$classSources_1_1CameraV4L_1_1V4L2.html#a2861215bfd1d8db65f8b35b197451313" title="Method deallocate buffer memory." alt="" coords="655,5,911,35"/>
+<area shape="rect" id="node7" href="$classSources_1_1CameraV4L_1_1V4L2.html#a5e6f86260f91bf0c3765a3dfd7a39658" title="Method stops capture." alt="" coords="652,58,913,89"/>
+<area shape="rect" id="node9" href="$namespaceSources_1_1CameraV4L.html#a1d3c1f4abca58eb2e4aa553531acdde9" title="Sources::CameraV4L::xioctl" alt="" coords="964,58,1148,89"/>
+</map>

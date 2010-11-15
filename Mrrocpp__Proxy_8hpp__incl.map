@@ -1,0 +1,21 @@
+<map id="G" name="G">
+<area shape="rect" id="node3" href="$Component__Aux_8hpp.html" title="File containing definitions of component&#45;related functors and macros." alt="" coords="957,86,1099,117"/>
+<area shape="rect" id="node7" href="$Component_8hpp.html" title="Abstract interface for all components." alt="" coords="7,166,119,197"/>
+<area shape="rect" id="node95" href="$Panel__Empty_8hpp.html" title="Empty panel &#45; used for all components that doesn&#39;t require panel." alt="" coords="1123,86,1245,117"/>
+<area shape="rect" id="node12" href="$Panel_8hpp.html" title="Base class for all task panels." alt="" coords="1617,166,1695,197"/>
+<area shape="rect" id="node16" href="$Props_8hpp.html" title="Base class for property structures." alt="" coords="1193,166,1273,197"/>
+<area shape="rect" id="node22" href="$Event_8hpp.html" title="Component event." alt="" coords="1033,246,1113,277"/>
+<area shape="rect" id="node27" href="$EventHandler_8hpp.html" title="Component event handler." alt="" coords="1435,406,1557,437"/>
+<area shape="rect" id="node43" href="$DataStreamInterface_8hpp.html" title="Interface class for DataStreams." alt="" coords="125,326,291,357"/>
+<area shape="rect" id="node46" href="$DataStream_8hpp.html" title="Concrete implementations of data streams." alt="" coords="599,166,713,197"/>
+<area shape="rect" id="node30" href="$DisCODeException_8hpp.html" title="Class used for exception handling." alt="" coords="1584,646,1741,677"/>
+<area shape="rect" id="node49" href="$Connection_8hpp.html" title="Connection.hpp" alt="" coords="847,246,959,277"/>
+<area shape="rect" id="node84" href="$DataStreamBuffer_8hpp.html" title="DataStream buffering policies." alt="" coords="244,246,444,277"/>
+<area shape="rect" id="node88" href="$Synchronization_8hpp.html" title="Synchronization policies." alt="" coords="468,246,655,277"/>
+<area shape="rect" id="node56" href="$Logger_8hpp.html" title="Simple logging object." alt="" coords="867,326,952,357"/>
+<area shape="rect" id="node58" href="$LoggerAux_8hpp.html" title="LoggerAux.hpp" alt="" coords="635,646,744,677"/>
+<area shape="rect" id="node61" href="$LoggerImpl_8hpp.html" title="Simple logging object." alt="" coords="872,486,981,517"/>
+<area shape="rect" id="node80" href="$ScopeLogger_8hpp.html" title="ScopeLogger.hpp" alt="" coords="947,406,1069,437"/>
+<area shape="rect" id="node70" href="$LoggerOutput_8hpp.html" title="Interface for different logger outputs." alt="" coords="979,566,1104,597"/>
+<area shape="rect" id="node73" href="$Console_8hpp.html" title="Console utility functions, like text coloring." alt="" coords="1096,646,1189,677"/>
+</map>
