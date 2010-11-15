@@ -1,9 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node2" href="$classBase_1_1Component.html" title="Abstract interface class for all modules &#45; data sources, processors etc." alt="" coords="563,6,688,37"/>
-<area shape="rect" id="node14" href="$structSources_1_1CameraUniCap_1_1CameraUniCapProps.html" title="CameraUniCap_Source properties." alt="" coords="479,103,772,134"/>
-<area shape="rect" id="node6" href="$classBase_1_1DataStreamOut.html" title="Base::DataStreamOut\&lt; Mat \&gt;" alt="" coords="528,157,723,187"/>
-<area shape="rect" id="node8" href="$classBase_1_1DataStreamInterface.html" title="Interface class for DataStreams." alt="" coords="209,183,388,214"/>
-<area shape="rect" id="node10" href="$classBase_1_1Connection.html" title="Connection between data streams." alt="" coords="5,183,131,214"/>
-<area shape="rect" id="node12" href="$classBase_1_1Event.html" title="Event raised by Component." alt="" coords="579,210,672,241"/>
-<area shape="rect" id="node16" href="$classBase_1_1Props.html" title="Base class for property structures." alt="" coords="252,130,345,161"/>
-</map>

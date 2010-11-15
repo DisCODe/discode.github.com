@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classTypes_1_1Blobs_1_1BlobResult.html#abfd81dedf5a839502a3a733eddebaa9f" title="Gets the n&#45;th blob of the class ( without sorting )." alt="" coords="316,5,540,35"/>
-<area shape="rect" id="node5" href="$classTypes_1_1Blobs_1_1BlobResult.html#a6a1522b56c2b306f3d0de0d0d8bbf72a" title="Types::Blobs::BlobResult::GetNumBlobs" alt="" coords="299,58,557,89"/>
-<area shape="rect" id="node7" href="$classTypes_1_1Blobs_1_1BlobResult.html#a65ccf2843316233e169d88471b5c5785" title="Computes some property on all the blobs of the class." alt="" coords="299,111,557,142"/>
-</map>

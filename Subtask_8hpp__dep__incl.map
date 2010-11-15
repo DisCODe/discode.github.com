@@ -1,8 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$Task_8hpp.html" title="/home/tkornuta/workspace/discode/src/Core/Task.hpp" alt="" coords="405,86,739,117"/>
-<area shape="rect" id="node13" href="$Subtask_8cpp.html" title="/home/tkornuta/workspace/discode/src/Core/Subtask.cpp" alt="" coords="763,86,1117,117"/>
-<area shape="rect" id="node5" href="$Configurator_8hpp.html" title="File containing the declaration of Configurator class." alt="" coords="195,166,571,197"/>
-<area shape="rect" id="node11" href="$Task_8cpp.html" title="/home/tkornuta/workspace/discode/src/Core/Task.cpp" alt="" coords="595,166,928,197"/>
-<area shape="rect" id="node7" href="$Configurator_8cpp.html" title="File containing definitions of Configurator class methods." alt="" coords="5,246,381,277"/>
-<area shape="rect" id="node9" href="$main_8cpp.html" title="Main body responsible for menu showing and image processing." alt="" coords="405,246,739,277"/>
-</map>

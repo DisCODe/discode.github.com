@@ -1,7 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node7" href="$classCore_1_1ContinuousExecutor.html" title="Call step continuously." alt="" coords="5,166,179,197"/>
-<area shape="rect" id="node9" href="$classCore_1_1PassiveExecutor.html" title="Don&#39;t call any step, only react." alt="" coords="203,166,357,197"/>
-<area shape="rect" id="node11" href="$classCore_1_1PeriodicExecutor.html" title="Execute component periodically." alt="" coords="381,166,536,197"/>
-<area shape="rect" id="node2" href="$classCommon_1_1Thread.html" title="Thread object responsible for handling and executing threads." alt="" coords="153,6,276,37"/>
-<area shape="rect" id="node4" href="$classBase_1_1Props.html" title="Base class for property structures." alt="" coords="300,6,393,37"/>
-</map>

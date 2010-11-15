@@ -1,4 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classCommon_1_1Thread.html#a74ae55f25fe29113d4340baec13b2d52" title="Begins execution of the thread by calling run() method (which must be implemented in derived classes)..." alt="" coords="209,5,364,35"/>
-<area shape="rect" id="node5" href="$classCommon_1_1Thread.html#a18e7839141333b1f2784d9dade0f48e2" title="This method must be implemented in derived classes and is called when thread starts execution..." alt="" coords="415,5,561,35"/>
-</map>

@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node2" href="$classBase_1_1Panel.html" title="Base of all panels." alt="" coords="5,105,96,135"/>
-<area shape="rect" id="node6" href="$classBase_1_1Component.html" title="Abstract interface class for all modules &#45; data sources, processors etc." alt="" coords="201,105,327,135"/>
-<area shape="rect" id="node9" href="$classCommon_1_1SharedLibrary.html" title="Class representing shared object." alt="" coords="351,105,513,135"/>
-</map>

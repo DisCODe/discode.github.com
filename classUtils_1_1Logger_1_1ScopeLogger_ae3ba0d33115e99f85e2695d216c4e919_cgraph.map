@@ -1,5 +1,0 @@
-<map id="G" name="G">
-<area shape="rect" id="node3" href="$classUtils_1_1Logger_1_1Logger.html#a6205c9f8277ba1ef9af856046000f2d0" title="Start message." alt="" coords="327,31,492,62"/>
-<area shape="rect" id="node5" href="$classUtils_1_1Logger_1_1LoggerOutput.html#af4605b1f6bfc86c3e5621aa4ae08fac7" title="Utils::Logger::LoggerOutput::getLvl" alt="" coords="543,5,764,35"/>
-<area shape="rect" id="node7" href="$classUtils_1_1Logger_1_1LoggerOutput.html#a6810086ce730e7ddf0a537af2fa01780" title="Log given message." alt="" coords="547,58,760,89"/>
-</map>
